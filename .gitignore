@@ -1,0 +1,61 @@
+# Credentials and host-specific configuration
+.env
+.env.*
+.user.ini*
+php.ini
+*config.json
+/AI/ai-config.php
+/AI/private-openai-key.php
+/AI/openai_test.php
+/AI/chatbot.php
+/AI/superprompt.php
+/reCaptcha.php
+/mercadolibre.php
+/rd-mailform.php
+/tokens.json
+# Separate mail application and private customer/runtime data
+/NewsMail/
+/fdata/
+/storage/
+/uploads/
+**/uploads/
+/AI/data/
+/AI/cache/
+/AI/downloads/
+/AI/estimates/
+/form/signatures/
+# Logs, archives, backups and local tooling
+*.log
+error_log
+*.zip
+*.sql
+*.sql.gz
+*.bak*
+*.pem
+*.key
+.DS_Store
+_reports/
+.well-known/
+*.phpupgrader*
+
+# Mail runtime and local credentials
+/AI/logs/
+/AI/diagnostics.php
+
+/bat/rd-mailform.php
+/bat/reCaptcha.php
+/dev-tools/employee-tracker.php
+
+/dev-tools/test_api.php
+
+# Runtime databases
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+# Existing browser-map files with embedded API credentials
+/inhold/contacts.html
+/sections-library/google-maps.html
+# Internal tools contain hard-coded access details and runtime databases
+/dev-tools/

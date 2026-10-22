@@ -1,0 +1,13 @@
+/* Smart Choice Contractors USA unified brand typography */
+:root { --sc-brand-font: "Raleway", Arial, sans-serif; }
+html, body,
+button, input, select, textarea,
+.sc-service-page, .service-page, .page, .wrapper,
+header, nav, main, section, article, aside, footer,
+h1, h2, h3, h4, h5, h6, p, a, li, span, label, summary {
+  font-family: var(--sc-brand-font) !important;
+}
+.rd-navbar, .rd-navbar-nav, .rd-nav-link,
+.rd-navbar-info, .appointment-button {
+  font-family: var(--sc-brand-font) !important;
+}

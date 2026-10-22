@@ -1,0 +1,1 @@
+<?php /* County landing-page template. Keep canonical URL, one H1, local facts, and internal links unique. */

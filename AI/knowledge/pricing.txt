@@ -1,0 +1,18 @@
+$pricing = [
+  "deck_building" => [
+    "unit" => "square foot",
+    "labor_price_range" => "18-35",
+    "material_price_range" => "20-55",
+    "minimum_charge" => 1500,
+    "price_factors" => [
+      "Deck size",
+      "Composite vs pressure-treated wood",
+      "Height from ground",
+      "Number of steps",
+      "Railings",
+      "Demo of old deck",
+      "Permit requirements"
+    ],
+    "example_response" => "Deck pricing depends on size, material, height, stairs, railing, and site conditions. A basic deck is usually priced per square foot, with upgrades added separately."
+  ]
+];

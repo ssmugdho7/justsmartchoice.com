@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /AI/private-openai-key.php
+Disallow: /tokens.json
+Disallow: /history.json
+Disallow: /error_log
+Disallow: /ml_notifications.log
+Disallow: /uploads/material-intake/
+Sitemap: https://justsmartchoice.com/sitemap.xml

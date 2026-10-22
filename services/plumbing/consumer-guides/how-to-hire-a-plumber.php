@@ -1,0 +1,1 @@
+<?php $page_service='How to Hire a Plumbing Provider';$page_service_slug='how-to-hire';$page_location='Tampa Bay';$page_location_slug='tampa-bay';$page_county='Florida';$page_intent='consumer protection';$page_zip='';require $_SERVER['DOCUMENT_ROOT'].'/includes/plumbing-page-renderer.php';

@@ -1,0 +1,36 @@
+EMERGENCY PHP DOWNLOAD FIX
+Date: July 13, 2026
+
+SYMPTOM
+Visiting justsmartchoice.com opens a file-download dialog instead of displaying the website.
+
+CAUSE
+The prior package forced this Apache handler:
+application/x-httpd-alt-php85___lsphp
+
+If that exact handler is not registered on the Bluehost account, Apache may send PHP source files as downloads instead of executing them.
+
+CORRECTION
+1. The forced AddHandler block has been removed from .htaccess.
+2. Hard-coded alt-php85 session.save_path directives have been removed from .htaccess, .user.ini and php.ini.
+3. Bluehost MultiPHP Manager must control the account's PHP version and handler.
+
+EMERGENCY INSTALLATION
+1. Open Bluehost File Manager.
+2. Go to public_html/justsmartchoice.com/.
+3. Rename the current .htaccess to .htaccess.problem-backup.
+4. Upload the corrected .htaccess from this package.
+5. Upload the corrected .user.ini and php.ini.
+6. In Bluehost MultiPHP Manager, select justsmartchoice.com and choose PHP 8.5 if Bluehost offers it. If 8.5 is unavailable, use the newest PHP version Bluehost officially offers for this domain.
+7. Clear Bluehost cache and test https://justsmartchoice.com/ in a private browser window.
+
+FILES TO CHECK FOR PHP DOWNLOADS
+.htaccess — primary cause; inspect every AddHandler, SetHandler and AddType directive.
+.user.ini — should contain PHP settings only; it does not define Apache handlers.
+php.ini — should contain PHP settings only; remove obsolete server-specific session paths.
+
+DO NOT DELETE
+Do not delete index.php, sections-library/header.php, sections-library/footer.php, ReCaptcha files, form handlers, CSS, images or the services folder to solve this symptom.
+
+SECURITY WARNING
+While PHP files are downloading, do not keep the site publicly accessible because visitors may download PHP source code and discover configuration details. Apply the corrected .htaccess immediately. If the correction cannot be applied immediately, temporarily disable the domain or place a static maintenance index.html in front of it through Bluehost.

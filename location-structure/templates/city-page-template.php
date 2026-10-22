@@ -1,0 +1,1 @@
+<?php /* Copy this template only through the central renderer. Define $page and include /includes/service-page-renderer.php. */

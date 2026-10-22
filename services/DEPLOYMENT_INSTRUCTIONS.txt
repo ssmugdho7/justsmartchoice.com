@@ -1,0 +1,21 @@
+SMART CHOICE CONTRACTORS USA
+SERVICES SEO FOLDER STRUCTURE
+
+DEPLOYMENT
+1. Open Bluehost File Manager.
+2. Navigate to the existing website services folder.
+3. Upload this ZIP file inside that services folder.
+4. Select the ZIP and choose Extract.
+5. Extract into the current services folder.
+6. Confirm the service folders appear directly inside /services/.
+7. Delete the ZIP from hosting after successful extraction.
+
+IMPORTANT
+- This package contains folder structure only.
+- It does not replace, modify, or delete existing website files.
+- Empty folders are intentionally included as ZIP directory entries.
+- Do not publish hundreds of empty or duplicate pages.
+- Add unique, useful content before making any page indexable.
+- Keep URLs lowercase and hyphenated exactly as provided.
+- Use one canonical URL per page.
+- Add internal links between related services, locations, and supporting articles.

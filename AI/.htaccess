@@ -1,0 +1,8 @@
+<IfModule mod_security.c>
+  SecRuleEngine On
+  SecRule REQUEST_HEADERS:Content-Type "application/json" \
+    "id:123456,phase:1,pass,t:none,nolog,ctl:ruleRemoveTargetById=981173;REQUEST_HEADERS:Content-Type"
+</IfModule>
+
+AddType application/x-httpd-php .php
+

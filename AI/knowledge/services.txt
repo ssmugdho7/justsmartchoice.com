@@ -1,0 +1,17 @@
+$services = [
+  "deck_building" => [
+    "name" => "Deck Building",
+    "category" => "Exterior Remodeling",
+    "description" => "We build pressure-treated, composite, and custom backyard decks.",
+    "included" => [
+      "Layout and framing",
+      "Deck boards installation",
+      "Steps and railings when required",
+      "Cleanup"
+    ],
+    "notes" => [
+      "Permits may be required depending on size, height, and local rules.",
+      "Final scope depends on site conditions."
+    ]
+  ]
+];

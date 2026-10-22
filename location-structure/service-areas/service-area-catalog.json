@@ -1,0 +1,232 @@
+{
+  "cities": [
+    [
+      "tampa",
+      "Tampa",
+      "Hillsborough County"
+    ],
+    [
+      "spring-hill",
+      "Spring Hill",
+      "Hernando County"
+    ],
+    [
+      "brooksville",
+      "Brooksville",
+      "Hernando County"
+    ],
+    [
+      "hernando-beach",
+      "Hernando Beach",
+      "Hernando County"
+    ],
+    [
+      "weeki-wachee",
+      "Weeki Wachee",
+      "Hernando County"
+    ],
+    [
+      "wesley-chapel",
+      "Wesley Chapel",
+      "Pasco County"
+    ],
+    [
+      "land-o-lakes",
+      "Land O\u2019 Lakes",
+      "Pasco County"
+    ],
+    [
+      "new-port-richey",
+      "New Port Richey",
+      "Pasco County"
+    ],
+    [
+      "lutz",
+      "Lutz",
+      "Hillsborough County"
+    ],
+    [
+      "odessa",
+      "Odessa",
+      "Hillsborough and Pasco Counties"
+    ],
+    [
+      "brandon",
+      "Brandon",
+      "Hillsborough County"
+    ],
+    [
+      "riverview",
+      "Riverview",
+      "Hillsborough County"
+    ],
+    [
+      "temple-terrace",
+      "Temple Terrace",
+      "Hillsborough County"
+    ],
+    [
+      "carrollwood",
+      "Carrollwood",
+      "Hillsborough County"
+    ],
+    [
+      "seminole-heights",
+      "Seminole Heights",
+      "Hillsborough County"
+    ],
+    [
+      "clearwater",
+      "Clearwater",
+      "Pinellas County"
+    ],
+    [
+      "st-petersburg",
+      "St. Petersburg",
+      "Pinellas County"
+    ],
+    [
+      "palm-harbor",
+      "Palm Harbor",
+      "Pinellas County"
+    ],
+    [
+      "tarpon-springs",
+      "Tarpon Springs",
+      "Pinellas County"
+    ],
+    [
+      "trinity",
+      "Trinity",
+      "Pasco County"
+    ],
+    [
+      "hudson",
+      "Hudson",
+      "Pasco County"
+    ],
+    [
+      "port-richey",
+      "Port Richey",
+      "Pasco County"
+    ],
+    [
+      "dade-city",
+      "Dade City",
+      "Pasco County"
+    ],
+    [
+      "zephyrhills",
+      "Zephyrhills",
+      "Pasco County"
+    ],
+    [
+      "safety-harbor",
+      "Safety Harbor",
+      "Pinellas County"
+    ],
+    [
+      "dunedin",
+      "Dunedin",
+      "Pinellas County"
+    ],
+    [
+      "plant-city",
+      "Plant City",
+      "Hillsborough County"
+    ],
+    [
+      "apollo-beach",
+      "Apollo Beach",
+      "Hillsborough County"
+    ],
+    [
+      "valrico",
+      "Valrico",
+      "Hillsborough County"
+    ],
+    [
+      "seffner",
+      "Seffner",
+      "Hillsborough County"
+    ]
+  ],
+  "counties": [
+    [
+      "hillsborough-county",
+      "Hillsborough County"
+    ],
+    [
+      "pasco-county",
+      "Pasco County"
+    ],
+    [
+      "hernando-county",
+      "Hernando County"
+    ],
+    [
+      "pinellas-county",
+      "Pinellas County"
+    ],
+    [
+      "citrus-county",
+      "Citrus County"
+    ],
+    [
+      "polk-county",
+      "Polk County"
+    ]
+  ],
+  "neighborhoods": [
+    [
+      "westchase",
+      "Westchase",
+      "Tampa"
+    ],
+    [
+      "hyde-park",
+      "Hyde Park",
+      "Tampa"
+    ],
+    [
+      "south-tampa",
+      "South Tampa",
+      "Tampa"
+    ],
+    [
+      "seminole-heights",
+      "Seminole Heights",
+      "Tampa"
+    ],
+    [
+      "carrollwood",
+      "Carrollwood",
+      "Tampa"
+    ],
+    [
+      "tampa-palms",
+      "Tampa Palms",
+      "Tampa"
+    ],
+    [
+      "new-tampa",
+      "New Tampa",
+      "Tampa"
+    ],
+    [
+      "seven-springs",
+      "Seven Springs",
+      "New Port Richey"
+    ],
+    [
+      "timber-pines",
+      "Timber Pines",
+      "Spring Hill"
+    ],
+    [
+      "sterling-hill",
+      "Sterling Hill",
+      "Spring Hill"
+    ]
+  ]
+}

@@ -1,0 +1,5 @@
+Smart Choice Engineering SEO Authority Package - Compact Edition
+
+Engineering PHP URLs preserved: 21007
+Architecture: lightweight URL files + shared centralized renderer
+Purpose: reduce package size and improve download reliability while preserving deployment paths and page count.

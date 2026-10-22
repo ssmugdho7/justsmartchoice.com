@@ -1,0 +1,282 @@
+{
+  "services": {
+    "residential-construction": "Residential Construction",
+    "new-home-construction": "New Home Construction",
+    "home-remodeling": "Home Remodeling",
+    "home-additions": "Home Additions",
+    "kitchen-remodeling": "Kitchen Remodeling",
+    "bathroom-remodeling": "Bathroom Remodeling",
+    "commercial-construction": "Commercial Construction",
+    "commercial-remodeling": "Commercial Remodeling",
+    "tenant-build-outs": "Tenant Build-Outs",
+    "restaurant-build-outs": "Restaurant Build-Outs",
+    "office-renovations": "Office Renovations",
+    "roofing": "Roofing",
+    "windows-and-doors": "Windows and Doors",
+    "siding": "Siding",
+    "stucco": "Stucco",
+    "painting": "Painting",
+    "drywall": "Drywall",
+    "flooring": "Flooring",
+    "tile-installation": "Tile Installation",
+    "hardwood-flooring": "Hardwood Flooring",
+    "vinyl-flooring": "Vinyl Flooring",
+    "laminate-flooring": "Laminate Flooring",
+    "cabinet-installation": "Cabinet Installation",
+    "countertops": "Countertops",
+    "electrical": "Electrical Services",
+    "plumbing": "Plumbing Services",
+    "hvac": "HVAC Services",
+    "solar": "Solar Services",
+    "generator-installation": "Generator Installation",
+    "ev-charger-installation": "EV Charger Installation",
+    "concrete": "Concrete Services",
+    "masonry": "Masonry Services",
+    "foundation-repair": "Foundation Repair",
+    "deck-construction": "Deck Construction",
+    "patio-construction": "Patio Construction",
+    "screen-enclosures": "Screen Enclosures",
+    "fence-installation": "Fence Installation",
+    "garage-conversions": "Garage Conversions",
+    "garage-construction": "Garage Construction",
+    "pole-barns": "Pole Barns",
+    "metal-buildings": "Metal Buildings",
+    "construction-plans": "Construction Plans",
+    "permit-services": "Permit Services",
+    "engineering-coordination": "Engineering Coordination",
+    "construction-management": "Construction Management",
+    "project-consulting": "Project Consulting",
+    "property-maintenance": "Property Maintenance",
+    "handyman-services": "Handyman Services"
+  },
+  "locations": [
+    [
+      "tampa",
+      "Tampa",
+      "Hillsborough County"
+    ],
+    [
+      "spring-hill",
+      "Spring Hill",
+      "Hernando County"
+    ],
+    [
+      "brooksville",
+      "Brooksville",
+      "Hernando County"
+    ],
+    [
+      "hernando-beach",
+      "Hernando Beach",
+      "Hernando County"
+    ],
+    [
+      "weeki-wachee",
+      "Weeki Wachee",
+      "Hernando County"
+    ],
+    [
+      "wesley-chapel",
+      "Wesley Chapel",
+      "Pasco County"
+    ],
+    [
+      "land-o-lakes",
+      "Land O\u2019 Lakes",
+      "Pasco County"
+    ],
+    [
+      "new-port-richey",
+      "New Port Richey",
+      "Pasco County"
+    ],
+    [
+      "lutz",
+      "Lutz",
+      "Hillsborough County"
+    ],
+    [
+      "odessa",
+      "Odessa",
+      "Hillsborough and Pasco Counties"
+    ],
+    [
+      "brandon",
+      "Brandon",
+      "Hillsborough County"
+    ],
+    [
+      "riverview",
+      "Riverview",
+      "Hillsborough County"
+    ],
+    [
+      "temple-terrace",
+      "Temple Terrace",
+      "Hillsborough County"
+    ],
+    [
+      "carrollwood",
+      "Carrollwood",
+      "Hillsborough County"
+    ],
+    [
+      "seminole-heights",
+      "Seminole Heights",
+      "Hillsborough County"
+    ],
+    [
+      "clearwater",
+      "Clearwater",
+      "Pinellas County"
+    ],
+    [
+      "st-petersburg",
+      "St. Petersburg",
+      "Pinellas County"
+    ],
+    [
+      "palm-harbor",
+      "Palm Harbor",
+      "Pinellas County"
+    ],
+    [
+      "tarpon-springs",
+      "Tarpon Springs",
+      "Pinellas County"
+    ],
+    [
+      "trinity",
+      "Trinity",
+      "Pasco County"
+    ],
+    [
+      "hudson",
+      "Hudson",
+      "Pasco County"
+    ],
+    [
+      "port-richey",
+      "Port Richey",
+      "Pasco County"
+    ],
+    [
+      "dade-city",
+      "Dade City",
+      "Pasco County"
+    ],
+    [
+      "zephyrhills",
+      "Zephyrhills",
+      "Pasco County"
+    ],
+    [
+      "tampa-bay",
+      "Tampa Bay",
+      "Hillsborough, Pasco, Hernando, and Pinellas Counties"
+    ]
+  ],
+  "intents": [
+    [
+      "cost-guide",
+      "Cost Guide"
+    ],
+    [
+      "contractor-near-me",
+      "Contractor Near Me"
+    ],
+    [
+      "planning-guide",
+      "Planning Guide"
+    ],
+    [
+      "permit-requirements",
+      "Permit Requirements"
+    ],
+    [
+      "project-timeline",
+      "Project Timeline"
+    ],
+    [
+      "material-options",
+      "Material Options"
+    ],
+    [
+      "inspection-checklist",
+      "Inspection Checklist"
+    ],
+    [
+      "maintenance-guide",
+      "Maintenance Guide"
+    ],
+    [
+      "repair-vs-replacement",
+      "Repair vs. Replacement"
+    ],
+    [
+      "financing-options",
+      "Financing Options"
+    ],
+    [
+      "common-problems",
+      "Common Problems"
+    ],
+    [
+      "design-ideas",
+      "Design Ideas"
+    ],
+    [
+      "property-value",
+      "Property Value Guide"
+    ],
+    [
+      "commercial-solutions",
+      "Commercial Solutions"
+    ],
+    [
+      "residential-solutions",
+      "Residential Solutions"
+    ],
+    [
+      "emergency-help",
+      "Emergency Help"
+    ],
+    [
+      "hurricane-preparation",
+      "Hurricane Preparation"
+    ],
+    [
+      "insurance-claim-guide",
+      "Insurance Claim Guide"
+    ],
+    [
+      "owner-checklist",
+      "Owner Checklist"
+    ],
+    [
+      "estimate-guide",
+      "Estimate Guide"
+    ],
+    [
+      "code-compliance",
+      "Code Compliance"
+    ],
+    [
+      "licensed-contractor-guide",
+      "Licensed Contractor Guide"
+    ],
+    [
+      "project-management",
+      "Project Management"
+    ],
+    [
+      "frequently-asked-questions",
+      "Frequently Asked Questions"
+    ],
+    [
+      "service-area-guide",
+      "Service Area Guide"
+    ]
+  ],
+  "generated": "2026-07-12"
+}

@@ -1,0 +1,80 @@
+/* cookie-consent.css - lightweight styles for banner and modal */
+.cc-banner {
+  position: fixed;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  padding: 16px;
+  border-radius: 8px;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: Arial, sans-serif;
+  transition: transform .25s ease, opacity .25s ease;
+}
+
+.cc-banner.cc-hidden { transform: translateY(30px); opacity: 0; pointer-events: none; }
+
+.cc-banner .cc-text { flex: 1; font-size: 14px; color: #222; line-height: 1.4; }
+.cc-banner .cc-actions { display: flex; gap: 8px; align-items: center; }
+
+.cc-btn {
+  background: #ff7a00;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.cc-btn.secondary {
+  background: transparent;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+.cc-manage {
+  background: transparent;
+  color: #0073e6;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+/* Modal */
+.cc-modal {
+  position: fixed;
+  inset: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 100000;
+  background: rgba(12, 18, 28, 0.45);
+  padding: 20px;
+}
+
+.cc-modal.open { display: flex; }
+
+.cc-modal .cc-card {
+  background: #fff;
+  max-width: 620px;
+  width: 100%;
+  border-radius: 8px;
+  padding: 22px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.2);
+  font-family: Arial, sans-serif;
+}
+
+.cc-card h3 { margin-top: 0; font-size: 18px; color: #111; }
+.cc-card p { font-size: 14px; color: #333; }
+.cc-pref { margin: 12px 0; }
+.cc-pref label { font-size: 14px; margin-left: 8px; }
+
+.cc-controls { display:flex; gap:8px; justify-content:flex-end; margin-top: 18px; }

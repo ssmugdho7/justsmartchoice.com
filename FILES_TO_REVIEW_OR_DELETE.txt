@@ -1,0 +1,109 @@
+JUSTSMARTCHOICE.COM ROOT FILE REVIEW
+Date: July 13, 2026
+
+DELETE IMMEDIATELY OR KEEP OUTSIDE PUBLIC_HTML
+
+tokens.json
+Purpose: Stores Mercado Libre access and refresh credentials.
+Decision: Delete from public_html and rotate the credentials immediately. Never store live tokens in a web-accessible JSON file.
+
+error_log
+Purpose: PHP/server diagnostic log.
+Decision: Download for troubleshooting if needed, then delete. It may be recreated by the server. Never distribute it in website packages.
+
+ml_notifications.log
+Purpose: Raw Mercado Libre webhook log containing request headers and bodies.
+Decision: Move outside the public website or delete after review. It may contain private operational data.
+
+history.json
+Purpose: Stores permit-search history and user-entered information.
+Decision: Move outside public_html or delete if the permit-history feature is not required.
+
+COMPACT_PACKAGE_REPORT.txt
+Purpose: Old package-generation note.
+Decision: Delete from the production website. Administrative documentation is not a public page.
+
+HTACCESS_MERGE_SNIPPET.txt
+Purpose: Old deployment instruction/snippet.
+Decision: Delete after the active .htaccess is confirmed.
+
+robots-engineering-snippet.txt
+robots-kitchen-remodeling-snippet.txt
+robots-plumbing-snippet.txt
+Purpose: Old partial robots.txt instructions.
+Decision: Delete. The active robots.txt supersedes them.
+
+kitchen-expanded-exact-url-manifest.csv
+Purpose: Administrative URL-generation manifest.
+Decision: Store offline and delete from production. It is not a public web page.
+
+sections-library/footer.php.zip
+Purpose: Backup/archive inside the public shared-library directory.
+Decision: Download as a backup if needed, then delete from production.
+
+.htaccess.no_htaccess.phpupgrader
+Purpose: Empty hosting/upgrader remnant.
+Decision: Delete if Bluehost is not actively using it.
+
+cardcoupon.php
+Purpose: Test file containing only “hello world.”
+Decision: Delete unless an undocumented integration depends on this exact URL.
+
+REVIEW BEFORE DELETING — UNRELATED TO THE CONTRACTOR WEBSITE
+
+mercadolibre.php
+mlnotofications.php
+Purpose: Mercado Libre integration and webhook endpoint.
+Decision: These are unrelated to the contractor website. Delete if that integration is retired. If active, move the integration to a protected application folder, correct the misspelled endpoint, add authentication/signature validation and store logs/credentials outside public_html.
+
+lina.php
+Purpose: Cannot be classified safely by filename alone.
+Decision: Review its business purpose and inbound links. Delete if it is an abandoned private tool.
+
+investors.php
+Purpose: Investor-facing content.
+Decision: Keep only if Smart Choice actively maintains a public investor page. Otherwise remove it from navigation, noindex it, and delete after confirming there are no inbound links.
+
+Engineer.php
+Purpose: Engineering-related public page with inconsistent filename capitalization.
+Decision: It is website-related, but should eventually redirect to a lowercase canonical URL after link verification. Do not delete immediately.
+
+estimates.php
+Purpose: Very small legacy estimate/analytics loader.
+Decision: Review inbound links. The substantive estimator appears to be estimator.php. Delete or redirect only after confirming estimates.php is unused.
+
+permitstatus.php
+Purpose: Permit status tool.
+Decision: Website-related if customers use it. Keep only if functional and secured against abuse.
+
+uploads/material-intake/
+Purpose: Material-intake application and uploaded customer images.
+Decision: Do not expose as a browsable public directory. Retain only if the intake workflow is active; otherwise archive outside public_html and delete.
+
+OLD SITEMAP COLLECTION
+
+sitemaps/
+sitemap-services.xml
+sitemap-engineering.xml
+sitemap-kitchen-expanded.xml
+sitemap-kitchen-remodeling.xml
+sitemap-plumbing.xml
+Purpose: Generated sitemap indexes and child sitemap files for large service-page packages.
+Decision: They are excluded from the corrected main-site upload because the matching /services/ folder was not supplied. Preserve an offline copy. Upload only a newly verified sitemap set after the actual service pages are installed.
+
+KEEP — WEBSITE OR VERIFICATION FILES
+
+.htaccess, .user.ini, php.ini
+Purpose: Hosting, PHP and security configuration.
+
+BingSiteAuth.xml, googleceaf7183c7b68645.html, ahrefs_ea7d03c067833893acef13969fe9f074f746e3126ce547228f74e80e1bcb6e73, 5c017dcb-f500-4891-b2d1-613c25dcc5ac.html
+Purpose: Search-engine or third-party ownership verification. Keep while the corresponding service remains in use.
+
+ReCaptcha/, reCaptcha.php, rd-mailform.php, rd-mailform.tpl, rd-mailform.config.json
+Purpose: Contact/form processing. Keep if the website forms still depend on them.
+
+llms.txt and llms-*.txt
+Purpose: AI-crawler guidance and topic summaries. Keep accurate, concise and consistent with indexable pages. These files do not guarantee AI ranking.
+
+sections-library/
+Purpose: Shared page components. Preserve active PHP/HTML components. Remove only confirmed test, duplicate or archived files after checking all include references.

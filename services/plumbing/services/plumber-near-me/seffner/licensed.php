@@ -1,0 +1,2 @@
+<?php
+$page_service='Local Plumber';$page_service_slug='plumber-near-me';$page_location='Seffner';$page_location_slug='seffner';$page_county='Hillsborough County';$page_intent='licensed professional service';$page_zip='';require $_SERVER['DOCUMENT_ROOT'].'/includes/plumbing-page-renderer.php';

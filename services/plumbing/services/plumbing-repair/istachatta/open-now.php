@@ -1,0 +1,2 @@
+<?php
+$page_service='Plumbing Repair';$page_service_slug='plumbing-repair';$page_location='Istachatta';$page_location_slug='istachatta';$page_county='Hernando County';$page_intent='available service';$page_zip='';require $_SERVER['DOCUMENT_ROOT'].'/includes/plumbing-page-renderer.php';
