@@ -48,9 +48,9 @@
 <section class="scv3-section" style="background:#fff"><div class="scv3-container"><h2>Frequently Asked Questions</h2><div class="scv3-faq"><div class="scv3-panel"><h3>How do I get an estimate?</h3><p>Send the address, photos, approximate measurements, preferred materials, and a simple explanation of the result you want. The more complete the information, the better the first review.</p></div><div class="scv3-panel"><h3>Do all projects require permits?</h3><p>No, but many projects involving structural, electrical, plumbing, mechanical, roofing, windows, doors, or major alterations may require permits or licensed trade review.</p></div><div class="scv3-panel"><h3>Can you help with material planning?</h3><p>Yes. Material planning can include product type, approximate quantities, finish level, delivery concerns, and installation compatibility.</p></div><div class="scv3-panel"><h3>Why is a site visit important?</h3><p>Photos help, but final pricing and scheduling often depend on field conditions, access, hidden damage, measurements, and customer decisions.</p></div></div></div></section>
 <section class="scv3-section"><div class="scv3-container"><h2>Related Smart Choice Pages</h2><ul class="scv3-links"><li><a href="/services/flooring-installation-land-o-lakes.php">Flooring Installation in Land O Lakes</a></li>
 <li><a href="/services/flooring-installation-weeki-wachee.php">Flooring Installation in Weeki Wachee</a></li>
-<li><a href="/services/hvac-services-hernando-beach.php">HVAC Services in Hernando Beach</a></li>
+<li><a href="/services/hvac/hvac-services-hernando-beach.php">HVAC Services in Hernando Beach</a></li>
 <li><a href="/services/hvac-services-spring-hill.php">HVAC Services in Spring Hill</a></li>
-<li><a href="/services/electrical-services-north-tampa.php">Electrical Services in North Tampa</a></li>
+<li><a href="/services/electrical/electrical-services-tampa.php">Electrical Services in North Tampa</a></li>
 <li><a href="/services/general-contractor-spring-hill.php">Licensed General Contractor in Spring Hill</a></li>
 <li><a href="/services/home-remodeling-north-tampa.php">Home Remodeling in North Tampa</a></li>
 <li><a href="/services/roofing-repair-weeki-wachee.php">Roofing And Leak Repair in Weeki Wachee</a></li></ul></div></section>

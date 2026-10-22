@@ -50,8 +50,8 @@
 <li><a href="/services/bathroom-remodeling-north-tampa.php">Bathroom Remodeling in North Tampa</a></li>
 <li><a href="/services/general-contractor-hernando-beach.php">Licensed General Contractor in Hernando Beach</a></li>
 <li><a href="/services/window-door-replacement-hernando-beach.php">Window And Door Replacement in Hernando Beach</a></li>
-<li><a href="/services/electrical-services-north-tampa.php">Electrical Services in North Tampa</a></li>
-<li><a href="/services/electrical-services-land-o-lakes.php">Electrical Services in Land O Lakes</a></li>
+<li><a href="/services/electrical/electrical-services-tampa.php">Electrical Services in North Tampa</a></li>
+<li><a href="/services/electrical/electrical-services-land-o-lakes.php">Electrical Services in Land O Lakes</a></li>
 <li><a href="/services/roofing-repair-spring-hill.php">Roofing And Leak Repair in Spring Hill</a></li>
 <li><a href="/services/home-remodeling-new-port-richey.php">Home Remodeling in New Port Richey</a></li></ul></div></section>
 <section class="scv3-section"><div class="scv3-container"><div class="scv3-final"><h2>Request Concrete Driveways in Lutz</h2><p>Use the appointment button or call Smart Choice Contractors USA to start with photos, location, scope notes, and the goal for your property.</p><div class="scv3-cta"><a class="scv3-btn secondary" href="tel:+17277553786">Call (727) 755-3786</a><a class="scv3-btn secondary" href="https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2" target="_blank" rel="noopener">Schedule Appointment</a></div></div></div></section>

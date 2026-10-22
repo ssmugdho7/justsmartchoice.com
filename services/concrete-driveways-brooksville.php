@@ -49,7 +49,7 @@
 <section class="scv3-section"><div class="scv3-container"><h2>Related Smart Choice Pages</h2><ul class="scv3-links"><li><a href="/services/concrete-driveways-tampa.php">Concrete Driveways in Tampa</a></li>
 <li><a href="/services/flooring-installation-new-port-richey.php">Flooring Installation in New Port Richey</a></li>
 <li><a href="/services/home-remodeling-land-o-lakes.php">Home Remodeling in Land O Lakes</a></li>
-<li><a href="/services/hvac-services-weeki-wachee.php">HVAC Services in Weeki Wachee</a></li>
+<li><a href="/services/hvac/hvac-services-weeki-wachee.php">HVAC Services in Weeki Wachee</a></li>
 <li><a href="/services/general-contractor-wesley-chapel.php">Licensed General Contractor in Wesley Chapel</a></li>
 <li><a href="/services/flooring-installation-weeki-wachee.php">Flooring Installation in Weeki Wachee</a></li>
 <li><a href="/services/bathroom-remodeling-north-tampa.php">Bathroom Remodeling in North Tampa</a></li>

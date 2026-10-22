@@ -49,7 +49,7 @@
 <section class="scv3-section"><div class="scv3-container"><h2>Related Smart Choice Pages</h2><ul class="scv3-links"><li><a href="/services/bathroom-remodeling-wesley-chapel.php">Bathroom Remodeling in Wesley Chapel</a></li>
 <li><a href="/services/roofing-repair-weeki-wachee.php">Roofing And Leak Repair in Weeki Wachee</a></li>
 <li><a href="/services/kitchen-remodeling-brooksville.php">Kitchen Remodeling in Brooksville</a></li>
-<li><a href="/services/hvac-services-wesley-chapel.php">HVAC Services in Wesley Chapel</a></li>
+<li><a href="/services/hvac/hvac-services-wesley-chapel.php">HVAC Services in Wesley Chapel</a></li>
 <li><a href="/services/general-contractor-north-tampa.php">Licensed General Contractor in North Tampa</a></li>
 <li><a href="/services/general-contractor-tampa.php">Licensed General Contractor in Tampa</a></li>
 <li><a href="/services/roofing-repair-north-tampa.php">Roofing And Leak Repair in North Tampa</a></li>

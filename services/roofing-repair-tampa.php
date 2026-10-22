@@ -48,12 +48,12 @@
 <section class="scv3-section" style="background:#fff"><div class="scv3-container"><h2>Frequently Asked Questions</h2><div class="scv3-faq"><div class="scv3-panel"><h3>How do I get an estimate?</h3><p>Send the address, photos, approximate measurements, preferred materials, and a simple explanation of the result you want. The more complete the information, the better the first review.</p></div><div class="scv3-panel"><h3>Do all projects require permits?</h3><p>No, but many projects involving structural, electrical, plumbing, mechanical, roofing, windows, doors, or major alterations may require permits or licensed trade review.</p></div><div class="scv3-panel"><h3>Can you help with material planning?</h3><p>Yes. Material planning can include product type, approximate quantities, finish level, delivery concerns, and installation compatibility.</p></div><div class="scv3-panel"><h3>Why is a site visit important?</h3><p>Photos help, but final pricing and scheduling often depend on field conditions, access, hidden damage, measurements, and customer decisions.</p></div></div></div></section>
 <section class="scv3-section"><div class="scv3-container"><h2>Related Smart Choice Pages</h2><ul class="scv3-links"><li><a href="/services/kitchen-remodeling-spring-hill.php">Kitchen Remodeling in Spring Hill</a></li>
 <li><a href="/services/kitchen-remodeling-lutz.php">Kitchen Remodeling in Lutz</a></li>
-<li><a href="/services/electrical-services-lutz.php">Electrical Services in Lutz</a></li>
+<li><a href="/services/electrical/electrical-services-lutz.php">Electrical Services in Lutz</a></li>
 <li><a href="/services/bathroom-remodeling-tampa.php">Bathroom Remodeling in Tampa</a></li>
 <li><a href="/services/bathroom-remodeling-brooksville.php">Bathroom Remodeling in Brooksville</a></li>
 <li><a href="/services/home-remodeling-tampa.php">Home Remodeling in Tampa</a></li>
-<li><a href="/services/electrical-services-brooksville.php">Electrical Services in Brooksville</a></li>
-<li><a href="/services/hvac-services-brooksville.php">HVAC Services in Brooksville</a></li></ul></div></section>
+<li><a href="/services/electrical/electrical-services-brooksville.php">Electrical Services in Brooksville</a></li>
+<li><a href="/services/hvac/hvac-services-brooksville.php">HVAC Services in Brooksville</a></li></ul></div></section>
 <section class="scv3-section"><div class="scv3-container"><div class="scv3-final"><h2>Request Roofing And Leak Repair in Tampa</h2><p>Use the appointment button or call Smart Choice Contractors USA to start with photos, location, scope notes, and the goal for your property.</p><div class="scv3-cta"><a class="scv3-btn secondary" href="tel:+17277553786">Call (727) 755-3786</a><a class="scv3-btn secondary" href="https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2" target="_blank" rel="noopener">Schedule Appointment</a></div></div></div></section>
 </main>
 <?php include __DIR__ . '/../sections-library/footer.php'; ?>

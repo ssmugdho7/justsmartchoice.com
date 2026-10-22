@@ -49,7 +49,7 @@
 <section class="scv3-section"><div class="scv3-container"><h2>Related Smart Choice Pages</h2><ul class="scv3-links"><li><a href="/services/roofing-repair-wesley-chapel.php">Roofing And Leak Repair in Wesley Chapel</a></li>
 <li><a href="/services/bathroom-remodeling-weeki-wachee.php">Bathroom Remodeling in Weeki Wachee</a></li>
 <li><a href="/services/home-remodeling-weeki-wachee.php">Home Remodeling in Weeki Wachee</a></li>
-<li><a href="/services/electrical-services-north-tampa.php">Electrical Services in North Tampa</a></li>
+<li><a href="/services/electrical/electrical-services-tampa.php">Electrical Services in North Tampa</a></li>
 <li><a href="/services/bathroom-remodeling-new-port-richey.php">Bathroom Remodeling in New Port Richey</a></li>
 <li><a href="/services/roofing-repair-tampa.php">Roofing And Leak Repair in Tampa</a></li>
 <li><a href="/services/roofing-repair-weeki-wachee.php">Roofing And Leak Repair in Weeki Wachee</a></li>

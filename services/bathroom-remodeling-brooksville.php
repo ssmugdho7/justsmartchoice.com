@@ -50,7 +50,7 @@
 <li><a href="/services/concrete-driveways-wesley-chapel.php">Concrete Driveways in Wesley Chapel</a></li>
 <li><a href="/services/bathroom-remodeling-tampa.php">Bathroom Remodeling in Tampa</a></li>
 <li><a href="/services/kitchen-remodeling-lutz.php">Kitchen Remodeling in Lutz</a></li>
-<li><a href="/services/electrical-services-north-tampa.php">Electrical Services in North Tampa</a></li>
+<li><a href="/services/electrical/electrical-services-tampa.php">Electrical Services in North Tampa</a></li>
 <li><a href="/services/flooring-installation-hernando-beach.php">Flooring Installation in Hernando Beach</a></li>
 <li><a href="/services/window-door-replacement-new-port-richey.php">Window And Door Replacement in New Port Richey</a></li>
 <li><a href="/services/flooring-installation-tampa.php">Flooring Installation in Tampa</a></li></ul></div></section>

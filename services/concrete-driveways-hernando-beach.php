@@ -49,9 +49,9 @@
 <section class="scv3-section"><div class="scv3-container"><h2>Related Smart Choice Pages</h2><ul class="scv3-links"><li><a href="/services/concrete-driveways-spring-hill.php">Concrete Driveways in Spring Hill</a></li>
 <li><a href="/services/general-contractor-wesley-chapel.php">Licensed General Contractor in Wesley Chapel</a></li>
 <li><a href="/services/flooring-installation-wesley-chapel.php">Flooring Installation in Wesley Chapel</a></li>
-<li><a href="/services/hvac-services-brooksville.php">HVAC Services in Brooksville</a></li>
+<li><a href="/services/hvac/hvac-services-brooksville.php">HVAC Services in Brooksville</a></li>
 <li><a href="/services/window-door-replacement-lutz.php">Window And Door Replacement in Lutz</a></li>
-<li><a href="/services/hvac-services-lutz.php">HVAC Services in Lutz</a></li>
+<li><a href="/services/hvac/hvac-services-lutz.php">HVAC Services in Lutz</a></li>
 <li><a href="/services/home-remodeling-land-o-lakes.php">Home Remodeling in Land O Lakes</a></li>
 <li><a href="/services/concrete-driveways-wesley-chapel.php">Concrete Driveways in Wesley Chapel</a></li></ul></div></section>
 <section class="scv3-section"><div class="scv3-container"><div class="scv3-final"><h2>Request Concrete Driveways in Hernando Beach</h2><p>Use the appointment button or call Smart Choice Contractors USA to start with photos, location, scope notes, and the goal for your property.</p><div class="scv3-cta"><a class="scv3-btn secondary" href="tel:+17277553786">Call (727) 755-3786</a><a class="scv3-btn secondary" href="https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2" target="_blank" rel="noopener">Schedule Appointment</a></div></div></div></section>

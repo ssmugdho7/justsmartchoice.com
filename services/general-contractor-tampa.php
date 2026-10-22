@@ -51,7 +51,7 @@
 <li><a href="/services/kitchen-remodeling-new-port-richey.php">Kitchen Remodeling in New Port Richey</a></li>
 <li><a href="/services/concrete-driveways-new-port-richey.php">Concrete Driveways in New Port Richey</a></li>
 <li><a href="/services/window-door-replacement-north-tampa.php">Window And Door Replacement in North Tampa</a></li>
-<li><a href="/services/hvac-services-weeki-wachee.php">HVAC Services in Weeki Wachee</a></li>
+<li><a href="/services/hvac/hvac-services-weeki-wachee.php">HVAC Services in Weeki Wachee</a></li>
 <li><a href="/services/general-contractor-north-tampa.php">Licensed General Contractor in North Tampa</a></li>
 <li><a href="/services/roofing-repair-wesley-chapel.php">Roofing And Leak Repair in Wesley Chapel</a></li></ul></div></section>
 <section class="scv3-section"><div class="scv3-container"><div class="scv3-final"><h2>Request Licensed General Contractor in Tampa</h2><p>Use the appointment button or call Smart Choice Contractors USA to start with photos, location, scope notes, and the goal for your property.</p><div class="scv3-cta"><a class="scv3-btn secondary" href="tel:+17277553786">Call (727) 755-3786</a><a class="scv3-btn secondary" href="https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2" target="_blank" rel="noopener">Schedule Appointment</a></div></div></div></section>

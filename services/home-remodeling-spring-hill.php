@@ -51,7 +51,7 @@
 <li><a href="/services/general-contractor-land-o-lakes.php">Licensed General Contractor in Land O Lakes</a></li>
 <li><a href="/services/window-door-replacement-lutz.php">Window And Door Replacement in Lutz</a></li>
 <li><a href="/services/flooring-installation-north-tampa.php">Flooring Installation in North Tampa</a></li>
-<li><a href="/services/electrical-services-weeki-wachee.php">Electrical Services in Weeki Wachee</a></li>
+<li><a href="/services/electrical/electrical-services-weeki-wachee.php">Electrical Services in Weeki Wachee</a></li>
 <li><a href="/services/bathroom-remodeling-brooksville.php">Bathroom Remodeling in Brooksville</a></li>
 <li><a href="/services/window-door-replacement-wesley-chapel.php">Window And Door Replacement in Wesley Chapel</a></li></ul></div></section>
 <section class="scv3-section"><div class="scv3-container"><div class="scv3-final"><h2>Request Home Remodeling in Spring Hill</h2><p>Use the appointment button or call Smart Choice Contractors USA to start with photos, location, scope notes, and the goal for your property.</p><div class="scv3-cta"><a class="scv3-btn secondary" href="tel:+17277553786">Call (727) 755-3786</a><a class="scv3-btn secondary" href="https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2" target="_blank" rel="noopener">Schedule Appointment</a></div></div></div></section>

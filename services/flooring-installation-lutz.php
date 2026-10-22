@@ -49,11 +49,11 @@
 <section class="scv3-section"><div class="scv3-container"><h2>Related Smart Choice Pages</h2><ul class="scv3-links"><li><a href="/services/roofing-repair-tampa.php">Roofing And Leak Repair in Tampa</a></li>
 <li><a href="/services/kitchen-remodeling-brooksville.php">Kitchen Remodeling in Brooksville</a></li>
 <li><a href="/services/window-door-replacement-land-o-lakes.php">Window And Door Replacement in Land O Lakes</a></li>
-<li><a href="/services/electrical-services-spring-hill.php">Electrical Services in Spring Hill</a></li>
+<li><a href="/services/electrical/electrical-services-spring-hill.php">Electrical Services in Spring Hill</a></li>
 <li><a href="/services/home-remodeling-brooksville.php">Home Remodeling in Brooksville</a></li>
 <li><a href="/services/roofing-repair-new-port-richey.php">Roofing And Leak Repair in New Port Richey</a></li>
 <li><a href="/services/bathroom-remodeling-wesley-chapel.php">Bathroom Remodeling in Wesley Chapel</a></li>
-<li><a href="/services/hvac-services-new-port-richey.php">HVAC Services in New Port Richey</a></li></ul></div></section>
+<li><a href="/services/hvac/hvac-services-new-port-richey.php">HVAC Services in New Port Richey</a></li></ul></div></section>
 <section class="scv3-section"><div class="scv3-container"><div class="scv3-final"><h2>Request Flooring Installation in Lutz</h2><p>Use the appointment button or call Smart Choice Contractors USA to start with photos, location, scope notes, and the goal for your property.</p><div class="scv3-cta"><a class="scv3-btn secondary" href="tel:+17277553786">Call (727) 755-3786</a><a class="scv3-btn secondary" href="https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2" target="_blank" rel="noopener">Schedule Appointment</a></div></div></div></section>
 </main>
 <?php include __DIR__ . '/../sections-library/footer.php'; ?>

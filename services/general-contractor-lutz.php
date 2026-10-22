@@ -49,7 +49,7 @@
 <section class="scv3-section"><div class="scv3-container"><h2>Related Smart Choice Pages</h2><ul class="scv3-links"><li><a href="/services/window-door-replacement-land-o-lakes.php">Window And Door Replacement in Land O Lakes</a></li>
 <li><a href="/services/concrete-driveways-new-port-richey.php">Concrete Driveways in New Port Richey</a></li>
 <li><a href="/services/bathroom-remodeling-land-o-lakes.php">Bathroom Remodeling in Land O Lakes</a></li>
-<li><a href="/services/hvac-services-land-o-lakes.php">HVAC Services in Land O Lakes</a></li>
+<li><a href="/services/hvac/hvac-services-land-o-lakes.php">HVAC Services in Land O Lakes</a></li>
 <li><a href="/services/window-door-replacement-spring-hill.php">Window And Door Replacement in Spring Hill</a></li>
 <li><a href="/services/window-door-replacement-north-tampa.php">Window And Door Replacement in North Tampa</a></li>
 <li><a href="/services/roofing-repair-weeki-wachee.php">Roofing And Leak Repair in Weeki Wachee</a></li>
