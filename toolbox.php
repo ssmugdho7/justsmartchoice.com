@@ -221,13 +221,13 @@
           <span>Internal NOC checklist and county resources for Florida construction projects.</span>
         </a>
 
-        <a class="smart-toolbox-box" href="subcontractor-agreement.php">
-          <strong>Subcontractor Agreement</strong>
+        <a class="smart-toolbox-box" href="contacts.php">
+          <strong>Request a Subcontractor Agreement</strong>
           <span>Scope, insurance, lien waiver, payment, safety, and compliance agreement for subcontractors.</span>
         </a>
 
-        <a class="smart-toolbox-box" href="renovation-agreement.php">
-          <strong>Construction Renovation Agreement</strong>
+        <a class="smart-toolbox-box" href="contacts.php">
+          <strong>Request a Construction Renovation Agreement</strong>
           <span>Residential and commercial renovation agreement for scope, payments, changes, and warranties.</span>
         </a>
 

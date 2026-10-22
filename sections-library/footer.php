@@ -262,9 +262,6 @@
                 <li><a href="/terms.php">Terms of Service</a></li>
                 <li><a href="/privacy.php">Privacy Policy</a></li>
                 <li><a href="/cookie-policy.php">Cookies Policy</a></li>
-                <li><a href="/accessibility.php">Accessibility Statement</a></li>
-                <li><a href="/payment-refund-policy.php">Payment &amp; Refund Policy</a></li>
-                <li><a href="/sms-communications-policy.php">SMS &amp; Communications Policy</a></li>
                 <li><a href="/legal.php">Legal</a></li>
                 <li><a href="/sitemap.php">Sitemap</a></li>
               </ul>

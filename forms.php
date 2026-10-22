@@ -198,7 +198,7 @@
 
       <div class="smart-forms-accordion">
 
-        <details class="smart-forms-item" open>
+        <details class="smart-forms-item" id="notice-of-commencement" open>
           <summary>Notice of Commencement Checklist</summary>
           <div class="smart-forms-body">
             <p>Use this checklist before recording or uploading a Notice of Commencement for Florida construction projects.</p>
@@ -209,7 +209,7 @@
               <li>Record with the correct Clerk of Court when required.</li>
               <li>Upload or submit the recorded certified copy before inspection when required.</li>
             </ul>
-            <a href="notice-of-commencement.php">View NOC Guide</a>
+            <p>Use the county Notice of Commencement resources above to obtain the current official form.</p>
           </div>
         </details>
 
@@ -217,7 +217,7 @@
           <summary>Credit Card Authorization</summary>
           <div class="smart-forms-body">
             <p>Use for approved payments, deposits, permit fees, service invoices, and customer-authorized charges.</p>
-            <a href="forms/credit-card-authorization.pdf" target="_blank" rel="noopener">PDF Download</a>
+            <a href="contacts.php">Request a secure payment authorization method</a>
           </div>
         </details>
 
@@ -225,7 +225,7 @@
           <summary>Change Order Form</summary>
           <div class="smart-forms-body">
             <p>Use when the customer requests a scope change, material change, schedule change, or additional work outside the original agreement.</p>
-            <a href="forms/change-order-form.pdf" target="_blank" rel="noopener">PDF Download</a>
+            <a href="contacts.php">Request the change order form</a>
           </div>
         </details>
 
@@ -233,7 +233,7 @@
           <summary>Subcontractor Agreement</summary>
           <div class="smart-forms-body">
             <p>Used for subcontractor scope, insurance, payment terms, safety requirements, lien waivers, and project compliance.</p>
-            <a href="subcontractor-agreement.php">Open Subcontractor Agreement</a>
+            <a href="contacts.php">Request a subcontractor agreement</a>
           </div>
         </details>
 
@@ -241,7 +241,7 @@
           <summary>Construction Renovation Agreement</summary>
           <div class="smart-forms-body">
             <p>Used for residential and commercial remodeling projects, payment structure, scope of work, change orders, warranties, and customer responsibilities.</p>
-            <a href="renovation-agreement.php">Open Renovation Agreement</a>
+            <a href="contacts.php">Request a renovation agreement</a>
           </div>
         </details>
 
@@ -249,8 +249,7 @@
           <summary>Lien Release / Final Payment Affidavit</summary>
           <div class="smart-forms-body">
             <p>Used during project closeout, final payment, lien release, and payment confirmation procedures.</p>
-            <a href="forms/lien-release-form.pdf" target="_blank" rel="noopener">Lien Release PDF</a><br>
-            <a href="forms/final-payment-affidavit.pdf" target="_blank" rel="noopener">Final Payment Affidavit PDF</a>
+            <a href="contacts.php">Request project closeout documents</a>
           </div>
         </details>
 
@@ -258,7 +257,7 @@
           <summary>Bid Proposal Form</summary>
           <div class="smart-forms-body">
             <p>Used to prepare scope, quantities, pricing, exclusions, allowances, schedule terms, and project conditions for construction proposals.</p>
-            <a href="forms/bid-proposal-form.pdf" target="_blank" rel="noopener">PDF Download</a>
+            <a href="contacts.php">Request a bid proposal form</a>
           </div>
         </details>
 

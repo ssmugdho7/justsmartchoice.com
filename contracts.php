@@ -186,13 +186,13 @@
           <span>NOC information and project document checklist for Florida construction jobs.</span>
         </a>
 
-        <a class="smart-resource-box smart-document-box" href="subcontractor-agreement.php">
-          <strong>Subcontractor Agreement</strong>
+        <a class="smart-resource-box smart-document-box" href="contacts.php">
+          <strong>Request a Subcontractor Agreement</strong>
           <span>Subcontractor scope, insurance, payment, safety, lien waiver, and compliance agreement.</span>
         </a>
 
-        <a class="smart-resource-box smart-document-box" href="renovation-agreement.php">
-          <strong>Construction Renovation Agreement</strong>
+        <a class="smart-resource-box smart-document-box" href="contacts.php">
+          <strong>Request a Construction Renovation Agreement</strong>
           <span>Residential and commercial remodeling agreement for scope, payments, changes, warranties, and project rules.</span>
         </a>
 
