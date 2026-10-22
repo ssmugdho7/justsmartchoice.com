@@ -568,7 +568,7 @@
   }
 
   .btn-nav:disabled {
-    opacity: 0.45;
+    opacity: 1;
     cursor: not-allowed;
     box-shadow: none;
   }
@@ -1063,7 +1063,7 @@
   }
 
   .btn-nav:disabled {
-    opacity: 0.45;
+    opacity: 1;
     cursor: not-allowed;
     box-shadow: none;
   }
