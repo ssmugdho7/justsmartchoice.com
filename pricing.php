@@ -568,6 +568,7 @@
   }
 
   .btn-nav:disabled {
+    background-color: var(--smart-green);
     opacity: 1;
     cursor: not-allowed;
     box-shadow: none;
@@ -1063,6 +1064,7 @@
   }
 
   .btn-nav:disabled {
+    background-color: var(--smart-green);
     opacity: 1;
     cursor: not-allowed;
     box-shadow: none;
