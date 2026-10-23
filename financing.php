@@ -217,7 +217,7 @@
   <div class="container">
     <div class="row row-10">
       <div class="col-12">
-        <h2 class="text-uppercase text-primary">Customer's &nbsp;&nbsp;<span class="font-weight-light">Financing services!</span></h2>
+        <h1 class="h2 text-uppercase text-primary">Customer's &nbsp;&nbsp;<span class="font-weight-light">Financing services!</span></h1>
       </div>
       <div class="col-md-6">
         <p style="text-align: justify;">Welcome to <span style="color: #169179;">Smart Choice Contractors USA</span>, your trusted partner in turnkey construction solutions. We specialize in residential and commercial projects, delivering high-quality craftsmanship with precision. Our services include new construction, full renovations, room additions, electrical work, roofing, fencing, carpentry, and structural repairs. We prioritize customer satisfaction, premium materials, and timely project execution. Our skilled team ensures every project meets top standards, whether a minor repair or a complete development. With Smart Choice Contractors, you receive reliable service and outstanding results tailored to your needs. We understand that financing plays a significant role in your project, which is why we offer recommendations for trusted financial institutions that have helped our clients secure funding for their home improvement and construction needs.</p>

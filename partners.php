@@ -151,7 +151,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
     <!-- Partners Intro -->
     <section id="scu-partners">
       <div class="container">
-        <h2 class="text-center text-uppercase">Our Trusted Partners & Suppliers</h2>
+        <h1 class="h2 text-center text-uppercase">Our Trusted Partners & Suppliers</h1>
         <div class="intro">
   <p>
   At <strong>Smart Choice Contractors USA</strong>, we take pride in delivering exceptional

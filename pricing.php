@@ -73,7 +73,7 @@
 <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900">
 <link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/custom.css?v=60">
+<link rel="stylesheet" href="css/custom.css?v=20261023">
 
 </head>
 
@@ -166,7 +166,7 @@
       <div class="col-12">
         <div class="smart-section-heading text-center">
           <span class="smart-eyebrow">Tampa Bay Construction Pricing</span>
-          <h2 class="text-uppercase">Smart Choice Contractors USA <span class="font-weight-light">Service Price Guide</span></h2>
+          <h1 class="h2 text-uppercase">Smart Choice Contractors USA <span class="font-weight-light">Service Price Guide</span></h1>
           <p>
             Transparent starting ranges for Tampa Bay homeowners, investors, and commercial property owners.
             Final pricing depends on jobsite conditions, engineering requirements, permit scope, materials, access, and finish selections.
@@ -443,7 +443,7 @@
     text-transform: uppercase;
   }
 
-  .smart-section-heading h2 {
+  .smart-section-heading :is(h1, h2) {
     color: var(--smart-green);
     margin-bottom: 14px;
     font-weight: 800;
@@ -940,7 +940,7 @@
     text-transform: uppercase;
   }
 
-  .smart-section-heading h2 {
+  .smart-section-heading :is(h1, h2) {
     color: var(--smart-green);
     margin-bottom: 14px;
   }

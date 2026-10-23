@@ -26,7 +26,7 @@ $seo = [
  'schema'=>[
   '@context'=>'https://schema.org',
   '@graph'=>[
-   ['@type'=>'Service','name'=>"$service in $location",'serviceType'=>$service,'areaServed'=>['@type'=>'AdministrativeArea','name'=>$location],'provider'=>['@type'=>'LocalBusiness','name'=>'Smart Choice Contractors USA','url'=>'https://justsmartchoice.com','telephone'=>'+1 (727) 755-3786']],
+   ['@type'=>'Service','name'=>"$service in $location",'serviceType'=>$service,'areaServed'=>['@type'=>'AdministrativeArea','name'=>$location],'provider'=>['@type'=>'LocalBusiness','name'=>'Smart Choice Contractors USA','image'=>'https://justsmartchoice.com/images/logo-638x310.png','address'=>['@type'=>'PostalAddress','streetAddress'=>'1663 US Highway 41','addressLocality'=>'Spring Hill','addressRegion'=>'FL','postalCode'=>'34610','addressCountry'=>'US'],'url'=>'https://justsmartchoice.com','telephone'=>'+1 (727) 755-3786']],
    ['@type'=>'BreadcrumbList','itemListElement'=>[
     ['@type'=>'ListItem','position'=>1,'name'=>'Home','item'=>'https://justsmartchoice.com/'],
     ['@type'=>'ListItem','position'=>2,'name'=>'Engineering','item'=>'https://justsmartchoice.com/services/engineering/'],

@@ -4,12 +4,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Interior Painting in Tampa, FL | Smart Choice Contractors USA</title>
-<meta name="description" content="Smart Choice Contractors USA provides interior painting services in Tampa, FL with organized estimates, photo-based scope review, material planning, and professional project coordination.">
+<title>Interior Painting in Tampa, FL | Smart Choice</title>
+<meta name="description" content="Explore Interior Painting in Tampa, FL. Review project scope, permits, planning and estimates with Smart Choice Contractors USA.">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <link rel="canonical" href="https://justsmartchoice.com/services/tampa-interior-painting.php">
-<meta property="og:title" content="Interior Painting in Tampa, FL | Smart Choice Contractors USA">
-<meta property="og:description" content="Smart Choice Contractors USA provides interior painting services in Tampa, FL with organized estimates, photo-based scope review, material planning, and professional project coordination.">
+<meta property="og:title" content="Interior Painting in Tampa, FL | Smart Choice">
+<meta property="og:description" content="Explore Interior Painting in Tampa, FL. Review project scope, permits, planning and estimates with Smart Choice Contractors USA.">
 <meta property="og:url" content="https://justsmartchoice.com/services/tampa-interior-painting.php">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://justsmartchoice.com/services/assets/img/painting-1.webp">
@@ -18,12 +18,16 @@
 <link rel="stylesheet" href="/css/style.css">
 <link rel="stylesheet" href="/css/custom.css?v=70">
 <link rel="stylesheet" href="/services/assets/css/service-pages-v3.css?v=2">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Service", "name": "Interior Painting in Tampa, FL", "description": "Smart Choice Contractors USA provides interior painting services in Tampa, FL with organized estimates, photo-based scope review, material planning, and professional project coordination.", "provider": {"@type": "LocalBusiness", "name": "Smart Choice Contractors USA", "telephone": "+17277553786", "url": "https://justsmartchoice.com"}, "areaServed": ["Tampa FL", "North Tampa FL", "Hillsborough County FL", "Tampa Bay FL"], "serviceType": "Interior Painting", "url": "https://justsmartchoice.com/services/tampa-interior-painting.php"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Service","name":"Interior Painting in Tampa, FL","description":"Smart Choice Contractors USA provides interior painting services in Tampa, FL with organized estimates, photo-based scope review, material planning, and professional project coordination.","provider":{"@type":"LocalBusiness","name":"Smart Choice Contractors USA","telephone":"+17277553786","url":"https://justsmartchoice.com","address":{"@type":"PostalAddress","streetAddress":"1663 US Highway 41","addressLocality":"Spring Hill","addressRegion":"FL","postalCode":"34610","addressCountry":"US"},"image":"https://justsmartchoice.com/images/logo-638x310.png"},"areaServed":["Tampa FL","North Tampa FL","Hillsborough County FL","Tampa Bay FL"],"serviceType":"Interior Painting","url":"https://justsmartchoice.com/services/tampa-interior-painting.php"}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I get a interior painting estimate in Tampa?", "acceptedAnswer": {"@type": "Answer", "text": "Send the address, photos, measurements, access information, and a clear description of the result you want. Smart Choice Contractors USA can review the scope and recommend the next step."}}, {"@type": "Question", "name": "Can I book an appointment online?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Use the appointment button to request a consultation and provide project details before the visit."}}, {"@type": "Question", "name": "Why can the final price change after the site visit?", "acceptedAnswer": {"@type": "Answer", "text": "Final pricing can depend on hidden damage, access, demolition, material selections, code requirements, permits, disposal, and inspection requirements."}}]}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap">
 <link rel="stylesheet" href="/services/assets/smart-choice-brand-font.css?v=20260716">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Interior Painting in Tampa, FL">
+<meta name="twitter:description" content="Explore Interior Painting in Tampa, FL. Review project scope, permits, planning and estimates with Smart Choice Contractors USA.">
+<meta name="twitter:image" content="https://justsmartchoice.com/services/assets/img/painting-1.webp">
 </head>
 <body>
 <?php include __DIR__ . '/../includes/cookie-consent.php'; ?>

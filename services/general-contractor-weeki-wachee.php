@@ -4,12 +4,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Licensed General Contractor in Weeki Wachee, FL | Smart Choice Contractors USA</title>
-<meta name="description" content="Smart Choice Contractors USA provides licensed general contractor in Weeki Wachee, FL with organized estimates, site review, material planning, photos, scope documentation, and project coordination for homeowners and investors.">
+<title>Licensed General Contractor in Weeki Wachee, FL</title>
+<meta name="description" content="Explore Licensed General Contractor in Weeki Wachee, FL. Review project scope, permits, planning and estimates with Smart Choice Contractors USA.">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <link rel="canonical" href="https://justsmartchoice.com/services/general-contractor-weeki-wachee.php">
-<meta property="og:title" content="Licensed General Contractor in Weeki Wachee, FL | Smart Choice Contractors USA">
-<meta property="og:description" content="Smart Choice Contractors USA provides licensed general contractor in Weeki Wachee, FL with organized estimates, site review, material planning, photos, scope documentation, and project coordination for homeowners and investors.">
+<meta property="og:title" content="Licensed General Contractor in Weeki Wachee, FL">
+<meta property="og:description" content="Explore Licensed General Contractor in Weeki Wachee, FL. Review project scope, permits, planning and estimates with Smart Choice Contractors USA.">
 <meta property="og:url" content="https://justsmartchoice.com/services/general-contractor-weeki-wachee.php">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://justsmartchoice.com/services/assets/img/general-1.webp">
@@ -18,12 +18,16 @@
 <link rel="stylesheet" href="/css/style.css">
 <link rel="stylesheet" href="/css/custom.css?v=70">
 <link rel="stylesheet" href="/services/assets/css/service-pages-v3.css?v=2">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Service","name":"Licensed General Contractor in Weeki Wachee, FL","description":"Smart Choice Contractors USA provides licensed general contractor in Weeki Wachee, FL with organized estimates, site review, material planning, photos, scope documentation, and project coordination for homeowners and investors.","provider":{"@type":"LocalBusiness","name":"Smart Choice Contractors USA","telephone":"+17277553786","url":"https://justsmartchoice.com"},"areaServed":["Weeki Wachee FL","Hernando County FL","Tampa Bay FL"],"serviceType":"Licensed General Contractor","url":"https://justsmartchoice.com/services/general-contractor-weeki-wachee.php"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Service","name":"Licensed General Contractor in Weeki Wachee, FL","description":"Smart Choice Contractors USA provides licensed general contractor in Weeki Wachee, FL with organized estimates, site review, material planning, photos, scope documentation, and project coordination for homeowners and investors.","provider":{"@type":"LocalBusiness","name":"Smart Choice Contractors USA","telephone":"+17277553786","url":"https://justsmartchoice.com","address":{"@type":"PostalAddress","streetAddress":"1663 US Highway 41","addressLocality":"Spring Hill","addressRegion":"FL","postalCode":"34610","addressCountry":"US"},"image":"https://justsmartchoice.com/images/logo-638x310.png"},"areaServed":["Weeki Wachee FL","Hernando County FL","Tampa Bay FL"],"serviceType":"Licensed General Contractor","url":"https://justsmartchoice.com/services/general-contractor-weeki-wachee.php"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do I get a licensed general contractor estimate in Weeki Wachee?","acceptedAnswer":{"@type":"Answer","text":"Start with photos, address, measurements, preferred materials, access information, and a clear list of what you want repaired, replaced, or remodeled. Smart Choice Contractors USA can then review the scope and prepare next steps."}},{"@type":"Question","name":"Can I schedule online?","acceptedAnswer":{"@type":"Answer","text":"Yes. Customers can use the appointment button to request a consultation and provide project details before the visit."}},{"@type":"Question","name":"Why does the final price depend on field conditions?","acceptedAnswer":{"@type":"Answer","text":"Construction pricing can change based on demolition, hidden damage, access, permits, material selection, trade requirements, disposal, and inspection requirements."}}]}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap">
 <link rel="stylesheet" href="/services/assets/smart-choice-brand-font.css?v=20260716">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Licensed General Contractor in Weeki Wachee, FL">
+<meta name="twitter:description" content="Explore Licensed General Contractor in Weeki Wachee, FL. Review project scope, permits, planning and estimates with Smart Choice Contractors USA.">
+<meta name="twitter:image" content="https://justsmartchoice.com/services/assets/img/general-1.webp">
 </head>
 <body>
 <?php include __DIR__ . '/../includes/cookie-consent.php'; ?>

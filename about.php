@@ -121,7 +121,7 @@
 <div class="col-lg-3 col-xl-4">
 
 
-<h2 class="text-uppercase">
+<h1 class="h2 text-uppercase">
 
 About 
 
@@ -131,7 +131,7 @@ Us
 
 </span>
 
-</h2>
+</h1>
 
 
 

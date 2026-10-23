@@ -138,6 +138,7 @@ $nav_items = [
                                 itemscope
                                 itemtype="https://schema.org/Organization"
                             >
+                                <meta itemprop="name" content="Smart Choice Contractors USA">
                                 <a
                                     href="/index.php"
                                     itemprop="url"
@@ -178,6 +179,14 @@ $nav_items = [
                                 itemscope
                                 itemtype="https://schema.org/LocalBusiness"
                             >
+                                <meta itemprop="image" content="https://justsmartchoice.com/images/logo-638x310.png">
+                                <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                                    <meta itemprop="streetAddress" content="1663 US Highway 41">
+                                    <meta itemprop="addressLocality" content="Spring Hill">
+                                    <meta itemprop="addressRegion" content="FL">
+                                    <meta itemprop="postalCode" content="34610">
+                                    <meta itemprop="addressCountry" content="US">
+                                </div>
                                 <meta
                                     itemprop="name"
                                     content="Smart Choice Contractors USA"
