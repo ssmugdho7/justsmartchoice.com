@@ -322,11 +322,7 @@
           <div class="carousel-item active">
             <blockquote class="testimonial smart-testimonial-card">
               <div class="testimonial-img">
-                <img class="smart-image-hover"
-                     src="images/persons/Mark-Johnson-Junior.jpg"
-                     alt="Mark Johnson testimonial for Smart Choice Contractors USA"
-                     width="170"
-                     height="168">
+                <svg class="smart-image-hover" viewBox="0 0 170 168" width="170" height="168" aria-hidden="true" focusable="false"><circle cx="85" cy="84" r="82" fill="#e8f4f0"/><circle cx="85" cy="61" r="27" fill="#2a907b"/><path d="M36 145a49 49 0 0 1 98 0" fill="#2a907b"/></svg>
               </div>
 
               <div class="testimonial-inner">
@@ -341,11 +337,7 @@
           <div class="carousel-item">
             <blockquote class="testimonial smart-testimonial-card">
               <div class="testimonial-img">
-                <img class="smart-image-hover"
-                     src="images/persons/Mark-Johnson-Junior.jpg"
-                     alt="Sarah Williams testimonial for Smart Choice Contractors USA"
-                     width="170"
-                     height="168">
+                <svg class="smart-image-hover" viewBox="0 0 170 168" width="170" height="168" aria-hidden="true" focusable="false"><circle cx="85" cy="84" r="82" fill="#e8f4f0"/><circle cx="85" cy="61" r="27" fill="#2a907b"/><path d="M36 145a49 49 0 0 1 98 0" fill="#2a907b"/></svg>
               </div>
 
               <div class="testimonial-inner">
@@ -360,11 +352,7 @@
           <div class="carousel-item">
             <blockquote class="testimonial smart-testimonial-card">
               <div class="testimonial-img">
-                <img class="smart-image-hover"
-                     src="images/persons/Mark-Johnson-Junior.jpg"
-                     alt="Michael Rodriguez testimonial for Smart Choice Contractors USA"
-                     width="170"
-                     height="168">
+                <svg class="smart-image-hover" viewBox="0 0 170 168" width="170" height="168" aria-hidden="true" focusable="false"><circle cx="85" cy="84" r="82" fill="#e8f4f0"/><circle cx="85" cy="61" r="27" fill="#2a907b"/><path d="M36 145a49 49 0 0 1 98 0" fill="#2a907b"/></svg>
               </div>
 
               <div class="testimonial-inner">
@@ -379,11 +367,7 @@
           <div class="carousel-item">
             <blockquote class="testimonial smart-testimonial-card">
               <div class="testimonial-img">
-                <img class="smart-image-hover"
-                     src="images/persons/Mark-Johnson-Junior.jpg"
-                     alt="David Thompson testimonial for Smart Choice Contractors USA"
-                     width="170"
-                     height="168">
+                <svg class="smart-image-hover" viewBox="0 0 170 168" width="170" height="168" aria-hidden="true" focusable="false"><circle cx="85" cy="84" r="82" fill="#e8f4f0"/><circle cx="85" cy="61" r="27" fill="#2a907b"/><path d="M36 145a49 49 0 0 1 98 0" fill="#2a907b"/></svg>
               </div>
 
               <div class="testimonial-inner">

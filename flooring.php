@@ -241,7 +241,7 @@ grid-template-columns:1fr;
 
 <!-- HERO -->
 <div class="hero">
-<img src="https://justsmartchoice.com/blog/uploads/flooring-just-smart-choice.png">
+<img src="/services/assets/img/flooring-1.webp" alt="Homeowners reviewing flooring samples with a project consultant" width="1350" height="900">
 <div class="hero-text">
 <h1>Professional Flooring Installation Services</h1>
 <p><strong>Just Smart Choice</strong> provides expert flooring installation including vinyl, tile, laminate, and hardwood flooring.</p>

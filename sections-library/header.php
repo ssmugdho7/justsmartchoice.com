@@ -180,7 +180,7 @@ $nav_items = [
                                 itemtype="https://schema.org/LocalBusiness"
                             >
                                 <meta itemprop="image" content="https://justsmartchoice.com/images/logo-638x310.png">
-                                <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                                <div hidden itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
                                     <meta itemprop="streetAddress" content="1663 US Highway 41">
                                     <meta itemprop="addressLocality" content="Spring Hill">
                                     <meta itemprop="addressRegion" content="FL">
