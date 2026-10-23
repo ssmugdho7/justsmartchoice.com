@@ -202,7 +202,7 @@ gtag('config', 'G-CLX99EJXW2', {
 </div>
 
 <div class="col-sm-6 col-lg-8 text-center">
-<a class="thumbnail thumbnail-wide" href="services.php" style="background-image:url(images/img-02-770x370.jpg)">
+<a class="thumbnail thumbnail-wide" href="services.php" style="background-image:url(images/img-02-770x370.webp)">
 <div class="thumbnail-caption">
 <h3 class="thumbnail-heading">Trusted Local Expertise</h3>
 <div class="thumbnail-inner">

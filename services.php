@@ -485,7 +485,7 @@
 
       <figure class="smart-service-figure">
         <img class="smart-image-hover"
-             src="images/img-09-570x351.png"
+             src="images/img-09-570x351.webp"
              alt="Luxury outdoor pergola with solar panels"
              width="570"
              height="350">

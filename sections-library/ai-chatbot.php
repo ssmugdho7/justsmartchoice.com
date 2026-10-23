@@ -1,12 +1,12 @@
 <!-- Smart Choice AI Chatbot Library -->
 <div id="smart-ai-chat" aria-live="polite">
   <button id="smart-ai-open" type="button" aria-label="Open Smart Choice Assistant">
-    <img src="/images/smart-choice-ai-assistant.png" alt="Smart Choice Assistant" class="smart-ai-launch-avatar">
+    <img src="/images/smart-choice-ai-assistant.webp" alt="Smart Choice Assistant" class="smart-ai-launch-avatar">
   </button>
 
   <div id="smart-ai-box" role="dialog" aria-label="Smart Choice Assistant" aria-modal="false">
     <div id="smart-ai-head">
-      <div class="smart-ai-avatar"><img src="/images/smart-choice-ai-assistant.png" alt="Smart Choice AI Assistant"></div>
+      <div class="smart-ai-avatar"><img src="/images/smart-choice-ai-assistant.webp" alt="Smart Choice AI Assistant"></div>
       <div class="smart-ai-title"><strong>Smart Choice Assistant</strong><small>Customer Support, Estimating & Booking</small></div>
       <button id="smart-ai-close" type="button" aria-label="Close chat">×</button>
     </div>

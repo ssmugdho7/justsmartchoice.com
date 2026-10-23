@@ -13,7 +13,7 @@
 <meta property="og:description" content="Concrete project planning for driveways, slabs, patios, walkways, pads, forms, reinforcement, thickness, concrete yards, and finish coordination.">
 <meta property="og:url" content="https://justsmartchoice.com/services/concrete-contractor-tampa-bay.php">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://justsmartchoice.com/images/img-07-2050x988.jpg">
+<meta property="og:image" content="https://justsmartchoice.com/images/img-07-2050x988.webp">
 <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900">
 <link rel="stylesheet" href="/css/style.css">
@@ -28,7 +28,7 @@
 <?php include __DIR__ . '/../includes/cookie-consent.php'; ?>
 <?php include __DIR__ . '/../sections-library/header.php'; ?>
 <div class="page">
-<section class="section-lg smart-service-hero-local" style="background-image:linear-gradient(135deg,rgba(22,145,121,.86),rgba(38,50,56,.78)),url('/images/img-07-2050x988.jpg');">
+<section class="section-lg smart-service-hero-local" style="background-image:linear-gradient(135deg,rgba(22,145,121,.86),rgba(38,50,56,.78)),url('/images/img-07-2050x988.webp');">
   <div class="container">
     <div class="smart-service-hero-box">
       <span class="smart-eyebrow">Local Florida Construction Service</span>
@@ -47,7 +47,7 @@
       <div class="smart-service-media-grid">
         <div><img src="/images/slides/slide-03-2050x610.jpg" alt="Concrete Contractor In Tampa Bay project planning in Tampa Bay" loading="lazy"><h3>Field Review</h3><p>Photos, site access, measurements, existing conditions, and material requirements are reviewed before final scope confirmation.</p></div>
         <div><img src="/images/img-03-370x370.jpg" alt="Concrete Contractor In Tampa Bay repair and renovation Florida" loading="lazy"><h3>Organized Scope</h3><p>Customers receive guidance on sequencing, possible hidden conditions, permit considerations, and project communication.</p></div>
-        <div><img src="/images/img-07-2050x988.jpg" alt="Concrete Contractor In Tampa Bay near me Smart Choice Contractors USA" loading="lazy"><h3>Local Support</h3><p>Service coverage includes Tampa, Spring Hill, Brooksville, Land O Lakes, Wesley Chapel, Clearwater, St. Petersburg, and nearby areas.</p></div>
+        <div><img src="/images/img-07-2050x988.webp" alt="Concrete Contractor In Tampa Bay near me Smart Choice Contractors USA" loading="lazy"><h3>Local Support</h3><p>Service coverage includes Tampa, Spring Hill, Brooksville, Land O Lakes, Wesley Chapel, Clearwater, St. Petersburg, and nearby areas.</p></div>
       </div>
     </div>
   </div>

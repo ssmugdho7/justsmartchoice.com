@@ -137,7 +137,7 @@ Us
 
 <img 
 
-src="images/aboutus.png"
+src="images/aboutus.webp"
 
 alt="Smart Choice Contractors USA construction experience and company history"
 

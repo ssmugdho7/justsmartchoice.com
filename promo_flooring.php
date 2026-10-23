@@ -35,8 +35,8 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Just Smart Choice Construction USA">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://justsmartchoice.com/images/flooring-image.png">
-<meta property="og:image:secure_url" content="https://justsmartchoice.com/images/flooring-image.png">
+<meta property="og:image" content="https://justsmartchoice.com/images/flooring-image.webp">
+<meta property="og:image:secure_url" content="https://justsmartchoice.com/images/flooring-image.webp">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Floor installation promotion in Spring Hill Florida">
@@ -44,7 +44,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Floor Installation Promotion Spring Hill FL">
 <meta name="twitter:description" content="Professional laminate and vinyl plank flooring installation by Just Smart Choice Construction USA.">
-<meta name="twitter:image" content="https://justsmartchoice.com/images/flooring-image.png">
+<meta name="twitter:image" content="https://justsmartchoice.com/images/flooring-image.webp">
 
 <script src="https://analytics.ahrefs.com/analytics.js" data-key="9gWoEoaoQSTW3cXLEcA/Qg" async></script>
 <script type="text/javascript" src="https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
@@ -134,7 +134,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 
         <div class="col-lg-5">
           <img class="smart-image-hover flooring-promo-image"
-               src="images/flooring-image.png"
+               src="images/flooring-image.webp"
                alt="Professional floor installation promotion in Spring Hill Florida"
                width="570"
                height="420">

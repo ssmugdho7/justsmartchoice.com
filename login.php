@@ -515,7 +515,7 @@ From residential remodeling to commercial construction, our goal is simple: deli
 <div class="col-lg-6">
 
 
-<img src="images/img-02-770x370.jpg"
+<img src="images/img-02-770x370.webp"
 
 class="img-responsive"
 
@@ -595,7 +595,7 @@ Our experience in construction, engineering planning, remodeling, and property i
 </div>
 <div class="col-lg-6 order-lg-1">
   <img
-    src="images/smart-choice-construction-consultation.png"
+    src="images/smart-choice-construction-consultation.webp"
     class="img-responsive smart-image-hover smart-login-main-image"
     alt="Smart Choice Contractors USA construction consultation and project planning"
     width="770"

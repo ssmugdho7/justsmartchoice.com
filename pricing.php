@@ -101,7 +101,7 @@
       </div>
 
       <div class="col-sm-6 col-lg-8 text-center">
-        <a class="thumbnail thumbnail-wide smart-hover-card" href="construction-drawings-permits.php" style="background-image: url(images/img-02-770x370.jpg)">
+        <a class="thumbnail thumbnail-wide smart-hover-card" href="construction-drawings-permits.php" style="background-image: url(images/img-02-770x370.webp)">
           <div class="thumbnail-caption">
             <h3 class="thumbnail-heading">Plans, Permits & Project Support</h3>
             <div class="thumbnail-inner">

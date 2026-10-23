@@ -446,7 +446,7 @@
             <div class="smart-financing-image-box">
 
               <img
-                src="images/smart_choice_electrical_service.png"
+                src="images/smart_choice_electrical_service.webp"
                 alt="Smart Choice electrical services"
                 class="smart-financing-image"
                 width="570"
@@ -480,7 +480,7 @@
             <div class="smart-financing-image-box">
 
               <img
-                src="images/smartchoicefinancial.png"
+                src="images/smartchoicefinancial.webp"
                 alt="Smart Choice electrical services and financing support"
                 class="smart-financing-image"
                 width="570"

@@ -46,7 +46,7 @@
       <p>When customers search for hvac services in spring hill, construction company near me, remodeling contractor near me, repair contractor in Tampa Bay, or renovation services in Florida, they usually need more than a quick price. They need a contractor that can explain the scope, identify risks, document conditions, and help prepare a plan that protects the property and budget.</p>
       <div class="smart-service-media-grid">
         <div><img src="/images/slides/slide-02-2050x610.jpg" alt="HVAC Services In Spring Hill project planning in Tampa Bay" loading="lazy"><h3>Field Review</h3><p>Photos, site access, measurements, existing conditions, and material requirements are reviewed before final scope confirmation.</p></div>
-        <div><img src="/images/img-02-770x370.jpg" alt="HVAC Services In Spring Hill repair and renovation Florida" loading="lazy"><h3>Organized Scope</h3><p>Customers receive guidance on sequencing, possible hidden conditions, permit considerations, and project communication.</p></div>
+        <div><img src="/images/img-02-770x370.webp" alt="HVAC Services In Spring Hill repair and renovation Florida" loading="lazy"><h3>Organized Scope</h3><p>Customers receive guidance on sequencing, possible hidden conditions, permit considerations, and project communication.</p></div>
         <div><img src="/images/img-06-570x350.png" alt="HVAC Services In Spring Hill near me Smart Choice Contractors USA" loading="lazy"><h3>Local Support</h3><p>Service coverage includes Tampa, Spring Hill, Brooksville, Land O Lakes, Wesley Chapel, Clearwater, St. Petersburg, and nearby areas.</p></div>
       </div>
     </div>

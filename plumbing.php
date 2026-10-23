@@ -36,12 +36,12 @@ gtag('config', 'G-CLX99EJXW2');
 <meta property="og:url" content="https://justsmartchoice.com/plumbing.php">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Just Smart Choice Construction USA">
-<meta property="og:image" content="https://justsmartchoice.com/images/smart-choice-plumbing-services-florida.png">
+<meta property="og:image" content="https://justsmartchoice.com/images/smart-choice-plumbing-services-florida.webp">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Plumbing Services Tampa Bay FL">
 <meta name="twitter:description" content="Professional plumbing services for residential and commercial projects in Tampa Bay Florida.">
-<meta name="twitter:image" content="https://justsmartchoice.com/images/smart-choice-plumbing-services-florida.png">
+<meta name="twitter:image" content="https://justsmartchoice.com/images/smart-choice-plumbing-services-florida.webp">
 
 <script src="https://analytics.ahrefs.com/analytics.js" data-key="9gWoEoaoQSTW3cXLEcA/Qg" async></script>
 <script type="text/javascript" src="https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
@@ -120,7 +120,7 @@ gtag('config', 'G-CLX99EJXW2');
         <a href="<?php echo htmlspecialchars($appointment_link, ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener" aria-label="Schedule a plumbing appointment">
           <img
             class="smart-image-hover"
-            src="images/smart-choice-plumbing-services-florida.png"
+            src="images/smart-choice-plumbing-services-florida.webp"
             alt="Smart Choice Contractors USA plumbing services in Tampa Bay Florida"
             style="width:100%;max-width:750px;height:auto;object-fit:contain;display:block;margin:auto;"
             loading="eager">
