@@ -12,7 +12,7 @@
 <meta property="og:url" content="https://justsmartchoice.com/services/plumbing-services.php">
 <meta property="og:type" content="website">
 <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
-<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap">
 <link rel="stylesheet" href="/css/style.css">
 <link rel="stylesheet" href="/css/custom.css?v=60">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Service","name":"Plumbing Services","provider":{"@type":"LocalBusiness","name":"Smart Choice Contractors USA","telephone":"+17277553786","url":"https://justsmartchoice.com"},"areaServed":["Tampa FL","Spring Hill FL","Hernando County FL","Pasco County FL","Hillsborough County FL","Pinellas County FL"],"serviceType":"Plumbing Services"}</script>

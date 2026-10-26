@@ -54,7 +54,7 @@ gtag('config', 'G-CLX99EJXW2', {
 <meta name="twitter:image" content="https://justsmartchoice.com/images/fg-image.png">
 
 <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/custom.css?v=64">
 
@@ -467,7 +467,7 @@ gtag('config', 'G-CLX99EJXW2', {
  <div class="swiper-wrapper">
 
   <!-- SLIDE 1 -->
-  <div class="swiper-slide" data-slide-bg="images/slides/slide-01-2050x610.jpg">
+  <div class="swiper-slide" data-slide-bg="images/slides/slide-01-2050x610.webp">
    <div class="swiper-slide-caption">
     <div class="container">
      <div class="row">
@@ -493,7 +493,7 @@ gtag('config', 'G-CLX99EJXW2', {
   </div>
 
   <!-- SLIDE 2 -->
-  <div class="swiper-slide" data-slide-bg="images/slides/slide-02-2050x610.jpg">
+  <div class="swiper-slide" data-slide-bg="images/slides/slide-02-2050x610.webp">
    <div class="swiper-slide-caption">
     <div class="container">
      <div class="row">
@@ -519,7 +519,7 @@ gtag('config', 'G-CLX99EJXW2', {
   </div>
 
   <!-- SLIDE 3 -->
-  <div class="swiper-slide" data-slide-bg="images/slides/slide-03-2050x610.jpg">
+  <div class="swiper-slide" data-slide-bg="images/slides/slide-03-2050x610.webp">
    <div class="swiper-slide-caption">
     <div class="container">
      <div class="row">

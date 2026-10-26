@@ -27,7 +27,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
     <meta property="og:url" content="https://www.justsmartchoice.com/partners.php">
     <meta property="og:type" content="website">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap">
     <link rel="stylesheet" href="css/style.css">
      <script type="application/ld+json">
     {

@@ -28,7 +28,7 @@ $image = (string)($seo['image'] ?? 'https://justsmartchoice.com/images/fg-image.
 <meta name="twitter:image" content="<?=htmlspecialchars($image, ENT_QUOTES, 'UTF-8')?>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap">
 <link rel="stylesheet" href="/css/style.css">
 <link rel="stylesheet" href="/css/custom.css?v=60">
 <link rel="stylesheet" href="/services/kitchen-remodeling/assets/kitchen-seo.css?v=3">

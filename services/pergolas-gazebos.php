@@ -12,7 +12,7 @@
 <meta property="og:url" content="https://justsmartchoice.com/services/pergolas-gazebos.php">
 <meta property="og:type" content="website">
 <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
-<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap">
 <link rel="stylesheet" href="/css/style.css">
 <link rel="stylesheet" href="/css/custom.css?v=60">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Service","name":"Pergolas &amp; Gazebos","provider":{"@type":"LocalBusiness","name":"Smart Choice Contractors USA","telephone":"+17277553786","url":"https://justsmartchoice.com"},"areaServed":["Tampa FL","Spring Hill FL","Hernando County FL","Pasco County FL","Hillsborough County FL","Pinellas County FL"],"serviceType":"Pergolas &amp; Gazebos"}</script>
@@ -31,7 +31,7 @@
       <p>Smart Choice Contractors USA provides pergolas &amp; gazebos near me, pergolas &amp; gazebos in Tampa, pergolas &amp; gazebos in Spring Hill, and pergolas &amp; gazebos services across Hernando, Pasco, Hillsborough, and Pinellas County. Our team helps property owners plan repairs, remodeling, renovation work, material options, scheduling, project communication, and field verification before work begins.</p>
       <p>We focus on organized communication, clear scope review, responsible estimating, clean jobsite practices, and professional project management. Every project requires field verification, measurements, material selection, access review, and written approval before final pricing or scheduling.</p>
       <div class="jsc-service-grid">
-        <div class="jsc-service-card"><img src="/images/img-06-570x350.png" alt="Pergolas &amp; Gazebos Tampa Bay FL"><div class="jsc-service-card-body"><h3>Local Service Coverage</h3><p>Pergolas &amp; Gazebos available for Tampa, Spring Hill, Brooksville, Land O Lakes, Wesley Chapel, Clearwater, St. Petersburg, New Port Richey, and nearby Florida areas.</p></div></div>
+        <div class="jsc-service-card"><img src="/images/img-06-570x350.webp" alt="Pergolas &amp; Gazebos Tampa Bay FL"><div class="jsc-service-card-body"><h3>Local Service Coverage</h3><p>Pergolas &amp; Gazebos available for Tampa, Spring Hill, Brooksville, Land O Lakes, Wesley Chapel, Clearwater, St. Petersburg, New Port Richey, and nearby Florida areas.</p></div></div>
         <div class="jsc-service-card"><img src="/images/img-07-2050x988.webp" alt="Pergolas &amp; Gazebos remodeling and repair"><div class="jsc-service-card-body"><h3>Repair And Remodeling Support</h3><p>We help evaluate existing conditions, document project needs, plan materials, organize the work sequence, and coordinate repair or renovation solutions.</p></div></div>
         <div class="jsc-service-card"><div class="jsc-service-card-body"><h3>Project Planning</h3><p>Send photos, drawings, measurements, project location, preferred materials, and requested timeline so our team can prepare the next step.</p><div class="jsc-service-cta"><a href="https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2" target="_blank" rel="noopener">Book Appointment</a><a href="/contacts.php">Contact Us</a></div></div></div>
       </div>

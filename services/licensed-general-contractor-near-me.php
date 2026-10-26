@@ -25,7 +25,7 @@ $canonical_url = "https://justsmartchoice.com/services/licensed-general-contract
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-CLX99EJXW2');</script>
 <script src="https://analytics.ahrefs.com/analytics.js" data-key="I5OqScmHj0YocITXSr5waw" async></script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Smart Choice Contractors USA","url":"https://justsmartchoice.com/","telephone":"727-755-3786","areaServed":"Tampa Bay","description":"Find a licensed general contractor near you for remodeling, repairs, additions, and construction project support in Tampa Bay and surrounding Florida communities."}</script>
-<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap">
 <link rel="stylesheet" href="../css/style.css">
 <link rel="stylesheet" href="../css/custom.css?v=60">
 

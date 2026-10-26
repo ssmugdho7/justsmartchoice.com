@@ -96,7 +96,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 </script>
 
 <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/custom.css?v=60">
 
@@ -181,9 +181,9 @@ $currentPage = basename($_SERVER['PHP_SELF']);
   <a class="section section-banner"
      href="services.php"
      target="_self"
-     style="background-image: url(images/banner/banner-bg-03-1920x310.jpg); background-image: -webkit-image-set(url(images/banner/banner-bg-03-1920x310.jpg) 1x, url(images/banner/banner-bg-03-3840x620.jpg) 2x);">
-    <img src="images/banner/banner-fg-03-1600x310.png"
-         srcset="images/banner/banner-fg-03-1600x310.png 1x, images/banner/banner-fg-03-3200x620.png 2x"
+     style="background-image: url(images/banner/banner-bg-03-1920x310.webp); background-image: -webkit-image-set(url(images/banner/banner-bg-03-1920x310.webp) 1x, url(images/banner/banner-bg-03-3840x620.webp) 2x);">
+    <img src="images/banner/banner-fg-03-1600x310.webp"
+         srcset="images/banner/banner-fg-03-1600x310.webp 1x, images/banner/banner-fg-03-3200x620.webp 2x"
          alt="Smart Choice Contractors USA promotion banner"
          width="1920"
          height="310"

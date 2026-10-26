@@ -71,7 +71,7 @@
 </script>
 
 <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/custom.css?v=20261023">
 
@@ -87,7 +87,7 @@
   <div class="container">
     <div class="row row-30">
       <div class="col-sm-6 col-lg-4 text-center">
-        <a class="thumbnail thumbnail-secondary smart-hover-card" href="remodeling-services.php" style="background-image: url(images/img-01-370x370.jpg)">
+        <a class="thumbnail thumbnail-secondary smart-hover-card" href="remodeling-services.php" style="background-image: url(images/img-01-370x370.webp)">
           <div class="thumbnail-caption">
             <h3 class="thumbnail-heading">Premium Craftsmanship</h3>
             <div class="thumbnail-inner">
@@ -115,7 +115,7 @@
       </div>
 
       <div class="col-sm-6 col-lg-4 text-center">
-        <a class="thumbnail smart-hover-card" href="residential-commercial-construction.php" style="background-image: url(images/img-03-370x370.jpg)">
+        <a class="thumbnail smart-hover-card" href="residential-commercial-construction.php" style="background-image: url(images/img-03-370x370.webp)">
           <div class="thumbnail-caption">
             <h3 class="thumbnail-heading">Residential & Commercial Work</h3>
             <div class="thumbnail-inner">
@@ -129,7 +129,7 @@
       </div>
 
       <div class="col-sm-6 col-lg-4 text-center">
-        <a class="thumbnail thumbnail-primary smart-hover-card" href="project-management.php" style="background-image: url(images/img-04-370x370.jpg)">
+        <a class="thumbnail thumbnail-primary smart-hover-card" href="project-management.php" style="background-image: url(images/img-04-370x370.webp)">
           <div class="thumbnail-caption">
             <h3 class="thumbnail-heading">Complete Project Management</h3>
             <div class="thumbnail-inner">
@@ -143,7 +143,7 @@
       </div>
 
       <div class="col-sm-6 col-lg-4 text-center">
-        <a class="thumbnail thumbnail-secondary smart-hover-card" href="energy-efficient-upgrades.php" style="background-image: url(images/img-05-370x370.jpg)">
+        <a class="thumbnail thumbnail-secondary smart-hover-card" href="energy-efficient-upgrades.php" style="background-image: url(images/img-05-370x370.webp)">
           <div class="thumbnail-caption">
             <h3 class="thumbnail-heading">Efficient Building Solutions</h3>
             <div class="thumbnail-inner">

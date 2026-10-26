@@ -50,7 +50,10 @@ gtag('config', 'G-CLX99EJXW2', {
 <meta name="twitter:image" content="https://justsmartchoice.com/images/fg-image.png">
 
 <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="image" href="images/slides/slide-01-2050x610.webp" fetchpriority="high">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/custom.css?v=64">
 <meta name="ahrefs-site-verification" content="ea7d03c067833893acef13969fe9f074f746e3126ce547228f74e80e1bcb6e73">
@@ -121,7 +124,7 @@ gtag('config', 'G-CLX99EJXW2', {
 <section class="swiper-container" data-autoplay="5000" data-loop="true">
 <div class="swiper-wrapper">
 
-<div class="swiper-slide" data-slide-bg="images/slides/slide-01-2050x610.jpg">
+<div class="swiper-slide" data-slide-bg="images/slides/slide-01-2050x610.webp" style="background-image:url(images/slides/slide-01-2050x610.webp)">
 <div class="swiper-slide-caption">
 <div class="container">
 <div class="row">
@@ -139,7 +142,7 @@ gtag('config', 'G-CLX99EJXW2', {
 </div>
 </div>
 
-<div class="swiper-slide" data-slide-bg="images/slides/slide-02-2050x610.jpg">
+<div class="swiper-slide" data-slide-bg="images/slides/slide-02-2050x610.webp">
 <div class="swiper-slide-caption">
 <div class="container">
 <div class="row">
@@ -157,7 +160,7 @@ gtag('config', 'G-CLX99EJXW2', {
 </div>
 </div>
 
-<div class="swiper-slide" data-slide-bg="images/slides/slide-03-2050x610.jpg">
+<div class="swiper-slide" data-slide-bg="images/slides/slide-03-2050x610.webp">
 <div class="swiper-slide-caption">
 <div class="container">
 <div class="row">
@@ -190,7 +193,7 @@ gtag('config', 'G-CLX99EJXW2', {
 <div class="row row-30">
 
 <div class="col-sm-6 col-lg-4 text-center">
-<a class="thumbnail thumbnail-secondary" href="services.php" style="background-image:url(images/img-01-370x370.jpg)">
+<a class="thumbnail thumbnail-secondary" href="services.php" style="background-image:url(images/img-01-370x370.webp)">
 <div class="thumbnail-caption">
 <h3 class="thumbnail-heading">Premium Craftsmanship</h3>
 <div class="thumbnail-inner">
@@ -214,7 +217,7 @@ gtag('config', 'G-CLX99EJXW2', {
 </div>
 
 <div class="col-sm-6 col-lg-4 text-center">
-<a class="thumbnail" href="services.php" style="background-image:url(images/img-03-370x370.jpg)">
+<a class="thumbnail" href="services.php" style="background-image:url(images/img-03-370x370.webp)">
 <div class="thumbnail-caption">
 <h3 class="thumbnail-heading">Industry-Leading Experience</h3>
 <div class="thumbnail-inner">
@@ -226,7 +229,7 @@ gtag('config', 'G-CLX99EJXW2', {
 </div>
 
 <div class="col-sm-6 col-lg-4 text-center">
-<a class="thumbnail thumbnail-primary" href="contacts.php" style="background-image:url(images/img-04-370x370.jpg)">
+<a class="thumbnail thumbnail-primary" href="contacts.php" style="background-image:url(images/img-04-370x370.webp)">
 <div class="thumbnail-caption">
 <h3 class="thumbnail-heading">Complete Project Support</h3>
 <div class="thumbnail-inner">
@@ -238,7 +241,7 @@ gtag('config', 'G-CLX99EJXW2', {
 </div>
 
 <div class="col-sm-6 col-lg-4 text-center">
-<a class="thumbnail thumbnail-secondary" href="services.php" style="background-image:url(images/img-05-370x370.jpg)">
+<a class="thumbnail thumbnail-secondary" href="services.php" style="background-image:url(images/img-05-370x370.webp)">
 <div class="thumbnail-caption">
 <h3 class="thumbnail-heading">Innovative Construction Solutions</h3>
 <div class="thumbnail-inner">
@@ -318,7 +321,7 @@ Our
 </div>
 
 <div class="col-md-6">
-<img src="images/img-06-570x350.png" alt="Construction and remodeling services" width="570" height="350"/>
+<img src="images/img-06-570x350.webp" alt="Construction and remodeling services" width="570" height="350" loading="lazy" decoding="async"/>
 </div>
 
 </div>

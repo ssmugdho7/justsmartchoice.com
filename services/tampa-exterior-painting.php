@@ -14,7 +14,7 @@
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://justsmartchoice.com/services/assets/img/painting-1.webp">
 <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap">
 <link rel="stylesheet" href="/css/style.css">
 <link rel="stylesheet" href="/css/custom.css?v=70">
 <link rel="stylesheet" href="/services/assets/css/service-pages-v3.css?v=2">

@@ -162,7 +162,7 @@
 </script>
 
 <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/custom.css?v=60">
 <style>
@@ -528,7 +528,7 @@
 
       <figure class="smart-service-figure">
         <img class="smart-image-hover"
-             src="images/img-06-570x350.png"
+             src="images/img-06-570x350.webp"
              alt="Professional electrical services by Smart Choice Contractors USA"
              width="570"
              height="350">

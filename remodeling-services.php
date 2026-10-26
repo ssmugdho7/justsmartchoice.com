@@ -46,7 +46,7 @@ gtag('config', 'G-CLX99EJXW2', {'anonymize_ip': true});
 <meta name="twitter:image" content="https://justsmartchoice.com/images/fg-image.png">
 
 <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/custom.css?v=64">
 
@@ -253,7 +253,7 @@ gtag('config', 'G-CLX99EJXW2', {'anonymize_ip': true});
  align-items:center;
  background:
  linear-gradient(90deg,rgba(11,40,25,.94),rgba(11,40,25,.72)),
- url('images/slides/slide-01-2050x610.jpg') center/cover no-repeat;
+ url('images/slides/slide-01-2050x610.webp') center/cover no-repeat;
  color:#fff;
  padding:90px 0;
 }

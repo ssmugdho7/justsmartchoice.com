@@ -12,7 +12,7 @@
     <meta property="og:url" content="https://www.smartchoiceusa.com/calculator">
     <meta property="og:type" content="website">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap">
     <link rel="stylesheet" href="css/style.css">
 
     <style>

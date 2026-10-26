@@ -50,13 +50,13 @@ $schema = [
 <meta name="twitter:description" content="Get help with construction plans, permit drawings and building permit coordination in Tampa Bay, Florida.">
 <meta name="twitter:image" content="https://justsmartchoice.com/images/fg-image.png">
 <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/custom.css?v=64">
 <meta name="ahrefs-site-verification" content="ea7d03c067833893acef13969fe9f074f746e3126ce547228f74e80e1bcb6e73">
 <script type="application/ld+json"><?php echo json_encode($schema,JSON_UNESCAPED_SLASHES|JSON_UNESCAPED_UNICODE|JSON_HEX_TAG|JSON_HEX_AMP|JSON_HEX_APOS|JSON_HEX_QUOT); ?></script>
 <style>
-.sc-permits .sc-hero{background:linear-gradient(110deg,rgba(18,40,31,.94),rgba(25,65,48,.84)),url('images/slides/slide-01-2050x610.jpg') center/cover; color:#fff;padding:95px 0}
+.sc-permits .sc-hero{background:linear-gradient(110deg,rgba(18,40,31,.94),rgba(25,65,48,.84)),url('images/slides/slide-01-2050x610.webp') center/cover; color:#fff;padding:95px 0}
 .sc-permits .sc-hero h1{color:#fff;font-size:clamp(32px,4vw,56px);line-height:1.13;margin-bottom:20px}
 .sc-permits .sc-hero p{color:#f0f5f1;font-size:18px;max-width:750px}
 .sc-permits .sc-eyebrow{font-weight:800;letter-spacing:2px;text-transform:uppercase;color:#f2a13a;font-size:13px}
