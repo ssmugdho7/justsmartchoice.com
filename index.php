@@ -281,49 +281,165 @@ Welcome
 </div>
 </section>
 
-<!-- SERVICES -->
-<section class="section-md">
-<div class="container">
-<div class="row row-30">
 
-<div class="col-12">
-<h2 class="text-uppercase">
-Our 
-<span class="font-weight-light">Services</span>
-</h2>
-</div>
+<!-- OUR SERVICES SECTION -->
+<section class="section-md smart-choice-services-section">
+  <div class="container">
+    <div class="row row-30">
 
-<div class="col-md-6">
+      <!-- SECTION TITLE -->
+      <div class="col-12">
+        <h2 class="text-uppercase">
+          Our
+          <span class="font-weight-light">Services</span>
+        </h2>
+      </div>
 
-<a class="panel" href="services.php">
-<h4 class="panel-heading">New Construction & Remodeling</h4>
-<div class="panel-icon fa-angle-right"></div>
-</a>
+      <!-- LEFT COLUMN: SIX SERVICES -->
+      <div class="col-md-6">
 
-<a class="panel" href="services.php">
-<h4 class="panel-heading">Custom Carpentry and Kitchen & Bathroom Remodeling</h4>
-<div class="panel-icon fa-angle-right"></div>
-</a>
+        <!-- Service 1 -->
+        <a class="panel" href="residential-commercial-construction.php">
+          <h4 class="panel-heading">
+            New Construction &amp; Remodeling
+          </h4>
+          <div class="panel-icon fa-angle-right"></div>
+        </a>
 
-<a class="panel" href="services.php">
-<h4 class="panel-heading">Electrical & Green Energy Solutions</h4>
-<div class="panel-icon fa-angle-right"></div>
-</a>
+        <!-- Service 2 -->
+        <a class="panel" href="services.php">
+          <h4 class="panel-heading">
+            Custom Carpentry &amp; Woodworking
+          </h4>
+          <div class="panel-icon fa-angle-right"></div>
+        </a>
 
-<a class="panel" href="services.php">
-<h4 class="panel-heading">Roofing Installation & Repairs</h4>
-<div class="panel-icon fa-angle-right"></div>
-</a>
+        <!-- Service 3 -->
+        <a class="panel" href="energy-efficient-upgrades.php">
+          <h4 class="panel-heading">
+            Electrical &amp; Green Energy Solutions
+          </h4>
+          <div class="panel-icon fa-angle-right"></div>
+        </a>
 
-</div>
+        <!-- Service 4 -->
+        <a class="panel" href="services.php">
+          <h4 class="panel-heading">
+            Roofing Installation &amp; Repairs
+          </h4>
+          <div class="panel-icon fa-angle-right"></div>
+        </a>
 
-<div class="col-md-6">
-<img src="images/img-06-570x350.png" alt="Construction and remodeling services" width="570" height="350"/>
-</div>
+        <!-- Service 5: NEW -->
+        <a class="panel" href="construction-drawings-permits.php">
+          <h4 class="panel-heading">
+            Engineering &amp; Construction Drafting
+          </h4>
+          <div class="panel-icon fa-angle-right"></div>
+        </a>
 
-</div>
-</div>
+        <!-- Service 6: NEW -->
+        <a class="panel" href="remodeling-services.php">
+          <h4 class="panel-heading">
+            Kitchen &amp; Bathroom Remodeling
+          </h4>
+          <div class="panel-icon fa-angle-right"></div>
+        </a>
+
+      </div>
+
+      <!-- RIGHT COLUMN: IMAGE WITH ZOOM EFFECT -->
+      <div class="col-md-6">
+
+        <div class="smart-choice-services-image">
+
+          <img
+            src="images/img-06-570x350.png"
+            alt="Smart Choice Contractors USA residential and commercial construction remodeling services"
+            width="570"
+            height="350"
+            loading="lazy">
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
 </section>
+
+<!-- OUR SERVICES CUSTOM STYLING -->
+<style>
+
+  /* Services image container */
+  .smart-choice-services-image {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 6px;
+    position: relative;
+  }
+
+  /* Smooth image animation */
+  .smart-choice-services-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+    transform: scale(1);
+    transform-origin: center center;
+
+    transition: transform 0.5s ease-in-out;
+    will-change: transform;
+  }
+
+  /* Image enlarges when mouse hovers */
+  .smart-choice-services-image:hover img {
+    transform: scale(1.08);
+  }
+
+  /* Services hover animation */
+  .smart-choice-services-section .panel {
+    transition:
+      background-color 0.25s ease,
+      transform 0.25s ease;
+  }
+
+  /* Slight movement when hovering over services */
+  .smart-choice-services-section .panel:hover {
+    transform: translateX(4px);
+  }
+
+  /* Responsive layout */
+  @media (max-width: 767px) {
+
+    .smart-choice-services-image {
+      margin-top: 15px;
+    }
+
+    .smart-choice-services-section .panel-heading {
+      font-size: 17px;
+      line-height: 1.4;
+    }
+
+  }
+
+  /* Respect reduced-motion preferences */
+  @media (prefers-reduced-motion: reduce) {
+
+    .smart-choice-services-image img,
+    .smart-choice-services-section .panel {
+      transition: none;
+    }
+
+    .smart-choice-services-image:hover img,
+    .smart-choice-services-section .panel:hover {
+      transform: none;
+    }
+
+  }
+
+</style>
+
 
 <!-- Our customers Finished Projects -->
 <?php include 'sections-library/call-to-action.html'; ?>

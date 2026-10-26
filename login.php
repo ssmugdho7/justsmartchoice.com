@@ -419,7 +419,7 @@
 <section class="smart-login-hero">
   <div class="container">
     <div class="smart-login-heading">
-      <span class="smart-login-eyebrow">Secure Online Access</span>
+      <span class="smart-login-eyebrow">Secure Encrypted Online Access</span>
       <h1>Smart Choice Online Portals</h1>
       <p>Choose the portal that matches your account to review project information, documents, messages, schedules, and company resources.</p>
     </div>
@@ -431,7 +431,7 @@
           <span class="fa fa-home"></span>
         </div>
         <h2>Customer Portal</h2>
-        <p>View project updates, estimates, invoices, contracts, appointments, files, and messages.</p>
+        <p>View project updates, estimates, invoices, contracts, appointments, files, messages, and Overlook of your projects.</p>
         <a href="https://crm.justsmartchoice.com/authentication/login" target="_blank" rel="noopener" class="smart-login-access-button">
           <span class="fa fa-user" aria-hidden="true"></span>
           <span>Customer Login</span>
@@ -443,8 +443,8 @@
         <div class="smart-login-access-icon" aria-hidden="true">
           <span class="fa fa-users"></span>
         </div>
-        <h2>Partners &amp; Workforce Portal</h2>
-        <p>Access assignments, project documents, company resources, files, and team communication.</p>
+        <h2>Partners &amp; Team Portal</h2>
+        <p>Access assignments, project documents, company resources, files, and team communication for your clients.</p>
         <a href="https://crm.justsmartchoice.com/admin" target="_blank" rel="noopener" class="smart-login-access-button">
           <span class="fa fa-lock" aria-hidden="true"></span>
           <span>Workforce Login</span>
@@ -617,16 +617,33 @@ Our experience in construction, engineering planning, remodeling, and property i
         <div class="testimonial-img">
           <img
             class="smart-image-hover"
-            src="images/persons/carlos_mendoza.jpg"
+            src="images/persons/carlos-rivera.webp"
             alt="Smart Choice Contractors USA operations and construction management"
             width="170"
             height="168">
         </div>
 
         <div class="testimonial-inner">
-          <q class="testimonial-quote">
-            Our mission is to provide clients, contractors, team members, and project partners with organized tools that improve communication, project tracking, document access, scheduling, and construction efficiency. Through our digital platform, we make important information easier to access and help every project move with better coordination.
-          </q>
+         
+<q class="testimonial-quote" style="text-align: justify; text-justify: inter-word; display: block;">
+  At Smart Choice Contractors USA, our mission goes beyond exceptional
+  construction services. We are committed to quality workmanship,
+  professionalism, transparency, and outstanding customer care.
+  Every successful project begins with clear communication,
+  careful organization, and a commitment to customer satisfaction.
+
+  Our vision is to transform the construction experience through
+  advanced technology, innovative management systems, and digital
+  solutions that many traditional contractors have yet to adopt.
+  From real-time project tracking and scheduling to document
+  management and team coordination, our technology improves
+  efficiency, accountability, and convenience.
+
+  My responsibility is to ensure every customer enjoys an exceptional
+  experience, stays informed, and feels confident throughout their
+  project. We do more than build properties. We build trust, lasting relationships, and a smarter future for construction.
+</q>
+
           <cite class="testimonial-author">
             Smart Choice Contractors USA Operations Team
           </cite>
@@ -637,32 +654,158 @@ Our experience in construction, engineering planning, remodeling, and property i
   </div>
 </section>
 
-<!-- Partners Section -->
+
+<!-- Our Construction Partners & Contractor Toolbox Section -->
 <section class="section-sm bg-gray-100 smart-login-wide-section">
   <div class="container">
-    <div class="smart-login-card">
+    <div class="smart-login-card smart-contractor-toolbox">
 
-      <h3>Our Construction Partners</h3>
+      <h3>Our Construction Partners &amp; Contractors Toolbox</h3>
 
       <p>
-        Our partners are an essential part of our success. Smart Choice Contractors USA works with reliable professionals, suppliers, subcontractors, vendors, and skilled tradespeople who share our commitment to quality, safety, communication, and customer satisfaction.
+        At Smart Choice Contractors USA, we believe successful
+        construction projects begin with skilled professionals,
+        strong partnerships, organized planning, and access to
+        reliable information. Our Contractor Toolbox is a
+        centralized resource center designed to support
+        contractors, subcontractors, construction employees,
+        project managers, suppliers, and homeowners with
+        practical tools, industry resources, and important
+        construction information.
       </p>
 
       <p>
-        Through our Contractor Toolbox platform, partners can access valuable resources, construction forms, project information, communication tools, and systems designed to improve productivity and collaboration.
+        Inside our Toolbox, visitors can access construction
+        calculators for concrete quantities, flooring materials,
+        paint coverage, vinyl fencing, feet and inches,
+        fractions, and general construction measurements.
+        These tools help with material estimating, field
+        calculations, project preparation, and budgeting.
+        Our construction pricing guide also provides
+        information to assist with preliminary cost planning.
       </p>
 
       <p>
-        Strong partnerships create better construction results. By combining experience, technology, accountability, and teamwork, we deliver projects with better organization and stronger client confidence.
+        The Toolbox also provides access to contractor insurance
+        resources, including general liability, workers'
+        compensation, commercial auto, tools and equipment,
+        and builder's risk coverage. Contractors can explore
+        insurance providers, request quotes, and review
+        coverage information before beginning construction
+        projects. Additional resources include OSHA
+        construction safety training, authorized training
+        providers, workplace hazard awareness, and
+        professional safety education.
       </p>
 
-      <a href="toolbox.php" class="button button-primary">
-        Explore Contractor Toolbox
-      </a>
+      <p>
+        For construction documentation, our Toolbox includes
+        links to contract samples, subcontractor agreements,
+        renovation agreements, notices of commencement,
+        change orders, lien waivers, payment forms,
+        government contracting opportunities, and other
+        project paperwork. These resources help contractors
+        and customers better understand documentation,
+        responsibilities, and project requirements.
+      </p>
+
+      <p>
+        We also provide practical jobsite rules for contractors
+        working inside occupied homes and businesses, including
+        customer privacy, property protection, workplace safety,
+        professional conduct, daily cleanup, communication,
+        and proper project documentation. Homeowners can
+        review their responsibilities regarding property access,
+        material selections, project approvals, payment
+        schedules, and construction expectations.
+      </p>
+
+      <p>
+        Our goal is to combine professional construction
+        experience with modern technology, better organization,
+        and accessible information. By providing these
+        resources in one convenient location, Smart Choice
+        Contractors USA helps construction professionals
+        prepare more effectively, improve communication,
+        reduce avoidable mistakes, and deliver a more
+        organized and dependable customer experience.
+      </p>
+
+      <div class="smart-toolbox-button-wrapper">
+        <a href="toolbox.php"
+           class="button button-primary smart-toolbox-button"
+           aria-label="Explore Smart Choice Contractors USA Contractor Toolbox">
+          Explore Contractor Toolbox
+        </a>
+      </div>
 
     </div>
   </div>
 </section>
+
+<!-- Contractor Toolbox Custom Styling -->
+<style>
+
+  /* Keep existing card design */
+  .smart-contractor-toolbox {
+    width: 100%;
+  }
+
+  /* Section heading */
+  .smart-contractor-toolbox h3 {
+    margin-bottom: 22px;
+  }
+
+  /* Fully justified descriptions */
+  .smart-contractor-toolbox p {
+    text-align: justify;
+    text-justify: inter-word;
+    text-align-last: left;
+    line-height: 1.75;
+    margin-bottom: 17px;
+    hyphens: auto;
+    overflow-wrap: break-word;
+  }
+
+  /* Button alignment */
+  .smart-toolbox-button-wrapper {
+    margin-top: 25px;
+    text-align: left;
+  }
+
+  /* Preserve existing button colors */
+  .smart-toolbox-button {
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.25s ease;
+  }
+
+  /* Mobile adjustments */
+  @media (max-width: 767px) {
+
+    .smart-contractor-toolbox h3 {
+      font-size: 24px;
+      line-height: 1.3;
+    }
+
+    .smart-contractor-toolbox p {
+      line-height: 1.65;
+      margin-bottom: 15px;
+    }
+
+    .smart-toolbox-button-wrapper {
+      text-align: center;
+    }
+
+    .smart-toolbox-button {
+      width: 100%;
+      max-width: 320px;
+    }
+
+  }
+
+</style>
+
 
 <!-- Portal Benefits -->
 <section class="section-md smart-login-wide-section">
@@ -725,7 +868,7 @@ Our experience in construction, engineering planning, remodeling, and property i
         <p>
           Book a consultation, share project details, and start the next step with our team.
         </p>
-        <a href="https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2" target="_blank" rel="noopener">
+        <a href="https://crm.justsmartchoice.com/appointly/appointments" target="_blank" rel="noopener">
           Book Appointment
         </a>
       </div>

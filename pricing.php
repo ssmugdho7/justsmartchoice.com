@@ -338,7 +338,7 @@
           </div>
 
           <div class="smart-buy-services text-center">
-    <a href="https://crm.justsmartchoice.com/products/clientes"
+    <a href="https://crm.justsmartchoice.com/products/client"
        class="smart-buy-services-link"
        target="_blank"
        rel="noopener noreferrer">
