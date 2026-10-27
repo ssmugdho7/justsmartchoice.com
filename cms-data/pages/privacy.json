@@ -1,0 +1,30 @@
+{
+  "seo": {
+    "title": "Privacy Policy - Smart Choice Contractors USA",
+    "description": "Smart Choice Contractors USA Privacy Policy. Learn how we collect, use, and protect your personal information in compliance with Florida state laws.",
+    "keywords": "Privacy Policy - Smart Choice Contractors USA, Tampa Bay, Florida Contractor",
+    "og_image": "/images/fg-image.png"
+  },
+  "hero": {
+    "heading": "Privacy Policy",
+    "subtitle": "Smart Choice Contractors USA Privacy Policy. Learn how we collect, use, and protect your personal information in compliance with Florida state laws.",
+    "bg_image": "images/ie8-panel/warning_bar_0000_us.jpg"
+  },
+  "sections": {
+    "main_content": {
+      "heading": "Information We Collect",
+      "body": "At Just Smart Choice Construction USA, we provide comprehensive privacy policy - smart choice contractors usa solutions designed for property owners throughout Tampa Bay and Central Florida.",
+      "featured_image": "images/logo-364x52.png"
+    },
+    "details": {
+      "heading": "How We Use Your Information",
+      "body": "Every project is planned around applicable Florida building codes, high quality materials, licensed trade coordination, and transparent pricing."
+    }
+  },
+  "call_to_action": {
+    "heading": "Ready to Plan Your Privacy Policy - Smart Choice Contractors USA Project?",
+    "subtitle": "Contact our Florida licensed construction team at (727) 755-3786 to discuss scope, timeline, and next steps.",
+    "btn_label": "Request an Estimate",
+    "btn_url": "contacts.php"
+  }
+}

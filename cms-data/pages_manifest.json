@@ -1,0 +1,121 @@
+[
+  {
+    "slug": "home",
+    "file": "index.php",
+    "title": "Home Page",
+    "category": "Primary Pages",
+    "route": "/index.php"
+  },
+  {
+    "slug": "about",
+    "file": "about.php",
+    "title": "About Us",
+    "category": "Primary Pages",
+    "route": "/about.php"
+  },
+  {
+    "slug": "services",
+    "file": "services.php",
+    "title": "Construction Services",
+    "category": "Primary Pages",
+    "route": "/services.php"
+  },
+  {
+    "slug": "pricing",
+    "file": "pricing.php",
+    "title": "Pricing & Cost Guide",
+    "category": "Primary Pages",
+    "route": "/pricing.php"
+  },
+  {
+    "slug": "financing",
+    "file": "financing.php",
+    "title": "Customer Financing",
+    "category": "Primary Pages",
+    "route": "/financing.php"
+  },
+  {
+    "slug": "contacts",
+    "file": "contacts.php",
+    "title": "Contact Us",
+    "category": "Primary Pages",
+    "route": "/contacts.php"
+  },
+  {
+    "slug": "blog",
+    "file": "blog.php",
+    "title": "Construction Blog",
+    "category": "Primary Pages",
+    "route": "/blog.php"
+  },
+  {
+    "slug": "login",
+    "file": "login.php",
+    "title": "Customer Portal Login",
+    "category": "Primary Pages",
+    "route": "/login.php"
+  },
+  {
+    "slug": "career",
+    "file": "career.php",
+    "title": "Careers & Employment",
+    "category": "Core Business & Operations",
+    "route": "/career.php"
+  },
+  {
+    "slug": "partners",
+    "file": "partners.php",
+    "title": "Partners & Suppliers",
+    "category": "Core Business & Operations",
+    "route": "/partners.php"
+  },
+  {
+    "slug": "investors",
+    "file": "investors.php",
+    "title": "Investor Relations",
+    "category": "Core Business & Operations",
+    "route": "/investors.php"
+  },
+  {
+    "slug": "faqs",
+    "file": "faqs.php",
+    "title": "Frequently Asked Questions (FAQ)",
+    "category": "Core Business & Operations",
+    "route": "/faqs.php"
+  },
+  {
+    "slug": "forms",
+    "file": "forms.php",
+    "title": "Construction Forms & Documents",
+    "category": "Core Business & Operations",
+    "route": "/forms.php"
+  },
+  {
+    "slug": "appointment",
+    "file": "appointment.php",
+    "title": "Schedule Consultation & Appointments",
+    "category": "Core Business & Operations",
+    "route": "/appointment.php"
+  },
+  {
+    "slug": "new-project-process",
+    "file": "new-project-process.php",
+    "title": "New Project Workflow Process",
+    "category": "Core Business & Operations",
+    "route": "/new-project-process.php"
+  },
+  {
+    "slug": "permitstatus",
+    "file": "permitstatus.php",
+    "title": "Permit & Inspection Status Lookup",
+    "category": "Core Business & Operations",
+    "route": "/permitstatus.php"
+  },
+  {
+    "slug": "notice-of-commencement",
+    "file": "notice-of-commencement.php",
+    "title": "Florida Notice of Commencement (NOC)",
+    "category": "Core Business & Operations",
+    "route": "/notice-of-commencement.php"
+  }
+]

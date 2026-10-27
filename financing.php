@@ -217,289 +217,104 @@
   <div class="container">
     <div class="row row-10">
       <div class="col-12">
-        <h1 class="h2 text-uppercase text-primary">Customer's &nbsp;&nbsp;<span class="font-weight-light">Financing services!</span></h1>
+        <h1 class="h2 text-uppercase text-primary" <?php echo cms_bind('financing', 'welcome.heading'); ?>>
+          <?php echo htmlspecialchars(cms_field('financing', 'welcome.heading', "Customer's Financing services!")); ?>
+        </h1>
       </div>
       <div class="col-md-6">
-        <p style="text-align: justify;">Welcome to <span style="color: #169179;">Smart Choice Contractors USA</span>, your trusted partner in turnkey construction solutions. We specialize in residential and commercial projects, delivering high-quality craftsmanship with precision. Our services include new construction, full renovations, room additions, electrical work, roofing, fencing, carpentry, and structural repairs. We prioritize customer satisfaction, premium materials, and timely project execution. Our skilled team ensures every project meets top standards, whether a minor repair or a complete development. With Smart Choice Contractors, you receive reliable service and outstanding results tailored to your needs. We understand that financing plays a significant role in your project, which is why we offer recommendations for trusted financial institutions that have helped our clients secure funding for their home improvement and construction needs.</p>
+        <p style="text-align: justify;" <?php echo cms_bind('financing', 'welcome.p1'); ?>>
+          <?php echo htmlspecialchars(cms_field('financing', 'welcome.p1', 'Welcome to Smart Choice Contractors USA, your trusted partner in turnkey construction solutions. We specialize in residential and commercial projects, delivering high-quality craftsmanship with precision. Our services include new construction, full renovations, room additions, electrical work, roofing, fencing, carpentry, and structural repairs. We prioritize customer satisfaction, premium materials, and timely project execution. Our skilled team ensures every project meets top standards, whether a minor repair or a complete development. With Smart Choice Contractors, you receive reliable service and outstanding results tailored to your needs. We understand that financing plays a significant role in your project, which is why we offer recommendations for trusted financial institutions that have helped our clients secure funding for their home improvement and construction needs.')); ?>
+        </p>
       </div>
       <div class="col-md-6">
-        <p style="text-align: justify;">At <span style="color: #169179;">Smart Choice Contractors</span>, we are dedicated to transforming spaces with expertise and care. Our services include exterior and interior remodeling, kitchen and bathroom upgrades, flooring, drywall, painting, and full-scale property restoration. We use durable materials, modern techniques, and expert labor to enhance both aesthetics and functionality. From foundation work to final finishes, our team manages every construction phase with professionalism and clear communication. Choose Smart Choice Contractors for trusted workmanship and top-tier customer service. Let’s build your vision—on schedule and within budget. With financing options available, we make it easier for you to turn your ideas into reality by partnering with lenders who offer fast, reliable services that fit your project’s needs. Explore your options today and get started with us on your next project. <a class="custom-link" href="#"><span class="custom-link-icon fa-angle-right"></span></a>.</p>
+        <p style="text-align: justify;" <?php echo cms_bind('financing', 'welcome.p2'); ?>>
+          <?php echo htmlspecialchars(cms_field('financing', 'welcome.p2', 'At Smart Choice Contractors, we are dedicated to transforming spaces with expertise and care. Our services include exterior and interior remodeling, kitchen and bathroom upgrades, flooring, drywall, painting, and full-scale property restoration. We use durable materials, modern techniques, and expert labor to enhance both aesthetics and functionality. From foundation work to final finishes, our team manages every construction phase with professionalism and clear communication. Choose Smart Choice Contractors for trusted workmanship and top-tier customer service. Let’s build your vision—on schedule and within budget. With financing options available, we make it easier for you to turn your ideas into reality by partnering with lenders who offer fast, reliable services that fit your project’s needs. Explore your options today and get started with us on your next project.')); ?>
+        </p>
+        <div style="margin-top: 20px;">
+          <a href="/pricing.php" class="button button-sm button-primary" style="display: inline-flex; align-items: center; gap: 8px; font-weight: 700; letter-spacing: 0.3px;">
+            <i class="fa fa-calculator" aria-hidden="true"></i> View Project Pricing &amp; Rates
+          </a>
+        </div>
       </div>
     </div>
   </div>
-```html
+</section>
+
 <section class="section-md smart-financing-section">
   <div class="container">
     <div class="row row-30 align-items-stretch">
 
-      <!-- =====================================================
-           SECTION TITLE
-           ===================================================== -->
+      <!-- SECTION TITLE -->
       <div class="col-12">
-        <h2 class="text-uppercase smart-financing-title">
-          Financing Online <span class="font-weight-light">Application</span>
+        <h2 class="text-uppercase smart-financing-title" <?php echo cms_bind('financing', 'hero.title'); ?>>
+          <?php echo htmlspecialchars(cms_field('financing', 'hero.title', 'Financing Online Application')); ?>
         </h2>
       </div>
 
-
-      <!-- =====================================================
-           LEFT COLUMN: FINANCING INSTITUTIONS
-           ===================================================== -->
+      <!-- LEFT COLUMN: FINANCING INSTITUTIONS -->
       <div class="col-md-6 smart-financing-column">
-
         <div class="smart-financing-panel-list">
-
-          <!-- Discover Home Equity -->
-          <a
-            class="panel smart-financing-panel"
-            href="https://www.discover.com/personal-loans/lp/hi/lo/?&cpn=sem:brand:national&ds_c=DFS_GGL_SCH_CNV_DPL_PersonalLoans_PRP_PersonalLoans_NA_NA_DMT_BRAND_BRD&ds_kids=384382996301&device=c_GGL_BRD_TROAS_NA&gad_source=1&gad_campaignid=22807725059&gbraid=0AAAAADk_fiwu5d4Z2dXxId9YDxndNe4Ry&gclid=Cj0KCQjwo63HBhCKARIsAHOHV_UZcrL2LT_52ziDJLEUPmUIGR2PCHukwmSygbU_pQIx9qXtsPolM24aAq07EALw_wcB&gclsrc=aw.ds"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span class="smart-financing-bank-name">
-              Discover Home Equity
-            </span>
-
-            <span class="smart-financing-arrow fa-angle-right"></span>
-          </a>
-
-
-          <!-- Hometap -->
-          <a
-            class="panel smart-financing-panel"
-            href="https://go.hometap.com/inquiry/info/property/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span class="smart-financing-bank-name">
-              Hometap
-            </span>
-
-            <span class="smart-financing-note">
-              May accept credit scores starting around 500
-            </span>
-
-            <span class="smart-financing-arrow fa-angle-right"></span>
-          </a>
-
-
-          <!-- HFS -->
-          <a
-            class="panel smart-financing-panel"
-            href="https://apply.hfsfinancial.net/prequalification?_gl=1*13k4i5s*_gcl_au*MjA0Mjg3MjA5MC4xNzQxODI2NTMxLjEyNDMzNjM3MTguMTc0MTgyNjUzMS4xNzQxODI3OTQ4"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span class="smart-financing-bank-name">
-              HFS Home Improvement Loans
-            </span>
-
-            <span class="smart-financing-arrow fa-angle-right"></span>
-          </a>
-
-
-          <!-- Hearth -->
-          <a
-            class="panel smart-financing-panel"
-            href="https://gethearth.com/referral-home/?grsf=harold-h71fya"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span class="smart-financing-bank-name">
-              Hearth Home Improvement
-            </span>
-
-            <span class="smart-financing-arrow fa-angle-right"></span>
-          </a>
-
-
-          <!-- Florida Credit Union -->
-          <a
-            class="panel smart-financing-panel"
-            href="https://app.consumer.meridianlink.com/pl/PersonalLoan.aspx?enc=Kw21Wblm1yxpjJabdoZaD8wqqpJ4bva4u1RBmM8mJUV86n8gVHfZ3rRS6hL46mrc6PTAB8-HS0cpkANrtKAldA"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span class="smart-financing-bank-name">
-              Florida Credit Union
-            </span>
-
-            <span class="smart-financing-arrow fa-angle-right"></span>
-          </a>
-
-
-          <!-- Upstart -->
-          <a
-            class="panel smart-financing-panel"
-            href="https://www.upstart.com/home-improvement-loans"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span class="smart-financing-bank-name">
-              Upstart
-            </span>
-
-            <span class="smart-financing-arrow fa-angle-right"></span>
-          </a>
-
-
-          <!-- Republic Bank -->
-          <a
-            class="panel smart-financing-panel"
-            href="https://republic.my.site.com/lending/s/mortgage?utm_medium=PaidSearch&utm_term=C000087&utm_content=GoogleTextAds&utm_campaign=SEMHelocTampa&utm_source=Heloc&tfa_185=Heloc&tfa_189=PaidSearch&tfa_181=C000005&tfa_183=GoogleTextAds&tfa_182=SEMHelocTampa&gad_source=1&gad_campaignid=16572699250&gbraid=0AAAAADnmWGWH1Uiel85RNbD4QXZHegmCZ&gclid=Cj0KCQjwo63HBhCKARIsAHOHV_UYWd0QD4KP-9nNr7sK7KLK9eJ9GY2NPsSDI4hsHwmPnHdB286mjXAaAu8DEALw_wcB"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span class="smart-financing-bank-name">
-              Republic Bank
-            </span>
-
-            <span class="smart-financing-arrow fa-angle-right"></span>
-          </a>
-
-
-          <!-- PNC -->
-          <a
-            class="panel smart-financing-panel"
-            href="https://secure.apply.pnc.com/ulapp/getting-started"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span class="smart-financing-bank-name">
-              PNC Loan
-            </span>
-
-            <span class="smart-financing-arrow fa-angle-right"></span>
-          </a>
-
-
-          <!-- Wells Fargo -->
-          <a
-            class="panel smart-financing-panel"
-            href="https://www.wellsfargo.com/personal-loans/home-improvement/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span class="smart-financing-bank-name">
-              Wells Fargo
-            </span>
-
-            <span class="smart-financing-arrow fa-angle-right"></span>
-          </a>
-
-
-          <!-- =====================================================
-               NEW: REGIONS BANK / ENERBANK
-               ===================================================== -->
-          <a
-            class="panel smart-financing-panel"
-            href="https://prequalification.enerbank.com/apply/loanproduct?sponsorPhoneNumber=8663414200&contractorNumber=1235&loanCode=D4377&contractorEmail=contact@primeshieldroofingfl.com&utm_source=web_button"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span class="smart-financing-bank-name">
-              Regions Bank Financing
-            </span>
-
-            <span class="smart-financing-arrow fa-angle-right"></span>
-          </a>
-
-
-          <!-- =====================================================
-               NEW: SILVER ROCK FINANCIAL
-               ===================================================== -->
-          <a
-            class="panel smart-financing-panel"
-            href="https://silverrockusa.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span class="smart-financing-bank-name">
-              Silver Rock Financial
-            </span>
-
-            <span class="smart-financing-arrow fa-angle-right"></span>
-          </a>
-
+          <?php 
+          $lenders = cms_field('financing', 'lenders', []);
+          if (!empty($lenders) && is_array($lenders)):
+            foreach ($lenders as $lIdx => $l):
+          ?>
+            <a class="panel smart-financing-panel"
+               href="<?php echo htmlspecialchars($l['url'] ?? '#'); ?>"
+               target="_blank"
+               rel="noopener noreferrer">
+              <span class="smart-financing-bank-name" <?php echo cms_bind('financing', "lenders.{$lIdx}.name"); ?>>
+                <?php echo htmlspecialchars($l['name'] ?? ''); ?>
+              </span>
+              <?php if (!empty($l['note'])): ?>
+                <span class="smart-financing-note" <?php echo cms_bind('financing', "lenders.{$lIdx}.note"); ?>>
+                  <?php echo htmlspecialchars($l['note']); ?>
+                </span>
+              <?php endif; ?>
+              <span class="smart-financing-arrow fa-angle-right"></span>
+            </a>
+          <?php 
+            endforeach;
+          endif; 
+          ?>
         </div>
       </div>
 
-
-      <!-- =====================================================
-           RIGHT COLUMN: ELECTRICAL SERVICE IMAGES
-           ===================================================== -->
+      <!-- RIGHT COLUMN: PROMO IMAGES -->
       <div class="col-md-6 smart-financing-column">
-
         <div class="smart-financing-images">
-
-
-          <!-- =====================================================
-               IMAGE 1
-               ===================================================== -->
-          <a
-            href="https://crm.justsmartchoice.com/appointly/appointments"
-            class="smart-financing-image-link"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Hire a Smart Choice electrician and make an appointment"
-          >
-            <div class="smart-financing-image-box">
-
-              <img
-                src="images/smart_choice_electrical_service.webp"
-                alt="Smart Choice electrical services"
-                class="smart-financing-image"
-                width="570"
-                height="350"
-              >
-
-              <div class="smart-financing-image-overlay">
-                <span class="smart-financing-image-overlay-text">
-                  Hire a Smart Choice Electrician
-                </span>
-
-                <span class="smart-financing-image-overlay-subtext">
-                  Make an Appointment
-                </span>
+          <?php 
+          $promos = cms_field('financing', 'promo_images', []);
+          if (!empty($promos) && is_array($promos)):
+            foreach ($promos as $pIdx => $p):
+              $pImg = cms_image('financing', "promo_images.{$pIdx}.image", $p['image'] ?? '');
+          ?>
+            <a href="<?php echo htmlspecialchars($p['url'] ?? 'https://crm.justsmartchoice.com/appointly/appointments'); ?>"
+               class="smart-financing-image-link"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="<?php echo htmlspecialchars($p['overlay_text'] ?? 'Hire a contractor'); ?>">
+              <div class="smart-financing-image-box">
+                <img src="<?php echo htmlspecialchars($pImg); ?>"
+                     alt="<?php echo htmlspecialchars($p['overlay_text'] ?? 'Financing service'); ?>"
+                     class="smart-financing-image"
+                     width="570"
+                     height="350"
+                     <?php echo cms_bind('financing', "promo_images.{$pIdx}.image"); ?>>
+                <div class="smart-financing-image-overlay">
+                  <span class="smart-financing-image-overlay-text" <?php echo cms_bind('financing', "promo_images.{$pIdx}.overlay_text"); ?>>
+                    <?php echo htmlspecialchars($p['overlay_text'] ?? ''); ?>
+                  </span>
+                  <span class="smart-financing-image-overlay-subtext" <?php echo cms_bind('financing', "promo_images.{$pIdx}.overlay_subtext"); ?>>
+                    <?php echo htmlspecialchars($p['overlay_subtext'] ?? ''); ?>
+                  </span>
+                </div>
               </div>
-
-            </div>
-          </a>
-
-
-          <!-- =====================================================
-               IMAGE 2
-               ===================================================== -->
-          <a
-            href="https://crm.justsmartchoice.com/appointly/appointments"
-            class="smart-financing-image-link"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Hire a Smart Choice electrician and make an appointment"
-          >
-            <div class="smart-financing-image-box">
-
-              <img
-                src="images/smartchoicefinancial.webp"
-                alt="Smart Choice electrical services and financing support"
-                class="smart-financing-image"
-                width="570"
-                height="350"
-              >
-
-              <div class="smart-financing-image-overlay">
-                <span class="smart-financing-image-overlay-text">
-                  Hire a Smart Choice Electrician
-                </span>
-
-                <span class="smart-financing-image-overlay-subtext">
-                  Make an Appointment
-                </span>
-              </div>
-
-            </div>
-          </a>
-
+            </a>
+          <?php 
+            endforeach;
+          endif; 
+          ?>
         </div>
       </div>
 

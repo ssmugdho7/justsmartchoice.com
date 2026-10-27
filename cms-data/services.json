@@ -1,0 +1,391 @@
+{
+    "seo": {
+        "title": "Construction Services Tampa Bay FL | Remodeling, Roofing, Electrical, Plumbing & Drawings",
+        "description": "Professional construction services in Tampa Bay Florida including remodeling, kitchens, bathrooms, roofing, electrical, plumbing, additions, flooring, drywall, painting, construction drawings, permit support, and complete residential and commercial construction services.",
+        "keywords": "Construction Services Tampa Bay FL, Remodeling Contractor Tampa, Kitchen Remodeling Florida, Bathroom Remodeling Tampa, Roofing Contractor Tampa Bay, Electrical Contractor Florida, Plumbing Contractor Tampa, Construction Drawings Florida, Permit Services Tampa, Home Additions Florida",
+        "og_image": "/images/fg-image.png"
+    },
+    "hero": {
+        "title": "Our Professional Construction Services & Solutions",
+        "subtitle": "At Smart Choice Contractors USA, we provide professional residential and commercial construction services throughout Florida. Our experienced team specializes in remodeling, new construction, repairs, and complete project management solutions.",
+        "intro_p2": "From kitchens and bathrooms to roofing, electrical, plumbing, concrete, painting, fencing, windows, doors, and structural improvements, we deliver reliable craftsmanship with attention to detail and quality."
+    },
+    "overview_cards": [
+        {
+            "title": "Residential Construction",
+            "description": "Our residential construction services include new home construction, additions, renovations, structural improvements, and complete property upgrades. We combine skilled workmanship, modern technology, and organized project management to transform your ideas into functional and beautiful spaces.",
+            "icon": "",
+            "link": ""
+        },
+        {
+            "title": "Commercial Construction",
+            "description": "Smart Choice Contractors USA provides commercial construction solutions for businesses, investors, and property owners. We assist with renovations, tenant improvements, repairs, remodeling, and construction management while maintaining safety, quality, and compliance.",
+            "icon": "",
+            "link": ""
+        },
+        {
+            "title": "Home Remodeling Services",
+            "description": "Whether you need a kitchen renovation, bathroom upgrade, room addition, flooring installation, or complete home transformation, our remodeling team provides professional solutions designed around your goals, budget, and lifestyle.",
+            "icon": "",
+            "link": ""
+        },
+        {
+            "title": "Deck Design & Installation",
+            "description": "Upgrade your outdoor living space with custom wood decks, composite decks, pool decks, patio extensions, elevated platforms, and outdoor entertainment areas designed for Florida weather conditions.",
+            "icon": "",
+            "link": ""
+        },
+        {
+            "title": "Painting & Texture Services",
+            "description": "Our painting and texture services include interior painting, exterior painting, drywall repairs, texture matching, knockdown texture, orange peel texture, smooth wall finishes, and decorative coatings.",
+            "icon": "",
+            "link": ""
+        },
+        {
+            "title": "Fencing Installation",
+            "description": "We install wood fencing, vinyl fencing, aluminum fencing, privacy fences, security fences, and custom gates for residential and commercial properties.",
+            "icon": "",
+            "link": ""
+        },
+        {
+            "title": "Concrete Services",
+            "description": "Our concrete services include driveways, sidewalks, patios, foundations, slabs, decorative concrete, stamped concrete, and customized outdoor concrete solutions.",
+            "icon": "",
+            "link": ""
+        },
+        {
+            "title": "Roofing Services",
+            "description": "We provide roof installation, roof replacement, roof repairs, shingle roofing, metal roofing, flat roofing systems, TPO roofing, tile roofing, storm damage repairs, flashing replacement, and roof inspections.",
+            "icon": "",
+            "link": ""
+        },
+        {
+            "title": "Electrical Services",
+            "description": "Our electrical services include panel upgrades, lighting installation, electrical repairs, dedicated circuits, EV charger installation, and electrical improvements for remodeling and new construction projects.",
+            "icon": "",
+            "link": ""
+        },
+        {
+            "title": "Plumbing Services",
+            "description": "Our plumbing services include fixture replacements, water lines, drainage solutions, bathroom renovations, kitchen renovations, water heater support, and general plumbing improvements.",
+            "link": "https://justsmartchoice.com/plumbing.php",
+            "icon": ""
+        },
+        {
+            "title": "HVAC & Energy Efficiency Solutions",
+            "description": "We provide HVAC improvements, ventilation support, insulation coordination, indoor comfort upgrades, and energy-conscious construction improvements.",
+            "icon": "",
+            "link": ""
+        },
+        {
+            "title": "Project Management",
+            "description": "Our project management services coordinate scheduling, material planning, subcontractors, inspections, budgeting, quality control, communication, and project documentation.",
+            "icon": "",
+            "link": ""
+        },
+        {
+            "title": "Construction Consultation & Design",
+            "description": "Our consultation and design services help clients transform ideas into realistic construction plans. Using advanced design tools including SketchUp, Lumion, AutoCAD, and Revit, we create detailed concepts that allow clients to visualize their projects before construction begins. From initial planning to final execution, our team provides professional guidance to help clients make informed decisions regarding design, materials, budget, and construction solutions.",
+            "icon": "",
+            "link": ""
+        }
+    ],
+    "testimonials": [
+        {
+            "quote": "Smart Choice Contractors USA transformed our home with exceptional craftsmanship and professionalism. Our remodeling project was completed with great attention to detail, and the final result exceeded our expectations.",
+            "author": "Mark Johnson - St. Pete Beach, Florida",
+            "project": ""
+        },
+        {
+            "quote": "The team helped us improve our property with excellent communication and reliable service. They managed every detail of our renovation and delivered outstanding results.",
+            "author": "Sarah Williams - Tampa, Florida",
+            "project": ""
+        },
+        {
+            "quote": "We hired Smart Choice Contractors USA for improvements to our property, and the experience was excellent. Their team was professional, organized, and focused on delivering quality work from start to finish.",
+            "author": "Michael Rodriguez - Clearwater, Florida",
+            "project": ""
+        },
+        {
+            "quote": "Smart Choice Contractors USA provided outstanding service during our construction project. Their attention to detail, honesty, and commitment to quality made the entire process smooth and stress-free.",
+            "author": "David Thompson - Wesley Chapel, Florida",
+            "project": ""
+        }
+    ],
+    "material_takeoff": {
+        "heading": "Material Takeoff Services",
+        "p1": "Accurate material estimating is essential for successful construction projects. Smart Choice Contractors USA provides detailed material takeoff services to help homeowners, contractors, investors, and builders understand the quantities and materials required before starting construction.",
+        "p2": "Our team prepares organized material lists designed to improve budgeting, reduce waste, reduce jobsite delays, and help projects move forward with better planning and cost control.",
+        "cta_text": "Request your material takeoff estimate:",
+        "email_label": "Email Our Estimating Department",
+        "email": "sales@justsmartchoice.com"
+    },
+    "catalog_section": {
+        "heading": "Construction Services Near Me In Tampa Bay And Central Florida",
+        "description": "Explore Smart Choice Contractors USA service pages for remodeling, repairs, renovation, construction, and improvement services across Tampa, Spring Hill, Hernando County, Pasco County, Hillsborough County, Pinellas County, and nearby Florida communities."
+    },
+    "catalog_cards": [
+        {
+            "title": "New Construction",
+            "image": "images/service-cards/new-construction.webp",
+            "alt": "Timber framing for a home addition under construction",
+            "description": "Professional new construction for residential and commercial properties. Learn about local service options, project planning, repairs, remodeling, and renovation support near Tampa Bay.",
+            "view_link": "/services/new-construction.php",
+            "book_link": "https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2"
+        },
+        {
+            "title": "Carpentry",
+            "image": "images/service-cards/carpentry.webp",
+            "alt": "Carpenter cutting timber with a circular saw",
+            "description": "Professional carpentry for residential and commercial properties. Learn about local service options, project planning, repairs, remodeling, and renovation support near Tampa Bay.",
+            "view_link": "/services/carpentry.php",
+            "book_link": "https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2"
+        },
+        {
+            "title": "Finish Carpentry",
+            "image": "images/service-cards/finish-carpentry.webp",
+            "alt": "Carpenter fitting kitchen cabinets",
+            "description": "Professional finish carpentry for residential and commercial properties. Learn about local service options, project planning, repairs, remodeling, and renovation support near Tampa Bay.",
+            "view_link": "/services/finish-carpentry.php",
+            "book_link": "https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2"
+        },
+        {
+            "title": "Concrete Work",
+            "image": "images/service-cards/concrete-work.webp",
+            "alt": "Concrete slab and structural columns at a commercial construction site",
+            "description": "Professional concrete work for residential and commercial properties. Learn about local service options, project planning, repairs, remodeling, and renovation support near Tampa Bay.",
+            "view_link": "/services/concrete-work.php",
+            "book_link": "https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2"
+        },
+        {
+            "title": "Demolition",
+            "image": "images/service-cards/demolition.webp",
+            "alt": "Interior demolition with exposed framing and construction debris",
+            "description": "Professional demolition for residential and commercial properties. Learn about local service options, project planning, repairs, remodeling, and renovation support near Tampa Bay.",
+            "view_link": "/services/demolition.php",
+            "book_link": "https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2"
+        },
+        {
+            "title": "Drywall Installation & Finishing",
+            "image": "images/service-cards/drywall.webp",
+            "alt": "Room being prepared for drywall installation and finishing",
+            "description": "Professional drywall installation & finishing for residential and commercial properties. Learn about local service options, project planning, repairs, remodeling, and renovation support near Tampa Bay.",
+            "view_link": "/services/drywall-installation-finishing.php",
+            "book_link": "https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2"
+        },
+        {
+            "title": "Electrical Services",
+            "image": "images/service-cards/electrical.webp",
+            "alt": "Electrician working on a circuit breaker panel",
+            "description": "Professional electrical services for residential and commercial properties. Learn about local service options, project planning, repairs, remodeling, and renovation support near Tampa Bay.",
+            "view_link": "/services/electrical-services.php",
+            "book_link": "https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2"
+        },
+        {
+            "title": "Fencing Installation",
+            "image": "images/service-cards/fencing.webp",
+            "alt": "Contractor installing a horizontal timber fence",
+            "description": "Professional fencing installation for residential and commercial properties. Learn about local service options, project planning, repairs, remodeling, and renovation support near Tampa Bay.",
+            "view_link": "/services/fencing-installation.php",
+            "book_link": "https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2"
+        },
+        {
+            "title": "Garage Door Services",
+            "image": "images/service-cards/garage-doors.webp",
+            "alt": "Modern home with a garage door and driveway",
+            "description": "Professional garage door services for residential and commercial properties. Learn about local service options, project planning, repairs, remodeling, and renovation support near Tampa Bay.",
+            "view_link": "/services/garage-door-services.php",
+            "book_link": "https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2"
+        },
+        {
+            "title": "HVAC Services",
+            "image": "images/service-cards/hvac.webp",
+            "alt": "Technician servicing an outdoor air conditioning unit",
+            "description": "Professional hvac services for residential and commercial properties. Learn about local service options, project planning, repairs, remodeling, and renovation support near Tampa Bay.",
+            "view_link": "/services/hvac-services.php",
+            "book_link": "https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2"
+        },
+        {
+            "title": "Insulation",
+            "image": "images/service-cards/insulation.webp",
+            "alt": "Contractor installing insulation between wall studs",
+            "description": "Professional insulation for residential and commercial properties. Learn about local service options, project planning, repairs, remodeling, and renovation support near Tampa Bay.",
+            "view_link": "/services/insulation.php",
+            "book_link": "https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2"
+        },
+        {
+            "title": "Masonry",
+            "image": "images/service-cards/masonry.webp",
+            "alt": "Mason laying bricks with mortar",
+            "description": "Professional masonry for residential and commercial properties. Learn about local service options, project planning, repairs, remodeling, and renovation support near Tampa Bay.",
+            "view_link": "/services/masonry.php",
+            "book_link": "https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2"
+        },
+        {
+            "title": "Painting Services",
+            "image": "images/service-cards/painting.webp",
+            "alt": "Painter applying paint to an interior wall",
+            "description": "Professional painting services for residential and commercial properties. Learn about local service options, project planning, repairs, remodeling, and renovation support near Tampa Bay.",
+            "view_link": "/services/painting-services.php",
+            "book_link": "https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2"
+        },
+        {
+            "title": "Plumbing Services",
+            "image": "images/service-cards/plumbing.webp",
+            "alt": "Plumber working beneath a kitchen sink",
+            "description": "Professional plumbing services for residential and commercial properties. Learn about local service options, project planning, repairs, remodeling, and renovation support near Tampa Bay.",
+            "view_link": "/services/plumbing-services.php",
+            "book_link": "https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2"
+        },
+        {
+            "title": "Roofing Services",
+            "image": "images/service-cards/roofing-soffit.webp",
+            "alt": "Roof edge with gutters, soffit and fascia",
+            "description": "Professional roofing services for residential and commercial properties. Learn about local service options, project planning, repairs, remodeling, and renovation support near Tampa Bay.",
+            "view_link": "/services/roofing-services.php",
+            "book_link": "https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2"
+        },
+        {
+            "title": "Siding Installation",
+            "image": "images/service-cards/siding.webp",
+            "alt": "Contractor installing exterior siding panels",
+            "description": "Professional siding installation for residential and commercial properties. Learn about local service options, project planning, repairs, remodeling, and renovation support near Tampa Bay.",
+            "view_link": "/services/siding-installation.php",
+            "book_link": "https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2"
+        },
+        {
+            "title": "Soffit & Fascia",
+            "image": "images/service-cards/roofing-soffit.webp",
+            "alt": "Finished soffit and fascia along a roof edge",
+            "description": "Professional soffit & fascia for residential and commercial properties. Learn about local service options, project planning, repairs, remodeling, and renovation support near Tampa Bay.",
+            "view_link": "/services/soffit-fascia.php",
+            "book_link": "https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2"
+        },
+        {
+            "title": "Sprinkler Systems",
+            "image": "images/service-cards/sprinkler-landscaping.webp",
+            "alt": "Lawn and landscaping surrounding a Florida home",
+            "description": "Professional sprinkler systems for residential and commercial properties. Learn about local service options, project planning, repairs, remodeling, and renovation support near Tampa Bay.",
+            "view_link": "/services/sprinkler-systems.php",
+            "book_link": "https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2"
+        },
+        {
+            "title": "Stucco Work",
+            "image": "images/service-cards/stucco.webp",
+            "alt": "Contractor applying stucco to an exterior wall",
+            "description": "Professional stucco work for residential and commercial properties. Learn about local service options, project planning, repairs, remodeling, and renovation support near Tampa Bay.",
+            "view_link": "/services/stucco-work.php",
+            "book_link": "https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2"
+        },
+        {
+            "title": "Tile Installation",
+            "image": "images/service-cards/tile.webp",
+            "alt": "Contractor working on a tiled shower wall",
+            "description": "Professional tile installation for residential and commercial properties. Learn about local service options, project planning, repairs, remodeling, and renovation support near Tampa Bay.",
+            "view_link": "/services/tile-installation.php",
+            "book_link": "https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2"
+        },
+        {
+            "title": "Windows & Doors",
+            "image": "images/service-cards/windows-doors.webp",
+            "alt": "Window installer handling a glass panel with suction cups",
+            "description": "Professional windows & doors for residential and commercial properties. Learn about local service options, project planning, repairs, remodeling, and renovation support near Tampa Bay.",
+            "view_link": "/services/windows-doors.php",
+            "book_link": "https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2"
+        },
+        {
+            "title": "Deck Construction",
+            "image": "images/service-cards/deck.webp",
+            "alt": "Finished timber deck with integrated lighting",
+            "description": "Professional deck construction for residential and commercial properties. Learn about local service options, project planning, repairs, remodeling, and renovation support near Tampa Bay.",
+            "view_link": "/services/deck-construction.php",
+            "book_link": "https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2"
+        },
+        {
+            "title": "Pergolas & Gazebos",
+            "image": "images/service-cards/pergolas.webp",
+            "alt": "Wooden pergola over an outdoor patio",
+            "description": "Professional pergolas & gazebos for residential and commercial properties. Learn about local service options, project planning, repairs, remodeling, and renovation support near Tampa Bay.",
+            "view_link": "/services/pergolas-gazebos.php",
+            "book_link": "https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2"
+        },
+        {
+            "title": "Epoxy Floor Coatings",
+            "image": "images/service-cards/epoxy-floor.webp",
+            "alt": "Glossy epoxy coating on a garage floor",
+            "description": "Professional epoxy floor coatings for residential and commercial properties. Learn about local service options, project planning, repairs, remodeling, and renovation support near Tampa Bay.",
+            "view_link": "/services/epoxy-floor-coatings.php",
+            "book_link": "https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2"
+        },
+        {
+            "title": "Solar Panel Installation",
+            "image": "images/service-cards/solar-panels.webp",
+            "alt": "Solar panels installed on a shingled roof",
+            "description": "Professional solar panel installation for residential and commercial properties. Learn about local service options, project planning, repairs, remodeling, and renovation support near Tampa Bay.",
+            "view_link": "/services/solar-panel-installation.php",
+            "book_link": "https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2"
+        },
+        {
+            "title": "EV Charger Installation",
+            "image": "images/service-cards/ev-charger.webp",
+            "alt": "Technician installing an electric vehicle charger beside a car",
+            "description": "Professional ev charger installation for residential and commercial properties. Learn about local service options, project planning, repairs, remodeling, and renovation support near Tampa Bay.",
+            "view_link": "/services/ev-charger-installation.php",
+            "book_link": "https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2"
+        },
+        {
+            "title": "Construction Plans & Engineering Drawings",
+            "image": "images/service-cards/construction-plans.webp",
+            "alt": "Contractors reviewing construction drawings inside a home",
+            "description": "Professional construction plans & engineering drawings for residential and commercial properties. Learn about local service options, project planning, repairs, remodeling, and renovation support near Tampa Bay.",
+            "view_link": "/services/construction-plans-engineering-drawings.php",
+            "book_link": "https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2"
+        },
+        {
+            "title": "3D Rendering & Visualization",
+            "image": "images/service-cards/3d-rendering.webp",
+            "alt": "Architectural rendering of a home with a pool, pergola and solar panels",
+            "description": "Professional 3d rendering & visualization for residential and commercial properties. Learn about local service options, project planning, repairs, remodeling, and renovation support near Tampa Bay.",
+            "view_link": "/services/3d-rendering-visualization.php",
+            "book_link": "https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2"
+        }
+    ],
+    "solar_section": {
+        "heading": "Luxury Outdoor Solutions With Solar Integration",
+        "description": "We create outdoor spaces that combine comfort, beauty, and energy efficiency. Our custom solutions include pergolas, outdoor kitchens, patios, solar-integrated structures, and outdoor entertainment areas designed to improve your lifestyle while supporting energy-conscious construction.",
+        "image": "images/img-09-570x351.webp",
+        "caption": "Outdoor living space designed with modern construction and solar energy solutions.",
+        "title": "",
+        "body": ""
+    },
+    "electrical_section": {
+        "heading": "Electrical Services",
+        "p1": "Our experienced electrical professionals provide reliable solutions for residential and commercial projects. From new installations and upgrades to repairs and electrical improvements, we focus on safety, quality, planning, and code-conscious workmanship.",
+        "p2": "Every electrical project receives careful planning and professional installation to provide dependable results for your home or business.",
+        "image": "images/img-06-570x350.png",
+        "title": "Advanced Electrical Services",
+        "body": ""
+    },
+    "plumbing_section": {
+        "heading": "Plumbing Services",
+        "heading_link": "/services/plumbing-services.php",
+        "p1": "Smart Choice Contractors USA provides professional plumbing solutions for remodeling, new construction, repairs, and property improvements.",
+        "p2": "Our plumbing services include fixture installation, water lines, drainage solutions, bathroom renovations, kitchen renovations, water heater installation, repiping, sewer repairs, drain cleaning, fixture replacement, and general plumbing repairs.",
+        "p3": "We focus on dependable service, quality workmanship, and solutions designed to protect your property for years to come.",
+        "btn_label": "Schedule Plumbing Appointment",
+        "btn_link": "https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2",
+        "image": "images/plumbing-570x350.jpg",
+        "title": "",
+        "body": ""
+    },
+    "final_cta": {
+        "heading": "Need Professional Plumbing Services in Tampa Bay?",
+        "p1": "Smart Choice Contractors USA provides residential and commercial plumbing services throughout Tampa Bay, Spring Hill, Brooksville, New Port Richey, Clearwater, St. Petersburg, Tampa, Wesley Chapel, and surrounding Florida communities.",
+        "p2": "Whether you need leak repairs, drain cleaning, repiping, water heater installation, fixture replacement, plumbing inspection corrections, remodeling plumbing, kitchen plumbing, bathroom plumbing, or new construction plumbing, our experienced team is ready to help.",
+        "p3": "Schedule your consultation today and let our team provide reliable plumbing solutions designed to protect your property and keep your plumbing system operating efficiently.",
+        "btn_primary_label": "Schedule Your Plumbing Appointment",
+        "btn_primary_link": "https://crm.justsmartchoice.com/appointly/appointments_public/book?col=col-md-8+col-md-offset-2",
+        "btn_default_label": "Learn More About Plumbing Services",
+        "btn_default_link": "/services/plumbing-services.php"
+    }
+}

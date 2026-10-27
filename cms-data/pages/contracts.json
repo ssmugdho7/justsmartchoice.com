@@ -1,0 +1,30 @@
+{
+  "seo": {
+    "title": "Construction Contracts, Bids & Forms Tampa Bay FL",
+    "description": "Find Tampa Bay construction bid resources, government procurement links, bid tabulations, FEMA substantial damage resources, Notice of Commencement forms, subcontractor agreements, renovation agreements, and construction documents.",
+    "keywords": "Construction Contracts, Bids & Forms Tampa Bay FL, Tampa Bay, Florida Contractor",
+    "og_image": "/images/fg-image.png"
+  },
+  "hero": {
+    "heading": "Contracts, Government Bids, Forms & FEMA Resources",
+    "subtitle": "Find Tampa Bay construction bid resources, government procurement links, bid tabulations, FEMA substantial damage resources, Notice of Commencement forms, subcontractor agreements, renovation agreements, and construction documents.",
+    "bg_image": "images/slides/slide-01-2050x610.jpg"
+  },
+  "sections": {
+    "main_content": {
+      "heading": "Government Bids & Bid Tabulations",
+      "body": "At Just Smart Choice Construction USA, we provide comprehensive construction contracts, bids & forms tampa bay fl solutions designed for property owners throughout Tampa Bay and Central Florida.",
+      "featured_image": ""
+    },
+    "details": {
+      "heading": "Company Forms & Construction Agreements",
+      "body": "Every project is planned around applicable Florida building codes, high quality materials, licensed trade coordination, and transparent pricing."
+    }
+  },
+  "call_to_action": {
+    "heading": "Ready to Plan Your Construction Contracts, Bids & Forms Tampa Bay FL Project?",
+    "subtitle": "Contact our Florida licensed construction team at (727) 755-3786 to discuss scope, timeline, and next steps.",
+    "btn_label": "Request an Estimate",
+    "btn_url": "contacts.php"
+  }
+}

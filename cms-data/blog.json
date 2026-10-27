@@ -1,0 +1,96 @@
+{
+    "seo": {
+        "title": "Construction Blog Tampa Bay FL | Smart Choice Contractors USA",
+        "description": "Read our latest articles on construction tips, remodeling guides, permitting advice, and Florida home improvements.",
+        "og_image": "/images/fg-image.png",
+        "keywords": ""
+    },
+    "notice": {
+        "title": "New Construction Help",
+        "description": "Schedule a consultation for remodeling, plumbing, electrical, roofing, flooring, permits, or new construction.",
+        "button_text": "Book Now",
+        "button_url": "https://crm.justsmartchoice.com/appointly/appointments"
+    },
+    "hero": {
+        "eyebrow": "Construction Resources Center",
+        "title": "Smart Choice Contractors Blog USA",
+        "p1": "Smart Choice Contractors USA publishes this construction resource center to help Florida homeowners, property investors, business owners, and project managers understand remodeling, roofing, flooring, bathroom renovation, plumbing, electrical, HVAC, deck construction, permits, drawings, inspections, contractor licensing, and project planning before they spend money.",
+        "p2": "Customers search for phrases like construction company near me, bathroom renovation near Tampa, roofing in Hernando County, flooring in Spring Hill, general contractor Tampa Bay, remodeling contractor near me, and permit guide Florida. This blog connects those questions to practical education, service pages, field documentation, videos, photos, official resources, and appointment options.",
+        "p3": "Our goal is not just to promote services. We use this blog to show customers what can go wrong, why licensing matters, how to avoid unsafe work, why documentation protects both sides, and how Smart Choice Contractors USA organizes project communication through estimating, CRM tools, AI support, reports, photos, and customer education."
+    },
+    "articles_header": {
+        "title": "Latest Construction Articles",
+        "subtitle": "We publish construction articles because informed customers make better decisions. This section highlights remodeling education, Florida contractor news, licensing warnings, permit updates, safety issues, and project planning topics that affect real property owners."
+    },
+    "why_news": {
+        "title": "Why We Show Construction News, Licensing Warnings And Project Education",
+        "p1": "Smart Choice Contractors USA wants customers to understand the construction marketplace before hiring anyone. Florida property owners regularly face confusing estimates, unlicensed work, permit questions, insurance concerns, storm damage, unsafe repairs, incomplete scopes, and undocumented change orders. Showing official resources and construction news helps customers ask better questions and avoid costly mistakes.",
+        "p2": "This section also helps search engines and AI platforms understand that the company is connected to real construction education, not just service advertising. The page provides entity signals, local service signals, safety context, customer education, official links, and structured internal service pages for AI systems such as ChatGPT Search, Gemini, Perplexity, Bing Copilot, and Google AI Overview."
+    },
+    "featured_guides": [
+        {
+            "title": "Roofing In The Tampa Bay Area",
+            "image": "images/img-01-370x370.jpg",
+            "description": "Roofing services across Tampa Bay, Spring Hill, Hernando County, Pasco County, Hillsborough County, Pinellas County, Clearwater, St. Petersburg, and surrounding areas. Learn what to review before scheduling a project in the Tampa Bay area.",
+            "guide_url": "/services/roofing-tampa-bay.php",
+            "book_url": "https://crm.justsmartchoice.com/appointly/appointments"
+        },
+        {
+            "title": "Roofing In Hernando County",
+            "image": "images/img-02-770x370.webp",
+            "description": "Roofing repair, roof replacement planning, storm preparation, leak inspection, and roofing project coordination for Hernando County property owners. Learn what to review before scheduling a project in the Tampa Bay area.",
+            "guide_url": "/services/roofing-hernando-county.php",
+            "book_url": "https://crm.justsmartchoice.com/appointly/appointments"
+        },
+        {
+            "title": "Flooring Installation In Spring Hill",
+            "image": "images/img-03-370x370.jpg",
+            "description": "Flooring installation, tile, luxury vinyl plank, laminate, subfloor planning, demolition, and remodeling support in Spring Hill and nearby communities. Learn what to review before scheduling a project in the Tampa Bay area.",
+            "guide_url": "/services/flooring-spring-hill.php",
+            "book_url": "https://crm.justsmartchoice.com/appointly/appointments"
+        },
+        {
+            "title": "Flooring Installation In The Tampa Bay Area",
+            "image": "images/img-04-370x370.jpg",
+            "description": "Flooring guidance for residential and commercial remodeling projects across Tampa Bay, including tile, LVP, laminate, baseboards, transitions, and finish details. Learn what to review before scheduling a project in the Tampa Bay area.",
+            "guide_url": "/services/flooring-tampa-bay.php",
+            "book_url": "https://crm.justsmartchoice.com/appointly/appointments"
+        },
+        {
+            "title": "Bathroom Remodeling In Tampa",
+            "image": "images/img-05-370x370.jpg",
+            "description": "Bathroom remodeling, shower renovation, tile installation, plumbing fixture planning, vanities, waterproofing, and bathroom project management in Tampa. Learn what to review before scheduling a project in the Tampa Bay area.",
+            "guide_url": "/services/bathroom-remodeling-tampa.php",
+            "book_url": "https://crm.justsmartchoice.com/appointly/appointments"
+        },
+        {
+            "title": "Bathroom Renovation In Spring Hill",
+            "image": "images/img-06-570x350.png",
+            "description": "Bathroom renovations for Spring Hill homeowners, including demolition, plumbing, tile, shower walls, flooring, trim, painting, and finish coordination. Learn what to review before scheduling a project in the Tampa Bay area.",
+            "guide_url": "/services/bathroom-renovation-spring-hill.php",
+            "book_url": "https://crm.justsmartchoice.com/appointly/appointments"
+        }
+    ],
+    "video_resources": {
+        "title": "Latest Construction Video Resources",
+        "subtitle": "Video education helps customers understand permits, jobsite safety, remodeling expectations, and how to compare contractors before making a decision.",
+        "videos": [
+            {
+                "title": "Navigating rough plumbing in a home renovation",
+                "url": "https://www.youtube.com/embed/b4LMBlXumjY"
+            },
+            {
+                "title": "Installing rough electrical wiring during construction",
+                "url": "https://www.youtube.com/embed/3TcINmSp2n4"
+            },
+            {
+                "title": "Florida building permits explained",
+                "url": "https://www.youtube.com/embed/EITNeEOvcak"
+            },
+            {
+                "title": "Construction jobsite safety and OSHA compliance",
+                "url": "https://www.youtube.com/embed/O7FbUBIbuok"
+            }
+        ]
+    }
+}

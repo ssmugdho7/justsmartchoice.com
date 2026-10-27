@@ -1,0 +1,30 @@
+{
+  "seo": {
+    "title": "Construction Drawings & Building Permits Tampa Bay FL",
+    "description": "Construction drawings, permit plans and building permit assistance in Tampa, Spring Hill and Tampa Bay, FL. Decks, additions, remodels and more. Call Smart Choice.",
+    "keywords": "Construction Drawings & Building Permits Tampa Bay FL, Tampa Bay, Florida Contractor",
+    "og_image": "/images/fg-image.png"
+  },
+  "hero": {
+    "heading": "Construction Drawings &amp; Building Permit Services in Tampa Bay, FL",
+    "subtitle": "Construction drawings, permit plans and building permit assistance in Tampa, Spring Hill and Tampa Bay, FL. Decks, additions, remodels and more. Call Smart Choice.",
+    "bg_image": "images/slides/slide-01-2050x610.jpg"
+  },
+  "sections": {
+    "main_content": {
+      "heading": "Construction Plans That Help Move Your Project Forward",
+      "body": "At Just Smart Choice Construction USA, we provide comprehensive construction drawings & building permits tampa bay fl solutions designed for property owners throughout Tampa Bay and Central Florida.",
+      "featured_image": ""
+    },
+    "details": {
+      "heading": "Construction Drawings for Residential &amp; Commercial Projects",
+      "body": "Every project is planned around applicable Florida building codes, high quality materials, licensed trade coordination, and transparent pricing."
+    }
+  },
+  "call_to_action": {
+    "heading": "Ready to Plan Your Construction Drawings & Building Permits Tampa Bay FL Project?",
+    "subtitle": "Contact our Florida licensed construction team at (727) 755-3786 to discuss scope, timeline, and next steps.",
+    "btn_label": "Request an Estimate",
+    "btn_url": "contacts.php"
+  }
+}

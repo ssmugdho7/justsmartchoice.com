@@ -86,75 +86,36 @@
 <section class="section-xs smart-offers-section">
   <div class="container">
     <div class="row row-30">
-      <div class="col-sm-6 col-lg-4 text-center">
-        <a class="thumbnail thumbnail-secondary smart-hover-card" href="remodeling-services.php" style="background-image: url(images/img-01-370x370.jpg)">
-          <div class="thumbnail-caption">
-            <h3 class="thumbnail-heading">Premium Craftsmanship</h3>
-            <div class="thumbnail-inner">
-              <div class="thumbnail-content">
-                Smart Choice Contractors USA delivers precise construction, remodeling, repairs, and finish work using durable materials, clean project coordination, and professional field execution.
+      <?php 
+      $offerCards = cms_field('pricing', 'offer_cards', []);
+      if (!empty($offerCards) && is_array($offerCards)):
+        foreach ($offerCards as $oIdx => $offer):
+          $colClass = ($oIdx === 1) ? 'col-sm-6 col-lg-8' : 'col-sm-6 col-lg-4';
+          $thumbClass = ($oIdx === 0 || $oIdx === 4) ? 'thumbnail-secondary' : (($oIdx === 1) ? 'thumbnail-wide' : (($oIdx === 3) ? 'thumbnail-primary' : ''));
+          $offerImg = cms_image('pricing', "offer_cards.{$oIdx}.image", $offer['image'] ?? '');
+      ?>
+        <div class="<?php echo $colClass; ?> text-center">
+          <a class="thumbnail <?php echo $thumbClass; ?> smart-hover-card" 
+             href="<?php echo htmlspecialchars($offer['link'] ?? '#'); ?>" 
+             style="background-image: url('<?php echo htmlspecialchars($offerImg); ?>');"
+             <?php echo cms_bind('pricing', "offer_cards.{$oIdx}.image"); ?>>
+            <div class="thumbnail-caption">
+              <h3 class="thumbnail-heading" <?php echo cms_bind('pricing', "offer_cards.{$oIdx}.heading"); ?>>
+                <?php echo htmlspecialchars($offer['heading'] ?? ''); ?>
+              </h3>
+              <div class="thumbnail-inner">
+                <div class="thumbnail-content" <?php echo cms_bind('pricing', "offer_cards.{$oIdx}.description"); ?>>
+                  <?php echo htmlspecialchars($offer['description'] ?? ''); ?>
+                </div>
+                <div class="thumbnail-icon fa-angle-right"></div>
               </div>
-              <div class="thumbnail-icon fa-angle-right"></div>
             </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="col-sm-6 col-lg-8 text-center">
-        <a class="thumbnail thumbnail-wide smart-hover-card" href="construction-drawings-permits.php" style="background-image: url(images/img-02-770x370.webp)">
-          <div class="thumbnail-caption">
-            <h3 class="thumbnail-heading">Plans, Permits & Project Support</h3>
-            <div class="thumbnail-inner">
-              <div class="thumbnail-content">
-                We help homeowners and investors move from idea to execution with field measurements, construction drawings, permit support, material planning, and trade coordination across Tampa Bay.
-              </div>
-              <div class="thumbnail-icon fa-angle-right"></div>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="col-sm-6 col-lg-4 text-center">
-        <a class="thumbnail smart-hover-card" href="residential-commercial-construction.php" style="background-image: url(images/img-03-370x370.jpg)">
-          <div class="thumbnail-caption">
-            <h3 class="thumbnail-heading">Residential & Commercial Work</h3>
-            <div class="thumbnail-inner">
-              <div class="thumbnail-content">
-                From kitchens, bathrooms, additions, electrical, plumbing, HVAC, roofing, drywall, flooring, painting, and full property improvements, our team supports complete construction scopes.
-              </div>
-              <div class="thumbnail-icon fa-angle-right"></div>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="col-sm-6 col-lg-4 text-center">
-        <a class="thumbnail thumbnail-primary smart-hover-card" href="project-management.php" style="background-image: url(images/img-04-370x370.jpg)">
-          <div class="thumbnail-caption">
-            <h3 class="thumbnail-heading">Complete Project Management</h3>
-            <div class="thumbnail-inner">
-              <div class="thumbnail-content">
-                We manage scope, budgets, materials, scheduling, inspections, documentation, and contractor coordination so projects stay organized from consultation to final walkthrough.
-              </div>
-              <div class="thumbnail-icon fa-angle-right"></div>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="col-sm-6 col-lg-4 text-center">
-        <a class="thumbnail thumbnail-secondary smart-hover-card" href="energy-efficient-upgrades.php" style="background-image: url(images/img-05-370x370.jpg)">
-          <div class="thumbnail-caption">
-            <h3 class="thumbnail-heading">Efficient Building Solutions</h3>
-            <div class="thumbnail-inner">
-              <div class="thumbnail-content">
-                We recommend practical upgrades for insulation, windows, HVAC, roofing, electrical, lighting, and moisture protection to improve performance, comfort, and property value.
-              </div>
-              <div class="thumbnail-icon fa-angle-right"></div>
-            </div>
-          </div>
-        </a>
-      </div>
+          </a>
+        </div>
+      <?php 
+        endforeach;
+      endif; 
+      ?>
     </div>
   </div>
 </section>
@@ -165,11 +126,10 @@
     <div class="row row-20">
       <div class="col-12">
         <div class="smart-section-heading text-center">
-          <span class="smart-eyebrow">Tampa Bay Construction Pricing</span>
-          <h1 class="h2 text-uppercase">Smart Choice Contractors USA <span class="font-weight-light">Service Price Guide</span></h1>
-          <p>
-            Transparent starting ranges for Tampa Bay homeowners, investors, and commercial property owners.
-            Final pricing depends on jobsite conditions, engineering requirements, permit scope, materials, access, and finish selections.
+          <span class="smart-eyebrow" <?php echo cms_bind('pricing', 'hero.eyebrow'); ?>><?php echo htmlspecialchars(cms_field('pricing', 'hero.eyebrow', 'Tampa Bay Construction Pricing')); ?></span>
+          <h1 class="h2 text-uppercase" <?php echo cms_bind('pricing', 'hero.title'); ?>><?php echo htmlspecialchars(cms_field('pricing', 'hero.title', 'Smart Choice Contractors USA Service Price Guide')); ?></h1>
+          <p <?php echo cms_bind('pricing', 'hero.subtitle'); ?>>
+            <?php echo htmlspecialchars(cms_field('pricing', 'hero.subtitle', 'Transparent starting ranges for Tampa Bay homeowners, investors, and commercial property owners. Final pricing depends on jobsite conditions, engineering requirements, permit scope, materials, access, and finish selections.')); ?>
           </p>
         </div>
       </div>
@@ -177,159 +137,40 @@
       <div class="col-12">
         <div class="smart-pricing-shell">
           <div id="pricing-tables">
-
-            <div class="price-table-wrapper active">
-              <div class="smart-price-card">
-                <h3>Major Construction & Remodeling</h3>
-                <div class="table-responsive">
-                  <table class="table text-center price-table">
-                    <thead>
-                      <tr><th>Service</th><th>Starting Price</th><th>Service</th><th>Starting Price</th></tr>
-                    </thead>
-                    <tbody>
-                      <tr><td data-label="Service">New Home Construction</td><td data-label="Price">From $285–$375 per sq. ft.</td><td data-label="Service">Custom Home Construction</td><td data-label="Price">From $375–$550+ per sq. ft.</td></tr>
-                      <tr><td data-label="Service">Full Home Remodeling</td><td data-label="Price">From $120–$250 per sq. ft.</td><td data-label="Service">Major Structural Renovation</td><td data-label="Price">From $300–$550+ per sq. ft.</td></tr>
-                      <tr><td data-label="Service">Kitchen Renovation</td><td data-label="Price">From $35,000–$75,000</td><td data-label="Service">Bathroom Remodeling</td><td data-label="Price">From $18,000–$45,000</td></tr>
-                      <tr><td data-label="Service">Room Additions</td><td data-label="Price">From $300–$450 per sq. ft.</td><td data-label="Service">Primary Suite Addition</td><td data-label="Price">From $140,000+</td></tr>
-                    </tbody>
-                  </table>
+            <?php 
+            $tables = cms_field('pricing', 'tables', []);
+            if (!empty($tables) && is_array($tables)):
+              foreach ($tables as $tIdx => $t):
+            ?>
+              <div class="price-table-wrapper <?php echo ($tIdx === 0) ? 'active' : ''; ?>">
+                <div class="smart-price-card">
+                  <h3 <?php echo cms_bind('pricing', "tables.{$tIdx}.category"); ?>><?php echo htmlspecialchars($t['category'] ?? ''); ?></h3>
+                  <div class="table-responsive">
+                    <table class="table text-center price-table">
+                      <thead>
+                        <tr><th>Service</th><th>Starting Price</th><th>Service</th><th>Starting Price</th></tr>
+                      </thead>
+                      <tbody>
+                        <?php 
+                        $rows = $t['rows'] ?? [];
+                        foreach ($rows as $rIdx => $r):
+                        ?>
+                          <tr>
+                            <td data-label="Service" <?php echo cms_bind('pricing', "tables.{$tIdx}.rows.{$rIdx}.s1"); ?>><?php echo htmlspecialchars($r['s1'] ?? ''); ?></td>
+                            <td data-label="Price" <?php echo cms_bind('pricing', "tables.{$tIdx}.rows.{$rIdx}.p1"); ?>><?php echo htmlspecialchars($r['p1'] ?? ''); ?></td>
+                            <td data-label="Service" <?php echo cms_bind('pricing', "tables.{$tIdx}.rows.{$rIdx}.s2"); ?>><?php echo htmlspecialchars($r['s2'] ?? ''); ?></td>
+                            <td data-label="Price" <?php echo cms_bind('pricing', "tables.{$tIdx}.rows.{$rIdx}.p2"); ?>><?php echo htmlspecialchars($r['p2'] ?? ''); ?></td>
+                          </tr>
+                        <?php endforeach; ?>
+                      </tbody>
+                    </table>
+                  </div>
                 </div>
               </div>
-            </div>
-
-            <div class="price-table-wrapper">
-              <div class="smart-price-card">
-                <h3>Exterior, Roofing & Site Work</h3>
-                <div class="table-responsive">
-                  <table class="table text-center price-table">
-                    <thead>
-                      <tr><th>Service</th><th>Starting Price</th><th>Service</th><th>Starting Price</th></tr>
-                    </thead>
-                    <tbody>
-                      <tr><td data-label="Service">Roof Replacement</td><td data-label="Price">From $7–$14 per sq. ft.</td><td data-label="Service">Metal Roof Replacement</td><td data-label="Price">From $14,000–$24,000+</td></tr>
-                      <tr><td data-label="Service">Concrete Driveways</td><td data-label="Price">From $12–$18 per sq. ft.</td><td data-label="Service">Paver Driveways</td><td data-label="Price">From $18–$28 per sq. ft.</td></tr>
-                      <tr><td data-label="Service">Exterior Painting</td><td data-label="Price">From $2.75–$5.50 per sq. ft.</td><td data-label="Service">Stucco & Exterior Finish</td><td data-label="Price">From $8–$15 per sq. ft.</td></tr>
-                      <tr><td data-label="Service">Fencing Installation</td><td data-label="Price">From $28–$55 per linear ft.</td><td data-label="Service">Decks, Patios & Gazebos</td><td data-label="Price">From $7,500+</td></tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-
-            <div class="price-table-wrapper">
-              <div class="smart-price-card">
-                <h3>Electrical Remodeling Services</h3>
-                <div class="table-responsive">
-                  <table class="table text-center price-table">
-                    <thead>
-                      <tr><th>Service</th><th>Starting Price</th><th>Service</th><th>Starting Price</th></tr>
-                    </thead>
-                    <tbody>
-                      <tr><td data-label="Service">Electrical Panel Upgrade</td><td data-label="Price">From $3,800–$6,500</td><td data-label="Service">Sub Panel Installation</td><td data-label="Price">From $1,800–$3,800</td></tr>
-                      <tr><td data-label="Service">Whole Home Rewire</td><td data-label="Price">From $12,000+</td><td data-label="Service">Kitchen Electrical Remodel</td><td data-label="Price">From $2,500–$7,500</td></tr>
-                      <tr><td data-label="Service">Bathroom Electrical Remodel</td><td data-label="Price">From $1,500–$4,500</td><td data-label="Service">EV Charger Installation</td><td data-label="Price">From $950–$2,500</td></tr>
-                      <tr><td data-label="Service">Recessed Lighting Package</td><td data-label="Price">From $125–$250 per light</td><td data-label="Service">Code Correction Work</td><td data-label="Price">Custom pricing</td></tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-
-            <div class="price-table-wrapper">
-              <div class="smart-price-card">
-                <h3>Plumbing Remodeling Services</h3>
-                <div class="table-responsive">
-                  <table class="table text-center price-table">
-                    <thead>
-                      <tr><th>Service</th><th>Starting Price</th><th>Service</th><th>Starting Price</th></tr>
-                    </thead>
-                    <tbody>
-                      <tr><td data-label="Service">Bathroom Plumbing Rough-In</td><td data-label="Price">From $3,500–$8,500</td><td data-label="Service">Kitchen Plumbing Rough-In</td><td data-label="Price">From $2,500–$6,500</td></tr>
-                      <tr><td data-label="Service">Water Heater Replacement</td><td data-label="Price">From $1,500–$3,800</td><td data-label="Service">Tankless Water Heater</td><td data-label="Price">From $3,500–$7,500</td></tr>
-                      <tr><td data-label="Service">Whole House Repipe</td><td data-label="Price">From $7,500+</td><td data-label="Service">Drain Line Replacement</td><td data-label="Price">Custom pricing</td></tr>
-                      <tr><td data-label="Service">Shower Valve Replacement</td><td data-label="Price">From $850–$2,200</td><td data-label="Service">Fixture Installation</td><td data-label="Price">From $250–$950 each</td></tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-
-            <div class="price-table-wrapper">
-              <div class="smart-price-card">
-                <h3>Interior Remodeling Finishes</h3>
-                <div class="table-responsive">
-                  <table class="table text-center price-table">
-                    <thead>
-                      <tr><th>Service</th><th>Starting Price</th><th>Service</th><th>Starting Price</th></tr>
-                    </thead>
-                    <tbody>
-                      <tr><td data-label="Service">Drywall Install & Finish</td><td data-label="Price">From $2.75–$5.50 per sq. ft.</td><td data-label="Service">Interior Painting</td><td data-label="Price">From $2.50–$5.00 per sq. ft.</td></tr>
-                      <tr><td data-label="Service">Tile Installation</td><td data-label="Price">From $8–$18 per sq. ft.</td><td data-label="Service">Luxury Vinyl Flooring</td><td data-label="Price">From $5–$10 per sq. ft.</td></tr>
-                      <tr><td data-label="Service">Trim & Baseboards</td><td data-label="Price">From $6–$14 per linear ft.</td><td data-label="Service">Interior Doors</td><td data-label="Price">From $350–$850 each</td></tr>
-                      <tr><td data-label="Service">Cabinet Installation</td><td data-label="Price">From $3,500+</td><td data-label="Service">Countertop Coordination</td><td data-label="Price">Custom pricing</td></tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-
-            <div class="price-table-wrapper">
-              <div class="smart-price-card">
-                <h3>Drawings, Permits & Preconstruction</h3>
-                <div class="table-responsive">
-                  <table class="table text-center price-table">
-                    <thead>
-                      <tr><th>Service</th><th>Starting Price</th><th>Service</th><th>Starting Price</th></tr>
-                    </thead>
-                    <tbody>
-                      <tr><td data-label="Service">Field Measurement Visit</td><td data-label="Price">From $250–$650</td><td data-label="Service">Permit Drawing Package</td><td data-label="Price">From $1,500–$6,500+</td></tr>
-                      <tr><td data-label="Service">Remodel Design Support</td><td data-label="Price">From $1,200+</td><td data-label="Service">Addition Plan Coordination</td><td data-label="Price">From $3,500–$12,000+</td></tr>
-                      <tr><td data-label="Service">Material Takeoff</td><td data-label="Price">From $350–$1,500</td><td data-label="Service">Permit Assistance</td><td data-label="Price">From $750+</td></tr>
-                      <tr><td data-label="Service">Project Budget Review</td><td data-label="Price">From $450+</td><td data-label="Service">Inspection Correction Support</td><td data-label="Price">Custom pricing</td></tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-
-            <div class="price-table-wrapper">
-              <div class="smart-price-card">
-                <h3>Commercial Remodeling Services</h3>
-                <div class="table-responsive">
-                  <table class="table text-center price-table">
-                    <thead>
-                      <tr><th>Service</th><th>Starting Price</th><th>Service</th><th>Starting Price</th></tr>
-                    </thead>
-                    <tbody>
-                      <tr><td data-label="Service">Commercial Build-Out</td><td data-label="Price">From $95–$250 per sq. ft.</td><td data-label="Service">Office Remodeling</td><td data-label="Price">From $25,000+</td></tr>
-                      <tr><td data-label="Service">Restaurant Renovation</td><td data-label="Price">Custom pricing</td><td data-label="Service">ADA Bathroom Upgrade</td><td data-label="Price">From $12,000+</td></tr>
-                      <tr><td data-label="Service">Commercial Flooring</td><td data-label="Price">From $6–$16 per sq. ft.</td><td data-label="Service">Commercial Painting</td><td data-label="Price">From $2.50–$6.00 per sq. ft.</td></tr>
-                      <tr><td data-label="Service">Inspection Corrections</td><td data-label="Price">Custom pricing</td><td data-label="Service">Permit Closeout Support</td><td data-label="Price">From $750+</td></tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-
-            <div class="price-table-wrapper">
-              <div class="smart-price-card">
-                <h3>Emergency Repairs & Small Projects</h3>
-                <div class="table-responsive">
-                  <table class="table text-center price-table">
-                    <thead>
-                      <tr><th>Service</th><th>Starting Price</th><th>Service</th><th>Starting Price</th></tr>
-                    </thead>
-                    <tbody>
-                      <tr><td data-label="Service">General Repair Visit</td><td data-label="Price">From $250</td><td data-label="Service">Drywall Patch & Paint</td><td data-label="Price">From $450</td></tr>
-                      <tr><td data-label="Service">Door Repair</td><td data-label="Price">From $350</td><td data-label="Service">Window Leak Repair</td><td data-label="Price">From $650</td></tr>
-                      <tr><td data-label="Service">Minor Electrical Repair</td><td data-label="Price">From $225</td><td data-label="Service">Minor Plumbing Repair</td><td data-label="Price">From $275</td></tr>
-                      <tr><td data-label="Service">Punch List Service</td><td data-label="Price">From $750</td><td data-label="Service">Final Walkthrough Corrections</td><td data-label="Price">Custom pricing</td></tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-
+            <?php 
+              endforeach;
+            endif; 
+            ?>
           </div>
 
           <div class="smart-pricing-controls text-center">
@@ -338,17 +179,20 @@
           </div>
 
           <div class="smart-buy-services text-center">
-    <a href="https://crm.justsmartchoice.com/products/clientes"
-       class="smart-buy-services-link"
-       target="_blank"
-       rel="noopener noreferrer">
-        Buy Services Online
-    </a>
-</div>
+            <a href="<?php echo htmlspecialchars(cms_field('pricing', 'buy_services.btn_url', 'https://crm.justsmartchoice.com/products/clientes')); ?>"
+               class="smart-buy-services-link"
+               target="_blank"
+               rel="noopener noreferrer"
+               <?php echo cms_bind('pricing', 'buy_services.btn_label'); ?>>
+                <?php echo htmlspecialchars(cms_field('pricing', 'buy_services.btn_label', 'Buy Services Online')); ?>
+            </a>
+          </div>
 
           <p class="smart-price-note">
-            <strong>Pricing note:</strong> These Tampa Bay starting ranges are for budget planning only and are updated for 2026 market conditions.
-            Final proposals require field verification, scope confirmation, material selections, permit review, and trade-specific requirements.
+            <strong>Pricing note:</strong> 
+            <span <?php echo cms_bind('pricing', 'buy_services.disclaimer'); ?>>
+              <?php echo htmlspecialchars(cms_field('pricing', 'buy_services.disclaimer', 'These Tampa Bay starting ranges are for budget planning only and are updated for 2026 market conditions. Final proposals require field verification, scope confirmation, material selections, permit review, and trade-specific requirements.')); ?>
+            </span>
           </p>
         </div>
       </div>
@@ -703,73 +547,56 @@
   }
 </style>
 <!-- Additional Service Pages / SEO Service Cards -->
+<!-- Additional Service Pages / SEO Service Cards -->
 <section class="section-md smart-services-pages">
   <div class="container">
     <div class="row row-30">
       <div class="col-12 text-center">
-        <span class="smart-eyebrow">More Construction Services</span>
-        <h2 class="text-uppercase" style="color: #169179;">Specialized <span class="font-weight-light">Service Pages</span></h2>
-        <p class="smart-section-intro">
-          These three service pages are designed for local SEO, Google AI Overview, Bing Copilot, ChatGPT Search, and Tampa Bay construction search visibility.
+        <span class="smart-eyebrow" <?php echo cms_bind('pricing', 'specialized_section.eyebrow'); ?>><?php echo htmlspecialchars(cms_field('pricing', 'specialized_section.eyebrow', 'More Construction Services')); ?></span>
+        <h2 class="text-uppercase" style="color: #169179;" <?php echo cms_bind('pricing', 'specialized_section.heading'); ?>><?php echo htmlspecialchars(cms_field('pricing', 'specialized_section.heading', 'Specialized Service Pages')); ?></h2>
+        <p class="smart-section-intro" <?php echo cms_bind('pricing', 'specialized_section.intro'); ?>>
+          <?php echo htmlspecialchars(cms_field('pricing', 'specialized_section.intro', 'These three service pages are designed for local SEO, Google AI Overview, Bing Copilot, ChatGPT Search, and Tampa Bay construction search visibility.')); ?>
         </p>
       </div>
 
-      <div class="col-md-4">
-        <article class="smart-service-page-card">
-          <img src="images/services/construction-drawings.jpg" alt="Construction drawings and permit plans in Tampa Bay" loading="lazy">
-          <div class="smart-service-page-body">
-            <h3>Construction Drawings & Permit Plans</h3>
-            <p>
-              Field measurements, conceptual layouts, permit-ready construction drawings, remodel plans, addition plans, trade coordination, and owner support for residential and light commercial projects.
-            </p>
-            <ul>
-              <li>As-built measurements</li>
-              <li>Remodel and addition layouts</li>
-              <li>Permit drawing coordination</li>
-              <li>Engineering support coordination</li>
-            </ul>
-            <a href="construction-drawings-permits.php" class="smart-service-link">Open Service Page</a>
-          </div>
-        </article>
-      </div>
-
-      <div class="col-md-4">
-        <article class="smart-service-page-card">
-          <img src="images/services/full-remodeling.jpg" alt="Full home remodeling contractor in Tampa Bay" loading="lazy">
-          <div class="smart-service-page-body">
-            <h3>Full Home Remodeling & Renovation</h3>
-            <p>
-              Complete remodeling solutions for kitchens, bathrooms, flooring, drywall, painting, electrical, plumbing, HVAC, roofing, structural repairs, and property improvement projects.
-            </p>
-            <ul>
-              <li>Kitchen and bathroom remodeling</li>
-              <li>Full interior renovation</li>
-              <li>Electrical, plumbing, and HVAC coordination</li>
-              <li>Finish selections and project scheduling</li>
-            </ul>
-            <a href="remodeling-services.php" class="smart-service-link">Open Service Page</a>
-          </div>
-        </article>
-      </div>
-
-      <div class="col-md-4">
-        <article class="smart-service-page-card">
-          <img src="images/services/additions-construction.jpg" alt="Home additions and construction contractor in Tampa Bay" loading="lazy">
-          <div class="smart-service-page-body">
-            <h3>Home Additions & Property Expansion</h3>
-            <p>
-              Room additions, garage conversions, primary suites, covered patios, exterior upgrades, foundation work, framing, roofing tie-ins, and construction coordination from planning to completion.
-            </p>
-            <ul>
-              <li>Room additions and expansions</li>
-              <li>Garage and lanai conversions</li>
-              <li>Foundation, framing, and roofing coordination</li>
-              <li>Permit and inspection support</li>
-            </ul>
-            <a href="home-additions-contractor.php" class="smart-service-link">Open Service Page</a>
-          </div>
-        </article>
-      </div>
+      <?php 
+      $specCards = cms_field('pricing', 'specialized_cards', []);
+      if (!empty($specCards) && is_array($specCards)):
+        foreach ($specCards as $scIdx => $sc):
+          $scImg = cms_image('pricing', "specialized_cards.{$scIdx}.image", $sc['image'] ?? '');
+      ?>
+        <div class="col-md-4">
+          <article class="smart-service-page-card">
+            <img src="<?php echo htmlspecialchars($scImg); ?>" 
+                 alt="<?php echo htmlspecialchars($sc['title'] ?? ''); ?>" 
+                 loading="lazy"
+                 <?php echo cms_bind('pricing', "specialized_cards.{$scIdx}.image"); ?>>
+            <div class="smart-service-page-body">
+              <h3 <?php echo cms_bind('pricing', "specialized_cards.{$scIdx}.title"); ?>>
+                <?php echo htmlspecialchars($sc['title'] ?? ''); ?>
+              </h3>
+              <p <?php echo cms_bind('pricing', "specialized_cards.{$scIdx}.description"); ?>>
+                <?php echo htmlspecialchars($sc['description'] ?? ''); ?>
+              </p>
+              <?php if (!empty($sc['items']) && is_array($sc['items'])): ?>
+                <ul>
+                  <?php foreach ($sc['items'] as $itemIdx => $item): ?>
+                    <li <?php echo cms_bind('pricing', "specialized_cards.{$scIdx}.items.{$itemIdx}"); ?>>
+                      <?php echo htmlspecialchars($item); ?>
+                    </li>
+                  <?php endforeach; ?>
+                </ul>
+              <?php endif; ?>
+              <a href="<?php echo htmlspecialchars($sc['link'] ?? '#'); ?>" class="smart-service-link" <?php echo cms_bind('pricing', "specialized_cards.{$scIdx}.link_text"); ?>>
+                <?php echo htmlspecialchars($sc['link_text'] ?? 'Open Service Page'); ?>
+              </a>
+            </div>
+          </article>
+        </div>
+      <?php 
+        endforeach;
+      endif; 
+      ?>
     </div>
   </div>
 </section>
@@ -779,16 +606,29 @@
   <div class="container">
     <div class="row row-30">
       <div class="col-12">
-        <h2 class="text-uppercase" style="color: #169179;">Our <span class="font-weight-light">Suppliers</span></h2>
+        <h2 class="text-uppercase" style="color: #169179;" <?php echo cms_bind('pricing', 'suppliers_heading'); ?>>
+          <?php echo htmlspecialchars(cms_field('pricing', 'suppliers_heading', 'Our Suppliers')); ?>
+        </h2>
       </div>
-      <div class="col-6 col-sm-4 col-lg-3"><a class="client smart-supplier-card" href="#"><img class="client-img" src="images/logos/logo-01-270x170.jpg" alt="Construction supplier logo" width="270" height="170" loading="lazy"/></a></div>
-      <div class="col-6 col-sm-4 col-lg-3"><a class="client smart-supplier-card" href="#"><img class="client-img" src="images/logos/logo-02-270x170.jpg" alt="Construction supplier logo" width="270" height="170" loading="lazy"/></a></div>
-      <div class="col-6 col-sm-4 col-lg-3"><a class="client smart-supplier-card" href="#"><img class="client-img" src="images/logos/logo-03-270x170.jpg" alt="Construction supplier logo" width="270" height="170" loading="lazy"/></a></div>
-      <div class="col-6 col-sm-4 col-lg-3"><a class="client smart-supplier-card" href="#"><img class="client-img" src="images/logos/logo-04-270x170.jpg" alt="Construction supplier logo" width="270" height="170" loading="lazy"/></a></div>
-      <div class="col-6 col-sm-4 col-lg-3"><a class="client smart-supplier-card" href="#"><img class="client-img" src="images/logos/logo-05-270x170.jpg" alt="Construction supplier logo" width="270" height="170" loading="lazy"/></a></div>
-      <div class="col-6 col-sm-4 col-lg-3"><a class="client smart-supplier-card" href="#"><img class="client-img" src="images/logos/logo-06-270x170.jpg" alt="Construction supplier logo" width="270" height="170" loading="lazy"/></a></div>
-      <div class="col-6 col-sm-4 col-lg-3"><a class="client smart-supplier-card" href="#"><img class="client-img" src="images/logos/logo-07-270x170.jpg" alt="Construction supplier logo" width="270" height="170" loading="lazy"/></a></div>
-      <div class="col-6 col-sm-4 col-lg-3"><a class="client smart-supplier-card" href="#"><img class="client-img" src="images/logos/logo-08-270x170.jpg" alt="Construction supplier logo" width="270" height="170" loading="lazy"/></a></div>
+      <?php 
+      $suppliers = cms_field('pricing', 'suppliers', []);
+      if (!empty($suppliers) && is_array($suppliers)):
+        foreach ($suppliers as $sIdx => $supp):
+          $suppImg = cms_image('pricing', "suppliers.{$sIdx}.image", $supp['image'] ?? '');
+      ?>
+        <div class="col-6 col-sm-4 col-lg-3">
+          <a class="client smart-supplier-card" href="<?php echo htmlspecialchars($supp['link'] ?? '#'); ?>">
+            <img class="client-img" 
+                 src="<?php echo htmlspecialchars($suppImg); ?>" 
+                 alt="Construction supplier logo" 
+                 width="270" height="170" loading="lazy"
+                 <?php echo cms_bind('pricing', "suppliers.{$sIdx}.image"); ?>/>
+          </a>
+        </div>
+      <?php 
+        endforeach;
+      endif; 
+      ?>
     </div>
   </div>
 </section>

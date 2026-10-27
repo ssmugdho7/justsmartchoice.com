@@ -1,0 +1,87 @@
+{
+    "seo": {
+        "title": "Construction Financing Tampa Bay FL | Remodeling & Home Improvement Financing",
+        "description": "Explore construction and remodeling financing options for Tampa Bay homeowners, including home improvement projects, kitchens, bathrooms, roofing, electrical, plumbing, additions, and property improvements.",
+        "keywords": "Construction Financing Tampa Bay, Remodeling Financing Florida, Home Improvement Financing Tampa, Contractor Financing Florida, Kitchen Financing, Bathroom Financing, Roofing Financing Tampa Bay",
+        "og_image": "/images/fg-image.png"
+    },
+    "welcome": {
+        "heading": "Customer's Financing services!",
+        "p1": "Welcome to Smart Choice Contractors USA, your trusted partner in turnkey construction solutions. We specialize in residential and commercial projects, delivering high-quality craftsmanship with precision. Our services include new construction, full renovations, room additions, electrical work, roofing, fencing, carpentry, and structural repairs. We prioritize customer satisfaction, premium materials, and timely project execution. Our skilled team ensures every project meets top standards, whether a minor repair or a complete development. With Smart Choice Contractors, you receive reliable service and outstanding results tailored to your needs. We understand that financing plays a significant role in your project, which is why we offer recommendations for trusted financial institutions that have helped our clients secure funding for their home improvement and construction needs.",
+        "p2": "At Smart Choice Contractors, we are dedicated to transforming spaces with expertise and care. Our services include exterior and interior remodeling, kitchen and bathroom upgrades, flooring, drywall, painting, and full-scale property restoration. We use durable materials, modern techniques, and expert labor to enhance both aesthetics and functionality. From foundation work to final finishes, our team manages every construction phase with professionalism and clear communication. Choose Smart Choice Contractors for trusted workmanship and top-tier customer service. Let’s build your vision—on schedule and within budget. With financing options available, we make it easier for you to turn your ideas into reality by partnering with lenders who offer fast, reliable services that fit your project’s needs. Explore your options today and get started with us on your next project."
+    },
+    "hero": {
+        "title": "Financing Online Application"
+    },
+    "lenders": [
+        {
+            "name": "Discover Home Equity",
+            "url": "https://www.discover.com/personal-loans/lp/hi/lo/?&cpn=sem:brand:national&ds_c=DFS_GGL_SCH_CNV_DPL_PersonalLoans_PRP_PersonalLoans_NA_NA_DMT_BRAND_BRD&ds_kids=384382996301&device=c_GGL_BRD_TROAS_NA&gad_source=1&gad_campaignid=22807725059&gbraid=0AAAAADk_fiwu5d4Z2dXxId9YDxndNe4Ry&gclid=Cj0KCQjwo63HBhCKARIsAHOHV_UZcrL2LT_52ziDJLEUPmUIGR2PCHukwmSygbU_pQIx9qXtsPolM24aAq07EALw_wcB&gclsrc=aw.ds",
+            "note": ""
+        },
+        {
+            "name": "Hometap",
+            "url": "https://go.hometap.com/inquiry/info/property/",
+            "note": "May accept credit scores starting around 500"
+        },
+        {
+            "name": "HFS Home Improvement Loans",
+            "url": "https://apply.hfsfinancial.net/prequalification?_gl=1*13k4i5s*_gcl_au*MjA0Mjg3MjA5MC4xNzQxODI2NTMxLjEyNDMzNjM3MTguMTc0MTgyNjUzMS4xNzQxODI3OTQ4",
+            "note": ""
+        },
+        {
+            "name": "Hearth Home Improvement",
+            "url": "https://gethearth.com/referral-home/?grsf=harold-h71fya",
+            "note": ""
+        },
+        {
+            "name": "Florida Credit Union",
+            "url": "https://app.consumer.meridianlink.com/pl/PersonalLoan.aspx?enc=Kw21Wblm1yxpjJabdoZaD8wqqpJ4bva4u1RBmM8mJUV86n8gVHfZ3rRS6hL46mrc6PTAB8-HS0cpkANrtKAldA",
+            "note": ""
+        },
+        {
+            "name": "Upstart",
+            "url": "https://www.upstart.com/home-improvement-loans",
+            "note": ""
+        },
+        {
+            "name": "Republic Bank",
+            "url": "https://republic.my.site.com/lending/s/mortgage?utm_medium=PaidSearch&utm_term=C000087&utm_content=GoogleTextAds&utm_campaign=SEMHelocTampa&utm_source=Heloc&tfa_185=Heloc&tfa_189=PaidSearch&tfa_181=C000005&tfa_183=GoogleTextAds&tfa_182=SEMHelocTampa&gad_source=1&gad_campaignid=16572699250&gbraid=0AAAAADnmWGWH1Uiel85RNbD4QXZHegmCZ&gclid=Cj0KCQjwo63HBhCKARIsAHOHV_UYWd0QD4KP-9nNr7sK7KLK9eJ9GY2NPsSDI4hsHwmPnHdB286mjXAaAu8DEALw_wcB",
+            "note": ""
+        },
+        {
+            "name": "PNC Loan",
+            "url": "https://secure.apply.pnc.com/ulapp/getting-started",
+            "note": ""
+        },
+        {
+            "name": "Wells Fargo",
+            "url": "https://www.wellsfargo.com/personal-loans/home-improvement/",
+            "note": ""
+        },
+        {
+            "name": "Regions Bank Financing",
+            "url": "https://prequalification.enerbank.com/apply/loanproduct?sponsorPhoneNumber=8663414200&contractorNumber=1235&loanCode=D4377&contractorEmail=contact@primeshieldroofingfl.com&utm_source=web_button",
+            "note": ""
+        },
+        {
+            "name": "Silver Rock Financial",
+            "url": "https://silverrockusa.com/",
+            "note": ""
+        }
+    ],
+    "promo_images": [
+        {
+            "image": "images/smart_choice_electrical_service.webp",
+            "overlay_text": "Hire a Smart Choice Electrician",
+            "overlay_subtext": "Make an Appointment",
+            "url": "https://crm.justsmartchoice.com/appointly/appointments"
+        },
+        {
+            "image": "images/smartchoicefinancial.webp",
+            "overlay_text": "Hire a Smart Choice Electrician",
+            "overlay_subtext": "Make an Appointment",
+            "url": "https://crm.justsmartchoice.com/appointly/appointments"
+        }
+    ]
+}

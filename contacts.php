@@ -4,6 +4,8 @@
    CONTACT PAGE
    ========================================================= */
 
+require_once __DIR__ . '/includes/cms-engine.php';
+
 $formMessage = '';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -20,13 +22,28 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email   = trim($_POST['email'] ?? '');
     $message = trim($_POST['message'] ?? '');
 
+    // Record lead in CMS leads log
+    $leadsFile = CMS_DATA_DIR . '/leads.json';
+    $existingLeads = file_exists($leadsFile) ? json_decode(@file_get_contents($leadsFile), true) : [];
+    if (!is_array($existingLeads)) $existingLeads = [];
+    $existingLeads[] = [
+        'id' => uniqid('lead_'),
+        'date' => date('Y-m-d H:i:s'),
+        'name' => $name,
+        'phone' => $phone,
+        'email' => $email,
+        'message' => $message,
+        'service' => trim($_POST['service'] ?? 'General Inquiry')
+    ];
+    @file_put_contents($leadsFile, json_encode($existingLeads, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
+
     /* =====================================================
        EMAIL CONFIGURATION
        ===================================================== */
 
-    $to = 'lead@justsmartchoice.com,sales@justsmartchoice.com,admin@justsmartchoice.com,haroldcabrerausa@gmail.com';
+    $to = cms_field('contacts', 'email_config.recipients', 'lead@justsmartchoice.com,sales@justsmartchoice.com,admin@justsmartchoice.com,haroldcabrerausa@gmail.com');
 
-    $subject = 'New Lead from the website.';
+    $subject = cms_field('contacts', 'email_config.subject_prefix', 'New Lead from the website.');
 
     /* =====================================================
        FILE UPLOAD SETTINGS
@@ -458,6 +475,7 @@ gtag(
 </script>
 
 <?php include __DIR__ . '/includes/cookie-consent-head.php'; ?>
+<?php echo cms_head_scripts(); ?>
 
 <meta charset="utf-8">
 
@@ -1380,32 +1398,30 @@ gtag(
 
                 <article class="smart-overview-card">
 
-                    <div class="smart-overview-icon">
-                        🏗️
+                    <div class="smart-overview-icon" <?php echo cms_bind('contacts', 'overview.card_1.icon'); ?>>
+                        <?php echo htmlspecialchars(cms_field('contacts', 'overview.card_1.icon', '🏗️')); ?>
                     </div>
 
-                    <h2 class="text-uppercase">
-                        Our Goal
+                    <h2 class="text-uppercase" <?php echo cms_bind('contacts', 'overview.card_1.title'); ?>>
+                        <?php echo htmlspecialchars(cms_field('contacts', 'overview.card_1.title', 'Our Goal')); ?>
                     </h2>
 
-                    <p class="smart-overview-lead">
-
-                        Professional construction support for Tampa Bay homeowners, property investors, and business owners.
-
+                    <p class="smart-overview-lead" <?php echo cms_bind('contacts', 'overview.card_1.lead'); ?>>
+                        <?php echo htmlspecialchars(cms_field('contacts', 'overview.card_1.lead', 'Professional construction support for Tampa Bay homeowners, property investors, and business owners.')); ?>
                     </p>
 
                     <ol class="smart-overview-list">
 
-                        <li>
-                            Deliver dependable construction, remodeling, electrical, plumbing, roofing, and property improvement services.
+                        <li <?php echo cms_bind('contacts', 'overview.card_1.item_1'); ?>>
+                            <?php echo htmlspecialchars(cms_field('contacts', 'overview.card_1.item_1', 'Deliver dependable construction, remodeling, electrical, plumbing, roofing, and property improvement services.')); ?>
                         </li>
 
-                        <li>
-                            Provide clear communication, organized project coordination, and quality workmanship from start to finish.
+                        <li <?php echo cms_bind('contacts', 'overview.card_1.item_2'); ?>>
+                            <?php echo htmlspecialchars(cms_field('contacts', 'overview.card_1.item_2', 'Provide clear communication, organized project coordination, and quality workmanship from start to finish.')); ?>
                         </li>
 
-                        <li>
-                            Build long-term customer relationships by becoming your preferred contractor in Florida.
+                        <li <?php echo cms_bind('contacts', 'overview.card_1.item_3'); ?>>
+                            <?php echo htmlspecialchars(cms_field('contacts', 'overview.card_1.item_3', 'Build long-term customer relationships by becoming your preferred contractor in Florida.')); ?>
                         </li>
 
                     </ol>
@@ -1421,49 +1437,45 @@ gtag(
 
                 <article class="smart-overview-card">
 
-                    <div class="smart-overview-icon">
-                        📞
+                    <div class="smart-overview-icon" <?php echo cms_bind('contacts', 'overview.card_2.icon'); ?>>
+                        <?php echo htmlspecialchars(cms_field('contacts', 'overview.card_2.icon', '📞')); ?>
                     </div>
 
-                    <h2 class="text-uppercase">
-                        Who to Contact?
+                    <h2 class="text-uppercase" <?php echo cms_bind('contacts', 'overview.card_2.title'); ?>>
+                        <?php echo htmlspecialchars(cms_field('contacts', 'overview.card_2.title', 'Who to Contact?')); ?>
                     </h2>
 
-                    <p class="smart-overview-lead">
-
-                        Talk to the right department for faster project support.
-
+                    <p class="smart-overview-lead" <?php echo cms_bind('contacts', 'overview.card_2.lead'); ?>>
+                        <?php echo htmlspecialchars(cms_field('contacts', 'overview.card_2.lead', 'Talk to the right department for faster project support.')); ?>
                     </p>
 
-                    <p>
-
-                        Whether you need an estimate, construction drawings, permit support, project management, or field coordination, our team can route your request to the proper department.
-
+                    <p <?php echo cms_bind('contacts', 'overview.card_2.description'); ?>>
+                        <?php echo htmlspecialchars(cms_field('contacts', 'overview.card_2.description', 'Whether you need an estimate, construction drawings, permit support, project management, or field coordination, our team can route your request to the proper department.')); ?>
                     </p>
 
                     <ul class="smart-overview-link-list">
 
                         <li>
-                            <a href="contacts.php">
-                                Project Management
+                            <a href="contacts.php" <?php echo cms_bind('contacts', 'overview.card_2.dept_1'); ?>>
+                                <?php echo htmlspecialchars(cms_field('contacts', 'overview.card_2.dept_1', 'Project Management')); ?>
                             </a>
                         </li>
 
                         <li>
-                            <a href="contacts.php">
-                                Design, Drawings &amp; Engineering
+                            <a href="contacts.php" <?php echo cms_bind('contacts', 'overview.card_2.dept_2'); ?>>
+                                <?php echo htmlspecialchars(cms_field('contacts', 'overview.card_2.dept_2', 'Design, Drawings & Engineering')); ?>
                             </a>
                         </li>
 
                         <li>
-                            <a href="contacts.php">
-                                Construction &amp; Site Operations
+                            <a href="contacts.php" <?php echo cms_bind('contacts', 'overview.card_2.dept_3'); ?>>
+                                <?php echo htmlspecialchars(cms_field('contacts', 'overview.card_2.dept_3', 'Construction & Site Operations')); ?>
                             </a>
                         </li>
 
                         <li>
-                            <a href="contacts.php">
-                                Customer Support &amp; Service Requests
+                            <a href="contacts.php" <?php echo cms_bind('contacts', 'overview.card_2.dept_4'); ?>>
+                                <?php echo htmlspecialchars(cms_field('contacts', 'overview.card_2.dept_4', 'Customer Support & Service Requests')); ?>
                             </a>
                         </li>
 
@@ -1480,45 +1492,41 @@ gtag(
 
                 <article class="smart-overview-card smart-resource-card">
 
-                    <div class="smart-overview-icon">
-                        🗂️
+                    <div class="smart-overview-icon" <?php echo cms_bind('contacts', 'overview.card_3.icon'); ?>>
+                        <?php echo htmlspecialchars(cms_field('contacts', 'overview.card_3.icon', '🗂️')); ?>
                     </div>
 
-                    <h2 class="text-uppercase">
-                        Client Resources
+                    <h2 class="text-uppercase" <?php echo cms_bind('contacts', 'overview.card_3.title'); ?>>
+                        <?php echo htmlspecialchars(cms_field('contacts', 'overview.card_3.title', 'Client Resources')); ?>
                     </h2>
 
-                    <p class="smart-overview-lead">
-
-                        Access your construction project information online.
-
+                    <p class="smart-overview-lead" <?php echo cms_bind('contacts', 'overview.card_3.lead'); ?>>
+                        <?php echo htmlspecialchars(cms_field('contacts', 'overview.card_3.lead', 'Access your construction project information online.')); ?>
                     </p>
 
-                    <p>
-
-                        Existing clients can use our secure CRM portal to review project information, appointments, documents, estimates, invoices, and service updates.
-
+                    <p <?php echo cms_bind('contacts', 'overview.card_3.description'); ?>>
+                        <?php echo htmlspecialchars(cms_field('contacts', 'overview.card_3.description', 'Existing clients can use our secure CRM portal to review project information, appointments, documents, estimates, invoices, and service updates.')); ?>
                     </p>
 
                     <a
                         class="smart-crm-access-box"
-                        href="https://crm.justsmartchoice.com/authentication/login"
+                        href="<?php echo htmlspecialchars(cms_field('contacts', 'overview.card_3.crm_url', 'https://crm.justsmartchoice.com/authentication/login')); ?>"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
 
-                        <span class="smart-crm-icon">
-                            🔐
+                        <span class="smart-crm-icon" <?php echo cms_bind('contacts', 'overview.card_3.crm_icon'); ?>>
+                            <?php echo htmlspecialchars(cms_field('contacts', 'overview.card_3.crm_icon', '🔐')); ?>
                         </span>
 
                         <span>
 
-                            <strong>
-                                Client CRM Access
+                            <strong <?php echo cms_bind('contacts', 'overview.card_3.crm_title'); ?>>
+                                <?php echo htmlspecialchars(cms_field('contacts', 'overview.card_3.crm_title', 'Client CRM Access')); ?>
                             </strong>
 
-                            <small>
-                                Open project files and customer portal
+                            <small <?php echo cms_bind('contacts', 'overview.card_3.crm_subtitle'); ?>>
+                                <?php echo htmlspecialchars(cms_field('contacts', 'overview.card_3.crm_subtitle', 'Open project files and customer portal')); ?>
                             </small>
 
                         </span>
@@ -1548,18 +1556,10 @@ gtag(
 
     <div class="smart-map-wrap">
 
-
-        <!--
-        Google Maps is now centered directly on the
-        Smart Choice Contractors USA Spring Hill office.
-
-        The old artificial HTML/CSS map pin has been removed.
-        -->
-
         <iframe
             class="smart-map-frame"
-            title="Google Map showing Smart Choice Contractors USA at 1663 US Highway 41, Spring Hill, Florida 34610"
-            src="https://www.google.com/maps?q=Smart+Choice+Contractors+USA%2C+1663+US+Highway+41%2C+Spring+Hill%2C+FL+34610&amp;hl=en&amp;z=15&amp;output=embed"
+            title="Google Map showing Smart Choice Contractors USA"
+            src="<?php echo htmlspecialchars(cms_field('contacts', 'office_map.embed_url', 'https://www.google.com/maps?q=Smart+Choice+Contractors+USA%2C+1663+US+Highway+41%2C+Spring+Hill%2C+FL+34610&hl=en&z=15&output=embed')); ?>"
             loading="lazy"
             allowfullscreen
             referrerpolicy="no-referrer-when-downgrade"
@@ -1572,41 +1572,35 @@ gtag(
 
             <div class="smart-map-card">
 
-                <span class="smart-map-eyebrow">
-
-                    Visit Smart Choice Contractors USA
-
+                <span class="smart-map-eyebrow" <?php echo cms_bind('contacts', 'office_map.eyebrow'); ?>>
+                    <?php echo htmlspecialchars(cms_field('contacts', 'office_map.eyebrow', 'Visit Smart Choice Contractors USA')); ?>
                 </span>
 
 
-                <h2 id="smart-map-title">
-
-                    Find Our Location
-
+                <h2 id="smart-map-title" <?php echo cms_bind('contacts', 'office_map.title'); ?>>
+                    <?php echo htmlspecialchars(cms_field('contacts', 'office_map.title', 'Find Our Location')); ?>
                 </h2>
 
 
                 <address class="smart-map-address">
 
-                    <strong>
-                        Smart Choice Contractors USA
+                    <strong <?php echo cms_bind('contacts', 'office_map.company_name'); ?>>
+                        <?php echo htmlspecialchars(cms_field('contacts', 'office_map.company_name', 'Smart Choice Contractors USA')); ?>
                     </strong>
 
                     <br>
 
-                    1663 US Highway 41
+                    <span <?php echo cms_bind('contacts', 'office_map.address_line1'); ?>><?php echo htmlspecialchars(cms_field('contacts', 'office_map.address_line1', '1663 US Highway 41')); ?></span>
 
                     <br>
 
-                    Spring Hill, FL 34610
+                    <span <?php echo cms_bind('contacts', 'office_map.address_line2'); ?>><?php echo htmlspecialchars(cms_field('contacts', 'office_map.address_line2', 'Spring Hill, FL 34610')); ?></span>
 
                 </address>
 
 
-                <p>
-
-                    Use Google Maps for live directions, estimated travel time, traffic information, and route options.
-
+                <p <?php echo cms_bind('contacts', 'office_map.description'); ?>>
+                    <?php echo htmlspecialchars(cms_field('contacts', 'office_map.description', 'Use Google Maps for live directions, estimated travel time, traffic information, and route options.')); ?>
                 </p>
 
 
@@ -1617,7 +1611,7 @@ gtag(
 
                     <a
                         class="smart-map-button"
-                        href="https://www.google.com/maps/dir/?api=1&amp;destination=1663+US+Highway+41%2C+Spring+Hill%2C+FL+34610"
+                        href="<?php echo htmlspecialchars(cms_field('contacts', 'office_map.directions_url', 'https://www.google.com/maps/dir/?api=1&destination=1663+US+Highway+41%2C+Spring+Hill%2C+FL+34610')); ?>"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -1636,7 +1630,7 @@ gtag(
 
                     <a
                         class="smart-map-button smart-map-button--blue"
-                        href="https://www.google.com/maps/search/?api=1&amp;query=Smart+Choice+Contractors+USA%2C+1663+US+Highway+41%2C+Spring+Hill%2C+FL+34610"
+                        href="<?php echo htmlspecialchars(cms_field('contacts', 'office_map.maps_search_url', 'https://www.google.com/maps/search/?api=1&query=Smart+Choice+Contractors+USA%2C+1663+US+Highway+41%2C+Spring+Hill%2C+FL+34610')); ?>"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -1655,7 +1649,7 @@ gtag(
 
                     <a
                         class="smart-map-button smart-map-button--orange smart-map-button--wide"
-                        href="tel:+17277553786"
+                        href="tel:<?php echo htmlspecialchars(cms_field('contacts', 'office_map.phone_tel', '+17277553786')); ?>"
                     >
 
                         <span
@@ -1663,7 +1657,7 @@ gtag(
                             aria-hidden="true"
                         ></span>
 
-                        Call (727) 755-3786
+                        Call <span <?php echo cms_bind('contacts', 'office_map.phone'); ?>><?php echo htmlspecialchars(cms_field('contacts', 'office_map.phone', '(727) 755-3786')); ?></span>
 
                     </a>
 
@@ -1688,14 +1682,8 @@ gtag(
     <div class="container">
 
 
-        <h1>
-
-            Get in
-
-            <span class="font-weight-light">
-                Touch
-            </span>
-
+        <h1 <?php echo cms_bind('contacts', 'contact_form.title'); ?>>
+            <?php echo htmlspecialchars(cms_field('contacts', 'contact_form.title', 'Get in Touch')); ?>
         </h1>
 
 
@@ -1703,31 +1691,27 @@ gtag(
 
         <div class="smart-contact-note">
 
-            <div class="smart-contact-note-icon">
-                📐
+            <div class="smart-contact-note-icon" <?php echo cms_bind('contacts', 'contact_form.note_icon'); ?>>
+                <?php echo htmlspecialchars(cms_field('contacts', 'contact_form.note_icon', '📐')); ?>
             </div>
 
 
             <div class="smart-contact-note-content">
 
-                <h4>
-
-                    Project Documents, Drawings or Estimate Information
-
+                <h4 <?php echo cms_bind('contacts', 'contact_form.note_title'); ?>>
+                    <?php echo htmlspecialchars(cms_field('contacts', 'contact_form.note_title', 'Project Documents, Drawings or Estimate Information')); ?>
                 </h4>
 
 
-                <p>
-
-                    Our team will contact you within
-
-                    <strong>
-                        8 to 24 business hours
-                    </strong>.
-
-                    If you already have drawings, plans, photos, measurements, permits, inspection notes, or project documents, attach them below so we can review your project faster.
-
+                <p <?php echo cms_bind('contacts', 'contact_form.note_text'); ?>>
+                    <?php echo cms_field('contacts', 'contact_form.note_text', 'Our team will contact you within <strong>8 to 24 business hours</strong>. If you already have drawings, plans, photos, measurements, permits, inspection notes, or project documents, attach them below so we can review your project faster.'); ?>
                 </p>
+
+                <div style="margin-top: 12px;">
+                    <a href="/pricing.php" class="btn btn-sm btn-primary" style="font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; border-radius: 6px;">
+                        <i class="fa fa-calculator" aria-hidden="true" style="margin-right: 6px;"></i> View Construction Pricing &amp; Rates
+                    </a>
+                </div>
 
             </div>
 

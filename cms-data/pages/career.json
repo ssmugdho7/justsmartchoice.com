@@ -1,0 +1,176 @@
+{
+  "seo": {
+    "title": "Construction Careers Tampa Bay FL | Smart Choice Contractors USA Jobs",
+    "description": "Apply for construction careers with Smart Choice Contractors USA. Hiring project managers, sales managers, electricians, plumbers, HVAC technicians, remodelers, carpenters, painters, tile installers, drywall installers, laborers, office staff, and construction professionals in Tampa Bay Florida.",
+    "keywords": "Construction Jobs Tampa Bay, Contractor Careers Florida, Remodeling Jobs Spring Hill FL, Electrician Jobs Tampa Bay, Plumbing Jobs Florida, HVAC Jobs Tampa, Roofing Jobs Florida, Smart Choice Contractors USA Careers",
+    "og_image": "/images/fg-image.png"
+  },
+  "hero": {
+    "eyebrow": "Now Hiring",
+    "title": "Join Our Team",
+    "p1": "Build your future with Smart Choice Contractors USA, a growing Florida construction, remodeling, electrical, plumbing, roofing, HVAC, drafting, engineering, and home improvement company serving Tampa Bay and surrounding communities.",
+    "p2": "We are looking for motivated professionals who take pride in quality workmanship, customer service, leadership, communication, safety, and teamwork. Whether you are an experienced project manager, skilled trade professional, estimator, salesperson, office administrator, IT specialist, or someone ready to start a career in construction, we offer opportunities for growth, training, advancement, and long-term success.",
+    "p3": "Our projects include residential remodeling, commercial construction, kitchens, bathrooms, roofing, electrical installations, plumbing systems, HVAC work, flooring, drywall, painting, additions, construction drawings, permit preparation, inspections, project management, and complete property improvement services throughout Florida.",
+    "apply_button_text": "Apply Online Now",
+    "apply_button_url": "https://crm.justsmartchoice.com/recruitment/recruitment_portal"
+  },
+  "positions_section": {
+    "title": "Open Career Opportunities",
+    "subtitle": "Review available career categories below. Click each position to read the role overview, responsibilities, requirements, and application link.",
+    "positions": [
+      {
+        "title": "Project Manager",
+        "overview": "Manage construction projects from planning to closeout, including schedule, budget, quality, customer communication, subcontractor coordination, inspections, and documentation.",
+        "bullet_1": "Coordinate crews, subcontractors, materials, permits, inspections, and client updates.",
+        "bullet_2": "Track milestones, change orders, jobsite photos, project documents, and closeout items.",
+        "bullet_3": "Protect quality standards, schedule performance, and customer experience.",
+        "requirements": "Construction project leadership experience, scheduling skills, plan reading, strong communication, and reliable transportation.",
+        "apply_url": "https://crm.justsmartchoice.com/recruitment/recruitment_portal"
+      },
+      {
+        "title": "Sales Manager",
+        "overview": "Lead revenue growth, sales team development, pipeline follow-up, CRM discipline, customer relationships, and proposal quality.",
+        "bullet_1": "Train and manage sales representatives.",
+        "bullet_2": "Improve lead conversion, follow-up systems, and proposal presentation.",
+        "bullet_3": "Coordinate with marketing and production teams.",
+        "requirements": "Sales leadership experience, construction or home improvement background preferred, CRM knowledge, and strong negotiation skills.",
+        "apply_url": "https://crm.justsmartchoice.com/recruitment/recruitment_portal"
+      },
+      {
+        "title": "Assistant Manager",
+        "overview": "Support daily operations, jobsite coordination, scheduling, project documentation, material readiness, and customer communication.",
+        "bullet_1": "Assist project managers and field crews.",
+        "bullet_2": "Track progress, photos, materials, and jobsite conditions.",
+        "bullet_3": "Help maintain safety, quality, and schedule performance.",
+        "requirements": "Construction coordination experience, organization, communication, and problem-solving skills.",
+        "apply_url": "https://crm.justsmartchoice.com/recruitment/recruitment_portal"
+      },
+      {
+        "title": "Electricians",
+        "overview": "Perform electrical installations, panel work, lighting, circuits, troubleshooting, EV charger installations, rough-ins, trims, and code corrections.",
+        "bullet_1": "Install wiring, devices, panels, breakers, lighting, and electrical components.",
+        "bullet_2": "Read plans and coordinate with other trades.",
+        "bullet_3": "Support inspections and maintain jobsite safety.",
+        "requirements": "Electrical experience, NEC knowledge, reliable transportation, and Florida license preferred.",
+        "apply_url": "https://crm.justsmartchoice.com/recruitment/recruitment_portal"
+      },
+      {
+        "title": "Professional Plumbers",
+        "overview": "Install and repair water lines, drain lines, fixtures, water heaters, rough plumbing, finish plumbing, and remodeling plumbing systems.",
+        "bullet_1": "Install supply, DWV, fixtures, valves, water heaters, and plumbing connections.",
+        "bullet_2": "Coordinate with remodelers, electricians, tile installers, and inspectors.",
+        "bullet_3": "Maintain clean, safe, and code-conscious work.",
+        "requirements": "Plumbing field experience, plan reading preferred, and reliable transportation.",
+        "apply_url": "https://crm.justsmartchoice.com/recruitment/recruitment_portal"
+      },
+      {
+        "title": "HVAC Technicians",
+        "overview": "Install, service, and troubleshoot HVAC systems, ductwork, air handlers, condensers, refrigerant lines, thermostats, and ventilation components.",
+        "bullet_1": "Support rough-in, trim, startup, and service work.",
+        "bullet_2": "Verify airflow, equipment performance, condensate management, and inspection readiness.",
+        "bullet_3": "Maintain safe refrigerant and electrical practices.",
+        "requirements": "HVAC experience, EPA certification preferred or required depending on scope, and strong diagnostic skills.",
+        "apply_url": "https://crm.justsmartchoice.com/recruitment/recruitment_portal"
+      },
+      {
+        "title": "Home Remodelers",
+        "overview": "Perform remodeling tasks for kitchens, bathrooms, interior renovations, repairs, flooring, drywall, trim, demolition, and finish work.",
+        "bullet_1": "Handle demolition, preparation, carpentry, repairs, and punch-list tasks.",
+        "bullet_2": "Coordinate with licensed trades and project managers.",
+        "bullet_3": "Deliver clean work and professional customer experience.",
+        "requirements": "Remodeling experience, tool knowledge, reliability, and attention to detail.",
+        "apply_url": "https://crm.justsmartchoice.com/recruitment/recruitment_portal"
+      },
+      {
+        "title": "Carpenters & Framers",
+        "overview": "Perform framing, carpentry, blocking, sheathing, trim, doors, hardware, and structural repair support.",
+        "bullet_1": "Read plans, measure accurately, and complete framing details.",
+        "bullet_2": "Coordinate with MEP trades and inspections.",
+        "bullet_3": "Maintain clean, safe, and organized work areas.",
+        "requirements": "Carpentry experience, tool proficiency, layout skills, and reliable transportation.",
+        "apply_url": "https://crm.justsmartchoice.com/recruitment/recruitment_portal"
+      },
+      {
+        "title": "Tile Installers",
+        "overview": "Install tile for bathrooms, showers, kitchens, floors, backsplashes, waterproofing systems, and finish details.",
+        "bullet_1": "Prepare substrates, waterproof wet areas, set tile, grout, and detail edges.",
+        "bullet_2": "Maintain layout accuracy, clean cuts, and finish quality.",
+        "bullet_3": "Protect completed areas and coordinate with project schedule.",
+        "requirements": "Tile installation experience, waterproofing knowledge preferred, and strong finish standards.",
+        "apply_url": "https://crm.justsmartchoice.com/recruitment/recruitment_portal"
+      },
+      {
+        "title": "Painters",
+        "overview": "Perform interior and exterior painting, preparation, patching, sanding, caulking, priming, masking, and finish coats.",
+        "bullet_1": "Protect jobsite areas and deliver clean finish work.",
+        "bullet_2": "Prepare surfaces correctly before coating.",
+        "bullet_3": "Support final punch-list and customer-ready presentation.",
+        "requirements": "Painting experience, prep knowledge, and clean work habits.",
+        "apply_url": "https://crm.justsmartchoice.com/recruitment/recruitment_portal"
+      },
+      {
+        "title": "Drywall Installers",
+        "overview": "Hang, tape, finish, sand, repair, texture, and prepare drywall surfaces for paint and final finishes.",
+        "bullet_1": "Install and finish drywall in remodels, additions, and repairs.",
+        "bullet_2": "Maintain dust control and protection standards.",
+        "bullet_3": "Coordinate with painting and trim schedules.",
+        "requirements": "Drywall installation or finishing experience and attention to detail.",
+        "apply_url": "https://crm.justsmartchoice.com/recruitment/recruitment_portal"
+      },
+      {
+        "title": "Stucco Finishers",
+        "overview": "Perform stucco repairs, lath, base coat, finish coat, texture matching, exterior patching, and wall finish work.",
+        "bullet_1": "Prepare exterior surfaces and apply finish systems correctly.",
+        "bullet_2": "Coordinate with waterproofing, painting, and exterior repair scopes.",
+        "bullet_3": "Maintain consistent texture and clean work areas.",
+        "requirements": "Stucco experience and exterior finish knowledge.",
+        "apply_url": "https://crm.justsmartchoice.com/recruitment/recruitment_portal"
+      },
+      {
+        "title": "IT Specialist",
+        "overview": "Support CRM systems, website tools, emails, user accounts, security, backups, workstations, software, and company technology operations.",
+        "bullet_1": "Maintain CRM users, permissions, workflows, and integrations.",
+        "bullet_2": "Support website, hosting, email, devices, and internal systems.",
+        "bullet_3": "Document processes and improve technology reliability.",
+        "requirements": "IT support experience, CRM or web system knowledge preferred, confidentiality, and strong documentation skills.",
+        "apply_url": "https://crm.justsmartchoice.com/recruitment/recruitment_portal"
+      },
+      {
+        "title": "Bookkeeper",
+        "overview": "Support bookkeeping, invoicing, payment tracking, vendor records, bank reconciliation, project costing, financial organization, and office reporting.",
+        "bullet_1": "Track accounts payable, accounts receivable, invoices, and payments.",
+        "bullet_2": "Maintain organized records for vendors, customers, and projects.",
+        "bullet_3": "Support job costing and reporting accuracy.",
+        "requirements": "Bookkeeping experience, attention to detail, confidentiality, and accounting software or spreadsheet skills.",
+        "apply_url": "https://crm.justsmartchoice.com/recruitment/recruitment_portal"
+      },
+      {
+        "title": "Helper / Laborer",
+        "overview": "Support field crews with demolition, material staging, cleanup, protection, basic construction tasks, and jobsite organization.",
+        "bullet_1": "Assist multiple trades with safe and organized production.",
+        "bullet_2": "Keep job areas clean, protected, and ready for the next phase.",
+        "bullet_3": "Learn construction skills and grow into higher-level trade roles.",
+        "requirements": "Willingness to learn, punctuality, teamwork, and ability to perform physical work safely.",
+        "apply_url": "https://crm.justsmartchoice.com/recruitment/recruitment_portal"
+      }
+    ]
+  },
+  "locations_section": {
+    "title": "Construction Careers in Tampa Bay Florida",
+    "p1": "Smart Choice Contractors USA recruits construction professionals throughout Spring Hill, Tampa, Brooksville, Clearwater, St. Petersburg, New Port Richey, Wesley Chapel, Pasco County, Hernando County, Hillsborough County, Pinellas County, and surrounding Florida communities.",
+    "p2": "We are interested in candidates with experience in residential remodeling, commercial construction, electrical contracting, plumbing, roofing, HVAC, flooring, drywall, painting, carpentry, framing, tile, estimating, sales, project management, bookkeeping, office administration, IT support, customer service, and construction operations.",
+    "p3": "Our recruiting portal allows applicants to apply online, submit contact information, upload resumes, and review available opportunities in one centralized system.",
+    "button_text": "View All Open Positions",
+    "button_url": "https://crm.justsmartchoice.com/recruitment/recruitment_portal"
+  },
+  "why_work": {
+    "title": "Why Work With Smart Choice Contractors USA?",
+    "p1": "Smart Choice Contractors USA is committed to building a professional workplace where talented people can grow, lead, learn, and build rewarding careers. We believe our success comes from the quality of our team members, the organization of our systems, and our commitment to customers.",
+    "p2": "Our team works with clear standards, structured processes, modern technology, CRM organization, project documentation, customer communication, safety expectations, and performance accountability. We value people who are reliable, respectful, solution-focused, and serious about building a long-term future in the construction industry.",
+    "p3": "We promote professional development, leadership opportunities, technical training, jobsite discipline, quality workmanship, and customer-first service. Our goal is to create long-term careers, not temporary jobs.",
+    "eeo_text": "Smart Choice Contractors USA is an Equal Opportunity Employer. Employment decisions are made without regard to race, color, religion, sex, gender identity, sexual orientation, national origin, age, disability, veteran status, marital status, genetic information, or any other protected characteristic under applicable federal, state, or local laws.",
+    "closing_p": "If you are passionate about construction, remodeling, customer service, innovation, craftsmanship, and building a better future, we encourage you to apply today.",
+    "button_text": "Apply Through Our Career Portal",
+    "button_url": "https://crm.justsmartchoice.com/recruitment/recruitment_portal"
+  }
+}

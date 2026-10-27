@@ -1,0 +1,79 @@
+{
+  "seo": {
+    "title": "Partners & Suppliers | Smart Choice Contractors USA Tampa Bay",
+    "description": "Smart Choice Contractors USA partners with trusted vendors and governing agencies to deliver quality, compliant construction and remodeling across the Tampa Bay area.",
+    "keywords": "Partners, Building Materials Tampa, Construction Vendors Florida, Smart Choice Contractors USA, Home Depot, Lowes, ABC Supply",
+    "og_image": "/images/logo-638x310.png"
+  },
+  "hero": {
+    "title": "Our Trusted Partners & Suppliers",
+    "lead": "At Smart Choice Contractors USA, we take pride in delivering exceptional construction, renovation, and remodeling services across the Tampa Bay area. Our results are strengthened by strategic relationships with national retailers, regional distributors, specialty trade suppliers, and local permitting agencies that support consistent lead times, reliable material availability, and code-aligned execution."
+  },
+  "content_paragraphs": [
+    "We collaborate with trusted vendors for framing, roofing, drywall, insulation, flooring, cabinets, tile, plumbing fixtures, electrical components, and jobsite essentials. This includes suppliers such as Home Depot, Lowe's, and Ace Hardware, as well as construction-focused distributors like ABC Supply, SRS Distribution, Beacon Building Products, Ferguson, White Cap, and Builders FirstSource. For facility-grade materials and MRO support, we also reference industry leaders like Grainger.",
+    "These partnerships help us source durable building materials, coordinate trade schedules, and maintain a high standard of workmanship for both residential remodeling and commercial improvements. Whether you are planning a kitchen remodel, bathroom renovation, roof repair, interior/exterior painting, flooring replacement, or a full home renovation, our team focuses on scope clarity, clean documentation, and execution that supports inspections, warranties, and long-term performance.",
+    "In Florida, successful construction outcomes require more than good craftsmanship. They require a disciplined workflow that aligns with permitting, inspections, and construction compliance. That is why our processes are designed to support the requirements of local jurisdictions and state oversight, including City of Tampa Construction Services, Hillsborough County Permits & Records, and professional licensing guidance through the Florida DBPR. For code baseline references, we also align our documentation practices to the state-adopted ICC Code Library as the publishing resource commonly used to access code sets.",
+    "Our team builds project plans around practical, inspection-friendly milestones: pre-construction (scope definition and material selections), site preparation (protection, demo, and debris management), rough-in coordination (trade sequencing and quality checkpoints), finish installation (fit/finish consistency), and closeout (punch list, cleaning, documentation, and client walkthrough). This structure reduces delays, supports clean communication, and helps homeowners and property managers understand the timeline and expectations.",
+    "As a general contractor serving Tampa Bay, we regularly coordinate multi-trade scopes that may involve: carpentry, drywall, tile, cabinet installation, plumbing, electrical, HVAC, roofing, and finish work. We source critical components from established supply channels to help ensure compatibility, warranty support, and reliable delivery windows. For example, cabinets, hardware, and fixtures can be sourced through major retailers, while roofing systems and specialty materials are supported by distributor networks focused on contractor-grade product lines and jobsite delivery options.",
+    "If your project involves water intrusion concerns, mold conditions, or damage that requires corrective work, our documentation is designed to support clarity and traceability. Water damage repair often requires coordinated steps such as: controlled demolition of compromised materials, moisture management, repair of the primary intrusion point, replacement of affected assemblies, and restoration of finishes. For general guidance on mold and moisture considerations, many property owners reference resources like the EPA Mold Resource Center to understand common causes, best practices, and prevention strategies.",
+    "We also take jobsite safety seriously. A clean site and a controlled workflow reduce risk and keep projects moving. When relevant, we reference safety practices aligned with OSHA guidance for construction environments through OSHA Construction. These safety-forward standards support better outcomes for occupants, workers, and neighboring properties, especially during demolition, debris hauling, roofing access, or interior renovations that require daily cleanup and protection of finished surfaces.",
+    "For homeowners researching materials and design inspiration, we encourage planning around both appearance and performance. Durable finishes, moisture-resistant assemblies, and properly rated products matter in Florida's climate. For example, selecting the right underlayment and ventilation approach for roofing, choosing moisture-resistant drywall in certain areas, and using appropriate flooring systems where humidity is a factor can reduce long-term maintenance.",
+    "Smart Choice Contractors USA is built around a straightforward value proposition: clear scope, responsive communication, and construction outcomes designed to last. Clients choose us when they want a contractor that can manage the full process—planning, sourcing, permitting support, jobsite control, multi-trade coordination, and final closeout—without the confusion that often comes with complex remodels.",
+    "If you are comparing contractors in Tampa, it helps to evaluate more than price: look for clear scope definitions, realistic allowances, documented material selections, timelines tied to inspection milestones, and the ability to coordinate reputable suppliers. If you are a partner, supplier, or vendor interested in working with our team, we welcome collaboration that supports higher-quality outcomes, streamlined logistics, and better service for Tampa Bay homeowners and businesses."
+  ],
+  "counties_cities": {
+    "rail_title": "Few of the Counties & Cities We Serve",
+    "chips": [
+      "Hillsborough County", "Pinellas County", "Pasco County", "Polk County", "Hernando County",
+      "Manatee County", "Sarasota County", "Citrus County", "Sumter County", "Orange County",
+      "City Of Tampa", "St. Petersburg", "City Of Clearwater", "Brandon", "Largo",
+      "Palm Harbor", "Tarpon Springs", "Dunedin", "Oldsmar", "Riverview",
+      "Wesley Chapel", "New Port Richey", "Land O’ Lakes", "Lutz", "Odessa",
+      "Temple Terrace", "Plant City", "Brooksville", "Spring Hill", "Lakeland", "Valrico"
+    ]
+  },
+  "suppliers_vendors": {
+    "rail_title": "Our most important Suppliers & Vendors",
+    "chips": [
+      {"name": "Home Depot", "color": "#F96302"},
+      {"name": "Lowe’s", "color": "#004990"},
+      {"name": "3M", "color": "#FF0000"},
+      {"name": "DuPont", "color": "#E4002B"},
+      {"name": "Gator Gypsum", "color": "#1B5E20"},
+      {"name": "Panda Kitchen", "color": "#F15A24"},
+      {"name": "Eaton", "color": "#005EB8"},
+      {"name": "CED", "color": "#003087"},
+      {"name": "Sherwin-Williams", "color": "#0054A4"},
+      {"name": "Behr", "color": "#5C3A21"},
+      {"name": "Mohawk", "color": "#800000"},
+      {"name": "Shaw Floors", "color": "#6B6E6E"},
+      {"name": "Bosch", "color": "#EA0016"},
+      {"name": "Milwaukee Tool", "color": "#C8102E"},
+      {"name": "DEWALT", "color": "#FEBD17"},
+      {"name": "Simpson Strong-Tie", "color": "#F05A28"},
+      {"name": "James Hardie", "color": "#007A3D"},
+      {"name": "Owens Corning", "color": "#E4007C"},
+      {"name": "GAF Roofing", "color": "#E10018"},
+      {"name": "PGT Windows", "color": "#003C71"},
+      {"name": "Simonton", "color": "#6D1E3F"},
+      {"name": "JELD-WEN", "color": "#004B84"},
+      {"name": "Kohler", "color": "#000000"},
+      {"name": "Moen", "color": "#006CB7"},
+      {"name": "Delta Faucet", "color": "#C8102E"},
+      {"name": "Rheem", "color": "#CC0000"},
+      {"name": "Trane", "color": "#CC0000"},
+      {"name": "Carrier", "color": "#1D4F91"},
+      {"name": "LATICRETE", "color": "#00ADEF"},
+      {"name": "Schluter Systems", "color": "#F28D1A"},
+      {"name": "Sika", "color": "#F20000"},
+      {"name": "QUIKRETE", "color": "#F7C600"},
+      {"name": "SAKRETE", "color": "#FFCC00"},
+      {"name": "Oldcastle", "color": "#006341"},
+      {"name": "CEMEX", "color": "#00529B"},
+      {"name": "Vulcan Materials", "color": "#00345D"},
+      {"name": "Trex", "color": "#3E3A39"},
+      {"name": "ABC Supply", "color": "#003057"},
+      {"name": "HD Supply", "color": "#005B9A"}
+    ]
+  }
+}

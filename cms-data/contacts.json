@@ -1,0 +1,63 @@
+{
+    "seo": {
+        "title": "Contact Just Smart Choice Construction USA | Tampa Bay Contractor",
+        "description": "Contact our Tampa Bay construction team to request an estimate for remodeling, construction, roofing, electrical, plumbing, or permits.",
+        "og_image": "/images/fg-image.png",
+        "keywords": ""
+    },
+    "overview": {
+        "card_1": {
+            "icon": "🏗️",
+            "title": "Our Goal",
+            "lead": "Professional construction support for Tampa Bay homeowners, property investors, and business owners.",
+            "item_1": "Deliver dependable construction, remodeling, electrical, plumbing, roofing, and property improvement services.",
+            "item_2": "Provide clear communication, organized project coordination, and quality workmanship from start to finish.",
+            "item_3": "Build long-term customer relationships by becoming your preferred contractor in Florida."
+        },
+        "card_2": {
+            "icon": "📞",
+            "title": "Who to Contact?",
+            "lead": "Talk to the right department for faster project support.",
+            "description": "Whether you need an estimate, construction drawings, permit support, project management, or field coordination, our team can route your request to the proper department.",
+            "dept_1": "Project Management",
+            "dept_2": "Design, Drawings & Engineering",
+            "dept_3": "Construction & Site Operations",
+            "dept_4": "Customer Support & Service Requests"
+        },
+        "card_3": {
+            "icon": "🗂️",
+            "title": "Client Resources",
+            "lead": "Access your construction project information online.",
+            "description": "Existing clients can use our secure CRM portal to review project information, appointments, documents, estimates, invoices, and service updates.",
+            "crm_icon": "🔐",
+            "crm_title": "Client CRM Access",
+            "crm_subtitle": "Open project files and customer portal",
+            "crm_url": "https://crm.justsmartchoice.com/authentication/login"
+        }
+    },
+    "office_map": {
+        "eyebrow": "Visit Smart Choice Contractors USA",
+        "title": "Find Our Location",
+        "company_name": "Smart Choice Contractors USA",
+        "address_line1": "1663 US Highway 41",
+        "address_line2": "Spring Hill, FL 34610",
+        "description": "Use Google Maps for live directions, estimated travel time, traffic information, and route options.",
+        "directions_url": "https://www.google.com/maps/dir/?api=1&destination=1663+US+Highway+41%2C+Spring+Hill%2C+FL+34610",
+        "maps_search_url": "https://www.google.com/maps/search/?api=1&query=Smart+Choice+Contractors+USA%2C+1663+US+Highway+41%2C+Spring+Hill%2C+FL+34610",
+        "phone": "(727) 755-3786",
+        "phone_tel": "+17277553786",
+        "embed_url": "https://www.google.com/maps?q=Smart+Choice+Contractors+USA%2C+1663+US+Highway+41%2C+Spring+Hill%2C+FL+34610&hl=en&z=15&output=embed"
+    },
+    "contact_form": {
+        "title": "Get in Touch",
+        "note_icon": "📐",
+        "note_title": "Project Documents, Drawings or Estimate Information",
+        "note_text": "Our team will contact you within <strong>8 to 24 business hours</strong>. If you already have drawings, plans, photos, measurements, permits, inspection notes, or project documents, attach them below so we can review your project faster."
+    },
+    "email_config": {
+        "recipients": "lead@justsmartchoice.com,sales@justsmartchoice.com,admin@justsmartchoice.com,haroldcabrerausa@gmail.com",
+        "subject_prefix": "New Lead from the Website: ",
+        "max_file_size_mb": 10,
+        "max_total_size_mb": 20
+    }
+}

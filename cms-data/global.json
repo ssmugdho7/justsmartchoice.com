@@ -1,0 +1,189 @@
+{
+  "branding": {
+    "site_name": "Just Smart Choice Construction USA",
+    "company_legal_name": "Smart Choice Contractors USA",
+    "tagline": "Florida Residential and Commercial General Contractor",
+    "canonical_domain": "https://justsmartchoice.com",
+    "logos": {
+      "desktop": {
+        "url": "/images/logo-638x310.png",
+        "alt": "Smart Choice Contractors USA logo",
+        "width": 319,
+        "height": 155
+      },
+      "mobile": {
+        "url": "/images/logo-364x52.png",
+        "alt": "Smart Choice Contractors USA",
+        "width": 182,
+        "height": 26
+      },
+      "favicon": "/images/favicon.ico"
+    }
+  },
+  "contact": {
+    "phone": "(727) 755-3786",
+    "phone_raw": "+17277553786",
+    "help_label": "Need Help?",
+    "email": "customerservice@justsmartchoice.com",
+    "address_street": "1663 US Highway 41",
+    "address_city": "Spring Hill",
+    "address_state": "FL",
+    "address_zip": "34610",
+    "hours_weekdays": "Monday\u2013Friday: 8:00 AM\u20134:00 PM",
+    "hours_saturday": "Saturday: 8:00 AM\u20133:00 PM",
+    "appointment_btn_label": "Appointment",
+    "appointment_btn_url": "https://crm.justsmartchoice.com/appointly/appointments"
+  },
+  "top_banner": {
+    "enabled": true,
+    "url": "/promo_flooring.php",
+    "bg_image": "/images/banner/banner-bg-04-1920x60.jpg",
+    "fg_image": "/images/banner/banner-fg-04-1600x60.png",
+    "alt": "Smart Choice Contractors USA Tampa Bay construction and remodeling services"
+  },
+  "navigation": [
+    {
+      "label": "Home",
+      "href": "/index.php",
+      "target": "_self"
+    },
+    {
+      "label": "About",
+      "href": "/about.php",
+      "target": "_self"
+    },
+    {
+      "label": "Services",
+      "href": "/services.php",
+      "target": "_self"
+    },
+    {
+      "label": "Pricing",
+      "href": "/pricing.php",
+      "target": "_self"
+    },
+    {
+      "label": "Financing",
+      "href": "/financing.php",
+      "target": "_self"
+    },
+    {
+      "label": "Contact Us",
+      "href": "/contacts.php",
+      "target": "_self"
+    },
+    {
+      "label": "Blog",
+      "href": "/blog.php",
+      "target": "_self"
+    },
+    {
+      "label": "Login",
+      "href": "/login.php",
+      "target": "_self"
+    }
+  ],
+  "licenses": [
+    {
+      "code": "CFC1433090",
+      "title": "Certified Plumbing Contractor"
+    },
+    {
+      "code": "CGC1505749",
+      "title": "Certified General Contractor"
+    },
+    {
+      "code": "EC13013330",
+      "title": "Certified Electrical Contractor"
+    },
+    {
+      "code": "CCC1337302",
+      "title": "Certified Roofing Contractor"
+    }
+  ],
+  "social_links": [
+    {
+      "platform": "Facebook",
+      "url": "https://www.facebook.com/smartchoicsolar",
+      "icon": "/images/social/facebook.png"
+    },
+    {
+      "platform": "Twitter / X",
+      "url": "https://x.com/justsmartchoice",
+      "icon": "/images/social/x.png"
+    },
+    {
+      "platform": "Instagram",
+      "url": "https://www.instagram.com/justsmartchoice/",
+      "icon": "/images/social/instagram.png"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/company/justsmartchoice",
+      "icon": "/images/social/linkedin.png"
+    },
+    {
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@justsmartchoice",
+      "icon": "/images/social/tiktok.png"
+    },
+    {
+      "platform": "Pinterest",
+      "url": "https://www.pinterest.com/justsmartchoice",
+      "icon": "/images/social/pinterest.png"
+    },
+    {
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/@Justsmartchoice",
+      "icon": "/images/social/youtube.png"
+    },
+    {
+      "platform": "WhatsApp",
+      "url": "https://wa.me/181686896239",
+      "icon": "/images/social/whatsapp.png"
+    }
+  ],
+  "review_links": [
+    {
+      "name": "Trustpilot",
+      "url": "https://www.trustpilot.com/review/justsmartchoice.com?utm_medium=trustbox&utm_source=TrustBoxReviewCollector",
+      "icon": "/images/social/trustpilotreviews.png",
+      "rating": "4.9"
+    },
+    {
+      "name": "Google",
+      "url": "https://g.page/r/CSGK2pvNH07nEAI/review",
+      "icon": "/images/social/googlereviews1.png",
+      "rating": "5.0"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/profile.php?id=100079490918155&sk=reviews",
+      "icon": "/images/social/facebook.png",
+      "rating": "5.0"
+    },
+    {
+      "name": "Yelp",
+      "url": "https://www.yelp.com/search?find_desc=Electricians&find_loc=Brooksville%2C+FL",
+      "icon": "/images/social/yelp.png",
+      "rating": "4.8"
+    }
+  ],
+  "theme": {
+    "primary_color": "#198754",
+    "secondary_color": "#0f766e",
+    "accent_color": "#16a34a",
+    "dark_color": "#1e293b",
+    "light_color": "#f8fafc",
+    "body_font": "Raleway, sans-serif",
+    "heading_font": "Raleway, sans-serif",
+    "btn_radius": "4px",
+    "custom_css": ""
+  },
+  "integrations": {
+    "gtm_id": "G-CLX99EJXW2",
+    "ahrefs_key": "9gWoEoaoQSTW3cXLEcA/Qg",
+    "trustpilot_enabled": true,
+    "recaptcha_site_key": ""
+  }
+}

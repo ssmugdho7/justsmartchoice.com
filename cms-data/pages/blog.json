@@ -1,0 +1,30 @@
+{
+  "seo": {
+    "title": "Construction Blog Tampa Bay FL",
+    "description": "Explore Tampa Bay construction, remodeling, roofing, flooring, permit and contractor-planning articles from Smart Choice Contractors USA.",
+    "keywords": "Construction Blog Tampa Bay FL, Tampa Bay, Florida Contractor",
+    "og_image": "/images/fg-image.png"
+  },
+  "hero": {
+    "heading": "Smart Choice Contractors Blog USA",
+    "subtitle": "Explore Tampa Bay construction, remodeling, roofing, flooring, permit and contractor-planning articles from Smart Choice Contractors USA.",
+    "bg_image": "images/slides/slide-01-2050x610.jpg"
+  },
+  "sections": {
+    "main_content": {
+      "heading": "Latest Construction Articles",
+      "body": "At Just Smart Choice Construction USA, we provide comprehensive construction blog tampa bay fl solutions designed for property owners throughout Tampa Bay and Central Florida.",
+      "featured_image": ""
+    },
+    "details": {
+      "heading": "Why We Show Construction News, Licensing Warnings And Project Education",
+      "body": "Every project is planned around applicable Florida building codes, high quality materials, licensed trade coordination, and transparent pricing."
+    }
+  },
+  "call_to_action": {
+    "heading": "Ready to Plan Your Construction Blog Tampa Bay FL Project?",
+    "subtitle": "Contact our Florida licensed construction team at (727) 755-3786 to discuss scope, timeline, and next steps.",
+    "btn_label": "Request an Estimate",
+    "btn_url": "contacts.php"
+  }
+}

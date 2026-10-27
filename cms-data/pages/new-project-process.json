@@ -1,0 +1,77 @@
+{
+  "seo": {
+    "title": "Project Workflow Dashboard | Just Smart Choice Construction USA",
+    "description": "Internal enterprise project setup checklist, Telegram group initiation, CRM milestone tracking, and completion reporting.",
+    "keywords": "Project Workflow, Contractor Operations, Smart Choice Construction Process",
+    "og_image": "/images/fg-image.png"
+  },
+  "header": {
+    "title": "PROJECT WORKFLOW DASHBOARD",
+    "subtitle": "Standard operating procedure for new construction, remodeling, and trade projects from group creation through official recording.",
+    "report_recipient_emails": "shivamskb03@gmail.com, haroldcabrerausa@gmail.com, shivam@justsmartchoice.com"
+  },
+  "telegram_steps": [
+    {
+      "title": "Create Telegram Group (123 MAIN ST. TAMPA 34345 - SHIVAM MARTINEZ)",
+      "icon": "fa-brands fa-telegram"
+    },
+    {
+      "title": "Push Google Map Location in Group",
+      "icon": "fa-solid fa-map-location-dot"
+    },
+    {
+      "title": "Post Scope of Work & Project Specifications",
+      "icon": "fa-solid fa-file-lines"
+    }
+  ],
+  "crm_steps": [
+    {
+      "title": "Create Lead in CRM",
+      "icon": "fa-solid fa-user-plus"
+    },
+    {
+      "title": "Create Customer Profile",
+      "icon": "fa-solid fa-user"
+    },
+    {
+      "title": "Create Contact Information",
+      "icon": "fa-solid fa-address-book"
+    },
+    {
+      "title": "Create Project File",
+      "icon": "fa-solid fa-diagram-project"
+    },
+    {
+      "title": "Create Initial Invoice & Deposit",
+      "icon": "fa-solid fa-file-invoice"
+    },
+    {
+      "title": "Create Construction Contract",
+      "icon": "fa-solid fa-file-signature"
+    },
+    {
+      "title": "Create NOC in Contract (Customer Signature)",
+      "icon": "fa-solid fa-pen-to-square"
+    },
+    {
+      "title": "Add Property Appraiser Record",
+      "icon": "fa-solid fa-building"
+    },
+    {
+      "title": "Create Material / Home Depot Quote",
+      "icon": "fa-solid fa-store"
+    },
+    {
+      "title": "Create Official Notice of Commencement (NOC)",
+      "icon": "fa-solid fa-file-circle-check"
+    },
+    {
+      "title": "Send to Record (After Verification)",
+      "icon": "fa-solid fa-paper-plane"
+    },
+    {
+      "title": "After Recording - Upload to Group & Project Files",
+      "icon": "fa-solid fa-folder-open"
+    }
+  ]
+}

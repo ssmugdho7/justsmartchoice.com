@@ -1,0 +1,30 @@
+{
+  "seo": {
+    "title": "Recaptcha",
+    "description": "Recaptcha - Just Smart Choice Construction USA.",
+    "keywords": "Recaptcha, Tampa Bay, Florida Contractor",
+    "og_image": "/images/fg-image.png"
+  },
+  "hero": {
+    "heading": "Recaptcha",
+    "subtitle": "Professional Construction and Remodeling Services in Tampa Bay Florida.",
+    "bg_image": "images/slides/slide-01-2050x610.jpg"
+  },
+  "sections": {
+    "main_content": {
+      "heading": "Service Overview",
+      "body": "At Just Smart Choice Construction USA, we provide comprehensive recaptcha solutions designed for property owners throughout Tampa Bay and Central Florida.",
+      "featured_image": ""
+    },
+    "details": {
+      "heading": "Quality Standards & Process",
+      "body": "Every project is planned around applicable Florida building codes, high quality materials, licensed trade coordination, and transparent pricing."
+    }
+  },
+  "call_to_action": {
+    "heading": "Ready to Plan Your Recaptcha Project?",
+    "subtitle": "Contact our Florida licensed construction team at (727) 755-3786 to discuss scope, timeline, and next steps.",
+    "btn_label": "Request an Estimate",
+    "btn_url": "contacts.php"
+  }
+}

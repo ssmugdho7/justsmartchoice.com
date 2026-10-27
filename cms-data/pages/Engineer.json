@@ -1,0 +1,30 @@
+{
+  "seo": {
+    "title": "Structural Engineer Near Me",
+    "description": "Professional structural engineer near you. Just Smart Choice provides load calculations, permit drawings, remodeling engineering, and commercial structural design services.",
+    "keywords": "Structural Engineer Near Me, Tampa Bay, Florida Contractor",
+    "og_image": "/images/fg-image.png"
+  },
+  "hero": {
+    "heading": "Professional Structural Engineering Services",
+    "subtitle": "Professional structural engineer near you. Just Smart Choice provides load calculations, permit drawings, remodeling engineering, and commercial structural design services.",
+    "bg_image": "images/slides/slide-01-2050x610.jpg"
+  },
+  "sections": {
+    "main_content": {
+      "heading": "Service Overview",
+      "body": "At Just Smart Choice Construction USA, we provide comprehensive structural engineer near me solutions designed for property owners throughout Tampa Bay and Central Florida.",
+      "featured_image": ""
+    },
+    "details": {
+      "heading": "Quality Standards & Process",
+      "body": "Every project is planned around applicable Florida building codes, high quality materials, licensed trade coordination, and transparent pricing."
+    }
+  },
+  "call_to_action": {
+    "heading": "Ready to Plan Your Structural Engineer Near Me Project?",
+    "subtitle": "Contact our Florida licensed construction team at (727) 755-3786 to discuss scope, timeline, and next steps.",
+    "btn_label": "Request an Estimate",
+    "btn_url": "contacts.php"
+  }
+}

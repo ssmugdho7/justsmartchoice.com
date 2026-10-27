@@ -1,0 +1,30 @@
+{
+  "seo": {
+    "title": "Contractor Toolbox Tampa Bay FL",
+    "description": "Smart Choice Contractors USA contractor toolbox with construction calculators, insurance providers, Florida contractor forms, safety training, OSHA resources, contract samples, customer rules, and construction business resources.",
+    "keywords": "Contractor Toolbox Tampa Bay FL, Tampa Bay, Florida Contractor",
+    "og_image": "/images/fg-image.png"
+  },
+  "hero": {
+    "heading": "Contractors Toolbox",
+    "subtitle": "Smart Choice Contractors USA contractor toolbox with construction calculators, insurance providers, Florida contractor forms, safety training, OSHA resources, contract samples, customer rules, and construction business resources.",
+    "bg_image": "images/slides/slide-01-2050x610.jpg"
+  },
+  "sections": {
+    "main_content": {
+      "heading": "Construction Calculators",
+      "body": "At Just Smart Choice Construction USA, we provide comprehensive contractor toolbox tampa bay fl solutions designed for property owners throughout Tampa Bay and Central Florida.",
+      "featured_image": ""
+    },
+    "details": {
+      "heading": "Contractor Insurance Providers",
+      "body": "Every project is planned around applicable Florida building codes, high quality materials, licensed trade coordination, and transparent pricing."
+    }
+  },
+  "call_to_action": {
+    "heading": "Ready to Plan Your Contractor Toolbox Tampa Bay FL Project?",
+    "subtitle": "Contact our Florida licensed construction team at (727) 755-3786 to discuss scope, timeline, and next steps.",
+    "btn_label": "Request an Estimate",
+    "btn_url": "contacts.php"
+  }
+}

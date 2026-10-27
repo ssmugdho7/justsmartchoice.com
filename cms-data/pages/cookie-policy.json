@@ -1,0 +1,30 @@
+{
+  "seo": {
+    "title": "Cookie Policy",
+    "description": "Cookie Policy for Just Smart Choice Construction USA. Learn how we use necessary, analytics, marketing, CRM, appointment, and website cookies for our Florida construction and remodeling website.",
+    "keywords": "Cookie Policy, Tampa Bay, Florida Contractor",
+    "og_image": "/images/fg-image.png"
+  },
+  "hero": {
+    "heading": "Cookie Policy",
+    "subtitle": "Cookie Policy for Just Smart Choice Construction USA. Learn how we use necessary, analytics, marketing, CRM, appointment, and website cookies for our Florida construction and remodeling website.",
+    "bg_image": "images/slides/slide-01-2050x610.jpg"
+  },
+  "sections": {
+    "main_content": {
+      "heading": "1. Company Information",
+      "body": "At Just Smart Choice Construction USA, we provide comprehensive cookie policy solutions designed for property owners throughout Tampa Bay and Central Florida.",
+      "featured_image": ""
+    },
+    "details": {
+      "heading": "2. What Cookies Are",
+      "body": "Every project is planned around applicable Florida building codes, high quality materials, licensed trade coordination, and transparent pricing."
+    }
+  },
+  "call_to_action": {
+    "heading": "Ready to Plan Your Cookie Policy Project?",
+    "subtitle": "Contact our Florida licensed construction team at (727) 755-3786 to discuss scope, timeline, and next steps.",
+    "btn_label": "Request an Estimate",
+    "btn_url": "contacts.php"
+  }
+}

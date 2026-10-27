@@ -1,0 +1,30 @@
+{
+  "seo": {
+    "title": "Energy-Efficient Home Upgrades Tampa Bay FL",
+    "description": "Energy-efficient home and commercial building upgrades in Tampa Bay, Spring Hill and Brooksville, FL. Insulation, windows, HVAC, roofing, LED lighting and moisture protection.",
+    "keywords": "Energy-Efficient Home Upgrades Tampa Bay FL, Tampa Bay, Florida Contractor",
+    "og_image": "/images/fg-image.png"
+  },
+  "hero": {
+    "heading": "Energy-Efficient Building Upgrades in Tampa Bay, Florida",
+    "subtitle": "Energy-efficient home and commercial building upgrades in Tampa Bay, Spring Hill and Brooksville, FL. Insulation, windows, HVAC, roofing, LED lighting and moisture protection.",
+    "bg_image": "images/slides/slide-01-2050x610.jpg"
+  },
+  "sections": {
+    "main_content": {
+      "heading": "Improve Comfort and Reduce Energy Waste",
+      "body": "At Just Smart Choice Construction USA, we provide comprehensive energy-efficient home upgrades tampa bay fl solutions designed for property owners throughout Tampa Bay and Central Florida.",
+      "featured_image": ""
+    },
+    "details": {
+      "heading": "Efficient Construction Solutions for Florida Homes and Businesses",
+      "body": "Every project is planned around applicable Florida building codes, high quality materials, licensed trade coordination, and transparent pricing."
+    }
+  },
+  "call_to_action": {
+    "heading": "Ready to Plan Your Energy-Efficient Home Upgrades Tampa Bay FL Project?",
+    "subtitle": "Contact our Florida licensed construction team at (727) 755-3786 to discuss scope, timeline, and next steps.",
+    "btn_label": "Request an Estimate",
+    "btn_url": "contacts.php"
+  }
+}
