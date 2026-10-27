@@ -1,0 +1,120 @@
+{
+  "seo": {
+    "title": "Construction Forms Tampa Bay FL | NOC, Permits, Bid Forms & Contractor Documents",
+    "description": "Access construction forms for Tampa Bay Florida including Notice of Commencement forms, county permit forms, bid proposal resources, lien waivers, change orders, subcontractor forms, and contractor documents.",
+    "keywords": "Florida Notice of Commencement, Tampa Bay Construction Forms, Hillsborough County NOC, Pasco County NOC, Hernando County NOC, Pinellas County NOC, Construction Bid Forms Florida, Contractor Forms Tampa Bay",
+    "og_image": "/images/fg-image.png"
+  },
+  "hero": {
+    "eyebrow": "Construction Document Center",
+    "title": "Construction Forms, NOC Links, Permit Forms & Bid Resources",
+    "description": "Use this page to access Florida construction forms, Tampa Bay county Notice of Commencement resources, permit form pages, bid proposal resources, lien documents, change orders, and contractor paperwork used for residential and commercial construction projects."
+  },
+  "noc_section": {
+    "heading": "County Notice of Commencement Forms",
+    "subheading": "NOC requirements may vary by project type, permit type, project value, and jurisdiction. Always confirm with the local building department or clerk before recording or uploading documents.",
+    "items": [
+      {
+        "title": "Hillsborough County NOC",
+        "description": "Notice of Commencement information, instructions, and related building permit resources.",
+        "url": "https://hcfl.gov/businesses/permits-and-records/permits/notice-of-commencement"
+      },
+      {
+        "title": "Pasco County NOC & Forms",
+        "description": "Building construction permits, forms, Notice of Commencement, affidavits, and related county documents.",
+        "url": "https://www.pascocountyfl.gov/services/building_construction/permits_and_forms.php"
+      },
+      {
+        "title": "Hernando County NOC",
+        "description": "Official Notice of Commencement form and Hernando County building permit document resources.",
+        "url": "https://www.hernandocounty.us/media-manager/media-pages/county-government/applications-licences-and-permits/building-permits-applications-and-forms/notice-of-commencement-form/"
+      },
+      {
+        "title": "Pinellas County NOC",
+        "description": "Notice of Commencement form and instructions for recording and submitting to Building Services.",
+        "url": "https://pinellas.gov/notice-of-commencement-form/"
+      }
+    ]
+  },
+  "permit_bid_section": {
+    "heading": "County Permit Forms & Bid Proposal Resources",
+    "subheading": "Links to official county pages where contractors and owners can locate permit applications, building forms, procurement opportunities, bid forms, and proposal submission resources.",
+    "items": [
+      {
+        "title": "Hillsborough Applications & Forms",
+        "description": "Building, subtrade, contractor licensing, permit, and development services forms.",
+        "url": "https://hcfl.gov/businesses/permits-and-records/applications-and-forms"
+      },
+      {
+        "title": "Hillsborough Bid / Procurement Forms",
+        "description": "Vendor registration, procurement opportunities, bid documents, and county purchasing resources.",
+        "url": "https://hcfl.gov/departments/procurement"
+      },
+      {
+        "title": "Pasco Building Forms",
+        "description": "Permits, building forms, affidavits, Notice of Commencement, and construction documents.",
+        "url": "https://www.pascocountyfl.gov/services/building_construction/permits_and_forms.php"
+      },
+      {
+        "title": "Pasco Bid / Document Forms",
+        "description": "Planning, development, construction, permit, and county document resources.",
+        "url": "https://www.pascocountyfl.gov/services/planning_and_development/documents_and_forms.php"
+      },
+      {
+        "title": "Hernando Building Forms",
+        "description": "Building permits, applications, forms, Notice of Commencement, affidavits, and construction forms.",
+        "url": "https://www.hernandocounty.us/departments/departments-a-e/building-division/applications-licences-and-permits/building-permits-applications-and-forms"
+      },
+      {
+        "title": "Hernando Bid / Solicitation Forms",
+        "description": "OpenGov solicitations, bid opportunities, contract documents, addenda, and amendments.",
+        "url": "https://www.hernandocounty.us/county-government/procurement/solicitations/"
+      },
+      {
+        "title": "Pinellas Permit Forms",
+        "description": "Building permit forms, applications, checklists, Notice of Commencement, and contractor resources.",
+        "url": "https://pinellas.gov/forms-permit-applications-checklists/"
+      },
+      {
+        "title": "Pinellas Bid / Proposal Forms",
+        "description": "Current bids, OpenGov registration, bid tabulations, vendor resources, and proposal information.",
+        "url": "https://pinellas.gov/current-bids/"
+      }
+    ]
+  },
+  "smart_choice_forms": {
+    "heading": "Smart Choice Construction Forms",
+    "subheading": "Internal project forms and document categories used for estimates, contracts, project administration, payment records, construction changes, and closeout.",
+    "items": [
+      {
+        "title": "Notice of Commencement Checklist",
+        "description": "Use this checklist before recording or uploading a Notice of Commencement for Florida construction projects. Confirm permit number, owner name, notarize form, and record with Clerk of Court."
+      },
+      {
+        "title": "Credit Card Authorization",
+        "description": "Use for approved payments, deposits, permit fees, service invoices, and customer-authorized charges."
+      },
+      {
+        "title": "Change Order Form",
+        "description": "Use when the customer requests a scope change, material change, schedule change, or additional work outside the original agreement."
+      },
+      {
+        "title": "Subcontractor Agreement",
+        "description": "Used for subcontractor scope, insurance, payment terms, safety requirements, lien waivers, and project compliance."
+      },
+      {
+        "title": "Construction Renovation Agreement",
+        "description": "Used for residential and commercial remodeling projects, payment structure, scope of work, change orders, warranties, and customer responsibilities."
+      },
+      {
+        "title": "Lien Release / Final Payment Affidavit",
+        "description": "Used during project closeout, final payment, lien release, and payment confirmation procedures."
+      },
+      {
+        "title": "Bid Proposal Form",
+        "description": "Used to prepare scope, quantities, pricing, exclusions, allowances, schedule terms, and project conditions for construction proposals."
+      }
+    ]
+  },
+  "advisory_note": "Important: Forms and public links are provided for convenience only. County requirements change often. Always confirm the latest official form, filing method, permit requirement, and recording requirement with the applicable county, city, building department, or Clerk of Court before submitting documents."
+}

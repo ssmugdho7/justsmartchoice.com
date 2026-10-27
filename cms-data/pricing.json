@@ -1,0 +1,365 @@
+{
+    "seo": {
+        "title": "Construction Pricing Tampa Bay FL | Remodeling, Electrical, Plumbing & Roofing",
+        "description": "Review Tampa Bay construction pricing for remodeling, electrical, plumbing, roofing, kitchens, bathrooms, additions, drawings, permits, engineering support, and complete property improvement services.",
+        "keywords": "Construction Pricing Tampa Bay, Remodeling Prices Tampa FL, Electrical Pricing Florida, Plumbing Pricing Tampa, Roofing Cost Tampa Bay, Contractor Price List Florida, Kitchen Remodel Cost Tampa, Bathroom Remodel Cost Florida, Home Addition Pricing Tampa",
+        "og_image": "/images/fg-image.png"
+    },
+    "offer_cards": [
+        {
+            "heading": "Premium Craftsmanship",
+            "description": "Smart Choice Contractors USA delivers precise construction, remodeling, repairs, and finish work using durable materials, clean project coordination, and professional field execution.",
+            "image": "images/img-01-370x370.jpg",
+            "link": "remodeling-services.php"
+        },
+        {
+            "heading": "Plans, Permits & Project Support",
+            "description": "We help homeowners and investors move from idea to execution with field measurements, construction drawings, permit support, material planning, and trade coordination across Tampa Bay.",
+            "image": "images/img-02-770x370.webp",
+            "link": "construction-drawings-permits.php"
+        },
+        {
+            "heading": "Residential & Commercial Work",
+            "description": "From kitchens, bathrooms, additions, electrical, plumbing, HVAC, roofing, drywall, flooring, painting, and full property improvements, our team supports complete construction scopes.",
+            "image": "images/img-03-370x370.jpg",
+            "link": "residential-commercial-construction.php"
+        },
+        {
+            "heading": "Complete Project Management",
+            "description": "We manage scope, budgets, materials, scheduling, inspections, documentation, and contractor coordination so projects stay organized from consultation to final walkthrough.",
+            "image": "images/img-04-370x370.jpg",
+            "link": "project-management.php"
+        },
+        {
+            "heading": "Efficient Building Solutions",
+            "description": "We recommend practical upgrades for insulation, windows, HVAC, roofing, electrical, lighting, and moisture protection to improve performance, comfort, and property value.",
+            "image": "images/img-05-370x370.jpg",
+            "link": "energy-efficient-upgrades.php"
+        }
+    ],
+    "hero": {
+        "eyebrow": "Tampa Bay Construction Pricing",
+        "title": "Smart Choice Contractors USA Service Price Guide",
+        "subtitle": "Transparent starting ranges for Tampa Bay homeowners, investors, and commercial property owners. Final pricing depends on jobsite conditions, engineering requirements, permit scope, materials, access, and finish selections."
+    },
+    "tables": [
+        {
+            "category": "Major Construction & Remodeling",
+            "rows": [
+                {
+                    "s1": "New Home Construction",
+                    "p1": "From $285–$375 per sq. ft.",
+                    "s2": "Custom Home Construction",
+                    "p2": "From $375–$550+ per sq. ft."
+                },
+                {
+                    "s1": "Full Home Remodeling",
+                    "p1": "From $120–$250 per sq. ft.",
+                    "s2": "Major Structural Renovation",
+                    "p2": "From $300–$550+ per sq. ft."
+                },
+                {
+                    "s1": "Kitchen Renovation",
+                    "p1": "From $35,000–$75,000",
+                    "s2": "Bathroom Remodeling",
+                    "p2": "From $18,000–$45,000"
+                },
+                {
+                    "s1": "Room Additions",
+                    "p1": "From $300–$450 per sq. ft.",
+                    "s2": "Primary Suite Addition",
+                    "p2": "From $140,000+"
+                }
+            ]
+        },
+        {
+            "category": "Exterior, Roofing & Site Work",
+            "rows": [
+                {
+                    "s1": "Roof Replacement",
+                    "p1": "From $7–$14 per sq. ft.",
+                    "s2": "Metal Roof Replacement",
+                    "p2": "From $14,000–$24,000+"
+                },
+                {
+                    "s1": "Concrete Driveways",
+                    "p1": "From $12–$18 per sq. ft.",
+                    "s2": "Paver Driveways",
+                    "p2": "From $18–$28 per sq. ft."
+                },
+                {
+                    "s1": "Exterior Painting",
+                    "p1": "From $2.75–$5.50 per sq. ft.",
+                    "s2": "Stucco & Exterior Finish",
+                    "p2": "From $8–$15 per sq. ft."
+                },
+                {
+                    "s1": "Fencing Installation",
+                    "p1": "From $28–$55 per linear ft.",
+                    "s2": "Decks, Patios & Gazebos",
+                    "p2": "From $7,500+"
+                }
+            ]
+        },
+        {
+            "category": "Electrical Remodeling Services",
+            "rows": [
+                {
+                    "s1": "Electrical Panel Upgrade",
+                    "p1": "From $3,800–$6,500",
+                    "s2": "Sub Panel Installation",
+                    "p2": "From $1,800–$3,800"
+                },
+                {
+                    "s1": "Whole Home Rewire",
+                    "p1": "From $12,000+",
+                    "s2": "Kitchen Electrical Remodel",
+                    "p2": "From $2,500–$7,500"
+                },
+                {
+                    "s1": "Bathroom Electrical Remodel",
+                    "p1": "From $1,500–$4,500",
+                    "s2": "EV Charger Installation",
+                    "p2": "From $950–$2,500"
+                },
+                {
+                    "s1": "Recessed Lighting Package",
+                    "p1": "From $125–$250 per light",
+                    "s2": "Code Correction Work",
+                    "p2": "Custom pricing"
+                }
+            ]
+        },
+        {
+            "category": "Plumbing Remodeling Services",
+            "rows": [
+                {
+                    "s1": "Bathroom Plumbing Rough-In",
+                    "p1": "From $3,500–$8,500",
+                    "s2": "Kitchen Plumbing Rough-In",
+                    "p2": "From $2,500–$6,500"
+                },
+                {
+                    "s1": "Water Heater Replacement",
+                    "p1": "From $1,500–$3,800",
+                    "s2": "Tankless Water Heater",
+                    "p2": "From $3,500–$7,500"
+                },
+                {
+                    "s1": "Whole House Repipe",
+                    "p1": "From $7,500+",
+                    "s2": "Drain Line Replacement",
+                    "p2": "Custom pricing"
+                },
+                {
+                    "s1": "Shower Valve Replacement",
+                    "p1": "From $850–$2,200",
+                    "s2": "Fixture Installation",
+                    "p2": "From $250–$950 each"
+                }
+            ]
+        },
+        {
+            "category": "Interior Remodeling Finishes",
+            "rows": [
+                {
+                    "s1": "Drywall Install & Finish",
+                    "p1": "From $2.75–$5.50 per sq. ft.",
+                    "s2": "Interior Painting",
+                    "p2": "From $2.50–$5.00 per sq. ft."
+                },
+                {
+                    "s1": "Tile Installation",
+                    "p1": "From $8–$18 per sq. ft.",
+                    "s2": "Luxury Vinyl Flooring",
+                    "p2": "From $5–$10 per sq. ft."
+                },
+                {
+                    "s1": "Trim & Baseboards",
+                    "p1": "From $6–$14 per linear ft.",
+                    "s2": "Interior Doors",
+                    "p2": "From $350–$850 each"
+                },
+                {
+                    "s1": "Cabinet Installation",
+                    "p1": "From $3,500+",
+                    "s2": "Countertop Coordination",
+                    "p2": "Custom pricing"
+                }
+            ]
+        },
+        {
+            "category": "Drawings, Permits & Preconstruction",
+            "rows": [
+                {
+                    "s1": "Field Measurement Visit",
+                    "p1": "From $250–$650",
+                    "s2": "Permit Drawing Package",
+                    "p2": "From $1,500–$6,500+"
+                },
+                {
+                    "s1": "Remodel Design Support",
+                    "p1": "From $1,200+",
+                    "s2": "Addition Plan Coordination",
+                    "p2": "From $3,500–$12,000+"
+                },
+                {
+                    "s1": "Material Takeoff",
+                    "p1": "From $350–$1,500",
+                    "s2": "Permit Assistance",
+                    "p2": "From $750+"
+                },
+                {
+                    "s1": "Project Budget Review",
+                    "p1": "From $450+",
+                    "s2": "Inspection Correction Support",
+                    "p2": "Custom pricing"
+                }
+            ]
+        },
+        {
+            "category": "Commercial Remodeling Services",
+            "rows": [
+                {
+                    "s1": "Commercial Build-Out",
+                    "p1": "From $95–$250 per sq. ft.",
+                    "s2": "Office Remodeling",
+                    "p2": "From $25,000+"
+                },
+                {
+                    "s1": "Restaurant Renovation",
+                    "p1": "Custom pricing",
+                    "s2": "ADA Bathroom Upgrade",
+                    "p2": "From $12,000+"
+                },
+                {
+                    "s1": "Commercial Flooring",
+                    "p1": "From $6–$16 per sq. ft.",
+                    "s2": "Commercial Painting",
+                    "p2": "From $2.50–$6.00 per sq. ft."
+                },
+                {
+                    "s1": "Inspection Corrections",
+                    "p1": "Custom pricing",
+                    "s2": "Permit Closeout Support",
+                    "p2": "From $750+"
+                }
+            ]
+        },
+        {
+            "category": "Emergency Repairs & Small Projects",
+            "rows": [
+                {
+                    "s1": "General Repair Visit",
+                    "p1": "From $250",
+                    "s2": "Drywall Patch & Paint",
+                    "p2": "From $450"
+                },
+                {
+                    "s1": "Door Repair",
+                    "p1": "From $350",
+                    "s2": "Window Leak Repair",
+                    "p2": "From $650"
+                },
+                {
+                    "s1": "Minor Electrical Repair",
+                    "p1": "From $225",
+                    "s2": "Minor Plumbing Repair",
+                    "p2": "From $275"
+                },
+                {
+                    "s1": "Punch List Service",
+                    "p1": "From $750",
+                    "s2": "Final Walkthrough Corrections",
+                    "p2": "Custom pricing"
+                }
+            ]
+        }
+    ],
+    "buy_services": {
+        "btn_label": "Buy Services Online",
+        "btn_url": "https://crm.justsmartchoice.com/products/client",
+        "disclaimer": "These Tampa Bay starting ranges are for budget planning only and are updated for 2026 market conditions. Final proposals require field verification, scope confirmation, material selections, permit review, and trade-specific requirements."
+    },
+    "specialized_cards": [
+        {
+            "title": "Construction Drawings & Permit Plans",
+            "description": "Field measurements, conceptual layouts, permit-ready construction drawings, remodel plans, addition plans, trade coordination, and owner support for residential and light commercial projects.",
+            "image": "images/services/construction-drawings.jpg",
+            "link": "construction-drawings-permits.php",
+            "link_text": "Open Service Page",
+            "items": [
+                "As-built measurements",
+                "Remodel and addition layouts",
+                "Permit drawing coordination",
+                "Engineering support coordination"
+            ]
+        },
+        {
+            "title": "Full Home Remodeling & Renovation",
+            "description": "Complete remodeling solutions for kitchens, bathrooms, flooring, drywall, painting, electrical, plumbing, HVAC, roofing, structural repairs, and property improvement projects.",
+            "image": "images/services/full-remodeling.jpg",
+            "link": "remodeling-services.php",
+            "link_text": "Open Service Page",
+            "items": [
+                "Kitchen and bathroom remodeling",
+                "Full interior renovation",
+                "Electrical, plumbing, and HVAC coordination",
+                "Finish selections and project scheduling"
+            ]
+        },
+        {
+            "title": "Home Additions & Property Expansion",
+            "description": "Room additions, garage conversions, primary suites, covered patios, exterior upgrades, foundation work, framing, roofing tie-ins, and construction coordination from planning to completion.",
+            "image": "images/services/additions-construction.jpg",
+            "link": "home-additions-contractor.php",
+            "link_text": "Open Service Page",
+            "items": [
+                "Room additions and expansions",
+                "Garage and lanai conversions",
+                "Foundation, framing, and roofing coordination",
+                "Permit and inspection support"
+            ]
+        }
+    ],
+    "specialized_section": {
+        "eyebrow": "More Construction Services",
+        "heading": "Specialized Service Pages",
+        "intro": "These three service pages are designed for local SEO, Google AI Overview, Bing Copilot, ChatGPT Search, and Tampa Bay construction search visibility."
+    },
+    "suppliers_heading": "Our Suppliers",
+    "suppliers": [
+        {
+            "image": "images/logos/logo-01-270x170.jpg",
+            "link": "#"
+        },
+        {
+            "image": "images/logos/logo-02-270x170.jpg",
+            "link": "#"
+        },
+        {
+            "image": "images/logos/logo-03-270x170.jpg",
+            "link": "#"
+        },
+        {
+            "image": "images/logos/logo-04-270x170.jpg",
+            "link": "#"
+        },
+        {
+            "image": "images/logos/logo-05-270x170.jpg",
+            "link": "#"
+        },
+        {
+            "image": "images/logos/logo-06-270x170.jpg",
+            "link": "#"
+        },
+        {
+            "image": "images/logos/logo-07-270x170.jpg",
+            "link": "#"
+        },
+        {
+            "image": "images/logos/logo-08-270x170.jpg",
+            "link": "#"
+        }
+    ]
+}

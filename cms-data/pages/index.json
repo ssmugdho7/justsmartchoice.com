@@ -1,0 +1,30 @@
+{
+  "seo": {
+    "title": "Tampa Bay Construction & Remodeling",
+    "description": "Tampa Bay construction and remodeling for homes and businesses. Kitchens, bathrooms, roofing, additions, electrical, plumbing, plans and permits.",
+    "keywords": "Tampa Bay Construction & Remodeling, Tampa Bay, Florida Contractor",
+    "og_image": "/images/fg-image.png"
+  },
+  "hero": {
+    "heading": ">",
+    "subtitle": "Tampa Bay construction and remodeling for homes and businesses. Kitchens, bathrooms, roofing, additions, electrical, plumbing, plans and permits.",
+    "bg_image": "images/img-06-570x350.png"
+  },
+  "sections": {
+    "main_content": {
+      "heading": ">",
+      "body": "At Just Smart Choice Construction USA, we provide comprehensive tampa bay construction & remodeling solutions designed for property owners throughout Tampa Bay and Central Florida.",
+      "featured_image": "images/img-06-570x350.png"
+    },
+    "details": {
+      "heading": "Welcome \n to Just Smart Choice Construction USA",
+      "body": "Every project is planned around applicable Florida building codes, high quality materials, licensed trade coordination, and transparent pricing."
+    }
+  },
+  "call_to_action": {
+    "heading": "Ready to Plan Your Tampa Bay Construction & Remodeling Project?",
+    "subtitle": "Contact our Florida licensed construction team at (727) 755-3786 to discuss scope, timeline, and next steps.",
+    "btn_label": "Request an Estimate",
+    "btn_url": "contacts.php"
+  }
+}

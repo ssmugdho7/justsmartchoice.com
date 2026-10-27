@@ -1,0 +1,30 @@
+{
+  "seo": {
+    "title": "Website Sitemap",
+    "description": "Explore the Smart Choice Contractors USA website sitemap. Find construction services, pricing, financing, contact information, forms, contracts, careers, legal pages, policies, calculators, contractor resources, and Tampa Bay construction information.",
+    "keywords": "Website Sitemap, Tampa Bay, Florida Contractor",
+    "og_image": "/images/fg-image.png"
+  },
+  "hero": {
+    "heading": "Smart Choice Contractors USA Sitemap",
+    "subtitle": "Explore the Smart Choice Contractors USA website sitemap. Find construction services, pricing, financing, contact information, forms, contracts, careers, legal pages, policies, calculators, contractor resources, and Tampa Bay construction information.",
+    "bg_image": "images/slides/slide-01-2050x610.jpg"
+  },
+  "sections": {
+    "main_content": {
+      "heading": "Complete Website Directory",
+      "body": "At Just Smart Choice Construction USA, we provide comprehensive website sitemap solutions designed for property owners throughout Tampa Bay and Central Florida.",
+      "featured_image": ""
+    },
+    "details": {
+      "heading": "What Is a Sitemap?",
+      "body": "Every project is planned around applicable Florida building codes, high quality materials, licensed trade coordination, and transparent pricing."
+    }
+  },
+  "call_to_action": {
+    "heading": "Ready to Plan Your Website Sitemap Project?",
+    "subtitle": "Contact our Florida licensed construction team at (727) 755-3786 to discuss scope, timeline, and next steps.",
+    "btn_label": "Request an Estimate",
+    "btn_url": "contacts.php"
+  }
+}

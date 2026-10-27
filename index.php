@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/includes/cms-engine.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,6 +16,7 @@ gtag('config', 'G-CLX99EJXW2', {
 });
 </script>
 <?php include __DIR__ . '/includes/cookie-consent-head.php'; ?>
+<?php echo cms_head_scripts(); ?>
 
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,16 +25,16 @@ gtag('config', 'G-CLX99EJXW2', {
 <script src="https://analytics.ahrefs.com/analytics.js" data-key="9gWoEoaoQSTW3cXLEcA/Qg" async></script>
 <script type="text/javascript" src="https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
 
-<title>Tampa Bay Construction & Remodeling | Just Smart Choice</title>
+<title><?php echo htmlspecialchars(cms_field('home', 'seo.title', 'Tampa Bay Construction & Remodeling | Just Smart Choice')); ?></title>
 
 <link rel="canonical" href="https://justsmartchoice.com/">
 
-<meta name="description" content="Tampa Bay construction and remodeling for homes and businesses. Kitchens, bathrooms, roofing, additions, electrical, plumbing, plans and permits.">
-<meta name="keywords" content="Construction Tampa Bay FL, Remodeling Tampa Florida, General Contractor Tampa Bay, New Construction Florida, Roofing Contractor Tampa, Electrical Contractor Tampa, Plumbing Contractor Tampa, Kitchen Remodeling Florida, Bathroom Remodeling Tampa, Construction Drawings Tampa, Permit Support Florida, Home Additions Tampa Bay">
+<meta name="description" content="<?php echo htmlspecialchars(cms_field('home', 'seo.description', 'Tampa Bay construction and remodeling for homes and businesses. Kitchens, bathrooms, roofing, additions, electrical, plumbing, plans and permits.')); ?>">
+<meta name="keywords" content="<?php echo htmlspecialchars(cms_field('home', 'seo.keywords', 'Construction Tampa Bay FL, Remodeling Tampa Florida, General Contractor Tampa Bay, New Construction Florida, Roofing Contractor Tampa, Electrical Contractor Tampa, Plumbing Contractor Tampa, Kitchen Remodeling Florida, Bathroom Remodeling Tampa, Construction Drawings Tampa, Permit Support Florida, Home Additions Tampa Bay')); ?>">
 <meta name="author" content="Just Smart Choice Construction USA">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
-<meta property="og:title" content="Tampa Bay Construction & Remodeling | Just Smart Choice">
+<meta property="og:title" content="<?php echo htmlspecialchars(cms_field('home', 'seo.title', 'Tampa Bay Construction & Remodeling | Just Smart Choice')); ?>">
 <meta property="og:description" content="Tampa Bay construction and remodeling for homes and businesses, including kitchens, bathrooms, roofing, additions, electrical, plumbing, plans and permits.">
 <meta property="og:url" content="https://justsmartchoice.com/">
 <meta property="og:type" content="website">
@@ -121,57 +123,57 @@ gtag('config', 'G-CLX99EJXW2', {
 <?php include __DIR__ . '/sections-library/header.php'; ?>
 
 <!-- SWIPER SLIDER -->
-<section class="swiper-container" data-autoplay="5000" data-loop="true">
+<section class="swiper-container" data-autoplay="<?php echo htmlspecialchars(cms_field('home', 'hero_slider.autoplay', '5000')); ?>" data-loop="true">
 <div class="swiper-wrapper">
 
-<div class="swiper-slide" data-slide-bg="images/slides/slide-01-2050x610.webp" style="background-image:url(images/slides/slide-01-2050x610.webp)">
+<div class="swiper-slide" data-slide-bg="<?php echo htmlspecialchars(cms_image('home', 'hero_slider.slides.0.bg_image', 'images/slides/slide-01-2050x610.webp')); ?>" style="background-image:url(<?php echo htmlspecialchars(cms_image('home', 'hero_slider.slides.0.bg_image', 'images/slides/slide-01-2050x610.webp')); ?>)" <?php echo cms_bind('home', 'hero_slider.slides.0.bg_image'); ?>>
 <div class="swiper-slide-caption">
 <div class="container">
 <div class="row">
 <div class="col-lg-6">
-<div class="cta-box cta-box-primary" data-caption-animate="fadeInRight" data-caption-duration="800">
-<h1 class="cta-box-heading">Tampa Bay Construction and Remodeling Contractor</h1>
+<a class="cta-box cta-box-primary" href="<?php echo htmlspecialchars(cms_field('home', 'hero_slider.slides.0.link', 'services.php')); ?>" data-caption-animate="fadeInRight" data-caption-duration="800">
+<h1 class="cta-box-heading" <?php echo cms_bind('home', 'hero_slider.slides.0.heading'); ?>><?php echo htmlspecialchars(cms_field('home', 'hero_slider.slides.0.heading', 'Tampa Bay Construction and Remodeling Contractor')); ?></h1>
 <div class="cta-box-inner">
-<p class="cta-box-content">At Just Smart Choice Construction USA, we focus on successful project delivery through professional construction management, experienced craftsmanship, and attention to every detail.</p>
+<p class="cta-box-content" <?php echo cms_bind('home', 'hero_slider.slides.0.description'); ?>><?php echo htmlspecialchars(cms_field('home', 'hero_slider.slides.0.description', 'At Just Smart Choice Construction USA, we focus on successful project delivery through professional construction management, experienced craftsmanship, and attention to every detail.')); ?></p>
 <div class="cta-box-icon fa-angle-right"></div>
 </div>
-</div>
+</a>
 </div>
 </div>
 </div>
 </div>
 </div>
 
-<div class="swiper-slide" data-slide-bg="images/slides/slide-02-2050x610.webp">
+<div class="swiper-slide" data-slide-bg="<?php echo htmlspecialchars(cms_image('home', 'hero_slider.slides.1.bg_image', 'images/slides/slide-02-2050x610.webp')); ?>" <?php echo cms_bind('home', 'hero_slider.slides.1.bg_image'); ?>>
 <div class="swiper-slide-caption">
 <div class="container">
 <div class="row">
 <div class="col-lg-6">
-<div class="cta-box cta-box-secondary" data-caption-animate="fadeInRight" data-caption-duration="800">
-<h2 class="cta-box-heading">Quality Construction</h2>
+<a class="cta-box cta-box-secondary" href="<?php echo htmlspecialchars(cms_field('home', 'hero_slider.slides.1.link', 'services.php')); ?>" data-caption-animate="fadeInRight" data-caption-duration="800">
+<h2 class="cta-box-heading" <?php echo cms_bind('home', 'hero_slider.slides.1.heading'); ?>><?php echo htmlspecialchars(cms_field('home', 'hero_slider.slides.1.heading', 'Quality Construction')); ?></h2>
 <div class="cta-box-inner">
-<p class="cta-box-content">Quality is the foundation of every project completed by Just Smart Choice Construction USA. We use professional methods, reliable materials, and skilled craftsmanship to deliver lasting results.</p>
+<p class="cta-box-content" <?php echo cms_bind('home', 'hero_slider.slides.1.description'); ?>><?php echo htmlspecialchars(cms_field('home', 'hero_slider.slides.1.description', 'Quality is the foundation of every project completed by Just Smart Choice Construction USA. We use professional methods, reliable materials, and skilled craftsmanship to deliver lasting results.')); ?></p>
 <div class="cta-box-icon fa-angle-right"></div>
 </div>
-</div>
+</a>
 </div>
 </div>
 </div>
 </div>
 </div>
 
-<div class="swiper-slide" data-slide-bg="images/slides/slide-03-2050x610.webp">
+<div class="swiper-slide" data-slide-bg="<?php echo htmlspecialchars(cms_image('home', 'hero_slider.slides.2.bg_image', 'images/slides/slide-03-2050x610.webp')); ?>" <?php echo cms_bind('home', 'hero_slider.slides.2.bg_image'); ?>>
 <div class="swiper-slide-caption">
 <div class="container">
 <div class="row">
 <div class="col-lg-7">
-<div class="cta-box" data-caption-animate="fadeInRight" data-caption-duration="800">
-<h2 class="cta-box-heading">Complete Property Solutions</h2>
+<a class="cta-box" href="<?php echo htmlspecialchars(cms_field('home', 'hero_slider.slides.2.link', 'contacts.php')); ?>" data-caption-animate="fadeInRight" data-caption-duration="800">
+<h2 class="cta-box-heading" <?php echo cms_bind('home', 'hero_slider.slides.2.heading'); ?>><?php echo htmlspecialchars(cms_field('home', 'hero_slider.slides.2.heading', 'Complete Property Solutions')); ?></h2>
 <div class="cta-box-inner">
-<p class="cta-box-content">From remodeling and renovations to complete construction projects, Just Smart Choice provides customized solutions for residential and commercial properties throughout Florida.</p>
+<p class="cta-box-content" <?php echo cms_bind('home', 'hero_slider.slides.2.description'); ?>><?php echo htmlspecialchars(cms_field('home', 'hero_slider.slides.2.description', 'From remodeling and renovations to complete construction projects, Just Smart Choice provides customized solutions for residential and commercial properties throughout Florida.')); ?></p>
 <div class="cta-box-icon fa-angle-right"></div>
 </div>
-</div>
+</a>
 </div>
 </div>
 </div>
@@ -193,11 +195,11 @@ gtag('config', 'G-CLX99EJXW2', {
 <div class="row row-30">
 
 <div class="col-sm-6 col-lg-4 text-center">
-<a class="thumbnail thumbnail-secondary" href="services.php" style="background-image:url(images/img-01-370x370.webp)">
+<a class="thumbnail thumbnail-secondary" href="<?php echo htmlspecialchars(cms_field('home', 'feature_offers.0.link', 'services.php')); ?>" style="background-image:url(<?php echo htmlspecialchars(cms_image('home', 'feature_offers.0.image', 'images/img-01-370x370.webp')); ?>)" <?php echo cms_bind('home', 'feature_offers.0.image'); ?>>
 <div class="thumbnail-caption">
-<h3 class="thumbnail-heading">Premium Craftsmanship</h3>
+<h3 class="thumbnail-heading" <?php echo cms_bind('home', 'feature_offers.0.heading'); ?>><?php echo htmlspecialchars(cms_field('home', 'feature_offers.0.heading', 'Premium Craftsmanship')); ?></h3>
 <div class="thumbnail-inner">
-<div class="thumbnail-content">Professional construction solutions using quality materials and skilled workmanship to ensure durable results.</div>
+<div class="thumbnail-content" <?php echo cms_bind('home', 'feature_offers.0.description'); ?>><?php echo htmlspecialchars(cms_field('home', 'feature_offers.0.description', 'Professional construction solutions using quality materials and skilled workmanship to ensure durable results.')); ?></div>
 <div class="thumbnail-icon fa-angle-right"></div>
 </div>
 </div>
@@ -205,11 +207,11 @@ gtag('config', 'G-CLX99EJXW2', {
 </div>
 
 <div class="col-sm-6 col-lg-8 text-center">
-<a class="thumbnail thumbnail-wide" href="services.php" style="background-image:url(images/img-02-770x370.webp)">
+<a class="thumbnail thumbnail-wide" href="<?php echo htmlspecialchars(cms_field('home', 'feature_offers.1.link', 'services.php')); ?>" style="background-image:url(<?php echo htmlspecialchars(cms_image('home', 'feature_offers.1.image', 'images/img-02-770x370.webp')); ?>)" <?php echo cms_bind('home', 'feature_offers.1.image'); ?>>
 <div class="thumbnail-caption">
-<h3 class="thumbnail-heading">Trusted Local Expertise</h3>
+<h3 class="thumbnail-heading" <?php echo cms_bind('home', 'feature_offers.1.heading'); ?>><?php echo htmlspecialchars(cms_field('home', 'feature_offers.1.heading', 'Trusted Local Expertise')); ?></h3>
 <div class="thumbnail-inner">
-<div class="thumbnail-content">With extensive experience in residential and commercial construction, Just Smart Choice delivers reliable solutions, professional communication, and quality results.</div>
+<div class="thumbnail-content" <?php echo cms_bind('home', 'feature_offers.1.description'); ?>><?php echo htmlspecialchars(cms_field('home', 'feature_offers.1.description', 'With extensive experience in residential and commercial construction, Just Smart Choice delivers reliable solutions, professional communication, and quality results.')); ?></div>
 <div class="thumbnail-icon fa-angle-right"></div>
 </div>
 </div>
@@ -217,11 +219,11 @@ gtag('config', 'G-CLX99EJXW2', {
 </div>
 
 <div class="col-sm-6 col-lg-4 text-center">
-<a class="thumbnail" href="services.php" style="background-image:url(images/img-03-370x370.webp)">
+<a class="thumbnail" href="<?php echo htmlspecialchars(cms_field('home', 'feature_offers.2.link', 'services.php')); ?>" style="background-image:url(<?php echo htmlspecialchars(cms_image('home', 'feature_offers.2.image', 'images/img-03-370x370.webp')); ?>)" <?php echo cms_bind('home', 'feature_offers.2.image'); ?>>
 <div class="thumbnail-caption">
-<h3 class="thumbnail-heading">Industry-Leading Experience</h3>
+<h3 class="thumbnail-heading" <?php echo cms_bind('home', 'feature_offers.2.heading'); ?>><?php echo htmlspecialchars(cms_field('home', 'feature_offers.2.heading', 'Industry-Leading Experience')); ?></h3>
 <div class="thumbnail-inner">
-<div class="thumbnail-content">Our construction team provides expertise in remodeling, new construction, repairs, and property improvements.</div>
+<div class="thumbnail-content" <?php echo cms_bind('home', 'feature_offers.2.description'); ?>><?php echo htmlspecialchars(cms_field('home', 'feature_offers.2.description', 'Our construction team provides expertise in remodeling, new construction, repairs, and property improvements.')); ?></div>
 <div class="thumbnail-icon fa-angle-right"></div>
 </div>
 </div>
@@ -229,11 +231,11 @@ gtag('config', 'G-CLX99EJXW2', {
 </div>
 
 <div class="col-sm-6 col-lg-4 text-center">
-<a class="thumbnail thumbnail-primary" href="contacts.php" style="background-image:url(images/img-04-370x370.webp)">
+<a class="thumbnail thumbnail-primary" href="<?php echo htmlspecialchars(cms_field('home', 'feature_offers.3.link', 'contacts.php')); ?>" style="background-image:url(<?php echo htmlspecialchars(cms_image('home', 'feature_offers.3.image', 'images/img-04-370x370.webp')); ?>)" <?php echo cms_bind('home', 'feature_offers.3.image'); ?>>
 <div class="thumbnail-caption">
-<h3 class="thumbnail-heading">Complete Project Support</h3>
+<h3 class="thumbnail-heading" <?php echo cms_bind('home', 'feature_offers.3.heading'); ?>><?php echo htmlspecialchars(cms_field('home', 'feature_offers.3.heading', 'Complete Project Support')); ?></h3>
 <div class="thumbnail-inner">
-<div class="thumbnail-content">From consultation and planning to construction completion, we guide every customer through the entire process.</div>
+<div class="thumbnail-content" <?php echo cms_bind('home', 'feature_offers.3.description'); ?>><?php echo htmlspecialchars(cms_field('home', 'feature_offers.3.description', 'From consultation and planning to construction completion, we guide every customer through the entire process.')); ?></div>
 <div class="thumbnail-icon fa-angle-right"></div>
 </div>
 </div>
@@ -241,11 +243,11 @@ gtag('config', 'G-CLX99EJXW2', {
 </div>
 
 <div class="col-sm-6 col-lg-4 text-center">
-<a class="thumbnail thumbnail-secondary" href="services.php" style="background-image:url(images/img-05-370x370.webp)">
+<a class="thumbnail thumbnail-secondary" href="<?php echo htmlspecialchars(cms_field('home', 'feature_offers.4.link', 'services.php')); ?>" style="background-image:url(<?php echo htmlspecialchars(cms_image('home', 'feature_offers.4.image', 'images/img-05-370x370.webp')); ?>)" <?php echo cms_bind('home', 'feature_offers.4.image'); ?>>
 <div class="thumbnail-caption">
-<h3 class="thumbnail-heading">Innovative Construction Solutions</h3>
+<h3 class="thumbnail-heading" <?php echo cms_bind('home', 'feature_offers.4.heading'); ?>><?php echo htmlspecialchars(cms_field('home', 'feature_offers.4.heading', 'Innovative Construction Solutions')); ?></h3>
 <div class="thumbnail-inner">
-<div class="thumbnail-content">Energy-efficient upgrades, modern materials, and professional construction methods that improve property value.</div>
+<div class="thumbnail-content" <?php echo cms_bind('home', 'feature_offers.4.description'); ?>><?php echo htmlspecialchars(cms_field('home', 'feature_offers.4.description', 'Energy-efficient upgrades, modern materials, and professional construction methods that improve property value.')); ?></div>
 <div class="thumbnail-icon fa-angle-right"></div>
 </div>
 </div>
@@ -262,22 +264,26 @@ gtag('config', 'G-CLX99EJXW2', {
 <div class="row row-10">
 
 <div class="col-12">
-<h2 class="text-uppercase text-primary">
-Welcome 
-<span class="font-weight-light">to Just Smart Choice Construction USA</span>
+<h2 class="text-uppercase text-primary" <?php echo cms_bind('home', 'welcome_section.heading'); ?>>
+<?php echo htmlspecialchars(cms_field('home', 'welcome_section.heading', 'Welcome to Just Smart Choice Construction USA')); ?>
 </h2>
 </div>
 
 <div class="col-md-6">
-<p>Welcome to Just Smart Choice Construction USA, your trusted partner for residential and commercial construction services in Florida. We specialize in new construction, complete remodeling, renovations, electrical services, plumbing, roofing, concrete work, fencing, carpentry, windows and doors, structural repairs, kitchens, bathrooms, and more.</p>
+<p <?php echo cms_bind('home', 'welcome_section.body_left'); ?>><?php echo htmlspecialchars(cms_field('home', 'welcome_section.body_left', 'Welcome to Just Smart Choice Construction USA, your trusted partner for residential and commercial construction services in Florida. We specialize in new construction, complete remodeling, renovations, electrical services, plumbing, roofing, concrete work, fencing, carpentry, windows and doors, structural repairs, kitchens, bathrooms, and more.')); ?></p>
 </div>
 
 <div class="col-md-6">
-<p>Our experienced team focuses on quality workmanship, professional project management, and customer satisfaction. From small improvements to complete property transformations, we provide dependable construction solutions designed around your goals.
-<a class="custom-link" href="services.php">
+<p <?php echo cms_bind('home', 'welcome_section.body_right'); ?>><?php echo htmlspecialchars(cms_field('home', 'welcome_section.body_right', 'Our experienced team focuses on quality workmanship, professional project management, and customer satisfaction. From small improvements to complete property transformations, we provide dependable construction solutions designed around your goals.')); ?>
+<a class="custom-link" href="<?php echo htmlspecialchars(cms_field('home', 'welcome_section.btn_url', 'services.php')); ?>">
 <span class="custom-link-icon fa-angle-right"></span>
 </a>
 </p>
+<div style="margin-top: 15px;">
+  <a href="/pricing.php" class="btn btn-sm btn-primary" style="font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; border-radius: 6px;">
+    <i class="fa fa-calculator" aria-hidden="true" style="margin-right: 6px;"></i> View Pricing &amp; Cost Guide
+  </a>
+</div>
 </div>
 
 </div>
@@ -292,63 +298,29 @@ Welcome
 
       <!-- SECTION TITLE -->
       <div class="col-12">
-        <h2 class="text-uppercase">
-          Our
-          <span class="font-weight-light">Services</span>
+        <h2 class="text-uppercase" <?php echo cms_bind('home', 'services_section.title'); ?>>
+          <?php echo htmlspecialchars(cms_field('home', 'services_section.title', 'Our Services')); ?>
         </h2>
       </div>
 
       <!-- LEFT COLUMN: SIX SERVICES -->
       <div class="col-md-6">
-
-        <!-- Service 1 -->
-        <a class="panel" href="residential-commercial-construction.php">
-          <h4 class="panel-heading">
-            New Construction &amp; Remodeling
-          </h4>
+<?php
+$homeServices = cms_field('home', 'services_section.items', [
+  ['title' => 'New Construction & Remodeling', 'link' => 'residential-commercial-construction.php'],
+  ['title' => 'Custom Carpentry & Woodworking', 'link' => 'services.php'],
+  ['title' => 'Electrical & Green Energy Solutions', 'link' => 'energy-efficient-upgrades.php'],
+  ['title' => 'Roofing Installation & Repairs', 'link' => 'services.php'],
+  ['title' => 'Engineering & Construction Drafting', 'link' => 'construction-drawings-permits.php'],
+  ['title' => 'Kitchen & Bathroom Remodeling', 'link' => 'remodeling-services.php']
+]);
+foreach ($homeServices as $hIdx => $hServ):
+?>
+        <a class="panel" href="<?php echo htmlspecialchars($hServ['link'] ?? 'services.php'); ?>">
+          <h4 class="panel-heading" <?php echo cms_bind('home', "services_section.items.{$hIdx}.title"); ?>><?php echo htmlspecialchars($hServ['title'] ?? ''); ?></h4>
           <div class="panel-icon fa-angle-right"></div>
         </a>
-
-        <!-- Service 2 -->
-        <a class="panel" href="services.php">
-          <h4 class="panel-heading">
-            Custom Carpentry &amp; Woodworking
-          </h4>
-          <div class="panel-icon fa-angle-right"></div>
-        </a>
-
-        <!-- Service 3 -->
-        <a class="panel" href="energy-efficient-upgrades.php">
-          <h4 class="panel-heading">
-            Electrical &amp; Green Energy Solutions
-          </h4>
-          <div class="panel-icon fa-angle-right"></div>
-        </a>
-
-        <!-- Service 4 -->
-        <a class="panel" href="services.php">
-          <h4 class="panel-heading">
-            Roofing Installation &amp; Repairs
-          </h4>
-          <div class="panel-icon fa-angle-right"></div>
-        </a>
-
-        <!-- Service 5: NEW -->
-        <a class="panel" href="construction-drawings-permits.php">
-          <h4 class="panel-heading">
-            Engineering &amp; Construction Drafting
-          </h4>
-          <div class="panel-icon fa-angle-right"></div>
-        </a>
-
-        <!-- Service 6: NEW -->
-        <a class="panel" href="remodeling-services.php">
-          <h4 class="panel-heading">
-            Kitchen &amp; Bathroom Remodeling
-          </h4>
-          <div class="panel-icon fa-angle-right"></div>
-        </a>
-
+<?php endforeach; ?>
       </div>
 
       <!-- RIGHT COLUMN: IMAGE WITH ZOOM EFFECT -->
@@ -357,17 +329,37 @@ Welcome
         <div class="smart-choice-services-image">
 
           <img
-            src="images/img-06-570x350.webp"
+            src="<?php echo htmlspecialchars(cms_image('home', 'services_section.side_image', 'images/img-06-570x350.webp')); ?>"
             alt="Smart Choice Contractors USA residential and commercial construction remodeling services"
             width="570"
             height="350"
             loading="lazy"
-            decoding="async">
+            decoding="async" <?php echo cms_bind('home', 'services_section.side_image'); ?>>
 
         </div>
 
       </div>
 
+    </div>
+  </div>
+</section>
+
+<!-- READY TO START CTA BANNER -->
+<section class="section-sm bg-primary text-center" style="background: linear-gradient(135deg, #1b4d3e 0%, #0d2820 100%); color: #fff; padding: 48px 0;">
+  <div class="container">
+    <h2 class="text-white text-uppercase" style="font-weight: 700; margin-bottom: 12px; font-size: 28px;" <?php echo cms_bind('home', 'cta_banner.heading'); ?>>
+      <?php echo htmlspecialchars(cms_field('home', 'cta_banner.heading', 'Ready to Start Your Construction or Remodeling Project?')); ?>
+    </h2>
+    <p class="text-white-80" style="max-width: 720px; margin: 0 auto 20px auto; font-size: 16px; opacity: 0.9;" <?php echo cms_bind('home', 'cta_banner.subtitle'); ?>>
+      <?php echo htmlspecialchars(cms_field('home', 'cta_banner.subtitle', 'Contact our Florida licensed contractors today for an honest, upfront estimate and professional guidance.')); ?>
+    </p>
+    <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
+      <a class="btn btn-primary" href="<?php echo htmlspecialchars(cms_field('home', 'cta_banner.btn_url', 'contacts.php')); ?>" <?php echo cms_bind('home', 'cta_banner.btn_label'); ?> style="font-weight: 700; text-transform: uppercase;">
+        <?php echo htmlspecialchars(cms_field('home', 'cta_banner.btn_label', 'Request an Estimate')); ?>
+      </a>
+      <a class="btn btn-outline-white" href="/pricing.php" style="color: #fff; border: 2px solid #fff; font-weight: 700; text-transform: uppercase; padding: 10px 22px; border-radius: 4px; text-decoration: none;">
+        <i class="fa fa-calculator" aria-hidden="true" style="margin-right: 6px;"></i> View Pricing Guide
+      </a>
     </div>
   </div>
 </section>

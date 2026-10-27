@@ -59,3 +59,10 @@ _reports/
 /sections-library/google-maps.html
 # Internal tools contain hard-coded access details and runtime databases
 /dev-tools/
+
+# CMS runtime data & private credentials
+/cms-data/drafts/
+/cms-data/backups/
+/cms-data/leads.json
+/cms-data/users.json
+.deployment.lock

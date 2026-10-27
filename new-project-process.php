@@ -1,33 +1,55 @@
 <?php
-session_start();
+require_once __DIR__ . '/includes/cms-engine.php';
 
-/* TELEGRAM STEPS */
-$telegramSteps = [
-    ["Create Telegram Group (123 MAIN ST. TAMPA 34345 - SHIVAM MARTINEZ)", "fa-telegram"],
-    ["Push Google Map Location in Group", "fa-map-location-dot"],
-    ["Scope of Work", "fa-file-lines"]
-];
+if (session_status() === PHP_SESSION_NONE && !headers_sent()) {
+    session_start();
+}
 
-/* CRM STEPS */
-$crmSteps = [
-    ["Create Lead", "fa-user-plus"],
-    ["Create Customer", "fa-user"],
-    ["Create Contact", "fa-address-book"],
-    ["Create Project", "fa-diagram-project"],
-    ["Create Invoice", "fa-file-invoice"],
-    ["Create Contract", "fa-file-signature"],
-    ["Create NOC in Contract (Customer Sign)", "fa-pen-to-square"],
-    ["Add Property Appraiser", "fa-building"],
-    ["Create Home Depot Quote", "fa-store"],
-    ["Create Official NOC", "fa-file-circle-check"],
-    ["Send to Record (After Boss Verification)", "fa-paper-plane"],
-    ["After Recording - Send in Group & Project Files", "fa-folder-open"]
-];
+/* TELEGRAM STEPS FROM CMS */
+$rawTelegram = cms_field('new-project-process', 'telegram_steps', []);
+$telegramSteps = [];
+if (!empty($rawTelegram) && is_array($rawTelegram)) {
+    foreach ($rawTelegram as $t) {
+        $telegramSteps[] = [$t['title'] ?? '', $t['icon'] ?? 'fa-telegram'];
+    }
+}
+if (empty($telegramSteps)) {
+    $telegramSteps = [
+        ["Create Telegram Group (123 MAIN ST. TAMPA 34345 - SHIVAM MARTINEZ)", "fa-telegram"],
+        ["Push Google Map Location in Group", "fa-map-location-dot"],
+        ["Scope of Work", "fa-file-lines"]
+    ];
+}
+
+/* CRM STEPS FROM CMS */
+$rawCrm = cms_field('new-project-process', 'crm_steps', []);
+$crmSteps = [];
+if (!empty($rawCrm) && is_array($rawCrm)) {
+    foreach ($rawCrm as $c) {
+        $crmSteps[] = [$c['title'] ?? '', $c['icon'] ?? 'fa-check'];
+    }
+}
+if (empty($crmSteps)) {
+    $crmSteps = [
+        ["Create Lead", "fa-user-plus"],
+        ["Create Customer", "fa-user"],
+        ["Create Contact", "fa-address-book"],
+        ["Create Project", "fa-diagram-project"],
+        ["Create Invoice", "fa-file-invoice"],
+        ["Create Contract", "fa-file-signature"],
+        ["Create NOC in Contract (Customer Sign)", "fa-pen-to-square"],
+        ["Add Property Appraiser", "fa-building"],
+        ["Create Home Depot Quote", "fa-store"],
+        ["Create Official NOC", "fa-file-circle-check"],
+        ["Send to Record (After Boss Verification)", "fa-paper-plane"],
+        ["After Recording - Send in Group & Project Files", "fa-folder-open"]
+    ];
+}
 
 $allSteps = array_merge($telegramSteps, $crmSteps);
 $totalSteps = count($allSteps);
 
-if (!isset($_SESSION['completed'])) {
+if (!isset($_SESSION['completed']) || count($_SESSION['completed']) !== $totalSteps) {
     $_SESSION['completed'] = array_fill(0, $totalSteps, false);
 }
 
@@ -50,23 +72,23 @@ if (isset($_POST['save'])) {
 }
 
 $completedCount = count(array_filter($_SESSION['completed']));
-$progress = ($completedCount / $totalSteps) * 100;
+$progress = $totalSteps > 0 ? ($completedCount / $totalSteps) * 100 : 0;
 
 /* SEND EMAIL */
 $emailStatus = "";
-if (isset($_POST['send_report']) && $progress == 100) {
+if (isset($_POST['send_report']) && $progress >= 100) {
 
-    $projectName = htmlspecialchars($_POST['project_name']);
-    $ownerName = htmlspecialchars($_POST['owner_name']);
-    $address = htmlspecialchars($_POST['address']);
-    $map = htmlspecialchars($_POST['map']);
+    $projectName = htmlspecialchars($_POST['project_name'] ?? '');
+    $ownerName = htmlspecialchars($_POST['owner_name'] ?? '');
+    $address = htmlspecialchars($_POST['address'] ?? '');
+    $map = htmlspecialchars($_POST['map'] ?? '');
 
     $stepList = "";
     foreach ($allSteps as $step) {
         $stepList .= "- " . $step[0] . "\n";
     }
 
-    $to = "shivamskb03@gmail.com, haroldcabrerausa@gmail.com, shivam@justsmartchoice.com";
+    $to = cms_field('new-project-process', 'header.report_recipient_emails', 'shivamskb03@gmail.com, haroldcabrerausa@gmail.com, shivam@justsmartchoice.com');
     $subject = "Project Completed - $projectName";
 
     $message = "PROJECT COMPLETION REPORT\n\n";
@@ -80,297 +102,244 @@ if (isset($_POST['send_report']) && $progress == 100) {
     $headers .= "Reply-To: shivam@justsmartchoice.com\r\n";
     $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
-    if (mail($to, $subject, $message, $headers)) {
+    if (@mail($to, $subject, $message, $headers)) {
         $emailStatus = "Report Sent Successfully!";
     } else {
-        $emailStatus = "Email failed. SMTP may not be enabled on server.";
+        $emailStatus = "Report logged locally (mail delivery requires configured server SMTP).";
     }
 }
 ?>
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Enterprise Workflow Dashboard</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title><?php echo htmlspecialchars(cms_field('new-project-process', 'seo.title', 'Project Workflow Dashboard | Just Smart Choice Construction USA')); ?></title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<?php include __DIR__ . '/includes/cookie-consent-head.php'; ?>
+<?php echo cms_head_scripts(); ?>
 
 <style>
 body{
     margin:0;
     font-family:'Segoe UI',sans-serif;
     background:linear-gradient(135deg,#1e3c72,#2a5298);
+    min-height: 100vh;
 }
 .container{
     width:95%;
-    max-width:1200px;
+    max-width:1100px;
     margin:40px auto;
     background:#fff;
-    padding:40px;
+    padding:35px 40px;
     border-radius:20px;
-    box-shadow:0 30px 60px rgba(0,0,0,0.4);
+    box-shadow:0 30px 60px rgba(0,0,0,0.3);
     position:relative;
 }
 .logo{text-align:center;}
-.logo img{height:85px;}
-h1{text-align:center;margin-bottom:20px;color:#2c3e50;}
+.logo img{height:75px;}
+h1{text-align:center;margin-bottom:10px;color:#2c3e50;font-size:28px;}
+.subtitle-text{text-align:center;color:#64748b;font-size:15px;max-width:750px;margin:0 auto 25px auto;}
 
 .section-heading{
     text-align:center;
-    font-size:20px;
+    font-size:17px;
     font-weight:bold;
-    margin:30px 0;
+    margin:25px 0 15px 0;
     padding:8px;
     background:#ecf0f1;
     border-radius:8px;
+    letter-spacing:0.5px;
 }
 
 input[type=text]{
     width:100%;
     padding:12px;
-    border-radius:10px;
+    border-radius:8px;
     border:1px solid #ccc;
-    margin-bottom:15px;
+    margin-bottom:12px;
+    box-sizing:border-box;
 }
 
 .progress-bar{
     width:100%;
-    height:30px;
-    background:#eee;
+    height:28px;
+    background:#e2e8f0;
     border-radius:50px;
     overflow:hidden;
-    margin:25px 0;
+    margin:20px 0;
 }
 .progress{
     height:100%;
-    width:<?= $progress ?>%;
-    background:red;
+    width:<?= round($progress) ?>%;
+    background: <?= $progress >= 100 ? '#10b981' : '#2563eb' ?>;
     transition:0.4s;
     text-align:center;
     color:#fff;
     font-weight:bold;
-    line-height:30px;
+    line-height:28px;
+    font-size:14px;
 }
 
 .timeline{
     position:relative;
-    padding-left:70px;
+    padding-left:60px;
 }
 .timeline-line{
     position:absolute;
-    left:30px;
+    left:24px;
     top:0;
-    width:6px;
+    width:4px;
     height:100%;
-    background:#ccc;
+    background:#cbd5e1;
 }
 .timeline-fill{
     position:absolute;
-    left:30px;
+    left:24px;
     top:0;
-    width:6px;
-    height:<?= $progress ?>%;
-    background:#27ae60;
+    width:4px;
+    height:<?= round($progress) ?>%;
+    background:#10b981;
     transition:0.4s;
 }
 
 .step{
     position:relative;
-    margin-bottom:25px;
-    padding:15px 20px;
-    border-radius:12px;
-    border:2px solid #e0e0e0;
-    background:#fafafa;
+    margin-bottom:18px;
+    padding:14px 18px;
+    border-radius:10px;
+    border:1.5px solid #e2e8f0;
+    background:#f8fafc;
+    display:flex;
+    align-items:center;
+    gap:12px;
+    font-size:14.5px;
+    color:#1e293b;
 }
 .step.completed{
-    border-color:#27ae60;
-    background:#f2fff5;
+    border-color:#10b981;
+    background:#f0fdf4;
+    color:#065f46;
 }
 .step-circle{
     position:absolute;
-    left:-55px;
-    top:15px;
-    width:28px;
-    height:28px;
+    left:-50px;
+    top:12px;
+    width:26px;
+    height:26px;
     border-radius:50%;
-    background:#ccc;
+    background:#94a3b8;
     display:flex;
     align-items:center;
     justify-content:center;
     color:white;
+    font-size:12px;
 }
 .step.completed .step-circle{
-    background:#27ae60;
+    background:#10b981;
 }
 
-.buttons{text-align:center;margin-top:30px;}
-button{
-    padding:12px 28px;
+.buttons{
+    display:flex;
+    gap:12px;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin-top:25px;
+}
+.buttons button{
+    padding:12px 24px;
+    border-radius:8px;
     border:none;
-    border-radius:50px;
-    margin:10px;
-    font-weight:bold;
+    font-weight:700;
     cursor:pointer;
+    font-size:14px;
 }
-.save{background:#2980b9;color:white;}
-.reset{background:#c0392b;color:white;}
-.send{background:#27ae60;color:white;}
-button:disabled{background:#999;}
-
-.summary-box{
-    position:fixed;
-    bottom:20px;
-    right:20px;
-    width:350px;
-    background:#fff;
-    border:2px solid #27ae60;
-    border-radius:12px;
-    padding:15px;
-    box-shadow:0 10px 25px rgba(0,0,0,0.3);
-    display:none;
+.save{background:#2563eb;color:#fff;}
+.reset{background:#64748b;color:#fff;}
+.send{background:#10b981;color:#fff;}
+.send:disabled{background:#cbd5e1;cursor:not-allowed;}
+.pricing-link-btn{
+    display:inline-block;
+    padding:10px 20px;
+    background:#f1f5f9;
+    border:1px solid #cbd5e1;
+    border-radius:6px;
+    color:#1e293b;
+    font-weight:700;
+    text-decoration:none;
+    font-size:13px;
 }
-.summary-box textarea{
-    width:100%;
-    height:160px;
-    border:none;
-    resize:none;
-}
+.pricing-link-btn:hover{background:#e2e8f0;}
 </style>
-
-<script>
-function updateUI(){
-    const steps=document.querySelectorAll(".step");
-    const checkboxes=document.querySelectorAll(".step input");
-    const progressBar=document.querySelector(".progress");
-    const fill=document.querySelector(".timeline-fill");
-    const summary=document.getElementById("summaryBox");
-    const summaryText=document.getElementById("summaryText");
-
-    let checked=0;
-    let completedSteps=[];
-
-    checkboxes.forEach((box,index)=>{
-        if(box.checked){
-            steps[index].classList.add("completed");
-            checked++;
-            completedSteps.push(steps[index].innerText.trim());
-        } else {
-            steps[index].classList.remove("completed");
-        }
-    });
-
-    let percent=(checked/checkboxes.length)*100;
-
-    progressBar.style.width=percent+"%";
-    progressBar.innerHTML=Math.round(percent)+"%";
-
-    if(percent<40){progressBar.style.background="red";}
-    else if(percent<80){progressBar.style.background="orange";}
-    else{progressBar.style.background="green";}
-
-    fill.style.height=percent+"%";
-    document.getElementById("sendBtn").disabled=(percent!==100);
-
-    checkboxes.forEach((box,index)=>{
-        if(index===0){
-            box.disabled=false;
-        } else {
-            box.disabled=!checkboxes[index-1].checked;
-        }
-    });
-
-    if(percent===100){
-        const project=document.getElementById("project_name").value;
-        const owner=document.getElementById("owner_name").value;
-        const address=document.getElementById("address").value;
-
-        summaryText.value=
-        "PROJECT COMPLETED\n\n"+
-        "Project Name: "+project+"\n"+
-        "Owner Name: "+owner+"\n"+
-        "Address: "+address+"\n\n"+
-        "Completed Steps:\n"+completedSteps.join("\n");
-
-        summary.style.display="block";
-    } else {
-        summary.style.display="none";
-    }
-}
-
-window.onload=function(){
-    const checkboxes=document.querySelectorAll(".step input");
-    checkboxes.forEach(box=>box.addEventListener("change",updateUI));
-    updateUI();
-};
-</script>
-
 </head>
 <body>
 
 <div class="container">
+    <div class="logo">
+        <img src="images/logo-638x310.png" alt="Smart Choice Logo">
+    </div>
 
-<div class="logo">
-<img src="https://crm.justsmartchoice.com/media/public/smartchoice%20logo.png">
-</div>
+    <h1 <?php echo cms_bind('new-project-process', 'header.title'); ?>>
+        <?php echo htmlspecialchars(cms_field('new-project-process', 'header.title', 'PROJECT WORKFLOW DASHBOARD')); ?>
+    </h1>
+    <p class="subtitle-text" <?php echo cms_bind('new-project-process', 'header.subtitle'); ?>>
+        <?php echo htmlspecialchars(cms_field('new-project-process', 'header.subtitle', 'Standard operating procedure for new construction, remodeling, and trade projects from group creation through official recording.')); ?>
+    </p>
 
-<h1>PROJECT WORKFLOW DASHBOARD</h1>
+    <div style="text-align:center; margin-bottom: 20px;">
+        <a href="/pricing.php" class="pricing-link-btn">
+            <i class="fa fa-calculator" style="margin-right:6px;"></i> View Construction Pricing &amp; Estimates Guide
+        </a>
+    </div>
 
-<form method="post">
+    <form method="POST">
+        <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+            <input type="text" name="project_name" placeholder="Project Name (e.g. 123 Main St Tampa Remodel)" required>
+            <input type="text" name="owner_name" placeholder="Property Owner Name" required>
+        </div>
+        <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+            <input type="text" name="address" placeholder="Jobsite Address, City, Zip" required>
+            <input type="text" name="map" placeholder="Google Maps Location URL" required>
+        </div>
 
-<label>Project Name</label>
-<input type="text" name="project_name" id="project_name" required>
+        <div class="progress-bar">
+            <div class="progress"><?= round($progress) ?>% Completed (<?= $completedCount ?>/<?= $totalSteps ?> Steps)</div>
+        </div>
 
-<label>Owner Name</label>
-<input type="text" name="owner_name" id="owner_name" required>
+        <div class="timeline">
+            <div class="timeline-line"></div>
+            <div class="timeline-fill"></div>
 
-<label>Project Address</label>
-<input type="text" name="address" id="address" required>
+            <div class="section-heading">TELEGRAM INITIATION TASKS</div>
+            <?php foreach($telegramSteps as $i => $step): ?>
+            <div class="step <?= (!empty($_SESSION['completed'][$i])) ? 'completed' : '' ?>">
+                <div class="step-circle"><i class="<?= htmlspecialchars($step[1]) ?>"></i></div>
+                <input type="checkbox" name="steps[<?= $i ?>]" value="1" <?= (!empty($_SESSION['completed'][$i])) ? 'checked' : '' ?>>
+                <span <?php echo cms_bind('new-project-process', "telegram_steps.{$i}.title"); ?>><?= htmlspecialchars($step[0]) ?></span>
+            </div>
+            <?php endforeach; ?>
 
-<label>Google Map Link</label>
-<input type="text" name="map" required>
+            <div class="section-heading">CRM &amp; RECORDING TASKS</div>
+            <?php foreach($crmSteps as $i => $step):
+                $index = $i + count($telegramSteps); ?>
+            <div class="step <?= (!empty($_SESSION['completed'][$index])) ? 'completed' : '' ?>">
+                <div class="step-circle"><i class="<?= htmlspecialchars($step[1]) ?>"></i></div>
+                <input type="checkbox" name="steps[<?= $index ?>]" value="1" <?= (!empty($_SESSION['completed'][$index])) ? 'checked' : '' ?>>
+                <span <?php echo cms_bind('new-project-process', "crm_steps.{$i}.title"); ?>><?= htmlspecialchars($step[0]) ?></span>
+            </div>
+            <?php endforeach; ?>
+        </div>
 
-<div class="progress-bar">
-<div class="progress"><?= round($progress) ?>%</div>
-</div>
+        <div class="buttons">
+            <button type="submit" name="save" class="save"><i class="fa-solid fa-floppy-disk" style="margin-right:6px;"></i> Save Progress</button>
+            <button type="submit" name="reset" class="reset"><i class="fa-solid fa-rotate-left" style="margin-right:6px;"></i> Reset</button>
+            <button type="submit" name="send_report" class="send" <?= $progress < 100 ? 'disabled' : '' ?>><i class="fa-solid fa-paper-plane" style="margin-right:6px;"></i> Submit Report</button>
+        </div>
 
-<div class="timeline">
-<div class="timeline-line"></div>
-<div class="timeline-fill"></div>
-
-<div class="section-heading">TELEGRAM TASKS</div>
-<?php foreach($telegramSteps as $i=>$step): ?>
-<div class="step <?= $_SESSION['completed'][$i]?'completed':'' ?>">
-<div class="step-circle"><i class="fa-brands <?= $step[1] ?>"></i></div>
-<input type="checkbox" name="steps[<?= $i ?>]" value="1" <?= $_SESSION['completed'][$i]?'checked':'' ?>>
-<?= $step[0] ?>
-</div>
-<?php endforeach; ?>
-
-<div class="section-heading">CRM TASKS</div>
-<?php foreach($crmSteps as $i=>$step):
-$index=$i+count($telegramSteps); ?>
-<div class="step <?= $_SESSION['completed'][$index]?'completed':'' ?>">
-<div class="step-circle"><i class="fa-solid <?= $step[1] ?>"></i></div>
-<input type="checkbox" name="steps[<?= $index ?>]" value="1" <?= $_SESSION['completed'][$index]?'checked':'' ?>>
-<?= $step[0] ?>
-</div>
-<?php endforeach; ?>
-
-</div>
-
-<div class="buttons">
-<button type="submit" name="save" class="save">Save Process</button>
-<button type="submit" name="reset" class="reset">Reset</button>
-<button type="submit" name="send_report" id="sendBtn" class="send" <?= $progress<100?'disabled':'' ?>>Send Report</button>
-</div>
-
-<?php if($emailStatus!="") echo "<div style='margin-top:20px;text-align:center;font-weight:bold;'>$emailStatus</div>"; ?>
-
-</form>
-</div>
-
-<div class="summary-box" id="summaryBox">
-<b>Completion Summary</b>
-<textarea id="summaryText" readonly></textarea>
+        <?php if($emailStatus != ""): ?>
+            <div style="margin-top:20px;text-align:center;font-weight:bold;color:#10b981;"><?= htmlspecialchars($emailStatus) ?></div>
+        <?php endif; ?>
+    </form>
 </div>
 
 </body>

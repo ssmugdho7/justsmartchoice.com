@@ -1,0 +1,102 @@
+{
+    "seo": {
+        "title": "Florida Notice of Commencement (NOC) Guide & County Forms | Just Smart Choice",
+        "description": "Official Florida Notice of Commencement (F.S. § 713.13) requirements, recording deadlines, county clerk links, and downloadable forms for Tampa Bay property owners.",
+        "keywords": "Florida Notice of Commencement, NOC forms, F.S. 713.13, Hillsborough county NOC, Pasco county NOC, Pinellas NOC, Florida contractor permit",
+        "og_image": "/images/fg-image.png"
+    },
+    "hero": {
+        "eyebrow": "Florida Statute § 713.13 Compliance Guide",
+        "title": "Florida Notice of Commencement (NOC) Resource Center",
+        "subtitle": "Clear, step-by-step guidance for Tampa Bay property owners and contractors to prepare, notarize, record, and post an official Notice of Commencement.",
+        "bg_image": "images/slides/slide-02-2050x610.jpg"
+    },
+    "statute_cards": [
+        {
+            "badge": "Standard Rule",
+            "threshold": "$5,000+",
+            "title": "General Construction Threshold",
+            "description": "Florida law mandates an NOC for any improvement, repair, or alteration contract valued over $5,000."
+        },
+        {
+            "badge": "HVAC Rule",
+            "threshold": "$15,000+",
+            "title": "Direct A/C & Mechanical Systems",
+            "description": "The statutory threshold is increased to $15,000 for direct replacement of existing heating or air conditioning systems."
+        },
+        {
+            "badge": "Inspection Rule",
+            "threshold": "Day 1",
+            "title": "Mandatory Before 1st Inspection",
+            "description": "Inspectors cannot perform underground, slab, or framing inspections unless a certified copy is on the job site."
+        }
+    ],
+    "steps": [
+        {
+            "number": "01",
+            "title": "Complete County NOC Form",
+            "description": "Enter the exact legal property description, folio/parcel ID, owner name, lender details, and contractor credentials (Just Smart Choice Construction USA, Lic #CGC1534063)."
+        },
+        {
+            "number": "02",
+            "title": "Notarize All Owner Signatures",
+            "description": "All deeded property owners must execute the document before a commissioned Florida Notary Public (or via Florida-approved Remote Online Notarization)."
+        },
+        {
+            "number": "03",
+            "title": "Record with County Clerk of Court",
+            "description": "Submit the original notarized form to the Official Records department of your county clerk, either electronically via Simplifile/e-Recording or in person."
+        },
+        {
+            "number": "04",
+            "title": "Post Certified Copy at Job Site",
+            "description": "Keep the clerk's certified recorded copy posted inside the job site permit weather-box before the local municipal building inspector arrives."
+        }
+    ],
+    "county_resources": [
+        {
+            "county": "Hillsborough County",
+            "clerk_url": "https://www.hillsclerk.com/official-records/recording-information",
+            "form_url": "forms.php#noc-hillsborough",
+            "notes": "e-Recording accepted. Official Records: 419 Pierce St, Tampa, FL."
+        },
+        {
+            "county": "Pasco County",
+            "clerk_url": "https://www.pascoclerk.com/171/Official-Records",
+            "form_url": "forms.php#noc-pasco",
+            "notes": "e-Recording available via Simplifile. West Pasco Judicial Center, New Port Richey."
+        },
+        {
+            "county": "Pinellas County",
+            "clerk_url": "https://www.mypinellasclerk.org/Home/Recording-Services",
+            "form_url": "forms.php#noc-pinellas",
+            "notes": "315 Court St, Clearwater. Mandatory certified copy required on site."
+        },
+        {
+            "county": "Hernando County",
+            "clerk_url": "https://www.hernandoclerk.com/official-records/",
+            "form_url": "forms.php#noc-hernando",
+            "notes": "Brooksville courthouse. Recording fees apply per page."
+        }
+    ],
+    "faqs": [
+        {
+            "question": "What happens if a Florida project starts without an NOC?",
+            "answer": "Building department inspectors will fail the very first inspection, issuing a red tag or stop-work notice until a certified recorded NOC is posted on site."
+        },
+        {
+            "question": "Can Just Smart Choice record the NOC for me?",
+            "answer": "Yes. As part of our turnkey general contracting service, our permit expediting desk coordinates notarization, electronic recording, and site posting for all client projects."
+        },
+        {
+            "question": "How long is a Florida Notice of Commencement valid?",
+            "answer": "Under F.S. § 713.13(1)(c), an NOC remains effective for one (1) year from the recording date unless an earlier or later expiration date is specifically stated on the form."
+        }
+    ],
+    "pricing_cta": {
+        "heading": "Planning Permitted Remodeling or Construction?",
+        "subheading": "Explore transparent itemized pricing for whole-home remodeling, roofing, additions, and permitting expediting in our comprehensive guide.",
+        "btn_label": "View Project Pricing Guide",
+        "btn_url": "pricing.php"
+    }
+}

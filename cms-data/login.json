@@ -1,0 +1,48 @@
+{
+  "seo": {
+    "title": "Customer Portal Login | Just Smart Choice Construction USA",
+    "description": "Access your Smart Choice Construction customer portal to review project updates, permit drawings, construction estimates, contracts, and invoices.",
+    "keywords": "Customer Login, Client Portal, Smart Choice Construction Login, Project Tracker Tampa Bay",
+    "og_image": "/images/fg-image.png"
+  },
+  "hero": {
+    "eyebrow": "Smart Choice Online Portal",
+    "title": "Customer & Client Portal",
+    "subtitle": "Access your project estimates, contracts, daily progress, permit drawings, and invoices anytime.",
+    "bg_image": "images/banner/banner-bg-03-1920x310.webp"
+  },
+  "login_card": {
+    "eyebrow": "Secure Account Sign In",
+    "heading": "Client Portal Login",
+    "description": "Enter your registered email address and password to manage your active construction or remodeling project.",
+    "crm_url": "https://crm.justsmartchoice.com/authentication/login",
+    "btn_label": "Sign In to Client Portal",
+    "contractor_portal_url": "https://crm.justsmartchoice.com/authentication/admin_login",
+    "contractor_btn_label": "Trade Partner & Contractor Sign In"
+  },
+  "features": [
+    {
+      "icon": "fa-solid fa-list-check",
+      "title": "Real-Time Project Tracking",
+      "description": "Follow every phase of your remodeling or new construction project with daily milestones and photo updates."
+    },
+    {
+      "icon": "fa-solid fa-file-invoice-dollar",
+      "title": "Estimates & Itemized Invoices",
+      "description": "Review verified scopes, signed change orders, draw schedules, and secure digital payment receipts."
+    },
+    {
+      "icon": "fa-solid fa-compass-drafting",
+      "title": "Drawings & Permit Documents",
+      "description": "Download architectural plans, engineering calculations, municipal permit copies, and inspection sign-offs."
+    }
+  ],
+  "support": {
+    "heading": "Need Assistance Accessing Your Project?",
+    "text": "If you are a new homeowner or having trouble accessing your portal account, our office team is here to help.",
+    "phone": "(727) 755-3786",
+    "phone_raw": "+17277553786",
+    "email": "support@justsmartchoice.com",
+    "hours": "Monday - Friday: 8:00 AM - 5:00 PM EST"
+  }
+}

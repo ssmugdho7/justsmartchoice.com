@@ -1,0 +1,30 @@
+{
+  "seo": {
+    "title": "Remodeling Services Tampa Bay FL",
+    "description": "Professional home and commercial remodeling in Tampa Bay, Spring Hill, Brooksville and nearby Florida communities. Expert craftsmanship, kitchens, bathrooms, flooring, carpentry and renovations.",
+    "keywords": "Remodeling Services Tampa Bay FL, Tampa Bay, Florida Contractor",
+    "og_image": "/images/fg-image.png"
+  },
+  "hero": {
+    "heading": "Professional Remodeling Services in Tampa Bay, Florida",
+    "subtitle": "Professional home and commercial remodeling in Tampa Bay, Spring Hill, Brooksville and nearby Florida communities. Expert craftsmanship, kitchens, bathrooms, flooring, carpentry and renovations.",
+    "bg_image": "images/slides/slide-01-2050x610.jpg"
+  },
+  "sections": {
+    "main_content": {
+      "heading": "Remodeling Is More Than Construction. It Is Craftsmanship.",
+      "body": "At Just Smart Choice Construction USA, we provide comprehensive remodeling services tampa bay fl solutions designed for property owners throughout Tampa Bay and Central Florida.",
+      "featured_image": ""
+    },
+    "details": {
+      "heading": "Residential and Commercial Remodeling Services",
+      "body": "Every project is planned around applicable Florida building codes, high quality materials, licensed trade coordination, and transparent pricing."
+    }
+  },
+  "call_to_action": {
+    "heading": "Ready to Plan Your Remodeling Services Tampa Bay FL Project?",
+    "subtitle": "Contact our Florida licensed construction team at (727) 755-3786 to discuss scope, timeline, and next steps.",
+    "btn_label": "Request an Estimate",
+    "btn_url": "contacts.php"
+  }
+}

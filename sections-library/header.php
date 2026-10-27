@@ -1,4 +1,6 @@
 <?php
+require_once __DIR__ . '/../includes/cms-engine.php';
+
 $current_uri = strtolower(
     parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?? '/'
 );
@@ -74,7 +76,31 @@ $nav_items = [
         'targets' => ['login.php'],
     ],
 ];
+
+// Load CMS navigation overrides if present
+$cms_nav = cms_global('navigation');
+if (!empty($cms_nav) && is_array($cms_nav)) {
+    $nav_items = [];
+    foreach ($cms_nav as $item) {
+        $href = $item['href'] ?? '/';
+        $t = strtolower(basename(parse_url($href, PHP_URL_PATH) ?? ''));
+        $targets = array_unique(array_filter([$t, ($t === 'index.php' || $href === '/') ? 'home' : $t]));
+        $nav_items[] = [
+            'href'    => $href,
+            'label'   => $item['label'] ?? '',
+            'targets' => $targets
+        ];
+    }
+}
+
+$top_banner_enabled = cms_global('top_banner.enabled', true);
+$top_banner_url = cms_global('top_banner.url', '/promo_flooring.php');
+$top_banner_fg = cms_global('top_banner.fg_image', '/images/banner/banner-fg-04-1600x60.png');
+$top_banner_bg = cms_global('top_banner.bg_image', '/images/banner/banner-bg-04-1920x60.jpg');
+$top_banner_alt = cms_global('top_banner.alt', 'Smart Choice Contractors USA Tampa Bay construction and remodeling services');
 ?>
+
+<?php echo cms_head_scripts(); ?>
 
 <!-- START: GLOBAL SITE HEADER -->
 <section
@@ -82,21 +108,25 @@ $nav_items = [
     itemscope
     itemtype="https://schema.org/WPHeader"
 >
+    <?php if ($top_banner_enabled): ?>
     <a
         class="section section-banner d-none d-lg-block"
-        href="/promo_flooring.php"
+        href="<?php echo htmlspecialchars($top_banner_url); ?>"
         aria-label="View the Smart Choice flooring promotion"
-        style="background-image: url('/images/banner/banner-bg-04-1920x60.jpg');"
+        style="background-image: url('<?php echo htmlspecialchars($top_banner_bg); ?>');"
+        <?php echo cms_bind('global', 'top_banner.bg_image'); ?>
     >
         <img
-            src="/images/banner/banner-fg-04-1600x60.png"
-            alt="Smart Choice Contractors USA Tampa Bay construction and remodeling services"
+            src="<?php echo htmlspecialchars($top_banner_fg); ?>"
+            alt="<?php echo htmlspecialchars($top_banner_alt); ?>"
             width="1600"
             height="60"
             loading="eager"
             decoding="async"
+            <?php echo cms_bind('global', 'top_banner.fg_image'); ?>
         >
     </a>
+    <?php endif; ?>
 
     <header class="section page-header" role="banner">
         <div class="rd-navbar-wrap">
@@ -146,19 +176,21 @@ $nav_items = [
                                 >
                                     <img
                                         class="logo-small"
-                                        src="/images/logo-364x52.png"
+                                        src="<?php echo htmlspecialchars(cms_global('branding.logos.mobile.url', '/images/logo-364x52.png')); ?>"
                                         alt="Smart Choice Contractors USA"
                                         width="182"
                                         height="26"
                                         itemprop="logo"
+                                        <?php echo cms_bind('global', 'branding.logos.mobile.url'); ?>
                                     >
 
                                     <img
                                         class="logo-default"
-                                        src="/images/logo-638x310.png"
+                                        src="<?php echo htmlspecialchars(cms_global('branding.logos.desktop.url', '/images/logo-638x310.png')); ?>"
                                         alt="Smart Choice Contractors USA logo"
                                         width="319"
                                         height="155"
+                                        <?php echo cms_bind('global', 'branding.logos.desktop.url'); ?>
                                     >
                                 </a>
                             </div>
@@ -210,11 +242,12 @@ $nav_items = [
 
                                         <a
                                             class="sc-header-phone-number"
-                                            href="tel:+17277553786"
+                                            href="tel:<?php echo htmlspecialchars(cms_global('contact.phone_raw', '+17277553786')); ?>"
                                             itemprop="telephone"
-                                            aria-label="Call Smart Choice Contractors USA at 727-755-3786"
+                                            aria-label="Call Smart Choice Contractors USA"
+                                            <?php echo cms_bind('global', 'contact.phone'); ?>
                                         >
-                                            (727) 755-3786
+                                            <?php echo htmlspecialchars(cms_global('contact.phone', '(727) 755-3786')); ?>
                                         </a>
                                     </div>
                                 </div>
@@ -224,22 +257,23 @@ $nav_items = [
                                         Working Hours
                                     </strong>
 
-                                    <span class="sc-header-hours-line">
-                                        Monday–Friday: 8:00 AM–4:00 PM
+                                    <span class="sc-header-hours-line" <?php echo cms_bind('global', 'contact.hours_weekdays'); ?>>
+                                        <?php echo htmlspecialchars(cms_global('contact.hours_weekdays', 'Monday–Friday: 8:00 AM–4:00 PM')); ?>
                                     </span>
 
-                                    <span class="sc-header-hours-line">
-                                        Saturday: 8:00 AM–3:00 PM
+                                    <span class="sc-header-hours-line" <?php echo cms_bind('global', 'contact.hours_saturday'); ?>>
+                                        <?php echo htmlspecialchars(cms_global('contact.hours_saturday', 'Saturday: 8:00 AM–3:00 PM')); ?>
                                     </span>
                                 </div>
 
                                 <a
                                     class="appointment-button"
-                                    href="https://crm.justsmartchoice.com/appointly/appointments"
+                                    href="<?php echo htmlspecialchars(cms_global('contact.appointment_btn_url', 'https://crm.justsmartchoice.com/appointly/appointments')); ?>"
                                     target="_blank"
                                     rel="noopener noreferrer"
+                                    <?php echo cms_bind('global', 'contact.appointment_btn_label'); ?>
                                 >
-                                    Appointment
+                                    <?php echo htmlspecialchars(cms_global('contact.appointment_btn_label', 'Appointment')); ?>
                                 </a>
                             </div>
                         </div>

@@ -1,0 +1,55 @@
+/**
+ * Smart Choice CMS - Preview Bridge Overlay Styles
+ * Injected into the target page during live preview sessions
+ */
+
+[data-cms-bind] {
+    position: relative;
+    transition: outline 0.15s ease, background-color 0.15s ease;
+    cursor: pointer;
+}
+
+[data-cms-bind]:hover {
+    outline: 2px dashed #16a34a !important;
+    outline-offset: 3px;
+    background-color: rgba(22, 163, 74, 0.05);
+}
+
+/* Edit Badge Indicator on Hover */
+[data-cms-bind]::after {
+    content: "✎ Edit";
+    position: absolute;
+    top: -12px;
+    right: 4px;
+    background: #15803d;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    padding: 2px 7px;
+    border-radius: 4px;
+    pointer-events: none;
+    opacity: 0;
+    transform: translateY(4px);
+    transition: all 0.15s ease;
+    z-index: 99999;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+[data-cms-bind]:hover::after {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Pulse animation when element is focused from editor */
+.cms-preview-target-focused {
+    outline: 3px solid #16a34a !important;
+    outline-offset: 4px;
+    animation: cmsPulseGlow 1.8s ease;
+}
+
+@keyframes cmsPulseGlow {
+    0% { background-color: rgba(22, 163, 74, 0.25); }
+    50% { background-color: rgba(22, 163, 74, 0.1); }
+    100% { background-color: transparent; }
+}

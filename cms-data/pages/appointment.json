@@ -1,0 +1,47 @@
+{
+  "seo": {
+    "title": "Schedule a Consultation & Appointment | Smart Choice Contractors USA",
+    "description": "Book an appointment with Just Smart Choice Construction USA. Schedule in-person site visits, phone consultations, remodeling estimates, and permit planning across Tampa Bay Florida.",
+    "keywords": "Schedule Contractor Appointment, Tampa Bay Construction Consultation, Remodeling Estimate Booking, Florida General Contractor Appointment",
+    "og_image": "/images/fg-image.png"
+  },
+  "hero": {
+    "eyebrow": "Online Scheduling Center",
+    "title": "Schedule Your Consultation & Appointment",
+    "subtitle": "Book a project review with our Florida licensed general contracting team. Whether you need an estimate, drawings, roofing inspection, or remodeling consultation, select a convenient time below.",
+    "bg_image": "images/banner/banner-bg-03-1920x310.jpg"
+  },
+  "appointment_card": {
+    "heading": "Online Booking Calendar",
+    "subtitle": "Choose your preferred date, time, and service type through our secure CRM scheduling system.",
+    "crm_appointly_url": "https://crm.justsmartchoice.com/appointly/appointments",
+    "btn_label": "Open Appointment Calendar & Book Now",
+    "phone_help": "Prefer to schedule by phone? Call our office at (727) 755-3786",
+    "phone_tel": "+17277553786"
+  },
+  "preparation_steps": {
+    "heading": "How to Prepare for Your Consultation",
+    "steps": [
+      {
+        "icon": "fa-solid fa-list-check",
+        "title": "Project Details & Goals",
+        "description": "Have an overview of what you wish to build, remodel, or repair, including areas of priority."
+      },
+      {
+        "icon": "fa-solid fa-camera",
+        "title": "Site Photos & Measurements",
+        "description": "Taking rough photos or dimensions helps our estimators provide faster initial guidance."
+      },
+      {
+        "icon": "fa-solid fa-calculator",
+        "title": "Budget & Timeline Target",
+        "description": "Knowing your preferred timeframe and target investment helps us tailor materials and trade sequencing."
+      },
+      {
+        "icon": "fa-solid fa-file-lines",
+        "title": "Existing Plans & Permits",
+        "description": "If you already have architectural drawings, site surveys, or inspection notices, have them ready."
+      }
+    ]
+  }
+}

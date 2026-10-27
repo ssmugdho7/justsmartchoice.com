@@ -1,0 +1,133 @@
+{
+    "seo": {
+        "title": "Tampa Bay Construction & Remodeling | Just Smart Choice",
+        "description": "Tampa Bay construction and remodeling for homes and businesses. Kitchens, bathrooms, roofing, additions, electrical, plumbing, plans and permits.",
+        "keywords": "Construction Tampa Bay FL, Remodeling Tampa Florida, General Contractor Tampa Bay, New Construction Florida",
+        "og_image": "/images/fg-image.png"
+    },
+    "hero_slider": {
+        "autoplay": 5000,
+        "loop": true,
+        "slides": [
+            {
+                "id": "slide_1",
+                "bg_image": "images/slides/slide-01-2050x610.webp",
+                "heading": "Tampa Luxury Remodeling Experts",
+                "description": "At Just Smart Choice Construction USA, we focus on successful project delivery through professional construction management, experienced craftsmanship, and attention to every detail.",
+                "cta_type": "cta-box-primary",
+                "link": "services.php",
+                "link_text": "Explore Services"
+            },
+            {
+                "id": "slide_2",
+                "bg_image": "images/slides/slide-02-2050x610.webp",
+                "heading": "Quality Construction",
+                "description": "Quality is the foundation of every project completed by Just Smart Choice Construction USA. We use professional methods, reliable materials, and skilled craftsmanship to deliver lasting results.",
+                "cta_type": "cta-box-secondary",
+                "link": "services.php",
+                "link_text": "Our Quality Promise"
+            },
+            {
+                "id": "slide_3",
+                "bg_image": "images/slides/slide-03-2050x610.webp",
+                "heading": "Complete Property Solutions",
+                "description": "From remodeling and renovations to complete construction projects, Just Smart Choice provides customized solutions for residential and commercial properties throughout Florida.",
+                "cta_type": "cta-box",
+                "link": "contacts.php",
+                "link_text": "Request an Estimate"
+            }
+        ]
+    },
+    "feature_offers": [
+        {
+            "id": "card_1",
+            "heading": "Premium Craftsmanship",
+            "description": "Professional construction solutions using quality materials and skilled workmanship to ensure durable results.",
+            "image": "images/img-01-370x370.webp",
+            "link": "services.php",
+            "style": "thumbnail-secondary",
+            "col_class": "col-sm-6 col-lg-4"
+        },
+        {
+            "id": "card_2",
+            "heading": "Trusted Local Expertise",
+            "description": "With extensive experience in residential and commercial construction, Just Smart Choice delivers reliable solutions, professional communication, and quality results.",
+            "image": "images/img-02-770x370.webp",
+            "link": "services.php",
+            "style": "thumbnail-wide",
+            "col_class": "col-sm-6 col-lg-8"
+        },
+        {
+            "id": "card_3",
+            "heading": "Industry-Leading Experience",
+            "description": "Our construction team provides expertise in remodeling, new construction, repairs, and property improvements.",
+            "image": "images/img-03-370x370.webp",
+            "link": "services.php",
+            "style": "",
+            "col_class": "col-sm-6 col-lg-4"
+        },
+        {
+            "id": "card_4",
+            "heading": "Complete Project Support",
+            "description": "From consultation and planning to construction completion, we guide every customer through the entire process.",
+            "image": "images/img-04-370x370.webp",
+            "link": "contacts.php",
+            "style": "thumbnail-primary",
+            "col_class": "col-sm-6 col-lg-4"
+        },
+        {
+            "id": "card_5",
+            "heading": "Innovative Construction Solutions",
+            "description": "Energy-efficient upgrades, modern materials, and professional construction methods that improve property value.",
+            "image": "images/img-05-370x370.webp",
+            "link": "services.php",
+            "style": "thumbnail-secondary",
+            "col_class": "col-sm-6 col-lg-4"
+        }
+    ],
+    "welcome_section": {
+        "subtitle": "Welcome to Just Smart Choice",
+        "heading": "Florida Licensed General Contractor",
+        "body": "We build and remodel with integrity, precision, and dedication. Our multidisciplinary team manages everything from architectural drawings and local permitting to finished construction for homes and businesses across Tampa Bay and Central Florida.",
+        "btn_label": "Learn About Our Team",
+        "btn_url": "about.php",
+        "body_left": "",
+        "body_right": ""
+    },
+    "cta_banner": {
+        "heading": "Ready to Start Your Construction or Remodeling Project?",
+        "subtitle": "Contact our Florida licensed contractors today for an honest, upfront estimate and professional guidance.",
+        "btn_label": "Request an Estimate",
+        "btn_url": "contacts.php"
+    },
+    "services_section": {
+        "title": "Our Services",
+        "side_image": "images/img-06-570x350.webp",
+        "items": [
+            {
+                "title": "New Construction & Remodeling",
+                "link": "residential-commercial-construction.php"
+            },
+            {
+                "title": "Custom Carpentry & Woodworking",
+                "link": "services.php"
+            },
+            {
+                "title": "Electrical & Green Energy Solutions",
+                "link": "energy-efficient-upgrades.php"
+            },
+            {
+                "title": "Roofing Installation & Repairs",
+                "link": "services.php"
+            },
+            {
+                "title": "Engineering & Construction Drafting",
+                "link": "construction-drawings-permits.php"
+            },
+            {
+                "title": "Kitchen & Bathroom Remodeling",
+                "link": "remodeling-services.php"
+            }
+        ]
+    }
+}

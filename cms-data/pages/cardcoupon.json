@@ -1,0 +1,30 @@
+{
+  "seo": {
+    "title": "Unlock Your Smart Choice Reward",
+    "description": "Watch the Smart Choice video, select your project, and unlock a limited construction reward.",
+    "keywords": "Unlock Your Smart Choice Reward, Tampa Bay, Florida Contractor",
+    "og_image": "/images/fg-image.png"
+  },
+  "hero": {
+    "heading": "Watch. Select.  Unlock Your Reward.",
+    "subtitle": "Watch the Smart Choice video, select your project, and unlock a limited construction reward.",
+    "bg_image": "images/slides/slide-01-2050x610.jpg"
+  },
+  "sections": {
+    "main_content": {
+      "heading": "Tell us what you are planning.",
+      "body": "At Just Smart Choice Construction USA, we provide comprehensive unlock your smart choice reward solutions designed for property owners throughout Tampa Bay and Central Florida.",
+      "featured_image": ""
+    },
+    "details": {
+      "heading": "Searching for your Smart Choice reward.",
+      "body": "Every project is planned around applicable Florida building codes, high quality materials, licensed trade coordination, and transparent pricing."
+    }
+  },
+  "call_to_action": {
+    "heading": "Ready to Plan Your Unlock Your Smart Choice Reward Project?",
+    "subtitle": "Contact our Florida licensed construction team at (727) 755-3786 to discuss scope, timeline, and next steps.",
+    "btn_label": "Request an Estimate",
+    "btn_url": "contacts.php"
+  }
+}

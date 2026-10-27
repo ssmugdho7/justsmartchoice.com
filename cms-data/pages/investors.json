@@ -1,0 +1,51 @@
+{
+  "seo": {
+    "title": "Investors | Smart Choice Contractors USA Investment Opportunities",
+    "description": "Explore investment opportunities with Smart Choice Contractors USA. Learn about our growth strategy, financial performance, and how you can become a part of our success.",
+    "keywords": "Investors, Construction Investment Florida, General Contractor Equity, Smart Choice Contractors USA",
+    "og_image": "/images/logo-638x310.png"
+  },
+  "hero": {
+    "title": "Invest in Smart Choice Contractors USA",
+    "lead": "Join us in shaping the future of construction in Florida. Discover the benefits of partnering with a leading contractor in the industry."
+  },
+  "how_to_invest": {
+    "heading": "How to Become an Investor",
+    "description": "Investing in Smart Choice Contractors USA offers a unique opportunity to be part of a growing and dynamic industry. We welcome accredited investors who are interested in:",
+    "items": [
+      "Equity investments in construction projects",
+      "Debt financing for expansion and development",
+      "Partnerships in joint ventures and strategic alliances"
+    ],
+    "contact_email": "invest@justsmartchoice.com"
+  },
+  "investor_benefits": {
+    "heading": "Investor Benefits",
+    "items": [
+      "Access to exclusive investment opportunities in high-growth markets",
+      "Regular updates on project progress and financial performance",
+      "Potential for attractive returns on investment",
+      "Partnership with a reputable and experienced construction firm"
+    ]
+  },
+  "financial_transparency": {
+    "heading": "Financial Transparency",
+    "description": "We are committed to maintaining transparency with our investors. Our financial reports include:",
+    "items": [
+      "Quarterly and annual financial statements",
+      "Project-specific financial performance reports",
+      "Investor newsletters and updates"
+    ],
+    "contact_email": "invest@justsmartchoice.com"
+  },
+  "investor_program": {
+    "heading": "Investor Program",
+    "description": "Our Investor Program is designed to provide our partners with:",
+    "items": [
+      "Priority access to new investment opportunities",
+      "Regular briefings and updates from our executive team",
+      "Invitations to exclusive events and networking opportunities"
+    ],
+    "contact_email": "invest@justsmartchoice.com"
+  }
+}

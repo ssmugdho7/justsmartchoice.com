@@ -1,0 +1,218 @@
+{
+    "seo": {
+        "title": "About Just Smart Choice Construction USA | Tampa Bay General Contractor",
+        "description": "Learn about Just Smart Choice Construction USA, a licensed general contractor in Tampa Bay, Florida specializing in residential and commercial construction.",
+        "keywords": "About Just Smart Choice, General Contractor Tampa Bay, Construction Team Florida, Spring Hill Contractor",
+        "og_image": "/images/fg-image.png"
+    },
+    "hero": {
+        "title": "About Just Smart Choice USA",
+        "image": "images/aboutus.webp",
+        "image_alt": "Smart Choice Contractors USA construction experience and company history",
+        "lead_paragraph": "This is the reason behind everything we do...",
+        "p1": "After years of experience in the construction industry, I decided to continue working with a renewed purpose: helping families create safe, reliable, and comfortable homes. Construction is not only about materials and structures; it is about protecting families, improving communities, and creating spaces where people can live better lives.",
+        "p2": "Throughout my career, I have learned that proper planning, organization, and experience allow problems to be identified before they become expensive issues. Good construction requires preparation, attention to detail, and the ability to provide solutions before challenges affect the project.",
+        "p3": "Over the years, many homeowners have shared their experiences with unreliable contractors who failed to complete projects, exceeded budgets, or delivered poor-quality work. This motivated me to return to construction with a stronger commitment to honesty, communication, technology, and professional project management.",
+        "p4": "At Smart Choice Contractors USA, our mission is simple: provide dependable construction services, treat every customer with respect, and deliver projects with quality craftsmanship. Our goal is to build trust one project at a time."
+    },
+    "history_heading": "Our History",
+    "team_heading": "Meet Our Team",
+    "advantages_heading": "Advantages",
+    "history": [
+        {
+            "year": "2001",
+            "description": "Smart Choice Contractors USA began developing experience in Florida's construction industry, focusing on residential improvements and quality workmanship."
+        },
+        {
+            "year": "2005",
+            "description": "The company expanded its capabilities by completing more complex renovation projects and strengthening its commitment to professional construction standards."
+        },
+        {
+            "year": "2010",
+            "description": "Our team continued improving technical knowledge and project management skills while participating in residential and commercial construction projects throughout Florida."
+        },
+        {
+            "year": "2015",
+            "description": "Smart Choice Contractors USA continued growing through larger remodeling projects, commercial improvements, and specialized construction solutions."
+        },
+        {
+            "year": "2020",
+            "description": "The company expanded its service offerings, combining traditional craftsmanship with modern technology to improve construction efficiency and customer communication."
+        }
+    ],
+    "jobs": {
+        "heading": "Jobs",
+        "subtitle": "Join Our Construction Team",
+        "description": "Smart Choice Contractors USA is always looking for skilled and motivated professionals to join our growing construction team. We offer opportunities for experienced workers who take pride in quality workmanship and professional service.",
+        "positions": [
+            "Skilled Carpenters for Residential and Commercial Projects",
+            "Licensed Electricians and Electrical Specialists",
+            "Experienced Project Managers and Supervisors",
+            "Masonry and Concrete Professionals",
+            "General Construction Workers"
+        ],
+        "footer_text": "We provide opportunities to work on residential remodeling, new construction, commercial improvements, and specialty construction projects throughout Florida."
+    },
+    "team": [
+        {
+            "name": "Michael Anderson",
+            "role": "Project Manager",
+            "phone": "727-755-3786 Ext. 201",
+            "image": "images/persons/carlos-rivera.webp",
+            "image_alt": "Michael Anderson Smart Choice Contractors USA Project Manager",
+            "description": "Experienced professional responsible for coordinating construction projects, schedules, and customer expectations."
+        },
+        {
+            "name": "David Thompson",
+            "role": "Construction Supervisor",
+            "phone": "727-755-3786 Ext. 202",
+            "image": "images/persons/david-thompson.webp",
+            "image_alt": "David Thompson Smart Choice Contractors USA Construction Supervisor",
+            "description": "Focused on job site organization, safety procedures, and maintaining quality standards during construction."
+        },
+        {
+            "name": "Robert Miller",
+            "role": "Site Engineer",
+            "phone": "727-755-3786 Ext. 203",
+            "image": "images/persons/robert-miller.webp",
+            "image_alt": "Robert Miller Smart Choice Contractors USA Site Engineer",
+            "description": "Specializes in construction coordination, technical planning, and ensuring project requirements are followed."
+        },
+        {
+            "name": "Richard Cox",
+            "role": "General Contractor",
+            "phone": "727-755-3786 Ext. 204",
+            "image": "images/persons/richard-cox.webp",
+            "image_alt": "Richard Cox Smart Choice Contractors USA General Contractor",
+            "description": "Provides extensive construction experience managing residential and commercial projects from planning to completion."
+        },
+        {
+            "name": "James Wilson",
+            "role": "Construction Foreman",
+            "phone": "727-755-3786 Ext. 205",
+            "image": "images/persons/james-wilson.webp",
+            "image_alt": "James Wilson Smart Choice Contractors USA Construction Foreman",
+            "description": "Experienced in supervising field operations, quality control, and construction team coordination."
+        },
+        {
+            "name": "Maria Brito",
+            "role": "Architect",
+            "phone": "727-755-3786 Ext. 206",
+            "image": "images/persons/Maria brito.webp",
+            "image_alt": "Maria Brito Smart Choice Contractors USA Architect",
+            "description": "Works with clients to develop functional designs and construction solutions."
+        },
+        {
+            "name": "Daniel Brown",
+            "role": "Estimator",
+            "phone": "727-755-3786 Ext. 207",
+            "image": "images/persons/daniel-brown.webp",
+            "image_alt": "Daniel Brown Smart Choice Contractors USA Estimator",
+            "description": "Specializes in preparing accurate project evaluations, budgeting, and construction cost planning."
+        },
+        {
+            "name": "Sophia Lee",
+            "role": "Civil Engineer",
+            "phone": "727-755-3786 Ext. 208",
+            "image": "images/persons/sophia-lee.webp",
+            "image_alt": "Sophia Lee Smart Choice Contractors USA Civil Engineer",
+            "description": "Supports structural planning, construction analysis, and project development from initial stages to completion."
+        },
+        {
+            "name": "Habibur Rahman",
+            "role": "Manager Assistant",
+            "phone": "727-755-3786 Ext. 209",
+            "image": "images/persons/Habbit.webp",
+            "image_alt": "Habibur Rahman Smart Choice Contractors USA Project Manager Assistant",
+            "description": "Experienced management professional supporting the Operations Manager with project coordination, scheduling, daily operations, and construction project administration."
+        },
+        {
+            "name": "Jannatul Ferdous",
+            "role": "Marketing Director",
+            "phone": "727-755-3786 Ext. 209",
+            "image": "images/persons/Jannat.webp",
+            "image_alt": "Jannatul Ferdous Smart Choice Contractors USA Sales and Marketing Director",
+            "description": "Leads marketing campaigns, promotional strategies, brand development, and sales initiatives to increase company visibility, attract new customers, and support business growth."
+        },
+        {
+            "name": "Shah Maruf Siraj Mugdho",
+            "role": "IT Technology Analyst",
+            "phone": "727-755-3786 Ext. 209",
+            "image": "images/persons/Mughoud.webp",
+            "image_alt": "Shah Maruf Siraj Mugdho Smart Choice Contractors USA IT Technology Analyst",
+            "description": "Responsible for improving website and system responsiveness, supporting IT infrastructure, resolving technical issues, and providing technology assistance and customer service."
+        },
+        {
+            "name": "Asir Mahmud",
+            "role": "Director of Technology",
+            "phone": "727-755-3786 Ext. 209",
+            "image": "images/persons/Asir.webp",
+            "image_alt": "Asir Mahmud Smart Choice Contractors USA Director of Technology",
+            "description": "Oversees technology development, integration of new products and services, digital system improvements, and innovative solutions that expand the company's capabilities."
+        }
+    ],
+    "advantages": [
+        "Quality construction tailored to your needs.",
+        "Skilled professionals and reliable workmanship.",
+        "Organized projects and timely communication.",
+        "Safety, durability, and lasting value.",
+        "Complete solutions from start to finish.",
+        "Professional drawings and permit assistance.",
+        "Energy-efficient construction solutions.",
+        "Reliable repairs and property improvements.",
+        "Detailed planning and project coordination.",
+        "Residential and commercial building expertise."
+    ],
+    "why_us": {
+        "heading": "Why Us",
+        "subtitle": "10 Reasons to Choose Smart Choice",
+        "description": "Quality construction, skilled professionals, and dependable service across Florida.",
+        "reasons": [
+            "Residential & Commercial Experts",
+            "Professional Project Management",
+            "Clear Customer Communication",
+            "Quality Materials & Workmanship",
+            "Experienced Construction Team",
+            "Customized Building Solutions",
+            "Licensed & Insured Services",
+            "Detailed Project Estimates",
+            "Energy-Efficient Solutions",
+            "Start-to-Finish Project Support"
+        ],
+        "reason_links": [
+            "services.php",
+            "project-management.php",
+            "services.php",
+            "services.php",
+            "services.php",
+            "services.php",
+            "services.php",
+            "services.php",
+            "energy-efficient-upgrades.php",
+            "services.php"
+        ]
+    },
+    "testimonial": {
+        "heading": "Testimonials",
+        "quote": "Excellent, amazing service, professional team,and quality workmanship from start to finish, I am Super happy and recommemd them 100% and sure they will do the right thing at your home like they did mine and My deck is just perfect! Thank you guys.",
+        "author": "Deck Replacement Cristina Gobber Satisfied Client",
+        "image": "images/persons/Cristina Gobber.webp"
+    },
+    "advantages_links": [
+        "residential-commercial-construction.php",
+        "remodeling-services.php",
+        "project-management.php",
+        "construction-drawings-permits.php",
+        "services.php",
+        "construction-drawings-permits.php",
+        "energy-efficient-upgrades.php",
+        "services.php",
+        "project-management.php",
+        "residential-commercial-construction.php"
+    ],
+    "testimonial_2": {
+        "quote": "The drywall patchwork that was taken care of on my ceiling is undetectable. Perfect! I'm definitely keeping this phone number on speed dial. Some plumbing work next. Definitely.",
+        "author": "Drywall Repair. - \"Jim Ferrero\"",
+        "image": "images/persons/Jim-ferrero.webp"
+    }
+}

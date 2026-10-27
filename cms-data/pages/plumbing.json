@@ -1,0 +1,30 @@
+{
+  "seo": {
+    "title": "Plumbing Services Tampa Bay FL",
+    "description": "Professional plumbing services in Tampa Bay Florida. Smart Choice Contractors USA provides leak repair, drain cleaning, pipe installation, bathroom plumbing, kitchen plumbing, repiping, water heater installation, fixture installation, inspection corrections, and commercial plumbing solutions.",
+    "keywords": "Plumbing Services Tampa Bay FL, Tampa Bay, Florida Contractor",
+    "og_image": "/images/fg-image.png"
+  },
+  "hero": {
+    "heading": "Professional Plumbing Services in Tampa Bay Florida",
+    "subtitle": "Professional plumbing services in Tampa Bay Florida. Smart Choice Contractors USA provides leak repair, drain cleaning, pipe installation, bathroom plumbing, kitchen plumbing, repiping, water heater installation, fixture installation, inspection corrections, and commercial plumbing solutions.",
+    "bg_image": "images/smart-choice-plumbing-services-florida.webp"
+  },
+  "sections": {
+    "main_content": {
+      "heading": "Complete Plumbing Solutions for Homes, Remodels, and Commercial Projects",
+      "body": "At Just Smart Choice Construction USA, we provide comprehensive plumbing services tampa bay fl solutions designed for property owners throughout Tampa Bay and Central Florida.",
+      "featured_image": "images/smart-choice-plumbing-services-florida.webp"
+    },
+    "details": {
+      "heading": "Our Plumbing Services",
+      "body": "Every project is planned around applicable Florida building codes, high quality materials, licensed trade coordination, and transparent pricing."
+    }
+  },
+  "call_to_action": {
+    "heading": "Ready to Plan Your Plumbing Services Tampa Bay FL Project?",
+    "subtitle": "Contact our Florida licensed construction team at (727) 755-3786 to discuss scope, timeline, and next steps.",
+    "btn_label": "Request an Estimate",
+    "btn_url": "contacts.php"
+  }
+}

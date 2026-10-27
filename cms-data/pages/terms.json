@@ -1,0 +1,30 @@
+{
+  "seo": {
+    "title": "Terms of Service",
+    "description": "Terms of Service for Smart Choice Contractors USA. Review website use, construction service terms, estimates, contracts, payments, Florida construction lien notices, warranties, limitations, and customer responsibilities.",
+    "keywords": "Terms of Service, Tampa Bay, Florida Contractor",
+    "og_image": "/images/fg-image.png"
+  },
+  "hero": {
+    "heading": "Terms of Service",
+    "subtitle": "Terms of Service for Smart Choice Contractors USA. Review website use, construction service terms, estimates, contracts, payments, Florida construction lien notices, warranties, limitations, and customer responsibilities.",
+    "bg_image": "images/slides/slide-01-2050x610.jpg"
+  },
+  "sections": {
+    "main_content": {
+      "heading": "1. Acceptance of Terms",
+      "body": "At Just Smart Choice Construction USA, we provide comprehensive terms of service solutions designed for property owners throughout Tampa Bay and Central Florida.",
+      "featured_image": ""
+    },
+    "details": {
+      "heading": "2. Company Services",
+      "body": "Every project is planned around applicable Florida building codes, high quality materials, licensed trade coordination, and transparent pricing."
+    }
+  },
+  "call_to_action": {
+    "heading": "Ready to Plan Your Terms of Service Project?",
+    "subtitle": "Contact our Florida licensed construction team at (727) 755-3786 to discuss scope, timeline, and next steps.",
+    "btn_label": "Request an Estimate",
+    "btn_url": "contacts.php"
+  }
+}

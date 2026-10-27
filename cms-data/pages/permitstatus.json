@@ -1,0 +1,50 @@
+{
+  "seo": {
+    "title": "Permit & Inspection Lookup | Just Smart Choice Construction USA",
+    "description": "Look up Florida building permits and schedule inspections across all 67 Florida counties and municipal portals.",
+    "keywords": "Florida building permit lookup, Florida inspection scheduling, Hillsborough permit portal, Pasco permit search, Pinellas building department, Just Smart Choice",
+    "og_image": "/images/fg-image.png"
+  },
+  "hero": {
+    "eyebrow": "Florida Building Department Directory",
+    "title": "Florida Permit & Inspection Lookup Portal",
+    "subtitle": "Direct, official building department access across all 67 Florida counties and major municipal building portals.",
+    "bg_image": "images/slides/slide-01-2050x610.jpg"
+  },
+  "portal_card": {
+    "heading": "Permit / Inspection Lookup",
+    "instruction": "Select your Florida county and municipality below to navigate directly to official permit records, inspection requests, and plan review status.",
+    "county_placeholder": "Select County (All 67 Florida Counties)",
+    "city_placeholder": "Select City / Municipality (Optional)",
+    "button_label": "Open Official Building Department Portal"
+  },
+  "guidance_cards": [
+    {
+      "icon": "fa-file-invoice",
+      "title": "Have Your Permit # Ready",
+      "description": "Florida building portals allow instant lookups using your permit number, folios/parcel ID, or site physical address."
+    },
+    {
+      "icon": "fa-calendar-check",
+      "title": "Schedule Inspections",
+      "description": "Most Florida jurisdictions cut off next-day inspection requests at 3:30 PM - 4:00 PM. Have your 3-digit inspection code ready."
+    },
+    {
+      "icon": "fa-shield-halved",
+      "title": "Licensed Contractor Oversight",
+      "description": "Just Smart Choice Construction USA holds Florida Certified General Contractor License #CGC1534063 for all permitted work."
+    }
+  ],
+  "support_box": {
+    "title": "Need Help Finding Your Permit Record?",
+    "text": "If you are an active client and need assistance with permit application status, engineering sign-offs, or Notice of Commencement recording, our project coordinators are available to assist.",
+    "phone": "(727) 755-3786",
+    "email": "permits@justsmartchoice.com"
+  },
+  "pricing_cta": {
+    "heading": "Planning Permitted Construction or Remodeling?",
+    "subheading": "Review transparent itemized costs, labor rates, and permit fees in our detailed pricing guide.",
+    "btn_label": "View Upfront Pricing Guide",
+    "btn_url": "pricing.php"
+  }
+}
