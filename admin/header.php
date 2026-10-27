@@ -83,9 +83,12 @@ $currentScript = basename($_SERVER['SCRIPT_NAME'] ?? '');
                     <div class="cms-user-role"><?php echo htmlspecialchars($currentUser['role'] ?? 'Super Admin'); ?></div>
                 </div>
             </div>
-            <a href="logout.php" title="Sign Out" style="color: var(--text-muted); font-size: 15px;">
-                <i class="fa-solid fa-arrow-right-from-bracket"></i>
-            </a>
+            <form method="post" action="logout.php" style="margin: 0;">
+                <input type="hidden" name="csrf_token" value="<?php echo htmlspecialchars(AdminAuth::csrfToken()); ?>">
+                <button type="submit" title="Sign Out" style="color: var(--text-muted); font-size: 15px; background: none; border: 0; padding: 0; cursor: pointer;">
+                    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                </button>
+            </form>
         </div>
     </aside>
 

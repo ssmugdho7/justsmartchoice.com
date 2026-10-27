@@ -1704,7 +1704,7 @@ gtag(
 
 
                 <p <?php echo cms_bind('contacts', 'contact_form.note_text'); ?>>
-                    <?php echo cms_field('contacts', 'contact_form.note_text', 'Our team will contact you within <strong>8 to 24 business hours</strong>. If you already have drawings, plans, photos, measurements, permits, inspection notes, or project documents, attach them below so we can review your project faster.'); ?>
+                    <?php echo htmlspecialchars(cms_field('contacts', 'contact_form.note_text', 'Our team will contact you within 8 to 24 business hours. If you already have drawings, plans, photos, measurements, permits, inspection notes, or project documents, attach them below so we can review your project faster.')); ?>
                 </p>
 
                 <div style="margin-top: 12px;">

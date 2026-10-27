@@ -7,7 +7,7 @@ if (AdminAuth::check()) {
 }
 
 $error = '';
-$redirect = $_GET['redirect'] ?? 'index.php';
+$redirect = AdminAuth::safeRedirect($_GET['redirect'] ?? '', 'index.php');
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $token = $_POST['csrf_token'] ?? '';
@@ -19,11 +19,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         if (AdminAuth::login($username, $password)) {
             // Success
-            $target = (!empty($redirect) && strpos($redirect, 'login.php') === false) ? $redirect : 'index.php';
-            header('Location: ' . $target);
+            header('Location: ' . $redirect);
             exit;
         } else {
-            $error = 'Invalid username or password. Please try again.';
+            $error = AdminAuth::$lastError === 'throttled'
+                ? 'Too many failed sign-in attempts. Please wait 15 minutes and try again.'
+                : 'Invalid username or password. Please try again.';
         }
     }
 }

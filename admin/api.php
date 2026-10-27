@@ -29,6 +29,32 @@ if (in_array($action, $mutatingActions, true)) {
 }
 
 /**
+ * Allowed upload types: extension => accepted MIME types (detected with finfo). SVG is intentionally excluded.
+ */
+const CMS_UPLOAD_MIMES = [
+    'jpg'  => ['image/jpeg'],
+    'jpeg' => ['image/jpeg'],
+    'png'  => ['image/png'],
+    'webp' => ['image/webp'],
+    'gif'  => ['image/gif'],
+    'ico'  => ['image/x-icon', 'image/vnd.microsoft.icon'],
+    'bmp'  => ['image/bmp', 'image/x-ms-bmp'],
+    'pdf'  => ['application/pdf'],
+];
+
+/**
+ * Verify an uploaded temp file's real MIME type matches its extension. Fails closed without finfo.
+ */
+function isAllowedUpload(string $tmpPath, string $ext): bool
+{
+    if (!isset(CMS_UPLOAD_MIMES[$ext]) || !is_uploaded_file($tmpPath) || !class_exists('finfo')) {
+        return false;
+    }
+    $mime = (new finfo(FILEINFO_MIME_TYPE))->file($tmpPath);
+    return is_string($mime) && in_array($mime, CMS_UPLOAD_MIMES[$ext], true);
+}
+
+/**
  * Safely validate and resolve an image file path inside /images directory.
  * Prevents directory traversal attacks.
  */
@@ -50,7 +76,7 @@ function getSafeMediaPath(string $relPath): ?string
     $target = $imagesRoot . DIRECTORY_SEPARATOR . str_replace('/', DIRECTORY_SEPARATOR, $cleanRel);
     $real = realpath($target);
 
-    if ($real && is_file($real) && strpos($real, $imagesRoot) === 0) {
+    if ($real && is_file($real) && strpos($real, $imagesRoot . DIRECTORY_SEPARATOR) === 0) {
         return $real;
     }
 
@@ -192,11 +218,14 @@ switch ($action) {
             exit;
         }
 
-        $allowedExts = ['jpg', 'jpeg', 'png', 'webp', 'svg', 'gif', 'ico', 'pdf', 'bmp'];
         $ext = strtolower(pathinfo($file['name'], PATHINFO_EXTENSION));
 
-        if (!in_array($ext, $allowedExts, true)) {
+        if (!isset(CMS_UPLOAD_MIMES[$ext])) {
             echo json_encode(['success' => false, 'error' => 'File extension .' . $ext . ' is not allowed.']);
+            exit;
+        }
+        if (!isAllowedUpload($file['tmp_name'], $ext)) {
+            echo json_encode(['success' => false, 'error' => 'File content does not match an allowed image type.']);
             exit;
         }
 
@@ -226,7 +255,7 @@ switch ($action) {
             $webpFilename = $safeBase . '-' . time() . '.webp';
             $webpDestination = $targetDir . DIRECTORY_SEPARATOR . $webpFilename;
 
-            $tempDestination = $targetDir . DIRECTORY_SEPARATOR . 'temp_' . time() . '_' . $file['name'];
+            $tempDestination = $targetDir . DIRECTORY_SEPARATOR . 'temp_' . bin2hex(random_bytes(16)) . '.' . $ext;
             if (move_uploaded_file($file['tmp_name'], $tempDestination)) {
                 $converted = CmsWebPConverter::convertToWebP($tempDestination, $webpDestination);
                 @unlink($tempDestination);
@@ -370,10 +399,12 @@ switch ($action) {
         $uploadedFile = $_FILES['file'];
         $uploadExt = strtolower(pathinfo($uploadedFile['name'], PATHINFO_EXTENSION));
         $targetExt = strtolower(pathinfo($targetPath, PATHINFO_EXTENSION));
-        $allowedExts = ['jpg', 'jpeg', 'png', 'webp', 'svg', 'gif', 'ico', 'bmp'];
-
-        if (!in_array($uploadExt, $allowedExts, true)) {
+        if (!isset(CMS_UPLOAD_MIMES[$uploadExt]) || $uploadExt === 'pdf') {
             echo json_encode(['success' => false, 'error' => "File extension .{$uploadExt} is not allowed."]);
+            exit;
+        }
+        if (!isAllowedUpload($uploadedFile['tmp_name'], $uploadExt)) {
+            echo json_encode(['success' => false, 'error' => 'File content does not match an allowed image type.']);
             exit;
         }
 
@@ -594,19 +625,27 @@ switch ($action) {
             exit;
         }
 
-        $rootDir = dirname(__DIR__);
+        $rootDir = realpath(dirname(__DIR__));
+        $imagesRoot = realpath($rootDir . '/images');
         $converted = [];
         $errors = [];
         $bytesSaved = 0;
 
         foreach ($fileList as $relPath) {
-            $cleanRel = ltrim(str_replace('\\', '/', $relPath), '/');
-            $sourceDisk = $rootDir . '/' . $cleanRel;
+            $cleanRel = ltrim(str_replace('\\', '/', (string)$relPath), '/');
+            $sourceDisk = realpath($rootDir . '/' . $cleanRel);
 
-            if (!file_exists($sourceDisk)) {
-                $errors[] = ['file' => $cleanRel, 'error' => 'File not found on disk'];
+            // Confine batch conversion to real JPG/PNG/GIF/BMP files inside /images
+            if (!$imagesRoot || !$sourceDisk || !is_file($sourceDisk) || strpos($sourceDisk, $imagesRoot . DIRECTORY_SEPARATOR) !== 0) {
+                $errors[] = ['file' => $cleanRel, 'error' => 'File not found inside images/'];
                 continue;
             }
+            if (!in_array(strtolower(pathinfo($sourceDisk, PATHINFO_EXTENSION)), ['jpg', 'jpeg', 'png', 'gif', 'bmp'], true)) {
+                $errors[] = ['file' => $cleanRel, 'error' => 'Unsupported file type'];
+                continue;
+            }
+            $cleanRel = substr($sourceDisk, strlen($rootDir) + 1);
+            $cleanRel = str_replace(DIRECTORY_SEPARATOR, '/', $cleanRel);
 
             $info = pathinfo($cleanRel);
             $webpRel = ($info['dirname'] === '.' || $info['dirname'] === '')

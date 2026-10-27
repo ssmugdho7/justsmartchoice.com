@@ -11,6 +11,32 @@ if (!defined('CMS_DATA_DIR')) {
 
 require_once __DIR__ . '/cms-webp-converter.php';
 
+if (!function_exists('cms_session_start')) {
+    /**
+     * Start the shared session with hardened cookie flags (HTTPS-only site; plain HTTP allowed on localhost only)
+     */
+    function cms_session_start(): bool
+    {
+        if (session_status() === PHP_SESSION_ACTIVE) {
+            return true;
+        }
+        if (headers_sent()) {
+            return false;
+        }
+        $host = strtolower(preg_replace('/:\d+$/', '', $_SERVER['HTTP_HOST'] ?? ''));
+        $isLocal = in_array($host, ['localhost', '127.0.0.1'], true);
+        session_set_cookie_params([
+            'lifetime' => 86400 * 7,
+            'path'     => '/',
+            'domain'   => '',
+            'secure'   => !$isLocal,
+            'httponly' => true,
+            'samesite' => 'Lax'
+        ]);
+        return @session_start();
+    }
+}
+
 class CMS
 {
     private static $cache = [];
@@ -26,14 +52,19 @@ class CMS
             return self::$isPreview;
         }
 
-        if (session_status() === PHP_SESSION_NONE && !headers_sent()) {
-            @session_start();
-        }
-
-        $sessionPreview = !empty($_SESSION['cms_admin_preview']);
         $queryPreview = isset($_GET['cms_preview']) && $_GET['cms_preview'] === '1';
 
-        self::$isPreview = $sessionPreview || $queryPreview;
+        // Only touch the session when one already exists or preview is explicitly requested,
+        // so ordinary public page views never start a session.
+        if (session_status() === PHP_SESSION_NONE && ($queryPreview || !empty($_COOKIE[session_name()]))) {
+            cms_session_start();
+        }
+
+        // Draft preview is available to authenticated CMS admins only
+        $isAdmin = !empty($_SESSION['cms_logged_in']) && !empty($_SESSION['cms_user_id']);
+        $sessionPreview = !empty($_SESSION['cms_admin_preview']);
+
+        self::$isPreview = $isAdmin && ($sessionPreview || $queryPreview);
         return self::$isPreview;
     }
 
@@ -332,7 +363,8 @@ if (!function_exists('cms_head_scripts')) {
         $html .= '<style id="cms-theme-styles">';
         $html .= ':root { --cms-primary: ' . htmlspecialchars($primaryColor) . '; --cms-secondary: ' . htmlspecialchars($secondaryColor) . '; }';
         if (!empty($customCss)) {
-            $html .= "\n" . $customCss;
+            // Custom CSS must not be able to close the <style> element or open new tags
+            $html .= "\n" . str_replace('<', '', (string)$customCss);
         }
         $html .= '</style>';
 

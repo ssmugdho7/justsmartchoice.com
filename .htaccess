@@ -17,7 +17,7 @@
   # Transparent WebP Delivery for Legacy Existing Photos
   RewriteCond %{HTTP_ACCEPT} image/webp
   RewriteCond %{REQUEST_FILENAME} -f
-  RewriteRule ^(images/.+)\.(jpe?g|png)$ image-webp-gateway.php?img=$1.$2 [L]
+  RewriteRule ^(images/.+)\.(jpe?g|png)$ image-webp-gateway.php?img=$1.$2 [B,L]
 </IfModule>
 
 <IfModule mod_headers.c>
