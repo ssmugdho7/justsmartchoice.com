@@ -31,7 +31,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
       "url": "https://www.smartchoiceusa.com",
       "logo": "https://www.smartchoiceusa.com/images/logo-638x310.png",
       "sameAs": [
-        "https://www.facebook.com/SmartChoiceUSA",
+        "https://www.facebook.com/profile.php?id=61594271759671",
         "https://www.twitter.com/SmartChoiceUSA"
       ],
       "contactPoint": {
