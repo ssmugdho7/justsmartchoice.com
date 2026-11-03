@@ -264,6 +264,7 @@
   }
 
   .smart-pricing-section {
+    scroll-margin-top: 80px;
     background:
       radial-gradient(circle at top left, rgba(22, 145, 121, 0.14), transparent 35%),
       linear-gradient(180deg, #ffffff 0%, #f3faf8 100%);

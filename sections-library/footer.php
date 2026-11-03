@@ -78,22 +78,12 @@
       display: inline-flex;
       align-items: center;
       gap: 6px;
-      background: #f0fdf4;
-      border: 1px solid #bbf7d0;
-      padding: 6px 12px;
-      border-radius: 6px;
+      background: transparent;
+      border: 0;
+      padding: 6px 0;
       font-size: 12px;
       color: #334155;
       font-weight: 600;
-      transition: all 0.25s ease;
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
-    }
-
-    .smart-footer-lic-badge:hover {
-      border-color: #169179;
-      background: #e6f7f3;
-      transform: translateY(-2px);
-      box-shadow: 0 4px 10px rgba(22, 145, 121, 0.15);
     }
 
     .smart-footer-lic-badge strong {

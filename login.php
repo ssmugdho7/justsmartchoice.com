@@ -240,7 +240,7 @@ require_once __DIR__ . '/includes/cms-engine.php';
           </form>
 
           <div style="text-align: center; margin-top: 20px; padding-top: 18px; border-top: 1px solid #e2e8f0;">
-            <a href="<?php echo htmlspecialchars(cms_field('login', 'login_card.contractor_portal_url', 'https://crm.justsmartchoice.com/authentication/admin_login')); ?>" target="_blank" class="smart-portal-btn-secondary" <?php echo cms_bind('login', 'login_card.contractor_btn_label'); ?>>
+            <a href="https://crm.justsmartchoice.com/admin" class="smart-portal-btn-secondary" <?php echo cms_bind('login', 'login_card.contractor_btn_label'); ?>>
               <span class="fa-solid fa-helmet-safety"></span>
               <span><?php echo htmlspecialchars(cms_field('login', 'login_card.contractor_btn_label', 'Trade Partner & Contractor Sign In')); ?></span>
             </a>
@@ -299,7 +299,7 @@ require_once __DIR__ . '/includes/cms-engine.php';
               <i class="fa-regular fa-clock" style="margin-right: 6px;"></i> <?php echo htmlspecialchars(cms_field('login', 'support.hours', 'Monday - Friday: 8:00 AM - 5:00 PM EST')); ?>
             </span>
             <span style="color: #cbd5e1;">|</span>
-            <a href="/pricing.php" style="color: var(--portal-green); text-decoration: none; font-weight: 700;">
+            <a href="/pricing.php#pricing" style="color: var(--portal-green); text-decoration: none; font-weight: 700;">
               <i class="fa-solid fa-calculator" style="margin-right: 6px;"></i> View Pricing Guide
             </a>
           </div>
