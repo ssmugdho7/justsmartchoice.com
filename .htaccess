@@ -14,6 +14,10 @@
   RewriteCond %{HTTP_HOST} ^www\.justsmartchoice\.com$ [NC]
   RewriteRule ^ https://justsmartchoice.com%{REQUEST_URI} [L,R=301,NE]
 
+  # Keep legacy image URLs valid after originals are removed.
+  RewriteCond %{DOCUMENT_ROOT}/$1.$2.webp -f
+  RewriteRule ^(images/.+)\.(jpe?g|png)$ $1.$2.webp [L,NC]
+
   # Transparent WebP Delivery for Legacy Existing Photos
   RewriteCond %{HTTP_ACCEPT} image/webp
   RewriteCond %{REQUEST_FILENAME} -f
