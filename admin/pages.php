@@ -737,7 +737,7 @@ function renderCmsImageControl($field, $label, $currentValue, $default = '') {
                             <label class="cms-label">Paragraph 2</label>
                             <textarea class="cms-textarea cms-bindable" data-field="electrical_section.p2"><?php echo htmlspecialchars($pageData['electrical_section']['p2'] ?? ''); ?></textarea>
                         </div>
-                        <?php echo renderCmsImageControl("electrical_section.image", "Electrical Feature Photo", $pageData['electrical_section']['image'] ?? 'images/img-06-570x350.png'); ?>
+                        <?php echo renderCmsImageControl("electrical_section.image", "Electrical Feature Photo", $pageData['electrical_section']['image'] ?? 'images/services/electrical-services-smart-choice.webp'); ?>
                     </div>
                 </div>
 

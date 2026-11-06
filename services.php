@@ -425,7 +425,7 @@
 
       <figure class="smart-service-figure">
         <img class="smart-image-hover"
-             src="<?php echo htmlspecialchars(cms_image('services', 'electrical_section.image', 'images/img-06-570x350.webp')); ?>"
+             src="<?php echo htmlspecialchars(cms_image('services', 'electrical_section.image', 'images/services/electrical-services-smart-choice.webp')); ?>"
              alt="Professional electrical services by Smart Choice Contractors USA"
              width="570"
              height="350"
