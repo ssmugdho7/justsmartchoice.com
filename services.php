@@ -539,6 +539,68 @@
 </div>
 <!-- END MAIN SERVICES CONTENT -->
 
+<section id="service-directory" class="section-md" aria-labelledby="service-directory-heading">
+  <div class="container">
+    <h2 id="service-directory-heading">Services and areas we cover</h2>
+    <p>Find information about your project or explore remodeling services in your neighborhood.</p>
+    <div class="row row-30">
+      <div class="col-md-4">
+        <h3>Tampa services</h3>
+        <ul>
+          <li><a href="/services/tampa-commercial-remodeling.php">Commercial Remodeling</a></li>
+          <li><a href="/services/tampa-concrete-driveway.php">Concrete Driveway</a></li>
+          <li><a href="/services/tampa-deck-builder.php">Deck Builder</a></li>
+          <li><a href="/services/tampa-door-replacement.php">Door Replacement</a></li>
+          <li><a href="/services/tampa-drywall-repair.php">Drywall Repair</a></li>
+          <li><a href="/services/tampa-emergency-repair-contractor.php">Emergency Repair Contractor</a></li>
+          <li><a href="/services/tampa-exterior-painting.php">Exterior Painting</a></li>
+          <li><a href="/services/tampa-fence-contractor.php">Fence Contractor</a></li>
+          <li><a href="/services/tampa-flooring-installation.php">Flooring Installation</a></li>
+          <li><a href="/services/tampa-garage-conversion-contractor.php">Garage Conversion Contractor</a></li>
+          <li><a href="/services/tampa-general-contractor-near-me.php">General Contractor Near Me</a></li>
+          <li><a href="/services/tampa-handyman-contractor.php">Handyman Contractor</a></li>
+          <li><a href="/services/tampa-home-remodeling-contractor.php">Home Remodeling Contractor</a></li>
+          <li><a href="/services/tampa-impact-windows-doors.php">Impact Windows and Doors</a></li>
+          <li><a href="/services/tampa-interior-painting.php">Interior Painting</a></li>
+          <li><a href="/services/tampa-investor-remodeling.php">Investor Remodeling</a></li>
+          <li><a href="/services/tampa-licensed-contractor.php">Licensed Contractor</a></li>
+          <li><a href="/services/tampa-patio-contractor.php">Patio Contractor</a></li>
+          <li><a href="/services/tampa-pergola-builder.php">Pergola Builder</a></li>
+          <li><a href="/services/tampa-permit-help.php">Permit Help</a></li>
+          <li><a href="/services/tampa-property-repair-contractor.php">Property Repair Contractor</a></li>
+          <li><a href="/services/tampa-remodeling-company.php">Remodeling Company</a></li>
+          <li><a href="/services/tampa-restaurant-buildout-contractor.php">Restaurant Buildout Contractor</a></li>
+          <li><a href="/services/tampa-roof-leak-repair.php">Roof Leak Repair</a></li>
+          <li><a href="/services/tampa-room-addition-contractor.php">Room Addition Contractor</a></li>
+          <li><a href="/services/tampa-shower-remodeling.php">Shower Remodeling</a></li>
+          <li><a href="/services/tampa-stucco-repair.php">Stucco Repair</a></li>
+          <li><a href="/services/tampa-tile-installation.php">Tile Installation</a></li>
+          <li><a href="/services/tampa-window-replacement.php">Window Replacement</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h3>Neighborhoods</h3>
+        <ul>
+          <li><a href="/services/carrollwood-remodeling-contractor.php">Carrollwood Remodeling</a></li>
+          <li><a href="/services/north-tampa-remodeling-contractor.php">North Tampa Remodeling</a></li>
+          <li><a href="/services/seminole-heights-remodeling-contractor.php">Seminole Heights Remodeling</a></li>
+          <li><a href="/services/south-tampa-remodeling-contractor.php">South Tampa Remodeling</a></li>
+          <li><a href="/services/temple-terrace-remodeling-contractor.php">Temple Terrace Remodeling</a></li>
+          <li><a href="/services/westchase-remodeling-contractor.php">Westchase Remodeling</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h3>Project planning and specialty services</h3>
+        <ul>
+          <li><a href="/engineering-solutions.php">Civil Engineering Services</a></li>
+          <li><a href="/flooring.php">Flooring Services</a></li>
+          <li><a href="/new-project-process.php">Our Project Process</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- BOTTOM BANNER -->
 <?php include 'sections-library/bottom-banner.html'; ?>
 
