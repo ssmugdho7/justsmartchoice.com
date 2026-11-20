@@ -102,12 +102,15 @@ $top_banner_alt = cms_global('top_banner.alt', 'Smart Choice Contractors USA Tam
 
 <?php echo cms_head_scripts(); ?>
 
+<link rel="stylesheet" href="/css/accessibility.css?v=20261120">
+<?php $sc_main_content_open = in_array($current_uri, ['/', '/index.php'], true); ?>
 <!-- START: GLOBAL SITE HEADER -->
-<section
+<header
     class="banner site-header-wrapper"
     itemscope
     itemtype="https://schema.org/WPHeader"
 >
+    <?php if ($sc_main_content_open): ?><a class="sc-skip-link" href="#main-content">Skip to main content</a><?php endif; ?>
     <?php if ($top_banner_enabled): ?>
     <a
         class="section section-banner d-none d-lg-block"
@@ -128,12 +131,10 @@ $top_banner_alt = cms_global('top_banner.alt', 'Smart Choice Contractors USA Tam
     </a>
     <?php endif; ?>
 
-    <header class="section page-header" role="banner">
+    <div class="section page-header">
         <div class="rd-navbar-wrap">
-            <nav
+            <div
                 class="rd-navbar"
-                role="navigation"
-                aria-label="Main navigation"
                 data-layout="rd-navbar-fixed"
                 data-sm-layout="rd-navbar-fixed"
                 data-md-layout="rd-navbar-static"
@@ -159,6 +160,8 @@ $top_banner_alt = cms_global('top_banner.alt', 'Smart Choice Contractors USA Tam
                                 type="button"
                                 data-rd-navbar-toggle=".rd-navbar-nav"
                                 aria-label="Open main menu"
+                                aria-controls="site-menu-links"
+                                aria-expanded="false"
                             >
                                 <span></span>
                             </button>
@@ -200,12 +203,14 @@ $top_banner_alt = cms_global('top_banner.alt', 'Smart Choice Contractors USA Tam
                                 type="button"
                                 data-rd-navbar-toggle=".rd-navbar-info"
                                 aria-label="Open contact information"
+                                aria-controls="site-contact-information"
+                                aria-expanded="false"
                             >
                                 <span></span>
                             </button>
                         </div>
 
-                        <div class="rd-navbar-info">
+                        <div class="rd-navbar-info" id="site-contact-information">
                             <div
                                 class="info"
                                 itemscope
@@ -244,7 +249,6 @@ $top_banner_alt = cms_global('top_banner.alt', 'Smart Choice Contractors USA Tam
                                             class="sc-header-phone-number"
                                             href="tel:<?php echo htmlspecialchars(cms_global('contact.phone_raw', '+17277553786')); ?>"
                                             itemprop="telephone"
-                                            aria-label="Call Smart Choice Contractors USA"
                                             <?php echo cms_bind('global', 'contact.phone'); ?>
                                         >
                                             <?php echo htmlspecialchars(cms_global('contact.phone', '(727) 755-3786')); ?>
@@ -281,8 +285,9 @@ $top_banner_alt = cms_global('top_banner.alt', 'Smart Choice Contractors USA Tam
                 </div>
 
                 <div class="rd-navbar-section sc-main-nav-section">
-                    <div class="rd-navbar-container">
+                    <nav class="rd-navbar-container" aria-label="Main navigation">
                         <ul
+                            id="site-menu-links"
                             class="rd-navbar-nav"
                             itemscope
                             itemtype="https://schema.org/SiteNavigationElement"
@@ -320,10 +325,15 @@ $top_banner_alt = cms_global('top_banner.alt', 'Smart Choice Contractors USA Tam
                                 </li>
                             <?php endforeach; ?>
                         </ul>
-                    </div>
+                    </nav>
                 </div>
-            </nav>
+            </div>
         </div>
-    </header>
-</section>
+    </div>
+</header>
 <!-- END: GLOBAL SITE HEADER -->
+
+<?php if ($sc_main_content_open): ?>
+<main id="main-content" tabindex="-1">
+<h1 class="sc-sr-only sc-page-title">Tampa Bay Construction and Remodeling</h1>
+<?php endif; ?>

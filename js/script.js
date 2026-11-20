@@ -575,7 +575,7 @@
 						runCallbacksOnInit: false
 					};
 
-				if ( sliderMarkup.getAttribute( 'data-autoplay' ) ) {
+				if ( sliderMarkup.getAttribute( 'data-autoplay' ) && !window.matchMedia('(prefers-reduced-motion: reduce)').matches ) {
 					options.autoplay = {
 						delay: Number( sliderMarkup.getAttribute( 'data-autoplay' ) ) || 3000,
 						stopOnLastSlide: false,
@@ -633,7 +633,7 @@
 		}
 
 		// WOW
-		if ( plugins.wow.length && !isNoviBuilder && isDesktop ) {
+		if ( plugins.wow.length && !isNoviBuilder && isDesktop && !window.matchMedia('(prefers-reduced-motion: reduce)').matches ) {
 			new WOW().init();
 		}
 

@@ -108,7 +108,7 @@ $FB_PIXEL_ID = '';
   border-bottom: 0;
 }
 
-#cookie-modal .opt h4 {
+#cookie-modal .opt h3 {
   margin: 0 0 4px;
   font-size: 16px;
 }
@@ -187,12 +187,12 @@ $FB_PIXEL_ID = '';
 
   function showBanner() {
     var banner = document.getElementById('cookie-banner');
-    if (banner) banner.style.display = 'block';
+    if (banner) { banner.hidden = false; banner.style.display = 'block'; syncBannerOffset(); }
   }
 
   function hideBanner() {
     var banner = document.getElementById('cookie-banner');
-    if (banner) banner.style.display = 'none';
+    if (banner) { banner.hidden = true; banner.style.display = 'none'; syncBannerOffset(); }
     var legacy = document.getElementById('jsc-cookie-banner');
     if (legacy) legacy.style.display = 'none';
   }
@@ -212,14 +212,50 @@ $FB_PIXEL_ID = '';
     } catch (e) {}
   }
 
+  var previousFocus = null;
+  var inertedBackground = [];
+  var previousOverflow = '';
+
+  function syncBannerOffset() {
+    var banner = document.getElementById('cookie-banner');
+    var height = banner && !banner.hidden ? banner.offsetHeight : 0;
+    document.documentElement.style.setProperty('--cookie-banner-height', height + 'px');
+  }
+
+  function modalControls(modal) {
+    return Array.from(modal.querySelectorAll('button:not([disabled]), input:not([disabled]), a[href], select:not([disabled]), textarea:not([disabled])'));
+  }
+
   function showModal() {
     var modal = document.getElementById('cookie-modal');
-    if (modal) modal.style.display = 'block';
+    if (!modal || !modal.hidden) return;
+    previousFocus = document.activeElement;
+    previousOverflow = document.body.style.overflow;
+    modal.hidden = false;
+    modal.style.display = 'block';
+    document.body.style.overflow = 'hidden';
+    // Keep the dialog's ancestors available while excluding their other branches.
+    for (var branch = modal; branch && branch !== document.body; branch = branch.parentElement) {
+      if (!branch.parentElement) break;
+      Array.from(branch.parentElement.children).forEach(function (sibling) {
+        if (sibling !== branch && !sibling.inert && !/^(SCRIPT|STYLE|LINK)$/.test(sibling.tagName)) {
+          sibling.inert = true;
+          inertedBackground.push(sibling);
+        }
+      });
+    }
+    (modalControls(modal)[0] || modal).focus();
   }
 
   function hideModal() {
     var modal = document.getElementById('cookie-modal');
-    if (modal) modal.style.display = 'none';
+    if (!modal || modal.hidden) return;
+    modal.hidden = true;
+    modal.style.display = 'none';
+    inertedBackground.forEach(function (element) { element.inert = false; });
+    inertedBackground = [];
+    document.body.style.overflow = previousOverflow;
+    if (previousFocus && previousFocus.isConnected) previousFocus.focus();
   }
 
   function openPreferences() {
@@ -239,6 +275,24 @@ $FB_PIXEL_ID = '';
   }
 
   function wireUp() {
+    var modal = document.getElementById('cookie-modal');
+    if (modal) {
+      modal.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape') { event.preventDefault(); hideModal(); return; }
+        if (event.key !== 'Tab') return;
+        var controls = modalControls(modal);
+        var first = controls[0], last = controls[controls.length - 1];
+        if (!first) { event.preventDefault(); modal.focus(); }
+        else if (event.shiftKey && (document.activeElement === first || document.activeElement === modal)) {
+          event.preventDefault(); last.focus();
+        } else if (!event.shiftKey && document.activeElement === last) {
+          event.preventDefault(); first.focus();
+        }
+      });
+    }
+    var banner = document.getElementById('cookie-banner');
+    if (banner && window.ResizeObserver) new ResizeObserver(syncBannerOffset).observe(banner);
+
     var opener = document.getElementById('open-cookie-preferences');
     if (opener) {
       opener.addEventListener('click', function (event) {

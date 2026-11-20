@@ -2,7 +2,7 @@
 // /includes/cookie-consent.php
 ?>
 
-<div id="cookie-banner" role="dialog" aria-live="polite" aria-label="Cookie consent">
+<div id="cookie-banner" hidden role="dialog" aria-live="polite" aria-label="Cookie consent">
   <div class="cb-wrap">
     <p>
       We use cookies to improve site navigation, analyze website traffic, support Google Analytics, and improve our construction marketing.
@@ -18,38 +18,38 @@
   </div>
 </div>
 
-<div id="cookie-modal" role="dialog" aria-modal="true" aria-label="Cookie preferences">
+<div id="cookie-modal" hidden role="dialog" aria-modal="true" aria-labelledby="cookie-preferences-title" tabindex="-1">
   <div class="cm-panel">
-    <div class="cm-head">Cookie Preferences</div>
+    <h2 class="cm-head" id="cookie-preferences-title">Cookie Preferences</h2>
 
     <div class="cm-body">
       <div class="opt">
         <div>
-          <input type="checkbox" id="opt-necessary" checked disabled>
+          <input type="checkbox" id="opt-necessary" aria-describedby="opt-necessary-description" checked disabled>
         </div>
         <div>
-          <h4>Necessary Cookies</h4>
-          <p>Required for basic site functionality, security, cookie preferences, and website operation. These are always enabled.</p>
-        </div>
-      </div>
-
-      <div class="opt">
-        <div>
-          <input type="checkbox" id="opt-analytics">
-        </div>
-        <div>
-          <h4>Analytics Cookies</h4>
-          <p>Allows Google Analytics to measure website visits, page performance, traffic sources, and visitor behavior so we can improve the website.</p>
+          <h3><label for="opt-necessary">Necessary Cookies</label></h3>
+          <p id="opt-necessary-description">Required for basic site functionality, security, cookie preferences, and website operation. These are always enabled.</p>
         </div>
       </div>
 
       <div class="opt">
         <div>
-          <input type="checkbox" id="opt-marketing">
+          <input type="checkbox" id="opt-analytics" aria-describedby="opt-analytics-description">
         </div>
         <div>
-          <h4>Marketing Cookies</h4>
-          <p>Allows marketing tools such as Facebook Pixel or advertising platforms if configured in the future.</p>
+          <h3><label for="opt-analytics">Analytics Cookies</label></h3>
+          <p id="opt-analytics-description">Allows Google Analytics to measure website visits, page performance, traffic sources, and visitor behavior so we can improve the website.</p>
+        </div>
+      </div>
+
+      <div class="opt">
+        <div>
+          <input type="checkbox" id="opt-marketing" aria-describedby="opt-marketing-description">
+        </div>
+        <div>
+          <h3><label for="opt-marketing">Marketing Cookies</label></h3>
+          <p id="opt-marketing-description">Allows marketing tools such as Facebook Pixel or advertising platforms if configured in the future.</p>
         </div>
       </div>
     </div>

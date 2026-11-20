@@ -1,6 +1,7 @@
 <?php require_once __DIR__ . '/../includes/cms-engine.php'; ?>
 <!-- START: Footer Section -->
-<section class="footer-section smart-choice-footer-wrapper">
+<?php if (!empty($sc_main_content_open)): ?></main><?php endif; ?>
+<footer class="footer-section smart-choice-footer-wrapper">
 
   <style>
     /* =========================================================
@@ -645,8 +646,8 @@
       <div class="smart-footer-reviews-grid">
 
         <!-- Google Reviews -->
-        <a class="smart-footer-review-card" href="https://g.page/r/CSGK2pvNH07nEAI/review" target="_blank" rel="noopener" aria-label="Review Smart Choice on Google">
-          <img class="smart-footer-review-img" src="/images/social/googlereviews1.png" alt="Google Reviews" width="38" height="38" loading="lazy">
+        <a class="smart-footer-review-card" href="https://g.page/r/CSGK2pvNH07nEAI/review" target="_blank" rel="noopener">
+          <img class="smart-footer-review-img" src="/images/social/googlereviews1.png" alt="" width="38" height="38" loading="lazy">
           <div class="smart-footer-review-text">
             <div class="smart-footer-review-stars">
               ★★★★★ <span class="star-score">5.0</span>
@@ -657,8 +658,8 @@
         </a>
 
         <!-- Trustpilot -->
-        <a class="smart-footer-review-card" href="https://www.trustpilot.com/review/justsmartchoice.com?utm_medium=trustbox&amp;utm_source=TrustBoxReviewCollector" target="_blank" rel="noopener" aria-label="Review Smart Choice on Trustpilot">
-          <img class="smart-footer-review-img" src="/images/social/trustpilotreviews.png" alt="Trustpilot Reviews" width="38" height="38" loading="lazy">
+        <a class="smart-footer-review-card" href="https://www.trustpilot.com/review/justsmartchoice.com?utm_medium=trustbox&amp;utm_source=TrustBoxReviewCollector" target="_blank" rel="noopener">
+          <img class="smart-footer-review-img" src="/images/social/trustpilotreviews.png" alt="" width="38" height="38" loading="lazy">
           <div class="smart-footer-review-text">
             <div class="smart-footer-review-stars">
               ★★★★★ <span class="star-score">4.9</span>
@@ -669,8 +670,8 @@
         </a>
 
         <!-- Facebook Reviews -->
-        <a class="smart-footer-review-card" href="https://www.facebook.com/profile.php?id=61594271759671" target="_blank" rel="noopener" aria-label="Review Smart Choice on Facebook">
-          <img class="smart-footer-review-img" src="/images/social/facebook.png" alt="Facebook Reviews" width="38" height="38" loading="lazy">
+        <a class="smart-footer-review-card" href="https://www.facebook.com/profile.php?id=61594271759671" target="_blank" rel="noopener">
+          <img class="smart-footer-review-img" src="/images/social/facebook.png" alt="" width="38" height="38" loading="lazy">
           <div class="smart-footer-review-text">
             <div class="smart-footer-review-stars">
               ★★★★★ <span class="star-score">5.0</span>
@@ -681,8 +682,8 @@
         </a>
 
         <!-- Yelp -->
-        <a class="smart-footer-review-card" href="https://www.yelp.com/search?find_desc=Electricians&amp;find_loc=Brooksville%2C+FL" target="_blank" rel="noopener" aria-label="Review Smart Choice on Yelp">
-          <img class="smart-footer-review-img" src="/images/social/yelp.png" alt="Yelp Reviews" width="38" height="38" loading="lazy">
+        <a class="smart-footer-review-card" href="https://www.yelp.com/search?find_desc=Electricians&amp;find_loc=Brooksville%2C+FL" target="_blank" rel="noopener">
+          <img class="smart-footer-review-img" src="/images/social/yelp.png" alt="" width="38" height="38" loading="lazy">
           <div class="smart-footer-review-text">
             <div class="smart-footer-review-stars">
               ★★★★★ <span class="star-score">4.8</span>
@@ -698,7 +699,7 @@
   </div>
 
   <!-- Main Multi-Column Footer Grid -->
-  <footer class="footer smart-footer-main" role="contentinfo">
+  <div class="footer smart-footer-main">
     <div class="container">
       <div class="row">
 
@@ -758,7 +759,7 @@
 
         <!-- Column 2: Contractor Services -->
         <div class="col-lg-3 col-md-6 col-sm-6 smart-footer-col">
-          <h5 class="smart-footer-heading">Services</h5>
+          <h2 class="smart-footer-heading">Services</h2>
           <ul class="smart-footer-links">
             <li><a href="/services.php"><i class="fa fa-chevron-right link-arrow" aria-hidden="true"></i> New Construction &amp; Additions</a></li>
             <li><a href="/services.php"><i class="fa fa-chevron-right link-arrow" aria-hidden="true"></i> Kitchen &amp; Bathroom Remodeling</a></li>
@@ -773,7 +774,7 @@
 
         <!-- Column 3: Company & Quick Links -->
         <div class="col-lg-2 col-md-6 col-sm-6 smart-footer-col">
-          <h5 class="smart-footer-heading">Company</h5>
+          <h2 class="smart-footer-heading">Company</h2>
           <ul class="smart-footer-links">
             <li><a href="/about.php"><i class="fa fa-chevron-right link-arrow" aria-hidden="true"></i> About Us</a></li>
             <li><a href="/pricing.php"><i class="fa fa-chevron-right link-arrow" aria-hidden="true"></i> Pricing Guide</a></li>
@@ -793,7 +794,7 @@
 
         <!-- Column 4: Contact & Florida Office -->
         <div class="col-lg-3 col-md-6 smart-footer-col">
-          <h5 class="smart-footer-heading">Contact Us</h5>
+          <h2 class="smart-footer-heading">Contact Us</h2>
 
           <div class="smart-footer-contact-list">
 
@@ -863,7 +864,7 @@
 
       </div>
     </div>
-  </footer>
+  </div>
 
   <!-- Bottom Legal & Copyright Bar -->
   <div class="smart-footer-bottom-bar">
@@ -884,7 +885,7 @@
           <li class="legal-dot">&bull;</li>
           <li><a href="/cookie-policy.php">Cookie Policy</a></li>
           <li class="legal-dot">&bull;</li>
-          <li><a href="#" id="open-cookie-preferences" rel="nofollow">Cookie Preferences</a></li>
+          <li><button type="button" id="open-cookie-preferences" class="sc-footer-link-button" aria-controls="cookie-modal">Cookie Preferences</button></li>
           <li class="legal-dot">&bull;</li>
           <li><a href="/legal.php">Legal</a></li>
           <li class="legal-dot">&bull;</li>
@@ -897,11 +898,13 @@
 
   <div class="form-output snackbars" id="form-output-global"></div>
 
+</footer>
+
   <script src="/js/core.min.js"></script>
-  <script src="/js/script.js"></script>
+  <script src="/js/script.js?v=20261120"></script>
+  <script src="/js/accessibility.js?v=20261120" defer></script>
   <script src="/js/smartchoice-mobile-fix.js?v=20260630"></script>
 
   <?php include __DIR__ . '/ai-chatbot.php'; ?>
 
-</section>
 <!-- END: Footer Section -->
