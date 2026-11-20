@@ -902,7 +902,7 @@
 
   <script src="/js/core.min.js"></script>
   <script src="/js/script.js?v=20261120"></script>
-  <script src="/js/accessibility.js?v=20261120" defer></script>
+  <script src="/js/accessibility.js?v=20261120b" defer></script>
   <script src="/js/smartchoice-mobile-fix.js?v=20260630"></script>
 
   <?php include __DIR__ . '/ai-chatbot.php'; ?>

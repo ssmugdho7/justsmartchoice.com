@@ -95,7 +95,10 @@
         else if (swiper.autoplay) {swiper.autoplay.start();syncRotation();}
       });
       slider.addEventListener('focusin',function (event) {if (event.target !== toggle) pause();});
-      slider.addEventListener('mouseenter',pause);
+      slider.addEventListener('mouseover',function (event) {
+        // Preserve the button's advertised action when the pointer enters it.
+        if (!event.target.closest('.sc-carousel-controls, .swiper-pagination')) pause();
+      });
       slider.addEventListener('keydown',function (event) {
         if (event.key === ' ' && event.target.classList.contains('swiper-pagination-bullet')) {
           event.preventDefault();event.target.click();
